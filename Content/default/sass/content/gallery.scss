@@ -1,0 +1,110 @@
+﻿@import "../variables";
+@import "../helpers/fontface";
+@import "../helpers/fontstyle";
+@import "../helpers/mixin_css3";
+
+
+#maincontainer-wrapper {
+
+    .gallery-wrapper {
+        width: 635px;
+
+        &.left {
+            float: left;
+            margin-right: 30px;
+        }
+
+        &.right {
+            float: right;
+            margin-left: 30px;
+        }
+
+        #carousel {
+            &.flexslider {
+                padding: 0 50px 0 0;
+            }
+
+            img {
+                opacity: 0.75;
+            }
+
+            .flex-active-slide img {
+                opacity: 1.0;
+            }
+        }
+
+        #slider {
+            margin-bottom: 30px;
+
+            &.flexslider {
+                text-align: center;
+            }
+
+            .flex-direction-nav a {
+                opacity: 0;
+            }
+
+            img {
+                cursor: crosshair;
+            }
+
+            @media screen and (max-width: $screen-sm) {
+                margin-bottom: 10px;
+            }
+        }
+
+        #carousel2 {
+            &.flexslider {
+                padding: 0 50px 0 0;
+            }
+
+            img {
+                opacity: 0.75;
+            }
+
+            .flex-active-slide img {
+                opacity: 1.0;
+            }
+        }
+
+        #slider2 {
+            margin-bottom: 30px;
+
+            &.flexslider {
+                text-align: center;
+            }
+
+            .flex-direction-nav a {
+                opacity: 0;
+            }
+
+            img {
+                cursor: crosshair;
+            }
+
+            @media screen and (max-width: $screen-sm) {
+                margin-bottom: 10px;
+            }
+        }
+
+        .flex-direction-nav {
+            list-style: none !important;
+        }
+
+        @media screen and (max-width: $screen-xs) {
+            max-width: unset;
+            width: 100%;
+            margin: 0 auto !important;
+            margin-bottom: 20px !important;
+            text-align: center;
+        }
+    }
+
+    .image-gallery {
+        max-width: 100%;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}

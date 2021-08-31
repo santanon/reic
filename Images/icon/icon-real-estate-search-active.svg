@@ -1,0 +1,10 @@
+<svg id="Real_Estate_Search_Active" data-name="Real Estate Search Active" xmlns="http://www.w3.org/2000/svg" width="26.241" height="19.94" viewBox="0 0 26.241 19.94">
+  <g id="Group_27" data-name="Group 27" transform="translate(0 2.94)">
+    <path id="Path_779" data-name="Path 779" d="M4,13l8-8h6l8,8Z" transform="translate(-4 -5)" fill="#ed1c24"/>
+    <path id="Path_780" data-name="Path 780" d="M23,12V22H18V16H12v6H7V12Z" transform="translate(-4 -5)" fill="#2e3092" opacity="0.8" style="isolation: isolate"/>
+  </g>
+  <g id="SEARCH" transform="translate(17.76)">
+    <path id="Path_771" data-name="Path 771" d="M2.871,2.175l-.7.7L0,.7A2.78,2.78,0,0,0,.7,0l.75.755Z" transform="translate(5.61 5.61)" fill="#ed1c24"/>
+    <path id="Path_772" data-name="Path 772" d="M7.529,2.3a3.948,3.948,0,1,0-1.164,4.77,4.063,4.063,0,0,0,.7-.7,3.915,3.915,0,0,0,.829-2.521A4.051,4.051,0,0,0,7.529,2.3ZM5.61,6.311a2.847,2.847,0,0,1-1.588.528,2.894,2.894,0,1,1,2.55-4.1,2.926,2.926,0,0,1,.266,1.139A2.884,2.884,0,0,1,6.311,5.61,2.78,2.78,0,0,1,5.61,6.311Z" transform="translate(0 0)" fill="#ed1c24" opacity="0.8"/>
+  </g>
+</svg>

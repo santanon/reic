@@ -1,0 +1,148 @@
+﻿@import "../variables";
+@import "../helpers/fontface";
+@import "../helpers/fontstyle";
+@import "../helpers/mixin_css3";
+
+#maincontainer-wrapper {
+
+    .collaps-editor {
+
+        .collapsible-content {
+
+            .panel {
+                margin: 0 auto;
+                border: 0;
+                border-radius: 0;
+            }
+
+            .corporate-item {
+                position: relative;
+                border-bottom: 1px solid $color-grey;
+                background-color: $color-white;
+                overflow: hidden;
+                transition: height 0.35s ease 0s;
+
+                .question-select {
+                    color: $color-primary;
+                    background-color: $color-blue-light;
+                    border-bottom: 2px solid $color-blue;
+                }
+
+                h3 {
+                    max-width: 100%;
+                    margin: 15px 10px;
+                    color: $color-primary;
+                    text-transform: capitalize;
+                    cursor: pointer;
+
+                    a {
+                        font-weight: bold;
+                        @extend .font-kiti;
+                        @extend .content-kiti;
+                        display: block;
+                        position: relative;
+                        padding-right: 40px;
+
+                        span.pull-right {
+                            position: absolute;
+                            right: 0;
+                            margin-top: 0;
+                            margin-right: 0;
+                        }
+                    }
+
+                    .fas {
+                        width: 30px;
+                        height: 30px;
+                        @extend .font-kiti;
+                        @extend .content-kiti;
+                        color: $color-white;
+                        cursor: pointer;
+
+                        &.fa-angle-up {
+                            text-indent: -9999px;
+                            background-image: url('../../../../Images/icon/icon-up-primary.svg');
+                            background-position: right center;
+                            background-repeat: no-repeat;
+                            background-size: 20px;
+                        }
+
+                        &.fa-angle-down {
+                            text-indent: -9999px;
+                            background-image: url('../../../../Images/icon/icon-down-primary.svg');
+                            background-position: right center;
+                            background-repeat: no-repeat;
+                            background-size: 20px;
+                        }
+                    }
+                }
+
+                @media screen and (max-width: $screen-sm) {
+                    h3 {
+                        margin: 15px 0;
+
+                        a {
+
+                            span.pull-right {
+                                top: 0;
+                            }
+                        }
+
+                        .fas {
+
+                            &.fa-angle-up {
+                                background-position: right 8px;
+                                background-size: 15px;
+                            }
+
+                            &.fa-angle-down {
+                                background-position: right 8px;
+                                background-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .title {
+                padding: 0;
+                margin: 0;
+            }
+
+            .content-editor {
+                padding: 20px;
+
+                .title-content {
+                    font-weight: bold;
+                    @extend .font-thm;
+                    @extend .content-thm;
+                    color: $color-primary;
+                }
+
+                .content {
+                    @extend .font-thm;
+                    @extend .content-thm;
+
+                    ul {
+                        @extend .font-thm;
+                        @extend .content-thm;
+                        list-style: square;
+                        margin: 0;
+
+                        li {
+                            @extend .font-thm;
+                            @extend .content-thm;
+                            margin: 0;
+
+                            p {
+                                @extend .font-thm;
+                                @extend .content-thm;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

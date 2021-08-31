@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="80" viewBox="0 0 40 80">
+  <g id="Control_Prev_Button" data-name="Control Prev Button" transform="translate(0 -0.5)">
+    <rect id="Area" width="40" height="80" transform="translate(0 0.5)" fill="#e0e0ef" opacity="0.8"/>
+    <g id="Layer_1" data-name="Layer 1" transform="translate(26.751 47.987) rotate(180)">
+      <path id="arrow_back-2" data-name="arrow back-2" d="M13.6,6.328,8.743.232a.6.6,0,0,0-.959.021,1.03,1.03,0,0,0-.017,1.2l3.681,4.618H.69A.793.793,0,0,0,0,6.939a.793.793,0,0,0,.69.866H11.449L7.767,12.423a1.028,1.028,0,0,0,0,1.224.6.6,0,0,0,.976,0L13.6,7.554a1.028,1.028,0,0,0,0-1.227Z" fill="#2e3092"/>
+    </g>
+  </g>
+</svg>

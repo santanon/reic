@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.582" height="18.333" viewBox="0 0 19.582 18.333">
+  <g id="News_Active" data-name="News Active" transform="translate(-150.259 -42.55)">
+    <path id="Rectangle_213" data-name="Rectangle 213" d="M162.52,44.608H150.253V54.53a5.691,5.691,0,0,0,5.691,5.691h6.576V44.608Z" transform="translate(7.322 -2.058)" fill="#fff" opacity="0.8"/>
+    <path id="Rectangle_213-2" data-name="Rectangle 213" d="M150.253,44.608H162.52V54.53a5.691,5.691,0,0,1-5.691,5.691h-6.576V44.608Z" transform="translate(0.006 0.663)" fill="#fff" opacity="0.8"/>
+    <g id="Group_229" data-name="Group 229" transform="translate(152.645 51.149)">
+      <path id="Path_908" data-name="Path 908" d="M154.446,54.937h1.011l1.994,3.087V54.937h1.038V59.71h-1l-2-3.087V59.71h-1.039Z" transform="translate(-154.446 -54.937)" fill="#2e3092"/>
+      <path id="Path_909" data-name="Path 909" d="M162.8,54.937h3.312V55.8h-2.273v1.106h1.672v.833h-1.672v1.1h2.273v.867H162.8Z" transform="translate(-158.045 -54.937)" fill="#2e3092"/>
+      <path id="Path_910" data-name="Path 910" d="M169.086,54.937h1.093l.854,3.087.84-3.087h.8l.813,3.087.854-3.087h1.086l-1.338,4.773h-.977l-.854-3.025-.847,3.025h-.983Z" transform="translate(-160.755 -54.937)" fill="#2e3092"/>
+    </g>
+    <rect id="Rectangle_215" data-name="Rectangle 215" width="8.045" height="1.125" transform="translate(152.646 48.417)" fill="#fafbfb"/>
+  </g>
+</svg>

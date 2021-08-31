@@ -1,0 +1,54 @@
+﻿@import "../variables";
+@import "../helpers/fontface";
+@import "../helpers/fontstyle";
+@import "../helpers/mixin_css3";
+
+.payment-wrapper{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.box-content {
+    .image {
+        margin-bottom: 20px;
+
+        @media screen and (max-width: $screen-sm) {
+            text-align: center;
+        }
+    }
+
+    .text {
+        .title {
+            font-weight: bold;
+            @extend .font-kiti;
+            @extend .content-kiti;
+            color: $color-primary;
+
+            span {
+                @extend .font-thm;
+                @extend .content-thm;
+                color: $color-text;
+            }
+        }
+
+        .desc {
+            @extend .font-thm;
+            @extend .content-thm;
+            color: $color-text;
+
+            .blue {
+                @extend .font-thm;
+                @extend .content-thm;
+                color: $color-primary;
+            }
+
+            span {
+                @extend .font-thm;
+                @extend .content-thm;
+                color: $color-text;
+            }
+        }
+    }
+}

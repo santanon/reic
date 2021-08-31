@@ -1,0 +1,205 @@
+/* set global config vars */
+/* defualt page width setting(PC) */
+/* off canvas menu width *eg. 70px or 70% */
+/* main slide margin top */
+/* header height */
+/* footer height */
+/* global body setting */
+/* default font family */
+/*$default-font-detail: "THSarabunNew";*/
+/*$font-bold-detail: "THSarabunNewBold";*/
+/* text sizing multiplier */
+/* text sizing */
+/* default theme color */
+/* special theme */
+/* insert special theme for this website */
+/* text sizing */
+/* footer sizing */
+/*media screen*/
+/*mobile*/
+@font-face {
+  font-family: 'Kitithada';
+  src: url("../../../../fonts/PSL094pro_0.eot");
+  src: url("../../../../fonts/PSL094pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL094pro_0.woff") format("woff"), url("../../../../fonts/PSL094pro_0.ttf") format("truetype"), url("../../../../fonts/PSL094pro_0.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'KitithadaBold';
+  src: url("../../../../fonts/PSL096pro_0.eot");
+  src: url("../../../../fonts/PSL096pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL096pro_0.woff") format("woff"), url("../../../../fonts/PSL096pro_0.ttf") format("truetype"), url("../../../../fonts/PSL096pro_0.svg") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'THSarabunNew';
+  src: url("../../../../fonts/thsarabunnew-webfont.eot");
+  src: url("../../../../fonts/thsarabunnew-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/thsarabunnew-webfont.woff") format("woff"), url("../../../../fonts/thsarabunnew-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'THSarabunNewBold';
+  src: url("../../../../fonts/thsarabunnew_bold-webfont.eot");
+  src: url("../../../../fonts/thsarabunnew_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/thsarabunnew_bold-webfont.woff") format("woff"), url("../../../../fonts/thsarabunnew_bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'THSarabunNewItalic';
+  src: url("thsarabunnew_italic-webfont.eot");
+  src: url("thsarabunnew_italic-webfont.eot?#iefix") format("embedded-opentype"), url("thsarabunnew_italic-webfont.woff") format("woff"), url("thsarabunnew_italic-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'THSarabunNewItalicBold';
+  src: url("thsarabunnew_bold-webfont.eot");
+  src: url("thsarabunnew_bold-webfont.eot?#iefix") format("embedded-opentype"), url("thsarabunnew_bold-webfont.woff") format("woff"), url("thsarabunnew_bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+/* set global config vars */
+/* defualt page width setting(PC) */
+/* off canvas menu width *eg. 70px or 70% */
+/* main slide margin top */
+/* header height */
+/* footer height */
+/* global body setting */
+/* default font family */
+/*$default-font-detail: "THSarabunNew";*/
+/*$font-bold-detail: "THSarabunNewBold";*/
+/* text sizing multiplier */
+/* text sizing */
+/* default theme color */
+/* special theme */
+/* insert special theme for this website */
+/* text sizing */
+/* footer sizing */
+/*media screen*/
+/*mobile*/
+.font-kiti {
+  font-family: "Kitithada";
+  font-weight: normal;
+  letter-spacing: 0.5px; }
+
+/* will be red only in google chrome */
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .font-kiti {
+        letter-spacing: 1px;
+    }
+}*/
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .font-kiti {
+      letter-spacing: -0.5px; } } }
+
+.x-large-kiti {
+  font-size: 50px;
+  line-height: 50px; }
+  @media screen and (max-width: 767.98px) {
+    .x-large-kiti {
+      font-size: 46px;
+      line-height: 46px; } }
+
+.small-kiti {
+  font-size: 31px;
+  line-height: 31px; }
+  @media screen and (max-width: 767.98px) {
+    .small-kiti {
+      font-size: 24px;
+      line-height: 24px; } }
+
+.content-kiti {
+  font-size: 25px;
+  line-height: 25px; }
+  @media screen and (max-width: 767.98px) {
+    .content-kiti {
+      font-size: 20px;
+      line-height: 20px; } }
+
+.sub-content-kiti {
+  font-size: 22px;
+  line-height: 22px; }
+  @media screen and (max-width: 767.98px) {
+    .sub-content-kiti {
+      font-size: 18px;
+      line-height: 18px; } }
+
+.font-thm {
+  font-family: "Tahoma";
+  font-weight: normal;
+  letter-spacing: 0; }
+
+.content-thm {
+  font-size: 16px;
+  line-height: 20px; }
+  @media screen and (max-width: 767.98px) {
+    .content-thm {
+      font-size: 12px;
+      line-height: 16px; } }
+
+/* note : for IE8,7 need css3pie helper*/
+#maincontainer-wrapper {
+  /* Link the series colors to axis colors */ }
+  #maincontainer-wrapper #chart-spline {
+    /*height: 400px;
+        max-width: 800px;*/
+    width: 100%;
+    margin: 0 auto; }
+    #maincontainer-wrapper #chart-spline .highcharts-container .highcharts-title {
+      display: none; }
+    #maincontainer-wrapper #chart-spline .highcharts-container .highcharts-legend {
+      /*display: none;*/ }
+    #maincontainer-wrapper #chart-spline .highcharts-container svg {
+      font-size: 25px; }
+      #maincontainer-wrapper #chart-spline .highcharts-container svg .highcharts-grid {
+        /*display: none;*/ }
+        #maincontainer-wrapper #chart-spline .highcharts-container svg .highcharts-grid path {
+          /*width: 10px;*/ }
+  #maincontainer-wrapper #chart-pie, #maincontainer-wrapper #chart-pie2 {
+    /*height: 400px;
+        max-width: 800px;*/
+    width: 100%;
+    height: 250px !important;
+    margin: 0 auto; }
+    #maincontainer-wrapper #chart-pie .highcharts-container .highcharts-title, #maincontainer-wrapper #chart-pie2 .highcharts-container .highcharts-title {
+      display: none; }
+    #maincontainer-wrapper #chart-pie .highcharts-container .highcharts-legend, #maincontainer-wrapper #chart-pie2 .highcharts-container .highcharts-legend {
+      /*display: none;*/ }
+    #maincontainer-wrapper #chart-pie .highcharts-container svg, #maincontainer-wrapper #chart-pie2 .highcharts-container svg {
+      font-size: 25px; }
+      #maincontainer-wrapper #chart-pie .highcharts-container svg .highcharts-grid, #maincontainer-wrapper #chart-pie2 .highcharts-container svg .highcharts-grid {
+        /*display: none;*/ }
+        #maincontainer-wrapper #chart-pie .highcharts-container svg .highcharts-grid path, #maincontainer-wrapper #chart-pie2 .highcharts-container svg .highcharts-grid path {
+          /*width: 10px;*/ }
+    #maincontainer-wrapper #chart-pie text, #maincontainer-wrapper #chart-pie2 text {
+      font-size: 20px;
+      fill: #fff !important;
+      color: #fff !important;
+      text-shadow: none !important; }
+      #maincontainer-wrapper #chart-pie text tspan, #maincontainer-wrapper #chart-pie2 text tspan {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: normal !important; }
+    @media screen and (max-width: 991.98px) {
+      #maincontainer-wrapper #chart-pie, #maincontainer-wrapper #chart-pie2 {
+        max-height: 250px; }
+        #maincontainer-wrapper #chart-pie text tspan, #maincontainer-wrapper #chart-pie2 text tspan {
+          font-size: 18px; } }
+  #maincontainer-wrapper .highcharts-color-0 {
+    fill: #1F218B !important;
+    stroke: #1F218B; }
+  #maincontainer-wrapper .highcharts-axis.highcharts-color-0 .highcharts-axis-line {
+    stroke: #1F218B; }
+  #maincontainer-wrapper .highcharts-axis.highcharts-color-0 text {
+    fill: #1F218B; }
+  #maincontainer-wrapper .highcharts-color-1 {
+    fill: #90ed7d;
+    stroke: #90ed7d; }
+  #maincontainer-wrapper .highcharts-axis.highcharts-color-1 .highcharts-axis-line {
+    stroke: #90ed7d; }
+  #maincontainer-wrapper .highcharts-axis.highcharts-color-1 text {
+    fill: #90ed7d; }
+  #maincontainer-wrapper .highcharts-yaxis .highcharts-axis-line {
+    stroke-width: 2px; }

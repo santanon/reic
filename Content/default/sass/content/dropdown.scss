@@ -1,0 +1,136 @@
+﻿@import "../variables";
+@import "../helpers/fontface";
+@import "../helpers/fontstyle";
+@import "../helpers/mixin_css3";
+
+
+#main-wrapper, #maincontainer-wrapper {
+
+    .txt-input {
+        outline: none;
+        @extend .content-kiti;
+        line-height: $height-input;
+        height: $height-input;
+        color: $color-text;
+        margin-right: 10px;
+        border: none;
+        border-radius: 0;
+    }
+
+    .bg-primary {
+        .bootstrap-select {
+            .dropdown-toggle {
+                color: $color-white;
+                background-color: $color-primary;
+                background-image: url(../../../../../Images/icon/icon-down-white.svg);
+            }
+        }
+    }
+
+    .bg-grey {
+        .bootstrap-select {
+            .dropdown-toggle {
+                background-color: $body-bg;
+                background-image: url(../../../../../Images/icon/icon-down.svg);
+            }
+        }
+    }
+
+    .bg-white {
+        .bootstrap-select {
+            .dropdown-toggle {
+                background-color: $color-white;
+                background-image: url(../../../../../Images/icon/icon-down.svg);
+            }
+        }
+    }
+
+    .tab-content-section, .tab-news-section, .tab-select-section {
+        .dropdown {
+
+            .btn {
+                width: 100%;
+                color: $color-white;
+                background-color: $color-text;
+                font-size: $text-content;
+                line-height: $text-content;
+                height: $height-input;
+                outline: none;
+                border: none;
+                border-radius: 0;
+                background-image: url(../../../../Images/icon/icon-down-white.svg);
+                background-repeat: no-repeat;
+                background-position-y: calc(100% - 15px);
+                background-position-x: calc(100% - 15px);
+                background-size: 15px 10px;
+
+                &:focus {
+                    outline: none;
+                    border: none;
+                    box-shadow: none;
+                }
+            }
+
+            .dropdown-toggle {
+
+                &:after {
+                    display: none;
+                }
+
+                span {
+                    @extend .content-kiti;
+                    line-height: $text-content;
+                    color: $color-white;
+                    display: inline-block;
+                    max-width: 90%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    cursor: pointer;
+                }
+
+                &::after {
+                    border: none;
+                }
+            }
+
+            .dropdown-menu {
+                min-width: calc(100% - 0px);
+                padding: 0;
+                margin: 0;
+                z-index: 9995;
+                border-radius: 0;
+                background-clip: unset;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    padding: 10px;
+                    clear: both;
+                    font-weight: 400;
+                    color: $color-text;
+                    text-align: inherit;
+                    white-space: nowrap;
+                    background-color: transparent;
+                    border: 0;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $color-white;
+                        background-color: $color-primary;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .dropdown-menu{
+        li.disabled{
+            a{
+                span.text{
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+}

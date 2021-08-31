@@ -1,0 +1,885 @@
+@charset "UTF-8";
+/* set global config vars */
+/* defualt page width setting(PC) */
+/* off canvas menu width *eg. 70px or 70% */
+/* main slide margin top */
+/* header height */
+/* footer height */
+/* global body setting */
+/* default font family */
+/*$default-font-detail: "THSarabunNew";*/
+/*$font-bold-detail: "THSarabunNewBold";*/
+/* text sizing multiplier */
+/* text sizing */
+/* default theme color */
+/* special theme */
+/* insert special theme for this website */
+/* text sizing */
+/* footer sizing */
+/*media screen*/
+/*mobile*/
+@font-face {
+  font-family: "Kitithada";
+  src: url("../../../../fonts/PSL094pro_0.eot");
+  src: url("../../../../fonts/PSL094pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL094pro_0.woff") format("woff"), url("../../../../fonts/PSL094pro_0.ttf") format("truetype"), url("../../../../fonts/PSL094pro_0.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KitithadaBold";
+  src: url("../../../../fonts/PSL096pro_0.eot");
+  src: url("../../../../fonts/PSL096pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL096pro_0.woff") format("woff"), url("../../../../fonts/PSL096pro_0.ttf") format("truetype"), url("../../../../fonts/PSL096pro_0.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "kanitmedium";
+  src: url("../../../../fonts/kanit-medium.woff2") format("woff2"), url("../../../../fonts/kanit-medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "THSarabunNew";
+  src: url("../../../../fonts/thsarabunnew-webfont.eot");
+  src: url("../../../../fonts/thsarabunnew-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/thsarabunnew-webfont.woff") format("woff"), url("../../../../fonts/thsarabunnew-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "THSarabunNewBold";
+  src: url("../../../../fonts/thsarabunnew_bold-webfont.eot");
+  src: url("../../../../fonts/thsarabunnew_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/thsarabunnew_bold-webfont.woff") format("woff"), url("../../../../fonts/thsarabunnew_bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "icomoon";
+  src: url("../../../../fonts/icomoon.eot?ho9c1c");
+  src: url("../../../../fonts/icomoon.eot?ho9c1c#iefix") format("embedded-opentype"), url("../../../../fonts/icomoon.ttf?ho9c1c") format("truetype"), url("../../../../fonts/icomoon.woff?ho9c1c") format("woff"), url("../../../../fonts/icomoon.svg?ho9c1c#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before {
+  content: "";
+  color: #ed1c24;
+}
+
+/* set global config vars */
+/* defualt page width setting(PC) */
+/* off canvas menu width *eg. 70px or 70% */
+/* main slide margin top */
+/* header height */
+/* footer height */
+/* global body setting */
+/* default font family */
+/*$default-font-detail: "THSarabunNew";*/
+/*$font-bold-detail: "THSarabunNewBold";*/
+/* text sizing multiplier */
+/* text sizing */
+/* default theme color */
+/* special theme */
+/* insert special theme for this website */
+/* text sizing */
+/* footer sizing */
+/*media screen*/
+/*mobile*/
+.font-kiti, #main-wrapper .social-box .nobord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .nobord-icons .custom-icons ul li a, .modal .social-box .nobord-icons .custom-icons ul li a, #main-wrapper .social-box .nobord-icons .label-custom, #maincontainer-wrapper .social-box .nobord-icons .label-custom, .modal .social-box .nobord-icons .label-custom, #main-wrapper .social-box .bord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .bord-icons .custom-icons ul li a, .modal .social-box .bord-icons .custom-icons ul li a, #main-wrapper .social-box .bord-icons .label-custom, #maincontainer-wrapper .social-box .bord-icons .label-custom, .modal .social-box .bord-icons .label-custom, #main-wrapper .content-editor .txt-title, #maincontainer-wrapper .content-editor .txt-title, .modal .content-editor .txt-title, #main-wrapper .content-editor .title, #maincontainer-wrapper .content-editor .title, .modal .content-editor .title, #main-wrapper ul li, #main-wrapper ol li, #maincontainer-wrapper ul li, #maincontainer-wrapper ol li, .modal ul li, .modal ol li, #main-wrapper ul, #main-wrapper ol, #maincontainer-wrapper ul, #maincontainer-wrapper ol, .modal ul, .modal ol, #main-wrapper span, #maincontainer-wrapper span, .modal span, #main-wrapper p, #maincontainer-wrapper p, .modal p, #main-wrapper a, #maincontainer-wrapper a, .modal a, #main-wrapper h6, #maincontainer-wrapper h6, .modal h6, #main-wrapper h5, #maincontainer-wrapper h5, .modal h5, #main-wrapper h4, #maincontainer-wrapper h4, .modal h4, #main-wrapper h3, #maincontainer-wrapper h3, .modal h3, #main-wrapper h2, #maincontainer-wrapper h2, .modal h2, #main-wrapper h1, #maincontainer-wrapper h1, .modal h1 {
+  font-family: "Kitithada";
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+
+/* will be red only in google chrome */
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .font-kiti {
+        letter-spacing: 1px;
+    }
+}*/
+@media not all and (-webkit-min-device-pixel-ratio: 0), not all and (-o-min-device-pixel-ratio: 0/1), not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .font-kiti, #main-wrapper .social-box .nobord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .nobord-icons .custom-icons ul li a, .modal .social-box .nobord-icons .custom-icons ul li a, #main-wrapper .social-box .nobord-icons .label-custom, #maincontainer-wrapper .social-box .nobord-icons .label-custom, .modal .social-box .nobord-icons .label-custom, #main-wrapper .social-box .bord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .bord-icons .custom-icons ul li a, .modal .social-box .bord-icons .custom-icons ul li a, #main-wrapper .social-box .bord-icons .label-custom, #maincontainer-wrapper .social-box .bord-icons .label-custom, .modal .social-box .bord-icons .label-custom, #main-wrapper .content-editor .txt-title, #maincontainer-wrapper .content-editor .txt-title, .modal .content-editor .txt-title, #main-wrapper .content-editor .title, #maincontainer-wrapper .content-editor .title, .modal .content-editor .title, #main-wrapper ul li, #main-wrapper ol li, #maincontainer-wrapper ul li, #maincontainer-wrapper ol li, .modal ul li, .modal ol li, #main-wrapper ul, #main-wrapper ol, #maincontainer-wrapper ul, #maincontainer-wrapper ol, .modal ul, .modal ol, #main-wrapper span, #maincontainer-wrapper span, .modal span, #main-wrapper p, #maincontainer-wrapper p, .modal p, #main-wrapper a, #maincontainer-wrapper a, .modal a, #main-wrapper h6, #maincontainer-wrapper h6, .modal h6, #main-wrapper h5, #maincontainer-wrapper h5, .modal h5, #main-wrapper h4, #maincontainer-wrapper h4, .modal h4, #main-wrapper h3, #maincontainer-wrapper h3, .modal h3, #main-wrapper h2, #maincontainer-wrapper h2, .modal h2, #main-wrapper h1, #maincontainer-wrapper h1, .modal h1 {
+      letter-spacing: -0.5px;
+    }
+  }
+}
+.x-large-kiti {
+  font-size: 50px;
+  line-height: 50px;
+}
+@media screen and (max-width: 767.98px) {
+  .x-large-kiti {
+    font-size: 46px;
+    line-height: 46px;
+  }
+}
+
+.small-kiti, #main-wrapper .content-editor .txt-title, #maincontainer-wrapper .content-editor .txt-title, .modal .content-editor .txt-title {
+  font-size: 31px;
+  line-height: 31px;
+}
+@media screen and (max-width: 767.98px) {
+  .small-kiti, #main-wrapper .content-editor .txt-title, #maincontainer-wrapper .content-editor .txt-title, .modal .content-editor .txt-title {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+.content-kiti, #main-wrapper .social-box .nobord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .nobord-icons .custom-icons ul li a, .modal .social-box .nobord-icons .custom-icons ul li a, #main-wrapper .social-box .nobord-icons .label-custom, #maincontainer-wrapper .social-box .nobord-icons .label-custom, .modal .social-box .nobord-icons .label-custom, #main-wrapper .social-box .bord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .bord-icons .custom-icons ul li a, .modal .social-box .bord-icons .custom-icons ul li a, #main-wrapper .social-box .bord-icons .label-custom, #maincontainer-wrapper .social-box .bord-icons .label-custom, .modal .social-box .bord-icons .label-custom, #main-wrapper .content-editor .title, #maincontainer-wrapper .content-editor .title, .modal .content-editor .title {
+  font-size: 25px;
+  line-height: 25px;
+}
+@media screen and (max-width: 767.98px) {
+  .content-kiti, #main-wrapper .social-box .nobord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .nobord-icons .custom-icons ul li a, .modal .social-box .nobord-icons .custom-icons ul li a, #main-wrapper .social-box .nobord-icons .label-custom, #maincontainer-wrapper .social-box .nobord-icons .label-custom, .modal .social-box .nobord-icons .label-custom, #main-wrapper .social-box .bord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .bord-icons .custom-icons ul li a, .modal .social-box .bord-icons .custom-icons ul li a, #main-wrapper .social-box .bord-icons .label-custom, #maincontainer-wrapper .social-box .bord-icons .label-custom, .modal .social-box .bord-icons .label-custom, #main-wrapper .content-editor .title, #maincontainer-wrapper .content-editor .title, .modal .content-editor .title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.sub-content-kiti {
+  font-size: 22px;
+  line-height: 22px;
+}
+@media screen and (max-width: 767.98px) {
+  .sub-content-kiti {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+.font-thm, #main-wrapper .text-editor ul li ul li, #maincontainer-wrapper .text-editor ul li ul li, .modal .text-editor ul li ul li, #main-wrapper .text-editor ul li ul, #maincontainer-wrapper .text-editor ul li ul, .modal .text-editor ul li ul, #main-wrapper .text-editor ul li, #maincontainer-wrapper .text-editor ul li, .modal .text-editor ul li, #main-wrapper .text-editor ul, #maincontainer-wrapper .text-editor ul, .modal .text-editor ul, #main-wrapper .content-editor ol li p, #maincontainer-wrapper .content-editor ol li p, .modal .content-editor ol li p, #main-wrapper .content-editor ol li, #maincontainer-wrapper .content-editor ol li, .modal .content-editor ol li, #main-wrapper .content-editor ol, #maincontainer-wrapper .content-editor ol, .modal .content-editor ol, #main-wrapper .content-editor .content-desc a, #maincontainer-wrapper .content-editor .content-desc a, .modal .content-editor .content-desc a, #main-wrapper .content-editor .content-desc span, #maincontainer-wrapper .content-editor .content-desc span, .modal .content-editor .content-desc span, #main-wrapper .content-editor .content-desc, #maincontainer-wrapper .content-editor .content-desc, .modal .content-editor .content-desc, #main-wrapper .content-editor .title-desc, #maincontainer-wrapper .content-editor .title-desc, .modal .content-editor .title-desc {
+  font-family: "Tahoma";
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+.content-thm, #main-wrapper .text-editor ul li ul li, #maincontainer-wrapper .text-editor ul li ul li, .modal .text-editor ul li ul li, #main-wrapper .text-editor ul li ul, #maincontainer-wrapper .text-editor ul li ul, .modal .text-editor ul li ul, #main-wrapper .text-editor ul li, #maincontainer-wrapper .text-editor ul li, .modal .text-editor ul li, #main-wrapper .text-editor ul, #maincontainer-wrapper .text-editor ul, .modal .text-editor ul, #main-wrapper .content-editor ol li p, #maincontainer-wrapper .content-editor ol li p, .modal .content-editor ol li p, #main-wrapper .content-editor ol li, #maincontainer-wrapper .content-editor ol li, .modal .content-editor ol li, #main-wrapper .content-editor ol, #maincontainer-wrapper .content-editor ol, .modal .content-editor ol, #main-wrapper .content-editor .content-desc a, #maincontainer-wrapper .content-editor .content-desc a, .modal .content-editor .content-desc a, #main-wrapper .content-editor .content-desc span, #maincontainer-wrapper .content-editor .content-desc span, .modal .content-editor .content-desc span, #main-wrapper .content-editor .content-desc, #maincontainer-wrapper .content-editor .content-desc, .modal .content-editor .content-desc, #main-wrapper .content-editor .title-desc, #maincontainer-wrapper .content-editor .title-desc, .modal .content-editor .title-desc {
+  font-size: 16px;
+  line-height: 20px;
+}
+@media screen and (max-width: 767.98px) {
+  .content-thm, #main-wrapper .text-editor ul li ul li, #maincontainer-wrapper .text-editor ul li ul li, .modal .text-editor ul li ul li, #main-wrapper .text-editor ul li ul, #maincontainer-wrapper .text-editor ul li ul, .modal .text-editor ul li ul, #main-wrapper .text-editor ul li, #maincontainer-wrapper .text-editor ul li, .modal .text-editor ul li, #main-wrapper .text-editor ul, #maincontainer-wrapper .text-editor ul, .modal .text-editor ul, #main-wrapper .content-editor ol li p, #maincontainer-wrapper .content-editor ol li p, .modal .content-editor ol li p, #main-wrapper .content-editor ol li, #maincontainer-wrapper .content-editor ol li, .modal .content-editor ol li, #main-wrapper .content-editor ol, #maincontainer-wrapper .content-editor ol, .modal .content-editor ol, #main-wrapper .content-editor .content-desc a, #maincontainer-wrapper .content-editor .content-desc a, .modal .content-editor .content-desc a, #main-wrapper .content-editor .content-desc span, #maincontainer-wrapper .content-editor .content-desc span, .modal .content-editor .content-desc span, #main-wrapper .content-editor .content-desc, #maincontainer-wrapper .content-editor .content-desc, .modal .content-editor .content-desc, #main-wrapper .content-editor .title-desc, #maincontainer-wrapper .content-editor .title-desc, .modal .content-editor .title-desc {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+/* note : for IE8,7 need css3pie helper*/
+#main-wrapper, #maincontainer-wrapper, .modal {
+  /* ------------------------------------------------------ */
+  /*                       START main                       */
+  /* ------------------------------------------------------ */
+  /*---------- START content-editor ----------*/
+  /*---------- END ontent-editor ----------*/
+  /*---------- START text-editor ----------*/
+  /*---------- END text-editor ----------*/
+}
+#main-wrapper h1, #maincontainer-wrapper h1, .modal h1 {
+  font-size: 38px;
+  line-height: 38px;
+  margin: 0;
+}
+#main-wrapper h2, #maincontainer-wrapper h2, .modal h2 {
+  font-size: 38px;
+  line-height: 38px;
+  margin: 0;
+}
+#main-wrapper h3, #maincontainer-wrapper h3, .modal h3 {
+  font-size: 34px;
+  line-height: 34px;
+  margin: 0;
+}
+#main-wrapper h4, #maincontainer-wrapper h4, .modal h4 {
+  font-size: 31px;
+  line-height: 31px;
+  margin: 0;
+}
+#main-wrapper h5, #maincontainer-wrapper h5, .modal h5 {
+  font-size: 28px;
+  line-height: 25px;
+  margin: 0;
+}
+#main-wrapper h6, #maincontainer-wrapper h6, .modal h6 {
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0;
+}
+#main-wrapper a, #maincontainer-wrapper a, .modal a {
+  font-size: 25px;
+  line-height: 25px;
+}
+#main-wrapper p, #maincontainer-wrapper p, .modal p {
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0;
+}
+#main-wrapper span, #maincontainer-wrapper span, .modal span {
+  font-size: 25px;
+  line-height: 25px;
+  cursor: context-menu;
+}
+#main-wrapper ul, #main-wrapper ol, #maincontainer-wrapper ul, #maincontainer-wrapper ol, .modal ul, .modal ol {
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0;
+}
+#main-wrapper ul li, #main-wrapper ol li, #maincontainer-wrapper ul li, #maincontainer-wrapper ol li, .modal ul li, .modal ol li {
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+#main-wrapper .height-input, #maincontainer-wrapper .height-input, .modal .height-input {
+  height: 41px;
+}
+#main-wrapper .height-input-auto, #maincontainer-wrapper .height-input-auto, .modal .height-input-auto {
+  height: auto !important;
+}
+@media screen and (max-width: 767.98px) {
+  #main-wrapper, #maincontainer-wrapper, .modal {
+    /*br {
+        display: none;
+    }*/
+  }
+  #main-wrapper h1, #maincontainer-wrapper h1, .modal h1 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  #main-wrapper h2, #maincontainer-wrapper h2, .modal h2 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+  #main-wrapper h3, #maincontainer-wrapper h3, .modal h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #main-wrapper h4, #maincontainer-wrapper h4, .modal h4 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  #main-wrapper h5, #maincontainer-wrapper h5, .modal h5 {
+    font-size: 22px;
+    line-height: 20px;
+  }
+  #main-wrapper h6, #maincontainer-wrapper h6, .modal h6 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #main-wrapper a, #maincontainer-wrapper a, .modal a {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #main-wrapper p, #maincontainer-wrapper p, .modal p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #main-wrapper span, #maincontainer-wrapper span, .modal span {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #main-wrapper ul, #maincontainer-wrapper ul, .modal ul {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #main-wrapper ul li, #maincontainer-wrapper ul li, .modal ul li {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #main-wrapper .height-input, #maincontainer-wrapper .height-input, .modal .height-input {
+    height: auto !important;
+  }
+  #main-wrapper .height-input-auto, #maincontainer-wrapper .height-input-auto, .modal .height-input-auto {
+    height: auto !important;
+  }
+}
+#main-wrapper .content-editor, #maincontainer-wrapper .content-editor, .modal .content-editor {
+  font-size: 25px;
+  line-height: 25px;
+  background-color: #fff;
+  cursor: default;
+}
+#main-wrapper .content-editor .img-width, #maincontainer-wrapper .content-editor .img-width, .modal .content-editor .img-width {
+  max-width: 100%;
+}
+#main-wrapper .content-editor .title, #maincontainer-wrapper .content-editor .title, .modal .content-editor .title {
+  margin-bottom: 10px;
+}
+#main-wrapper .content-editor .title-desc, #maincontainer-wrapper .content-editor .title-desc, .modal .content-editor .title-desc {
+  font-weight: bold;
+  margin: 0;
+}
+#main-wrapper .content-editor .content-desc span, #maincontainer-wrapper .content-editor .content-desc span, .modal .content-editor .content-desc span {
+  color: #2E3092;
+}
+#main-wrapper .content-editor .content-desc a, #maincontainer-wrapper .content-editor .content-desc a, .modal .content-editor .content-desc a {
+  color: #2E3092;
+}
+#main-wrapper .content-editor .txt-date, #maincontainer-wrapper .content-editor .txt-date, .modal .content-editor .txt-date {
+  font-size: 34px;
+  line-height: 34px;
+  color: #EC0E17;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+#main-wrapper .content-editor .txt-desc, #maincontainer-wrapper .content-editor .txt-desc, .modal .content-editor .txt-desc {
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  max-height: 100px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+#main-wrapper .content-editor .txt-title, #maincontainer-wrapper .content-editor .txt-title, .modal .content-editor .txt-title {
+  color: #2E3092;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+#main-wrapper .content-editor .txt-desc-report, #maincontainer-wrapper .content-editor .txt-desc-report, .modal .content-editor .txt-desc-report {
+  font-family: "KitithadaBold";
+  font-size: 38px;
+  line-height: 38px;
+  color: #555;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+#main-wrapper .content-editor .date, #maincontainer-wrapper .content-editor .date, .modal .content-editor .date {
+  font-size: 25px;
+  line-height: 41px;
+  color: #2E3092;
+  margin: 0;
+  margin-bottom: 15px;
+}
+#main-wrapper .content-editor ol, #maincontainer-wrapper .content-editor ol, .modal .content-editor ol {
+  margin: 0;
+}
+#main-wrapper .content-editor ol li, #maincontainer-wrapper .content-editor ol li, .modal .content-editor ol li {
+  margin: 0;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 767.98px) {
+  #main-wrapper .content-editor, #maincontainer-wrapper .content-editor, .modal .content-editor {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #main-wrapper .content-editor .title, #maincontainer-wrapper .content-editor .title, .modal .content-editor .title {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  #main-wrapper .content-editor .content-desc, #maincontainer-wrapper .content-editor .content-desc, .modal .content-editor .content-desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #main-wrapper .content-editor .txt-date, #maincontainer-wrapper .content-editor .txt-date, .modal .content-editor .txt-date {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  #main-wrapper .content-editor .txt-desc, #maincontainer-wrapper .content-editor .txt-desc, .modal .content-editor .txt-desc {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #main-wrapper .content-editor .txt-years, #maincontainer-wrapper .content-editor .txt-years, .modal .content-editor .txt-years {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  #main-wrapper .content-editor .date, #maincontainer-wrapper .content-editor .date, .modal .content-editor .date {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+}
+#main-wrapper .content-editor .years, #maincontainer-wrapper .content-editor .years, .modal .content-editor .years {
+  border-left: 1px solid #555;
+  margin-bottom: 15px;
+}
+#main-wrapper .content-editor .title, #maincontainer-wrapper .content-editor .title, .modal .content-editor .title {
+  font-size: 30px;
+  line-height: 30px;
+}
+#main-wrapper .content-editor .text-indent-1, #maincontainer-wrapper .content-editor .text-indent-1, .modal .content-editor .text-indent-1 {
+  text-indent: 30px;
+}
+#main-wrapper .content-editor .text-indent-1 a, #maincontainer-wrapper .content-editor .text-indent-1 a, .modal .content-editor .text-indent-1 a {
+  font-family: "Kitithada";
+  font-size: 25px;
+}
+#main-wrapper .content-editor .text-indent-1 a:hover, #maincontainer-wrapper .content-editor .text-indent-1 a:hover, .modal .content-editor .text-indent-1 a:hover {
+  text-decoration: underline;
+}
+#main-wrapper .content-editor .text-ul, #maincontainer-wrapper .content-editor .text-ul, .modal .content-editor .text-ul {
+  margin: 10px 0;
+  padding-left: 55px;
+}
+#main-wrapper .content-editor .text-ul li, #maincontainer-wrapper .content-editor .text-ul li, .modal .content-editor .text-ul li {
+  font-family: "Kitithada";
+  font-size: 25px;
+}
+#main-wrapper .text-editor, #maincontainer-wrapper .text-editor, .modal .text-editor {
+  background-color: #fff;
+  /*br {
+      display: block !important;
+  }*/
+  /*.content-desc {
+      @extend .font-thm;
+      @extend .content-thm;
+      margin: 0;
+      margin-bottom: 15px;
+
+      span {
+          color: $color-primary;
+      }
+  }*/
+}
+#main-wrapper .text-editor ul, #maincontainer-wrapper .text-editor ul, .modal .text-editor ul {
+  list-style: square;
+  color: #2E3092;
+  margin: 0;
+}
+#main-wrapper .text-editor ul li, #maincontainer-wrapper .text-editor ul li, .modal .text-editor ul li {
+  color: #555;
+  margin: 0;
+  margin-bottom: 5px;
+}
+#main-wrapper .text-editor ul li ul, #maincontainer-wrapper .text-editor ul li ul, .modal .text-editor ul li ul {
+  list-style: disc;
+  color: #2E3092;
+  margin: 0;
+}
+#main-wrapper .text-editor ul li ul li, #maincontainer-wrapper .text-editor ul li ul li, .modal .text-editor ul li ul li {
+  color: #555;
+  margin: 0;
+  margin-bottom: 5px;
+}
+#main-wrapper .text-editor .line, #maincontainer-wrapper .text-editor .line, .modal .text-editor .line {
+  display: -webkit-box;
+  margin: 15px 0;
+  border: 0;
+  border-bottom: 4px solid #00AFF0;
+}
+#main-wrapper .text-editor .line-sub, #maincontainer-wrapper .text-editor .line-sub, .modal .text-editor .line-sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+@media screen and (max-width: 991.98px) {
+  #main-wrapper .text-editor .title-desc, #maincontainer-wrapper .text-editor .title-desc, .modal .text-editor .title-desc {
+    font-size: 14px;
+    line-height: 22px;
+    /*br {
+        display: none;
+    }*/
+  }
+}
+#main-wrapper .bold, #maincontainer-wrapper .bold, .modal .bold {
+  font-weight: bold !important;
+}
+#main-wrapper .line-sub, #maincontainer-wrapper .line-sub, .modal .line-sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+#main-wrapper .link, #maincontainer-wrapper .link, .modal .link {
+  cursor: pointer;
+}
+#main-wrapper .width, #maincontainer-wrapper .width, .modal .width {
+  width: 100%;
+}
+#main-wrapper .no-bg, #maincontainer-wrapper .no-bg, .modal .no-bg {
+  background-color: transparent !important;
+}
+#main-wrapper .no-bg input, #maincontainer-wrapper .no-bg input, .modal .no-bg input {
+  background-color: transparent !important;
+}
+#main-wrapper .list-pagination, #maincontainer-wrapper .list-pagination, .modal .list-pagination {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  margin-bottom: 0px;
+}
+#main-wrapper .list-pagination .page-text, #maincontainer-wrapper .list-pagination .page-text, .modal .list-pagination .page-text {
+  font-size: 25px;
+}
+#main-wrapper .list-pagination .view-all, #maincontainer-wrapper .list-pagination .view-all, .modal .list-pagination .view-all {
+  font-size: 25px;
+  cursor: pointer;
+}
+#main-wrapper .list-pagination .view-all:hover, #maincontainer-wrapper .list-pagination .view-all:hover, .modal .list-pagination .view-all:hover {
+  color: #2E3092;
+}
+#main-wrapper .list-pagination .holder, #maincontainer-wrapper .list-pagination .holder, .modal .list-pagination .holder {
+  padding: 0;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+  display: inline-block;
+  vertical-align: middle;
+  background-color: transparent;
+}
+#main-wrapper .list-pagination .holder a, #maincontainer-wrapper .list-pagination .holder a, .modal .list-pagination .holder a {
+  width: 41px;
+  height: 41px;
+  display: inline-block;
+  font-size: 25px;
+  line-height: 41px;
+  cursor: pointer;
+  margin: 0 5px;
+  color: #555;
+  text-align: center;
+  border: 1px solid #555;
+}
+#main-wrapper .list-pagination .holder a:hover, #maincontainer-wrapper .list-pagination .holder a:hover, .modal .list-pagination .holder a:hover {
+  background-color: #2E3092;
+  color: #fff;
+}
+#main-wrapper .list-pagination .holder a.jp-previous, #maincontainer-wrapper .list-pagination .holder a.jp-previous, .modal .list-pagination .holder a.jp-previous {
+  text-indent: -9999px;
+  background-color: transparent;
+  background-image: url("../../../../Images/icon/icon-left.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#main-wrapper .list-pagination .holder a.jp-previous:hover, #maincontainer-wrapper .list-pagination .holder a.jp-previous:hover, .modal .list-pagination .holder a.jp-previous:hover {
+  /*background-color: transparent;*/
+  color: #fff;
+}
+#main-wrapper .list-pagination .holder a.jp-next, #maincontainer-wrapper .list-pagination .holder a.jp-next, .modal .list-pagination .holder a.jp-next {
+  text-indent: -9999px;
+  background-color: transparent;
+  background-image: url("../../../../Images/icon/icon-right.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#main-wrapper .list-pagination .holder a.jp-next:hover, #maincontainer-wrapper .list-pagination .holder a.jp-next:hover, .modal .list-pagination .holder a.jp-next:hover {
+  /*background-color: transparent;*/
+  color: #fff;
+}
+#main-wrapper .list-pagination .holder a.jp-first, #main-wrapper .list-pagination .holder a.jp-last, #maincontainer-wrapper .list-pagination .holder a.jp-first, #maincontainer-wrapper .list-pagination .holder a.jp-last, .modal .list-pagination .holder a.jp-first, .modal .list-pagination .holder a.jp-last {
+  color: #555;
+  background-color: transparent;
+}
+#main-wrapper .list-pagination .holder a.jp-first:hover, #main-wrapper .list-pagination .holder a.jp-last:hover, #maincontainer-wrapper .list-pagination .holder a.jp-first:hover, #maincontainer-wrapper .list-pagination .holder a.jp-last:hover, .modal .list-pagination .holder a.jp-first:hover, .modal .list-pagination .holder a.jp-last:hover {
+  color: #555;
+  background-color: transparent;
+}
+#main-wrapper .list-pagination .holder a.jp-current, #maincontainer-wrapper .list-pagination .holder a.jp-current, .modal .list-pagination .holder a.jp-current {
+  background-color: #2E3092;
+  color: #fff;
+}
+#main-wrapper .list-pagination .holder a.jp-current:hover, #maincontainer-wrapper .list-pagination .holder a.jp-current:hover, .modal .list-pagination .holder a.jp-current:hover {
+  color: #fff;
+}
+#main-wrapper .list-pagination .holder a.jp-disabled, #maincontainer-wrapper .list-pagination .holder a.jp-disabled, .modal .list-pagination .holder a.jp-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+#main-wrapper .form-row .form-group .form-control:focus, #maincontainer-wrapper .form-row .form-group .form-control:focus, .modal .form-row .form-group .form-control:focus {
+  border-color: #fff;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+#main-wrapper .require, #maincontainer-wrapper .require, .modal .require {
+  position: absolute;
+  font-size: 25px;
+  color: #EC0E17;
+  right: 0;
+  top: 15px;
+}
+#main-wrapper .require-txt, #maincontainer-wrapper .require-txt, .modal .require-txt {
+  font-size: 22px;
+  color: #EC0E17;
+}
+@media screen and (max-width: 991.98px) {
+  #main-wrapper .require, #maincontainer-wrapper .require, .modal .require {
+    font-size: 20px;
+  }
+  #main-wrapper .require-txt, #maincontainer-wrapper .require-txt, .modal .require-txt {
+    font-size: 18px;
+  }
+}
+#main-wrapper .banner-item, #maincontainer-wrapper .banner-item, .modal .banner-item {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#main-wrapper .banner-item:hover .overlay, #maincontainer-wrapper .banner-item:hover .overlay, .modal .banner-item:hover .overlay {
+  height: 100%;
+  padding: 15px;
+}
+#main-wrapper .sm, #maincontainer-wrapper .sm, .modal .sm {
+  top: auto;
+  height: 30%;
+  padding: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+#main-wrapper .sm .ic-img, #maincontainer-wrapper .sm .ic-img, .modal .sm .ic-img {
+  height: 30px;
+  display: block;
+}
+#main-wrapper .sm .ic-img img, #maincontainer-wrapper .sm .ic-img img, .modal .sm .ic-img img {
+  height: 100%;
+}
+#main-wrapper .sm .txt-desc, #maincontainer-wrapper .sm .txt-desc, .modal .sm .txt-desc {
+  font-size: 22px !important;
+  line-height: 22px !important;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+}
+#main-wrapper .overlay, #maincontainer-wrapper .overlay, .modal .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+#main-wrapper .overlay .ic-img, #maincontainer-wrapper .overlay .ic-img, .modal .overlay .ic-img {
+  display: block;
+  margin: 5px 0;
+}
+#main-wrapper .overlay .ic-img img, #maincontainer-wrapper .overlay .ic-img img, .modal .overlay .ic-img img {
+  width: 100%;
+}
+#main-wrapper .overlay .ic-img .icon-custom, #maincontainer-wrapper .overlay .ic-img .icon-custom, .modal .overlay .ic-img .icon-custom {
+  width: auto !important;
+  max-width: 100% !important;
+  margin: auto !important;
+}
+#main-wrapper .overlay .txt-desc, #maincontainer-wrapper .overlay .txt-desc, .modal .overlay .txt-desc {
+  font-family: "KitithadaBold";
+  font-size: 22px;
+  line-height: 22px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+}
+#main-wrapper .overlay-full, #maincontainer-wrapper .overlay-full, .modal .overlay-full {
+  top: auto;
+  height: 100%;
+  padding: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+#main-wrapper .overlay-full .ic-img, #maincontainer-wrapper .overlay-full .ic-img, .modal .overlay-full .ic-img {
+  display: block;
+  margin: 10px 0;
+}
+#main-wrapper .overlay-full .ic-img img, #maincontainer-wrapper .overlay-full .ic-img img, .modal .overlay-full .ic-img img {
+  width: 100%;
+}
+#main-wrapper .overlay-full .ic-img .icon-custom, #maincontainer-wrapper .overlay-full .ic-img .icon-custom, .modal .overlay-full .ic-img .icon-custom {
+  width: auto !important;
+  max-width: 100% !important;
+  margin: auto !important;
+}
+#main-wrapper .overlay-full .txt-desc, #maincontainer-wrapper .overlay-full .txt-desc, .modal .overlay-full .txt-desc {
+  font-size: 25px;
+  line-height: 25px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+}
+#main-wrapper .overlay-full:hover, #maincontainer-wrapper .overlay-full:hover, .modal .overlay-full:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+#main-wrapper .social-box, #maincontainer-wrapper .social-box, .modal .social-box {
+  display: block;
+  width: 100%;
+  padding: 0;
+  text-align: right;
+}
+#main-wrapper .social-box .bord-icons, #maincontainer-wrapper .social-box .bord-icons, .modal .social-box .bord-icons {
+  height: 41px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  border-right: 1px solid #555;
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
+#main-wrapper .social-box .bord-icons .label-custom, #maincontainer-wrapper .social-box .bord-icons .label-custom, .modal .social-box .bord-icons .label-custom {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 41px;
+  color: #555;
+}
+#main-wrapper .social-box .bord-icons .custom-icons, #maincontainer-wrapper .social-box .bord-icons .custom-icons, .modal .social-box .bord-icons .custom-icons {
+  display: inline-block;
+  vertical-align: middle;
+}
+#main-wrapper .social-box .bord-icons .custom-icons ul, #maincontainer-wrapper .social-box .bord-icons .custom-icons ul, .modal .social-box .bord-icons .custom-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#main-wrapper .social-box .bord-icons .custom-icons ul li, #maincontainer-wrapper .social-box .bord-icons .custom-icons ul li, .modal .social-box .bord-icons .custom-icons ul li {
+  display: inline-block;
+  margin: 0 3px;
+}
+#main-wrapper .social-box .bord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .bord-icons .custom-icons ul li a, .modal .social-box .bord-icons .custom-icons ul li a {
+  display: block;
+  width: 25px;
+  padding: 0;
+  margin: 0;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+#main-wrapper .social-box .bord-icons .custom-icons ul li a img, #maincontainer-wrapper .social-box .bord-icons .custom-icons ul li a img, .modal .social-box .bord-icons .custom-icons ul li a img {
+  width: 100%;
+  vertical-align: top;
+}
+#main-wrapper .social-box .nobord-icons, #maincontainer-wrapper .social-box .nobord-icons, .modal .social-box .nobord-icons {
+  height: 41px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  border-right: 1px solid #555;
+  border: 0;
+  padding: 0 15px;
+  padding-right: 0;
+  margin-bottom: 15px;
+}
+#main-wrapper .social-box .nobord-icons .label-custom, #maincontainer-wrapper .social-box .nobord-icons .label-custom, .modal .social-box .nobord-icons .label-custom {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 41px;
+  color: #555;
+}
+#main-wrapper .social-box .nobord-icons .custom-icons, #maincontainer-wrapper .social-box .nobord-icons .custom-icons, .modal .social-box .nobord-icons .custom-icons {
+  display: inline-block;
+  vertical-align: middle;
+}
+#main-wrapper .social-box .nobord-icons .custom-icons ul, #maincontainer-wrapper .social-box .nobord-icons .custom-icons ul, .modal .social-box .nobord-icons .custom-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#main-wrapper .social-box .nobord-icons .custom-icons ul li, #maincontainer-wrapper .social-box .nobord-icons .custom-icons ul li, .modal .social-box .nobord-icons .custom-icons ul li {
+  display: inline-block;
+  margin: 0 3px;
+}
+#main-wrapper .social-box .nobord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .nobord-icons .custom-icons ul li a, .modal .social-box .nobord-icons .custom-icons ul li a {
+  display: block;
+  width: 25px;
+  padding: 0;
+  margin: 0;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+#main-wrapper .social-box .nobord-icons .custom-icons ul li a img, #maincontainer-wrapper .social-box .nobord-icons .custom-icons ul li a img, .modal .social-box .nobord-icons .custom-icons ul li a img {
+  width: 100%;
+  vertical-align: top;
+}
+@media screen and (max-width: 767.98px) {
+  #main-wrapper .social-box .bord-icons, #main-wrapper .social-box .nobord-icons, #maincontainer-wrapper .social-box .bord-icons, #maincontainer-wrapper .social-box .nobord-icons, .modal .social-box .bord-icons, .modal .social-box .nobord-icons {
+    height: 31px;
+    line-height: 31px;
+  }
+  #main-wrapper .social-box .bord-icons .label-custom, #main-wrapper .social-box .nobord-icons .label-custom, #maincontainer-wrapper .social-box .bord-icons .label-custom, #maincontainer-wrapper .social-box .nobord-icons .label-custom, .modal .social-box .bord-icons .label-custom, .modal .social-box .nobord-icons .label-custom {
+    height: 31px;
+    line-height: 31px;
+  }
+  #main-wrapper .social-box .bord-icons .custom-icons ul li a, #main-wrapper .social-box .nobord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .bord-icons .custom-icons ul li a, #maincontainer-wrapper .social-box .nobord-icons .custom-icons ul li a, .modal .social-box .bord-icons .custom-icons ul li a, .modal .social-box .nobord-icons .custom-icons ul li a {
+    width: 25px;
+    height: auto;
+  }
+}
+#main-wrapper .modal-txt a, #maincontainer-wrapper .modal-txt a, .modal .modal-txt a {
+  font-size: 25px;
+  line-height: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+#main-wrapper .modal-txt a:hover, #maincontainer-wrapper .modal-txt a:hover, .modal .modal-txt a:hover {
+  color: #777;
+}
+@media screen and (max-width: 767.98px) {
+  #main-wrapper .desktop, #maincontainer-wrapper .desktop, .modal .desktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  #main-wrapper .desktop-xs, #maincontainer-wrapper .desktop-xs, .modal .desktop-xs {
+    display: none;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  #main-wrapper .desktop-md, #maincontainer-wrapper .desktop-md, .modal .desktop-md {
+    display: none;
+  }
+}
+#main-wrapper .mobile, #maincontainer-wrapper .mobile, .modal .mobile {
+  display: none;
+}
+@media screen and (max-width: 767.98px) {
+  #main-wrapper .mobile, #maincontainer-wrapper .mobile, .modal .mobile {
+    display: block;
+  }
+}
+#main-wrapper .mobile-md, #maincontainer-wrapper .mobile-md, .modal .mobile-md {
+  display: none;
+}
+@media screen and (max-width: 991.98px) {
+  #main-wrapper .mobile-md, #maincontainer-wrapper .mobile-md, .modal .mobile-md {
+    display: block;
+  }
+}
+#main-wrapper .line-xs, #maincontainer-wrapper .line-xs, .modal .line-xs {
+  border-top: 2px solid #2E3092;
+}
+@media screen and (max-width: 991.98px) {
+  #main-wrapper .gallery-wrapper, #maincontainer-wrapper .gallery-wrapper, .modal .gallery-wrapper {
+    max-width: 100% !important;
+    margin-right: 0 !important;
+    margin-bottom: 20px !important;
+  }
+}
+#main-wrapper .sub-menu, #maincontainer-wrapper .sub-menu, .modal .sub-menu {
+  padding: 0 15px 15px 15px !important;
+}
+#main-wrapper .sub-menu li, #maincontainer-wrapper .sub-menu li, .modal .sub-menu li {
+  list-style: square;
+  color: #EC0E17;
+}
+#main-wrapper .sub-menu li a, #maincontainer-wrapper .sub-menu li a, .modal .sub-menu li a {
+  color: #555;
+}
+#main-wrapper .sub-menu li:hover, #maincontainer-wrapper .sub-menu li:hover, .modal .sub-menu li:hover {
+  color: #2E3092;
+}
+#main-wrapper .sub-menu li:hover a, #maincontainer-wrapper .sub-menu li:hover a, .modal .sub-menu li:hover a {
+  color: #2E3092;
+}

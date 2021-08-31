@@ -1,0 +1,6 @@
+<svg id="Control_Next_Button_Action" data-name="Control Next Button Action" xmlns="http://www.w3.org/2000/svg" width="80" height="40" viewBox="0 0 80 40">
+  <rect id="Area" width="80" height="40" fill="#2e3092"/>
+  <g id="Layer_1" data-name="Layer 1" transform="translate(33.354 13.072)">
+    <path id="arrow_back-2" data-name="arrow back-2" d="M13.6,6.4,8.743.307a.6.6,0,0,0-.959.021,1.03,1.03,0,0,0-.017,1.2l3.681,4.618H.69A.793.793,0,0,0,0,7.014a.793.793,0,0,0,.69.866H11.449L7.767,12.5a1.028,1.028,0,0,0,0,1.224.6.6,0,0,0,.976,0L13.6,7.629a1.028,1.028,0,0,0,0-1.227Z" transform="translate(0 -0.075)" fill="#fff"/>
+  </g>
+</svg>

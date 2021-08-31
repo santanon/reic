@@ -1,0 +1,68 @@
+body
+{
+	font-family:Helvetica;
+	font-size:12px;
+	/*font-weight:bold;*/
+	color:#000000;
+	margin:0px;
+	padding:0px;
+	/*background-image:url(/Images/Admin/main-2-bg.png);*/
+}
+.head_table_tr
+{
+	/*background-image:url(/Images/Admin/head-2-bg.png); 
+	background-repeat:repeat-x; 
+	height:44px;*/
+	background-color: #1f218b;
+	height:37px;
+}
+.head_table_tr_text
+{
+	font-family:Helvetica;
+	/*font-size:20px;*/
+	font-size:14px;
+	color:#FFFFFF;
+	/*font-weight:bold;*/
+	text-shadow: #76cdc7 0px -1px 1px;
+	letter-spacing: 3px;
+}
+.info_head
+{
+	font-size:14px;
+	/*color:#4C566C;*/
+	color:#333333;
+	text-shadow: #FFFFFF 0px -1px 1px;
+}
+.list_head_cur
+{
+	/*color:#0099FF;*/
+	color:#ffffff;
+	font-size:16px;
+}
+a:link{ text-decoration:none; color:#000000; }
+a:visited{ text-decoration:none; color:#000000; }
+a:hover{ text-decoration:underline; color:#666666; }
+a:active{ text-decoration:none; color:#000000; }
+.dropdown
+{
+	font-family:Helvetica;
+	font-size:12px;
+	font-weight:bold;
+	color:#000000;
+}
+#list_rec { border:0px}
+#list_rec td { padding:5px;}
+
+@font-face {
+  font-family: 'Kitithada';
+  src: url("../../../../fonts/PSL094pro_0.eot");
+  src: url("../../../../fonts/PSL094pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL094pro_0.woff") format("woff"), url("../../../../fonts/PSL094pro_0.ttf") format("truetype"), url("../../../../fonts/PSL094pro_0.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'KitithadaBold';
+  src: url("../../../../fonts/PSL096pro_0.eot");
+  src: url("../../../../fonts/PSL096pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL096pro_0.woff") format("woff"), url("../../../../fonts/PSL096pro_0.ttf") format("truetype"), url("../../../../fonts/PSL096pro_0.svg") format("svg");
+  font-weight: bold;
+  font-style: normal; }

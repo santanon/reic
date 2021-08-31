@@ -1,0 +1,1527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0412EDC-8C89-4BA8-AA5B-47138EFD87A9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>gh_reic</RootNamespace>
+    <AssemblyName>gh_reic</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KnowledgeController.cs" />
+    <Compile Include="Controllers\MemberController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\QuestionController.cs" />
+    <Compile Include="Controllers\ReviewController.cs" />
+    <Compile Include="Controllers\RssController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\About\director.aspx.cs">
+      <DependentUpon>director.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\About\director.aspx.designer.cs">
+      <DependentUpon>director.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\About\history.aspx.cs">
+      <DependentUpon>history.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\About\history.aspx.designer.cs">
+      <DependentUpon>history.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\About\manage.aspx.cs">
+      <DependentUpon>manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\About\manage.aspx.designer.cs">
+      <DependentUpon>manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\About\report.aspx.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\About\report.aspx.designer.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Contact\address.aspx.cs">
+      <DependentUpon>address.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Contact\address.aspx.designer.cs">
+      <DependentUpon>address.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Contact\chatbot.aspx.cs">
+      <DependentUpon>chatbot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Contact\chatbot.aspx.designer.cs">
+      <DependentUpon>chatbot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Contact\contactform.aspx.cs">
+      <DependentUpon>contactform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Contact\contactform.aspx.designer.cs">
+      <DependentUpon>contactform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Contact\form\step1.aspx.cs">
+      <DependentUpon>step1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Contact\form\step1.aspx.designer.cs">
+      <DependentUpon>step1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Contact\form\step2.aspx.cs">
+      <DependentUpon>step2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Contact\form\step2.aspx.designer.cs">
+      <DependentUpon>step2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Contact\form\step3.aspx.cs">
+      <DependentUpon>step3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Contact\form\step3.aspx.designer.cs">
+      <DependentUpon>step3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Contact\join.aspx.cs">
+      <DependentUpon>join.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Contact\join.aspx.designer.cs">
+      <DependentUpon>join.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Contact\news.aspx.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Contact\news.aspx.designer.cs">
+      <DependentUpon>news.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Contact\poll.aspx.cs">
+      <DependentUpon>poll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Contact\poll.aspx.designer.cs">
+      <DependentUpon>poll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Contact\social.aspx.cs">
+      <DependentUpon>social.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Contact\social.aspx.designer.cs">
+      <DependentUpon>social.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Home\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\Intro.aspx.cs">
+      <DependentUpon>Intro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Home\Intro.aspx.designer.cs">
+      <DependentUpon>Intro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\landing.aspx.cs">
+      <DependentUpon>landing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Home\landing.aspx.designer.cs">
+      <DependentUpon>landing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\link.aspx.cs">
+      <DependentUpon>link.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Home\link.aspx.designer.cs">
+      <DependentUpon>link.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\Webmail.aspx.cs">
+      <DependentUpon>Webmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Home\Webmail.aspx.designer.cs">
+      <DependentUpon>Webmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Knowledge\article\all.aspx.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Knowledge\article\all.aspx.designer.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Knowledge\article\Detail\suggestion-home.aspx.cs">
+      <DependentUpon>suggestion-home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Knowledge\article\Detail\suggestion-home.aspx.designer.cs">
+      <DependentUpon>suggestion-home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Knowledge\article\suggestion-home.aspx.cs">
+      <DependentUpon>suggestion-home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Knowledge\article\suggestion-home.aspx.designer.cs">
+      <DependentUpon>suggestion-home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Knowledge\weblink\all.aspx.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Knowledge\weblink\all.aspx.designer.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Knowledge\weblink\bank.aspx.cs">
+      <DependentUpon>bank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Knowledge\weblink\bank.aspx.designer.cs">
+      <DependentUpon>bank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Knowledge\weblink\Detail\bank.aspx.cs">
+      <DependentUpon>bank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Knowledge\weblink\Detail\bank.aspx.designer.cs">
+      <DependentUpon>bank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Knowledge\weblink\government\all.aspx.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Knowledge\weblink\government\all.aspx.designer.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\edit.aspx.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\edit.aspx.designer.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\howtoregist.aspx.cs">
+      <DependentUpon>howtoregist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\howtoregist.aspx.designer.cs">
+      <DependentUpon>howtoregist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\order-detail.aspx.cs">
+      <DependentUpon>order-detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\order-detail.aspx.designer.cs">
+      <DependentUpon>order-detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\order.aspx.cs">
+      <DependentUpon>order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\order.aspx.designer.cs">
+      <DependentUpon>order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\Register\Corporate1.aspx.cs">
+      <DependentUpon>Corporate1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\Register\Corporate1.aspx.designer.cs">
+      <DependentUpon>Corporate1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\Register\Corporate2.aspx.cs">
+      <DependentUpon>Corporate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\Register\Corporate2.aspx.designer.cs">
+      <DependentUpon>Corporate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\Register\Corporate3.aspx.cs">
+      <DependentUpon>Corporate3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\Register\Corporate3.aspx.designer.cs">
+      <DependentUpon>Corporate3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\Register\General1.aspx.cs">
+      <DependentUpon>General1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\Register\General1.aspx.designer.cs">
+      <DependentUpon>General1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\Register\General2.aspx.cs">
+      <DependentUpon>General2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\Register\General2.aspx.designer.cs">
+      <DependentUpon>General2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\Register\General3.aspx.cs">
+      <DependentUpon>General3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\Register\General3.aspx.designer.cs">
+      <DependentUpon>General3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Member\status.aspx.cs">
+      <DependentUpon>status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\status.aspx.designer.cs">
+      <DependentUpon>status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\calendar.aspx.cs">
+      <DependentUpon>calendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\calendar.aspx.designer.cs">
+      <DependentUpon>calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\Detail\calendar.aspx.cs">
+      <DependentUpon>calendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\Detail\calendar.aspx.designer.cs">
+      <DependentUpon>calendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\Detail\document.aspx.cs">
+      <DependentUpon>document.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\Detail\document.aspx.designer.cs">
+      <DependentUpon>document.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\Detail\event.aspx.cs">
+      <DependentUpon>event.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\Detail\event.aspx.designer.cs">
+      <DependentUpon>event.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\Detail\multi.aspx.cs">
+      <DependentUpon>multi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\Detail\multi.aspx.designer.cs">
+      <DependentUpon>multi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\Detail\pressrelease.aspx.cs">
+      <DependentUpon>pressrelease.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\Detail\pressrelease.aspx.designer.cs">
+      <DependentUpon>pressrelease.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\document.aspx.cs">
+      <DependentUpon>document.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\document.aspx.designer.cs">
+      <DependentUpon>document.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\event.aspx.cs">
+      <DependentUpon>event.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\event.aspx.designer.cs">
+      <DependentUpon>event.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\info.aspx.cs">
+      <DependentUpon>info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\info.aspx.designer.cs">
+      <DependentUpon>info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\multi.aspx.cs">
+      <DependentUpon>multi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\multi.aspx.designer.cs">
+      <DependentUpon>multi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Event\pressrelease.aspx.cs">
+      <DependentUpon>pressrelease.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Event\pressrelease.aspx.designer.cs">
+      <DependentUpon>pressrelease.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Laws\laws\all.aspx.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Laws\laws\all.aspx.designer.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Laws\laws\plan.aspx.cs">
+      <DependentUpon>plan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Laws\laws\plan.aspx.designer.cs">
+      <DependentUpon>plan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Laws\realty\all.aspx.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Laws\realty\all.aspx.designer.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Laws\realty\Detail\finance.aspx.cs">
+      <DependentUpon>finance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Laws\realty\Detail\finance.aspx.designer.cs">
+      <DependentUpon>finance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\Laws\realty\finance.aspx.cs">
+      <DependentUpon>finance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\Laws\realty\finance.aspx.designer.cs">
+      <DependentUpon>finance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\News\underconstruction.aspx.cs">
+      <DependentUpon>underconstruction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\News\underconstruction.aspx.designer.cs">
+      <DependentUpon>underconstruction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\allchart.aspx.cs">
+      <DependentUpon>allchart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\allchart.aspx.designer.cs">
+      <DependentUpon>allchart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\chart.aspx.cs">
+      <DependentUpon>chart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\chart.aspx.designer.cs">
+      <DependentUpon>chart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\howtopay.aspx.cs">
+      <DependentUpon>howtopay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\howtopay.aspx.designer.cs">
+      <DependentUpon>howtopay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\magazine.aspx.cs">
+      <DependentUpon>magazine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\magazine.aspx.designer.cs">
+      <DependentUpon>magazine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\payment.aspx.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\payment.aspx.designer.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\advertise.aspx.cs">
+      <DependentUpon>advertise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\advertise.aspx.designer.cs">
+      <DependentUpon>advertise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\all.aspx.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\all.aspx.designer.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\cart.aspx.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\cart.aspx.designer.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\detail.aspx.cs">
+      <DependentUpon>detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\detail.aspx.designer.cs">
+      <DependentUpon>detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\Detail\advertise.aspx.cs">
+      <DependentUpon>advertise.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\Detail\advertise.aspx.designer.cs">
+      <DependentUpon>advertise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\Detail\service.aspx.cs">
+      <DependentUpon>service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\Detail\service.aspx.designer.cs">
+      <DependentUpon>service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\payment.aspx.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\payment.aspx.designer.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\print.aspx.cs">
+      <DependentUpon>print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\print.aspx.designer.cs">
+      <DependentUpon>print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\product.aspx.cs">
+      <DependentUpon>product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\product.aspx.designer.cs">
+      <DependentUpon>product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\seminar.aspx.cs">
+      <DependentUpon>seminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\seminar.aspx.designer.cs">
+      <DependentUpon>seminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\seminar_detail.aspx.cs">
+      <DependentUpon>seminar_detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\seminar_detail.aspx.designer.cs">
+      <DependentUpon>seminar_detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\service.aspx.cs">
+      <DependentUpon>service.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\service.aspx.designer.cs">
+      <DependentUpon>service.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\table.aspx.cs">
+      <DependentUpon>table.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\table.aspx.designer.cs">
+      <DependentUpon>table.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\Table\transfer.aspx.cs">
+      <DependentUpon>transfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\Table\transfer.aspx.designer.cs">
+      <DependentUpon>transfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Question\form\step1.aspx.cs">
+      <DependentUpon>step1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Question\form\step1.aspx.designer.cs">
+      <DependentUpon>step1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Question\question.aspx.cs">
+      <DependentUpon>question.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Question\question.aspx.designer.cs">
+      <DependentUpon>question.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Review\report-detail.aspx.cs">
+      <DependentUpon>report-detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Review\report-detail.aspx.designer.cs">
+      <DependentUpon>report-detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Review\report.aspx.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Review\report.aspx.designer.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Review\research\all.aspx.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Review\research\all.aspx.designer.cs">
+      <DependentUpon>all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Review\research\build.aspx.cs">
+      <DependentUpon>build.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Review\research\build.aspx.designer.cs">
+      <DependentUpon>build.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Review\research\Detail\build.aspx.cs">
+      <DependentUpon>build.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Review\research\Detail\build.aspx.designer.cs">
+      <DependentUpon>build.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Rss\Rss.aspx.cs">
+      <DependentUpon>Rss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Rss\Rss.aspx.designer.cs">
+      <DependentUpon>Rss.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Antlr3.Runtime.dll" />
+    <Content Include="bin\Antlr3.Runtime.pdb" />
+    <Content Include="bin\gh_reic.dll" />
+    <Content Include="bin\gh_reic.pdb" />
+    <Content Include="bin\Microsoft.AI.Agent.Intercept.dll" />
+    <Content Include="bin\Microsoft.AI.DependencyCollector.dll" />
+    <Content Include="bin\Microsoft.AI.DependencyCollector.xml" />
+    <Content Include="bin\Microsoft.AI.PerfCounterCollector.dll" />
+    <Content Include="bin\Microsoft.AI.ServerTelemetryChannel.dll" />
+    <Content Include="bin\Microsoft.AI.ServerTelemetryChannel.xml" />
+    <Content Include="bin\Microsoft.AI.Web.dll" />
+    <Content Include="bin\Microsoft.AI.Web.xml" />
+    <Content Include="bin\Microsoft.AI.WindowsServer.dll" />
+    <Content Include="bin\Microsoft.AI.WindowsServer.xml" />
+    <Content Include="bin\Microsoft.ApplicationInsights.dll" />
+    <Content Include="bin\Microsoft.ApplicationInsights.xml" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bin\roslyn\csc.exe" />
+    <Content Include="bin\roslyn\csi.exe" />
+    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="bin\roslyn\Microsoft.Win32.Primitives.dll" />
+    <Content Include="bin\roslyn\System.AppContext.dll" />
+    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\roslyn\System.Console.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.Process.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.DriveInfo.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="bin\roslyn\System.IO.Pipes.dll" />
+    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\roslyn\System.Security.AccessControl.dll" />
+    <Content Include="bin\roslyn\System.Security.Claims.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="bin\roslyn\System.Security.Principal.Windows.dll" />
+    <Content Include="bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="bin\roslyn\System.Threading.Thread.dll" />
+    <Content Include="bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="bin\roslyn\vbc.exe" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="bin\System.Web.Helpers.dll" />
+    <Content Include="bin\System.Web.Helpers.xml" />
+    <Content Include="bin\System.Web.Mvc.dll" />
+    <Content Include="bin\System.Web.Mvc.xml" />
+    <Content Include="bin\System.Web.Optimization.dll" />
+    <Content Include="bin\System.Web.Optimization.xml" />
+    <Content Include="bin\System.Web.Razor.dll" />
+    <Content Include="bin\System.Web.Razor.xml" />
+    <Content Include="bin\System.Web.WebPages.Deployment.dll" />
+    <Content Include="bin\System.Web.WebPages.Deployment.xml" />
+    <Content Include="bin\System.Web.WebPages.dll" />
+    <Content Include="bin\System.Web.WebPages.Razor.dll" />
+    <Content Include="bin\System.Web.WebPages.Razor.xml" />
+    <Content Include="bin\System.Web.WebPages.xml" />
+    <Content Include="bin\WebGrease.dll" />
+    <Content Include="Content\Admin\bootstrap\css\bootstrap-f.css" />
+    <Content Include="Content\Admin\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Content\Admin\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Content\Admin\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\Admin\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\Admin\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Admin\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\Admin\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\Admin\bootstrap\js\npm.js" />
+    <Content Include="Content\Admin\font-awesome.min.css" />
+    <Content Include="Content\Admin\jquery.datetimepicker.css" />
+    <Content Include="Content\Admin\main.css" />
+    <Content Include="Content\Admin\menu.css" />
+    <Content Include="Content\css\flexslider.css" />
+    <Content Include="Content\css\fontawesome.css" />
+    <Content Include="Content\css\images\ui-bg_diagonals-small_25_c5ddfc_40x40.png" />
+    <Content Include="Content\css\images\ui-bg_diagonals-thick_20_e69700_40x40.png" />
+    <Content Include="Content\css\images\ui-bg_diagonals-thick_22_1484e6_40x40.png" />
+    <Content Include="Content\css\images\ui-bg_diagonals-thick_26_2293f7_40x40.png" />
+    <Content Include="Content\css\images\ui-bg_highlight-soft_100_f9f9f9_1x100.png" />
+    <Content Include="Content\css\images\ui-bg_inset-hard_100_eeeeee_1x100.png" />
+    <Content Include="Content\css\images\ui-icons_0a82eb_256x240.png" />
+    <Content Include="Content\css\images\ui-icons_0b54d5_256x240.png" />
+    <Content Include="Content\css\images\ui-icons_5fa5e3_256x240.png" />
+    <Content Include="Content\css\images\ui-icons_fcdd4a_256x240.png" />
+    <Content Include="Content\css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\css\jquery-ui-1.11.4.custom.css" />
+    <Content Include="Content\css\jquery-ui.min.css" />
+    <Content Include="Content\css\jquery.mCustomScrollbar.css" />
+    <Content Include="Content\css\owl.carousel.min.css" />
+    <Content Include="Content\css\owl.theme.default.min.css" />
+    <Content Include="Content\default\css\content\about.css" />
+    <Content Include="Content\default\css\content\bootstrap-select.css" />
+    <Content Include="Content\default\css\content\bootstrap-select.min.css" />
+    <Content Include="Content\default\css\content\collaps.css" />
+    <Content Include="Content\default\css\content\contact.css" />
+    <Content Include="Content\default\css\content\dropdown.css" />
+    <Content Include="Content\default\css\content\gallery.css" />
+    <Content Include="Content\default\css\content\highcharts.css" />
+    <Content Include="Content\default\css\content\home.css" />
+    <Content Include="Content\default\css\content\main.css" />
+    <Content Include="Content\default\css\content\news.css" />
+    <Content Include="Content\default\css\content\payment.css" />
+    <Content Include="Content\default\css\content\product.css" />
+    <Content Include="Content\default\css\content\regist.css" />
+    <Content Include="Content\default\css\content\report.css" />
+    <Content Include="Content\default\css\content\table.css" />
+    <Content Include="Content\default\css\content\_revenue.css" />
+    <Content Include="Content\default\css\helpers\_fontstyle.css" />
+    <Content Include="Content\default\css\print.css" />
+    <Content Include="Content\default\css\style.css" />
+    <Content Include="Content\default\css\_variables.css" />
+    <Content Include="Content\js\init-script.js" />
+    <Content Include="Content\js\responsive-ctrl.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\PSL094pro_0.svg" />
+    <Content Include="fonts\PSL096pro_0.svg" />
+    <Content Include="fonts\style.css" />
+    <Content Include="fonts\thsarabunnew.css" />
+    <Content Include="fonts\webfonts\fa-brands-400.svg" />
+    <Content Include="fonts\webfonts\fa-regular-400.svg" />
+    <Content Include="fonts\webfonts\fa-solid-900.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\banner\about\banner1.png" />
+    <Content Include="Images\banner\about\banner2.png" />
+    <Content Include="Images\banner\about\banner3.png" />
+    <Content Include="Images\banner\about\director\1.png" />
+    <Content Include="Images\banner\about\director\10.png" />
+    <Content Include="Images\banner\about\director\11.png" />
+    <Content Include="Images\banner\about\director\12.png" />
+    <Content Include="Images\banner\about\director\13.png" />
+    <Content Include="Images\banner\about\director\14.png" />
+    <Content Include="Images\banner\about\director\15.png" />
+    <Content Include="Images\banner\about\director\16.png" />
+    <Content Include="Images\banner\about\director\2.png" />
+    <Content Include="Images\banner\about\director\3.jpg" />
+    <Content Include="Images\banner\about\director\3.png" />
+    <Content Include="Images\banner\about\director\4.png" />
+    <Content Include="Images\banner\about\director\5.png" />
+    <Content Include="Images\banner\about\director\6.png" />
+    <Content Include="Images\banner\about\director\7.png" />
+    <Content Include="Images\banner\about\director\8.png" />
+    <Content Include="Images\banner\about\director\9.png" />
+    <Content Include="Images\banner\about\manage\1.png" />
+    <Content Include="Images\banner\about\manage\2.png" />
+    <Content Include="Images\banner\about\manage\3.png" />
+    <Content Include="Images\banner\about\manage\4.png" />
+    <Content Include="Images\banner\about\manage\5.png" />
+    <Content Include="Images\banner\about\manage\6.png" />
+    <Content Include="Images\banner\banner-about.jpg" />
+    <Content Include="Images\banner\banner-news.jpg" />
+    <Content Include="Images\banner\day.jpg" />
+    <Content Include="Images\banner\home-1.jpg" />
+    <Content Include="Images\banner\home-m-1.jpg" />
+    <Content Include="Images\banner\knowledge\banner1.png" />
+    <Content Include="Images\banner\knowledge\banner2-1.png" />
+    <Content Include="Images\banner\knowledge\banner2-2.png" />
+    <Content Include="Images\banner\knowledge\banner2-3.png" />
+    <Content Include="Images\banner\knowledge\banner2-4.png" />
+    <Content Include="Images\banner\knowledge\banner2-5.png" />
+    <Content Include="Images\banner\knowledge\banner2-6.png" />
+    <Content Include="Images\banner\knowledge\banner2-7.png" />
+    <Content Include="Images\banner\knowledge\banner2.png" />
+    <Content Include="Images\banner\knowledge\banner3-1.png" />
+    <Content Include="Images\banner\knowledge\banner3-2.png" />
+    <Content Include="Images\banner\knowledge\banner3-3.png" />
+    <Content Include="Images\banner\knowledge\banner3.png" />
+    <Content Include="Images\banner\knowledge\banner4.png" />
+    <Content Include="Images\banner\knowledge\banner5.png" />
+    <Content Include="Images\banner\knowledge\banner6.png" />
+    <Content Include="Images\banner\news\banner1.jpg" />
+    <Content Include="Images\banner\news\banner2.jpg" />
+    <Content Include="Images\banner\news\banner3.jpg" />
+    <Content Include="Images\banner\news\banner4.jpg" />
+    <Content Include="Images\banner\news\info\banner1.png" />
+    <Content Include="Images\banner\news\info\banner2.png" />
+    <Content Include="Images\banner\news\info\banner3.png" />
+    <Content Include="Images\banner\news\info\banner4.png" />
+    <Content Include="Images\banner\news\laws\banner1.png" />
+    <Content Include="Images\banner\news\laws\banner2.png" />
+    <Content Include="Images\banner\news\laws\banner3.png" />
+    <Content Include="Images\banner\news\laws\banner4.png" />
+    <Content Include="Images\banner\news\laws\banner5.png" />
+    <Content Include="Images\banner\news\laws\banner6.png" />
+    <Content Include="Images\banner\news\laws\banner7.png" />
+    <Content Include="Images\banner\news\laws\banner8.png" />
+    <Content Include="Images\banner\news\realty\banner1.png" />
+    <Content Include="Images\banner\news\realty\banner2.png" />
+    <Content Include="Images\banner\news\realty\banner3.png" />
+    <Content Include="Images\banner\news\realty\banner4.png" />
+    <Content Include="Images\banner\news\realty\banner5.png" />
+    <Content Include="Images\banner\news\realty\banner6.png" />
+    <Content Include="Images\banner\news\realty\banner7.png" />
+    <Content Include="Images\banner\news\realty\banner8.png" />
+    <Content Include="Images\banner\news\realty\banner9.png" />
+    <Content Include="Images\banner\reic_home_1.jpg" />
+    <Content Include="Images\banner\reic_home_1_mobile.jpg" />
+    <Content Include="Images\banner\reic_home_2.jpg" />
+    <Content Include="Images\banner\reic_home_2_mobile.jpg" />
+    <Content Include="Images\banner\reic_home_3.jpg" />
+    <Content Include="Images\banner\reic_home_3_mobile.jpg" />
+    <Content Include="Images\banner\reic_home_4.jpg" />
+    <Content Include="Images\banner\reic_home_4_mobile.jpg" />
+    <Content Include="Images\banner\report\img-report-2554.jpg" />
+    <Content Include="Images\banner\report\img-report-2555.jpg" />
+    <Content Include="Images\banner\report\img-report-2558.jpg" />
+    <Content Include="Images\banner\report\img-report-2559.jpg" />
+    <Content Include="Images\banner\report\img-report-2560.jpg" />
+    <Content Include="Images\banner\report\img-report.jpg" />
+    <Content Include="Images\banner\review\banner1.png" />
+    <Content Include="Images\banner\review\banner2.png" />
+    <Content Include="Images\banner\review\banner3.png" />
+    <Content Include="Images\banner\review\banner4.png" />
+    <Content Include="Images\banner\review\banner5.png" />
+    <Content Include="Images\banner\review\banner6.png" />
+    <Content Include="Images\banner\review\banner7.png" />
+    <Content Include="Images\banner\review\banner8.png" />
+    <Content Include="Images\banner\slide\banner_REIC_how_to_oder.jpg" />
+    <Content Include="Images\banner\slide\banner_REIC_Research_Report.jpg" />
+    <Content Include="Images\banner\sponser\1.jpg" />
+    <Content Include="Images\banner\sponser\2.jpg" />
+    <Content Include="Images\banner\sponser\3.jpg" />
+    <Content Include="Images\banner\sponser\4.jpg" />
+    <Content Include="Images\e-newsletter\bg-e-newsletter.png" />
+    <Content Include="Images\e-newsletter\icon-e-news.svg" />
+    <Content Include="Images\event\demo-1.jpg" />
+    <Content Include="Images\event\icon-date.png" />
+    <Content Include="Images\event\icon-location.png" />
+    <Content Include="Images\event\icon-organized.png" />
+    <Content Include="Images\home\banner\banner-highlight1.jpg" />
+    <Content Include="Images\home\banner\img-banner1.jpg" />
+    <Content Include="Images\home\banner\img-banner2.jpg" />
+    <Content Include="Images\home\banner\img-banner3.jpg" />
+    <Content Include="Images\home\banner\img-banner4.jpg" />
+    <Content Include="Images\home\icon\icon-1.png" />
+    <Content Include="Images\home\icon\icon-2.png" />
+    <Content Include="Images\home\icon\icon-3.png" />
+    <Content Include="Images\home\icon\icon-4.png" />
+    <Content Include="Images\home\icon\icon-5.png" />
+    <Content Include="Images\home\news\img-video.jpg" />
+    <Content Include="Images\icon\action\ic-fb.svg" />
+    <Content Include="Images\icon\action\ic-print.svg" />
+    <Content Include="Images\icon\action\ic-twitter.svg" />
+    <Content Include="Images\icon\footer\ic-callcenter.svg" />
+    <Content Include="Images\icon\footer\ic-fb.svg" />
+    <Content Include="Images\icon\footer\ic-line.svg" />
+    <Content Include="Images\icon\footer\ic-online.svg" />
+    <Content Include="Images\icon\footer\ic-rss.svg" />
+    <Content Include="Images\icon\footer\ic-twitter.svg" />
+    <Content Include="Images\icon\footer\ic-webmail.svg" />
+    <Content Include="Images\icon\footer\ic-youtube.svg" />
+    <Content Include="Images\icon\footer\icon-facebook.svg" />
+    <Content Include="Images\icon\footer\icon-line.svg" />
+    <Content Include="Images\icon\footer\icon-phone.svg" />
+    <Content Include="Images\icon\footer\icon-qa.svg" />
+    <Content Include="Images\icon\footer\icon-rss.svg" />
+    <Content Include="Images\icon\footer\icon-twitter.svg" />
+    <Content Include="Images\icon\footer\icon-youtube.svg" />
+    <Content Include="Images\icon\ic-address.png" />
+    <Content Include="Images\icon\ic-calendar.png" />
+    <Content Include="Images\icon\ic-career.png" />
+    <Content Include="Images\icon\ic-close-dark.png" />
+    <Content Include="Images\icon\ic-close-secondary.png" />
+    <Content Include="Images\icon\ic-close-white.png" />
+    <Content Include="Images\icon\ic-corp.svg" />
+    <Content Include="Images\icon\ic-correct.png" />
+    <Content Include="Images\icon\ic-download-white.png" />
+    <Content Include="Images\icon\ic-download.png" />
+    <Content Include="Images\icon\ic-download.svg" />
+    <Content Include="Images\icon\ic-dropdown.svg" />
+    <Content Include="Images\icon\ic-ebook.svg" />
+    <Content Include="Images\icon\ic-education.png" />
+    <Content Include="Images\icon\ic-general.svg" />
+    <Content Include="Images\icon\ic-incorrect.png" />
+    <Content Include="Images\icon\ic-list-white.jpg" />
+    <Content Include="Images\icon\ic-member.png" />
+    <Content Include="Images\icon\ic-pdf.svg" />
+    <Content Include="Images\icon\ic-radio-select-none.png" />
+    <Content Include="Images\icon\ic-radio-select-none.svg" />
+    <Content Include="Images\icon\ic-radio-select.png" />
+    <Content Include="Images\icon\ic-radio-select.svg" />
+    <Content Include="Images\icon\ic-search.svg" />
+    <Content Include="Images\icon\ic-security.png" />
+    <Content Include="Images\icon\ic-shopping.svg" />
+    <Content Include="Images\icon\ic-youtube.png" />
+    <Content Include="Images\icon\icon-down-secondary.svg" />
+    <Content Include="Images\icon\icon-down-white.svg" />
+    <Content Include="Images\icon\icon-down.svg" />
+    <Content Include="Images\icon\icon-left-white.png" />
+    <Content Include="Images\icon\icon-left-white.svg" />
+    <Content Include="Images\icon\icon-left.png" />
+    <Content Include="Images\icon\icon-left.svg" />
+    <Content Include="Images\icon\icon-mainslide-left-grey.png" />
+    <Content Include="Images\icon\icon-mainslide-left.png" />
+    <Content Include="Images\icon\icon-mainslide-right-grey.png" />
+    <Content Include="Images\icon\icon-mainslide-right.png" />
+    <Content Include="Images\icon\icon-mainslide-up.png" />
+    <Content Include="Images\icon\icon-news-search-active.svg" />
+    <Content Include="Images\icon\icon-news-search.svg" />
+    <Content Include="Images\icon\icon-online-l.png" />
+    <Content Include="Images\icon\icon-play.jpg" />
+    <Content Include="Images\icon\icon-real-estate-search-active.svg" />
+    <Content Include="Images\icon\icon-real-estate-search.svg" />
+    <Content Include="Images\icon\icon-right-white.png" />
+    <Content Include="Images\icon\icon-right-white.svg" />
+    <Content Include="Images\icon\icon-right.png" />
+    <Content Include="Images\icon\icon-right.svg" />
+    <Content Include="Images\icon\icon-slide-left-active.png" />
+    <Content Include="Images\icon\icon-slide-left-trans.png" />
+    <Content Include="Images\icon\icon-slide-left.png" />
+    <Content Include="Images\icon\icon-slide-right-active.png" />
+    <Content Include="Images\icon\icon-slide-right-trans.png" />
+    <Content Include="Images\icon\icon-slide-right.png" />
+    <Content Include="Images\icon\icon-tel-l.png" />
+    <Content Include="Images\icon\icon-up-secondary.svg" />
+    <Content Include="Images\icon\icon-up-white.svg" />
+    <Content Include="Images\icon\icon-up.svg" />
+    <Content Include="Images\icon\member\icon-age.png" />
+    <Content Include="Images\icon\member\icon-corporate.png" />
+    <Content Include="Images\icon\member\icon-general.png" />
+    <Content Include="Images\icon\member\icon-HDB.png" />
+    <Content Include="Images\icon\member\icon-man.png" />
+    <Content Include="Images\icon\member\icon-security.png" />
+    <Content Include="Images\icon\member\icon-women.png" />
+    <Content Include="Images\icon\select-down.png" />
+    <Content Include="Images\icon\select-up.png" />
+    <Content Include="Images\icon\social\facebook.png" />
+    <Content Include="Images\icon\social\linead.png" />
+    <Content Include="Images\icon\social\rss.png" />
+    <Content Include="Images\icon\social\spritesheet-social.png" />
+    <Content Include="Images\icon\social\twitter.png" />
+    <Content Include="Images\icon\social\youtube.png" />
+    <Content Include="Images\icon\table\ic-ebook.png" />
+    <Content Include="Images\icon\table\ic-excel.png" />
+    <Content Include="Images\icon\table\ic-graph-hover.png" />
+    <Content Include="Images\icon\table\ic-graph.png" />
+    <Content Include="Images\icon\table\ic-pdf.png" />
+    <Content Include="Images\icon\table\ic-table-hover.png" />
+    <Content Include="Images\icon\table\ic-table.png" />
+    <Content Include="Images\icon\tabs-bar\icon-activity.svg" />
+    <Content Include="Images\icon\tabs-bar\icon-activity_active.svg" />
+    <Content Include="Images\icon\tabs-bar\icon-law.svg" />
+    <Content Include="Images\icon\tabs-bar\icon-law_active.svg" />
+    <Content Include="Images\icon\tabs-bar\icon-news.svg" />
+    <Content Include="Images\icon\tabs-bar\icon-news_active.svg" />
+    <Content Include="Images\icon\tabs-bar\icon-vdo.svg" />
+    <Content Include="Images\icon\tabs-bar\icon-vdo_active.svg" />
+    <Content Include="Images\logo\logo-txt.png" />
+    <Content Include="Images\logo\logo.fw.png" />
+    <Content Include="Images\logo\logo.png" />
+    <Content Include="Images\regist\img-regist-1.png" />
+    <Content Include="Images\regist\img-regist-2.png" />
+    <Content Include="Images\regist\img-regist-3.png" />
+    <Content Include="Scripts\bootstrap-select.js" />
+    <Content Include="Scripts\bootstrap-select.min.js" />
+    <Content Include="Scripts\date.js" />
+    <Content Include="Scripts\highcharts.js" />
+    <Content Include="Scripts\jquery-1.11.0.min.js" />
+    <Content Include="Scripts\jquery.CongelarFilaColumna.js" />
+    <Content Include="Scripts\jquery.touchSwipe.min.js" />
+    <Content Include="Scripts\plugins\jquery.flexslider-min.js" />
+    <Content Include="Scripts\tabs.js" />
+    <Content Include="Scripts\easypiechart.js" />
+    <Content Include="Scripts\ie8\css3-mediaqueries.js" />
+    <Content Include="Scripts\ie8\css3-mediaqueries.min.js" />
+    <Content Include="Scripts\ie8\hoverTransition.js" />
+    <Content Include="Scripts\ie8\hoverTransition.min.js" />
+    <Content Include="Scripts\ie8\html5shiv.min.js" />
+    <Content Include="Scripts\ie8\ie8_fix_maxwidth.js" />
+    <Content Include="Scripts\ie8\ie8_fix_maxwidth.min.js" />
+    <Content Include="Scripts\ie8\PIE_IE678.js" />
+    <Content Include="Scripts\ie8\PIE_IE678.min.js" />
+    <Content Include="Scripts\ie8\placeholder.min.js" />
+    <Content Include="Scripts\ie8\respond.min.js" />
+    <Content Include="Scripts\jquery.dotdotdot.js" />
+    <Content Include="Scripts\jquery.easypiechart.min.js" />
+    <Content Include="Scripts\jquery.floatThead.min.js" />
+    <Content Include="Scripts\jquery.matchHeight.js" />
+    <Content Include="Scripts\jqueryui_datepicker_thai.js" />
+    <Content Include="Scripts\main\bootstrap.min.js" />
+    <Content Include="Scripts\main\css3-mediaqueries.min.js" />
+    <Content Include="Scripts\main\fastclick.js" />
+    <Content Include="Scripts\main\html5shiv.min.js" />
+    <Content Include="Scripts\main\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\main\jquery-1.7.2.min.js" />
+    <Content Include="Scripts\main\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\main\jquery-ui-1.11.4.custom.js" />
+    <Content Include="Scripts\main\jquery-ui.min.js" />
+    <Content Include="Scripts\main\jquery.ba-throttle-debounce.min.js" />
+    <Content Include="Scripts\main\jquery.min.js" />
+    <Content Include="Scripts\main\modernizr.custom.js" />
+    <Content Include="Scripts\main\popper.min.js" />
+    <Content Include="Scripts\main\respond.js" />
+    <Content Include="Scripts\main\selectivizr.min.js" />
+    <Content Include="Scripts\plugins\custom-file-input.js" />
+    <Content Include="Scripts\plugins\easypiechart.js" />
+    <Content Include="Scripts\plugins\excanvas.compiled.js" />
+    <Content Include="Scripts\plugins\fullcalendar.min.js" />
+    <Content Include="Scripts\plugins\functions.js" />
+    <Content Include="Scripts\plugins\imagesloaded.pkgd.min.js" />
+    <Content Include="Scripts\plugins\jPages.min.js" />
+    <Content Include="Scripts\plugins\jPlayer\jplayer.playlist.js" />
+    <Content Include="Scripts\plugins\jPlayer\jplayer.playlist.min.js" />
+    <Content Include="Scripts\plugins\jPlayer\jquery.jplayer.js" />
+    <Content Include="Scripts\plugins\jPlayer\jquery.jplayer.min.js" />
+    <Content Include="Scripts\plugins\jquery.aCollapTable.min.js" />
+    <Content Include="Scripts\plugins\jquery.carouFredSel-6.2.1-packed.js" />
+    <Content Include="Scripts\plugins\jquery.easy-autocomplete.min.js" />
+    <Content Include="Scripts\plugins\jquery.easypiechart.js" />
+    <Content Include="Scripts\plugins\jquery.fancybox.pack.js" />
+    <Content Include="Scripts\plugins\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Scripts\plugins\jquery.mCustomScrollbar.js" />
+    <Content Include="Scripts\plugins\jquery.mousewheel.pack.js" />
+    <Content Include="Scripts\plugins\jquery.navgoco.js" />
+    <Content Include="Scripts\plugins\jquery.noty.packaged.js" />
+    <Content Include="Scripts\plugins\jquery.noty.packaged.min.js" />
+    <Content Include="Scripts\plugins\jquery.placeholder.min.js" />
+    <Content Include="Scripts\plugins\jquery.selectric.min.js" />
+    <Content Include="Scripts\plugins\jquery.sticky.js" />
+    <Content Include="Scripts\plugins\locale-all.js" />
+    <Content Include="Scripts\plugins\masonry.pkgd.min.js" />
+    <Content Include="Scripts\plugins\owl.carousel.min.js" />
+    <Content Include="Scripts\plugins\sweetalert2.min.js" />
+    <Content Include="Views\About\director.aspx" />
+    <Content Include="Views\About\history.aspx" />
+    <Content Include="Views\About\manage.aspx" />
+    <Content Include="Views\About\report.aspx" />
+    <Content Include="Views\Contact\address.aspx" />
+    <Content Include="Views\Contact\chatbot.aspx" />
+    <Content Include="Views\Contact\contactform.aspx" />
+    <Content Include="Views\Contact\form\step1.aspx" />
+    <Content Include="Views\Contact\form\step2.aspx" />
+    <Content Include="Views\Contact\form\step3.aspx" />
+    <Content Include="Views\Contact\join.aspx" />
+    <Content Include="Views\Contact\news.aspx" />
+    <Content Include="Views\Contact\poll.aspx" />
+    <Content Include="Views\Contact\social.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Home\Intro.aspx" />
+    <Content Include="Views\Home\landing.aspx" />
+    <Content Include="Views\Home\link.aspx" />
+    <Content Include="Views\Home\Webmail.aspx" />
+    <Content Include="Views\Include\banner\inc-banner-news.aspx" />
+    <Content Include="Views\Include\canvas-menu.aspx" />
+    <Content Include="Views\Include\content\detail-download-pdf.aspx" />
+    <Content Include="Views\Include\content\detail.aspx" />
+    <Content Include="Views\Include\content\detail-laws.aspx" />
+    <Content Include="Views\Include\footer.aspx" />
+    <Content Include="Views\Include\inc-header-menu.aspx" />
+    <Content Include="Views\Include\header-login.aspx" />
+    <Content Include="Views\Include\header.aspx" />
+    <Content Include="Views\Include\other\inc-jpage-desktop.aspx" />
+    <Content Include="Views\Include\other\inc-jpage-mobile.aspx" />
+    <Content Include="Views\Include\other\inc-regist-box.aspx" />
+    <Content Include="Views\Include\other\inc-social-detail.aspx" />
+    <Content Include="Views\Include\other\inc-social.aspx" />
+    <Content Include="Views\Include\search\inc-search-login.aspx" />
+    <Content Include="Views\Include\search\inc-search-home.aspx" />
+    <Content Include="Views\Include\banner\inc-banner-highlight.aspx" />
+    <Content Include="Views\Include\other\inc-date.aspx" />
+    <Content Include="Views\Include\select\inc-select.aspx" />
+    <Content Include="Views\Include\select\inc-select-table.aspx" />
+    <Content Include="Views\Include\slide\inc-slider-main-login.aspx" />
+    <Content Include="Views\Include\slide\inc-slider-main.aspx" />
+    <Content Include="Views\Include\slide\inc-slider-home.aspx" />
+    <Content Include="Views\Include\tab\inc-tab-home-news.aspx" />
+    <Content Include="Views\Include\tab\inc-tab-home.aspx" />
+    <Content Include="Views\Include\scripts.aspx" />
+    <Content Include="Views\Include\start.aspx" />
+    <Content Include="Views\Knowledge\article\all.aspx" />
+    <Content Include="Views\Knowledge\article\Detail\suggestion-home.aspx" />
+    <Content Include="Views\Knowledge\article\suggestion-home.aspx" />
+    <Content Include="Views\Knowledge\weblink\all.aspx" />
+    <Content Include="Views\Knowledge\weblink\bank.aspx" />
+    <Content Include="Views\Knowledge\weblink\Detail\bank.aspx" />
+    <Content Include="Views\Knowledge\weblink\government\all.aspx" />
+    <Content Include="Views\Member\edit.aspx" />
+    <Content Include="Views\Member\howtoregist.aspx" />
+    <Content Include="Views\Member\login.aspx" />
+    <Content Include="Views\Member\order-detail.aspx" />
+    <Content Include="Views\Member\order.aspx" />
+    <Content Include="Views\Member\Register\Corporate1.aspx" />
+    <Content Include="Views\Member\Register\Corporate2.aspx" />
+    <Content Include="Views\Member\Register\Corporate3.aspx" />
+    <Content Include="Views\Member\Register\General1.aspx" />
+    <Content Include="Views\Member\Register\General2.aspx" />
+    <Content Include="Views\Member\Register\General3.aspx" />
+    <Content Include="Views\Member\status.aspx" />
+    <Content Include="Views\News\Event\calendar.aspx" />
+    <Content Include="Views\News\Event\Detail\calendar.aspx" />
+    <Content Include="Views\News\Event\Detail\document.aspx" />
+    <Content Include="Views\News\Event\Detail\event.aspx" />
+    <Content Include="Views\News\Event\Detail\multi.aspx" />
+    <Content Include="Views\News\Event\Detail\pressrelease.aspx" />
+    <Content Include="Views\News\Event\document.aspx" />
+    <Content Include="Views\News\Event\event.aspx" />
+    <Content Include="Views\News\Event\info.aspx" />
+    <Content Include="Views\News\Event\multi.aspx" />
+    <Content Include="Views\News\Event\pressrelease.aspx" />
+    <Content Include="Views\News\Laws\laws\all.aspx" />
+    <Content Include="Views\News\Laws\laws\plan.aspx" />
+    <Content Include="Views\News\Laws\realty\all.aspx" />
+    <Content Include="Views\News\Laws\realty\Detail\finance.aspx" />
+    <Content Include="Views\News\Laws\realty\finance.aspx" />
+    <Content Include="Views\News\underconstruction.aspx" />
+    <Content Include="Views\Product\allchart.aspx" />
+    <Content Include="Views\Product\chart.aspx" />
+    <Content Include="Views\Product\howtopay.aspx" />
+    <Content Include="Views\Product\magazine.aspx" />
+    <Content Include="Views\Product\payment.aspx" />
+    <Content Include="Views\Product\products\advertise.aspx" />
+    <Content Include="Views\Product\products\all.aspx" />
+    <Content Include="Views\Product\products\cart.aspx" />
+    <Content Include="Views\Product\products\detail.aspx" />
+    <Content Include="Views\Product\products\Detail\advertise.aspx" />
+    <Content Include="Views\Product\products\Detail\service.aspx" />
+    <Content Include="Views\Product\products\payment.aspx" />
+    <Content Include="Views\Product\products\print.aspx" />
+    <Content Include="Views\Product\products\product.aspx" />
+    <Content Include="Views\Product\products\seminar.aspx" />
+    <Content Include="Views\Product\products\seminar_detail.aspx" />
+    <Content Include="Views\Product\products\service.aspx" />
+    <Content Include="Views\Product\table.aspx" />
+    <Content Include="Views\Product\Table\transfer.aspx" />
+    <Content Include="Views\Question\form\step1.aspx" />
+    <Content Include="Views\Question\question.aspx" />
+    <Content Include="Views\Review\report-detail.aspx" />
+    <Content Include="Views\Review\report.aspx" />
+    <Content Include="Views\Review\research\all.aspx" />
+    <Content Include="Views\Review\research\build.aspx" />
+    <Content Include="Views\Review\research\Detail\build.aspx" />
+    <Content Include="Views\Rss\Rss.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Images\banner\member\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\default\sass\bootstrap\mixins\_alert.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_badge.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_buttons.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_caret.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_float.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_forms.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_gradients.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_grid.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_hover.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_image.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_list-group.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_lists.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_pagination.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_resize.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_size.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_table-row.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_transition.scss" />
+    <Content Include="Content\default\sass\bootstrap\mixins\_visibility.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_align.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_background.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_borders.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_display.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_embed.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_flex.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_float.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_position.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_shadows.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_sizing.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_spacing.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_text.scss" />
+    <Content Include="Content\default\sass\bootstrap\utilities\_visibility.scss" />
+    <Content Include="Content\default\sass\bootstrap\_alert.scss" />
+    <Content Include="Content\default\sass\bootstrap\_badge.scss" />
+    <Content Include="Content\default\sass\bootstrap\_breadcrumb.scss" />
+    <Content Include="Content\default\sass\bootstrap\_button-group.scss" />
+    <Content Include="Content\default\sass\bootstrap\_buttons.scss" />
+    <Content Include="Content\default\sass\bootstrap\_card.scss" />
+    <Content Include="Content\default\sass\bootstrap\_carousel.scss" />
+    <Content Include="Content\default\sass\bootstrap\_close.scss" />
+    <Content Include="Content\default\sass\bootstrap\_code.scss" />
+    <Content Include="Content\default\sass\bootstrap\_custom-forms.scss" />
+    <Content Include="Content\default\sass\bootstrap\_dropdown.scss" />
+    <Content Include="Content\default\sass\bootstrap\_forms.scss" />
+    <Content Include="Content\default\sass\bootstrap\_functions.scss" />
+    <Content Include="Content\default\sass\bootstrap\_grid.scss" />
+    <Content Include="Content\default\sass\bootstrap\_images.scss" />
+    <Content Include="Content\default\sass\bootstrap\_input-group.scss" />
+    <Content Include="Content\default\sass\bootstrap\_jumbotron.scss" />
+    <Content Include="Content\default\sass\bootstrap\_list-group.scss" />
+    <Content Include="Content\default\sass\bootstrap\_media.scss" />
+    <Content Include="Content\default\sass\bootstrap\_mixins.scss" />
+    <Content Include="Content\default\sass\bootstrap\_modal.scss" />
+    <Content Include="Content\default\sass\bootstrap\_nav.scss" />
+    <Content Include="Content\default\sass\bootstrap\_navbar.scss" />
+    <Content Include="Content\default\sass\bootstrap\_pagination.scss" />
+    <Content Include="Content\default\sass\bootstrap\_popover.scss" />
+    <Content Include="Content\default\sass\bootstrap\_print.scss" />
+    <Content Include="Content\default\sass\bootstrap\_progress.scss" />
+    <Content Include="Content\default\sass\bootstrap\_reboot.scss" />
+    <Content Include="Content\default\sass\bootstrap\_root.scss" />
+    <Content Include="Content\default\sass\bootstrap\_tables.scss" />
+    <Content Include="Content\default\sass\bootstrap\_tooltip.scss" />
+    <Content Include="Content\default\sass\bootstrap\_transitions.scss" />
+    <Content Include="Content\default\sass\bootstrap\_type.scss" />
+    <Content Include="Content\default\sass\bootstrap\_utilities.scss" />
+    <Content Include="Content\default\sass\bootstrap\_variables.scss" />
+    <Content Include="Content\default\sass\components\_mod-accordion-list.scss" />
+    <Content Include="Content\default\sass\components\_mod-banner-slide.scss" />
+    <Content Include="Content\default\sass\components\_mod-canvas-menu.scss" />
+    <Content Include="Content\default\sass\components\_mod-main-slide.scss" />
+    <Content Include="Content\default\sass\components\_mod-side-nav.scss" />
+    <Content Include="Content\default\sass\components\_mod-sticky-footer.scss" />
+    <Content Include="Content\default\sass\components\_mod-tab-content.scss" />
+    <Content Include="Content\default\sass\content\main.scss" />
+    <Content Include="Content\default\sass\helpers\_fontface.scss" />
+    <Content Include="Content\default\sass\helpers\_mixin_css3.scss" />
+    <Content Include="Content\default\sass\layout\_footer.scss" />
+    <Content Include="Content\default\sass\layout\_header.scss" />
+    <Content Include="Content\default\sass\layout\_layout-default.scss" />
+    <Content Include="Content\default\sass\print.scss" />
+    <Content Include="Content\default\sass\style.scss" />
+    <Content Include="Content\default\sass\_bootstrap.scss" />
+    <Content Include="Content\default\sass\_forms.scss" />
+    <Content Include="Content\default\sass\_global.scss" />
+    <Content Include="Content\default\sass\_reset.scss" />
+    <Content Include="Content\default\sass\_responsive_breakpoint.scss" />
+    <Content Include="Content\default\sass\_table.scss" />
+    <Content Include="Content\default\sass\_variables.scss" />
+    <Content Include="fonts\webfonts\fa-brands-400.eot" />
+    <Content Include="fonts\webfonts\fa-brands-400.ttf" />
+    <Content Include="fonts\webfonts\fa-brands-400.woff" />
+    <Content Include="fonts\webfonts\fa-brands-400.woff2" />
+    <Content Include="fonts\webfonts\fa-regular-400.eot" />
+    <Content Include="fonts\webfonts\fa-regular-400.ttf" />
+    <Content Include="fonts\webfonts\fa-regular-400.woff" />
+    <Content Include="fonts\webfonts\fa-regular-400.woff2" />
+    <Content Include="fonts\webfonts\fa-solid-900.eot" />
+    <Content Include="fonts\webfonts\fa-solid-900.ttf" />
+    <Content Include="fonts\webfonts\fa-solid-900.woff" />
+    <Content Include="fonts\webfonts\fa-solid-900.woff2" />
+    <Content Include="fonts\PSL094pro_0.eot" />
+    <Content Include="fonts\PSL094pro_0.ttf" />
+    <Content Include="fonts\PSL094pro_0.woff" />
+    <Content Include="fonts\PSL096pro_0.eot" />
+    <Content Include="fonts\PSL096pro_0.ttf" />
+    <Content Include="fonts\PSL096pro_0.woff" />
+    <Content Include="Content\default\sass\content\news.scss" />
+    <Content Include="Content\default\sass\content\home.scss" />
+    <Content Include="Content\default\sass\content\gallery.scss" />
+    <Content Include="Content\default\sass\content\regist.scss" />
+    <Content Include="Content\default\sass\content\dropdown.scss" />
+    <Content Include="Content\default\sass\content\table.scss" />
+    <Content Include="Content\default\sass\content\highcharts.scss" />
+    <Content Include="Content\default\sass\content\collaps.scss" />
+    <Content Include="Content\default\sass\content\contact.scss" />
+    <Content Include="Content\default\sass\content\payment.scss" />
+    <Content Include="Images\upload\pdf.pdf" />
+    <Content Include="Content\default\sass\content\about.scss" />
+    <Content Include="fonts\thsarabunnew-webfont.eot" />
+    <Content Include="fonts\thsarabunnew-webfont.ttf" />
+    <Content Include="fonts\thsarabunnew-webfont.woff" />
+    <Content Include="fonts\thsarabunnew_bold-webfont.eot" />
+    <Content Include="fonts\thsarabunnew_bold-webfont.ttf" />
+    <Content Include="fonts\thsarabunnew_bold-webfont.woff" />
+    <Content Include="fonts\thsarabunnew_bolditalic-webfont.eot" />
+    <Content Include="fonts\thsarabunnew_bolditalic-webfont.ttf" />
+    <Content Include="fonts\thsarabunnew_bolditalic-webfont.woff" />
+    <Content Include="fonts\thsarabunnew_italic-webfont.eot" />
+    <Content Include="fonts\thsarabunnew_italic-webfont.ttf" />
+    <Content Include="fonts\thsarabunnew_italic-webfont.woff" />
+    <Content Include="Content\default\sass\content\product.scss" />
+    <Content Include="obj\Release\gh_reic.csproj.CoreCompileInputs.cache" />
+    <Content Include="bin\ApplicationInsights.config" />
+    <Content Include="bin\gh_reic.dll.config" />
+    <Content Include="bin\roslyn\csc.exe.config" />
+    <Content Include="bin\roslyn\csc.rsp" />
+    <Content Include="bin\roslyn\csi.exe.config" />
+    <Content Include="bin\roslyn\csi.rsp" />
+    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="bin\roslyn\vbc.exe.config" />
+    <Content Include="bin\roslyn\vbc.rsp" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="Content\default\sass\helpers\_fontstyle.scss" />
+    <Content Include="Content\prepros-6.config" />
+    <Content Include="Content\default\sass\content\calendar.scss" />
+    <Content Include="Content\default\sass\content\report.scss" />
+    <Content Include="Content\Admin\Admin.rar" />
+    <Content Include="Content\Admin\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="Content\Admin\bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\Admin\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Content\Admin\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Content\Admin\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\Admin\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\Admin\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\Admin\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62350</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62350/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

@@ -1,0 +1,85 @@
+html,body 
+{
+	height:100%;
+	width:100%;
+	overflow:auto;
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+	/*font-weight:bold;*/
+	font-family:Helvetica;
+}
+.m-1
+{
+	border-bottom:1px solid #1f218b;
+	height:28px;
+	padding-top:9px;
+	padding-left:9px;
+	cursor:pointer;
+}
+.m-2
+{
+	border-bottom:1px solid #1f218b;
+	height:28px;
+	padding-top:9px;
+	padding-left:9px;
+	background-color:#1f218b;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+.m-sub-1
+{
+	border-bottom:1px solid #999999;
+	height:auto;
+	padding:9px 9px 9px 22px;
+	background-color:#EEEEEE;
+	cursor:pointer;
+	font-size:12px;
+	overflow:hidden;
+}
+.m-sub-1:hover
+{
+	border-bottom:1px solid #999999;
+	height:auto;
+	padding:9px 9px 9px 22px;
+	background-color:#1f218b;
+	color: white;
+	cursor:pointer;
+	font-size:12px;
+	overflow:hidden;
+}
+.m-sub-2
+{
+	border-bottom:1px solid #999999;
+	height:auto;
+	padding:9px 9px 9px 22px;
+	background-color:#1f218b !important;
+	color:#FFFFFF !important;
+	cursor:pointer;
+	font-size:12px;
+	overflow:hidden;
+}
+.m-s-1
+{ 
+	float:left;
+}
+.m-s-2
+{
+	float:right; 
+	margin-right:9px;
+	padding-top:4px
+}
+
+@font-face {
+  font-family: 'Kitithada';
+  src: url("../../../../fonts/PSL094pro_0.eot");
+  src: url("../../../../fonts/PSL094pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL094pro_0.woff") format("woff"), url("../../../../fonts/PSL094pro_0.ttf") format("truetype"), url("../../../../fonts/PSL094pro_0.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'KitithadaBold';
+  src: url("../../../../fonts/PSL096pro_0.eot");
+  src: url("../../../../fonts/PSL096pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL096pro_0.woff") format("woff"), url("../../../../fonts/PSL096pro_0.ttf") format("truetype"), url("../../../../fonts/PSL096pro_0.svg") format("svg");
+  font-weight: bold;
+  font-style: normal; }

@@ -1,0 +1,51 @@
+html, body {
+    font-size: $base-fontsize;
+    font-family: $default-font;
+    color: $color-text;
+    line-height: $page-lineheight;
+    //background-color: $body-bg;
+    background-color: #FAFBFB;
+}
+
+body .swal2-modal .swal2-content {
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* main structure */
+#main-wrapper {
+    position: relative;
+    max-width: $page-max-width;
+    min-width: $page-min-width;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+
+    // disable responsive layout in old browser
+    .lt-ie9 & {
+        min-width: $page-oldbrowser-width;
+    }
+}
+
+#header-wrapper {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 995;
+}
+
+#maincontainer-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#footer-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+@import "layout/header";
+@import "layout/layout-default";
+@import "layout/footer";

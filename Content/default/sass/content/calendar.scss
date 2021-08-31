@@ -1,0 +1,60 @@
+﻿@import "../variables";
+@import "../helpers/fontface";
+@import "../helpers/fontstyle";
+@import "../helpers/mixin_css3";
+
+
+#calendar-picker{
+    .ui-datepicker-next{
+        right: 0;
+        top: 0;
+        .ui-icon{
+            background-image: url('../../../../Images/icon/ic-right-primary.svg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+    }
+    .ui-datepicker-next-hover{
+        background: none;
+        border: none;
+        right: 0;
+        top: 0;
+        .ui-icon{
+            background-image: url('../../../../Images/icon/ic-right-secondary.svg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+    }
+    .ui-datepicker-prev{
+        left: 0;
+        top: 0;
+        .ui-icon{
+            background-image: url('../../../../Images/icon/ic-left-primary.svg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+    }
+    .ui-datepicker-prev-hover{
+        background: none;
+        border: none;
+        left: 0;
+        top: 0;
+        .ui-icon{
+            background-image: url('../../../../Images/icon/ic-left-secondary.svg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+    }
+}

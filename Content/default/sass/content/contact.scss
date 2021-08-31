@@ -1,0 +1,111 @@
+﻿@import "../variables";
+@import "../helpers/fontface";
+@import "../helpers/fontstyle";
+@import "../helpers/mixin_css3";
+
+
+#maincontainer-wrapper, .modal-custom {
+
+    .dot {
+        height: 12px;
+        width: 12px;
+        margin-right: 5px;
+        background-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .poll {
+        .process {
+            height: 10px;
+            background-color: $color-primary;
+        }
+    }
+
+    .btn-vote {
+        position: relative;
+        height: 100%;
+        cursor: pointer;
+
+        .primary {
+            position: absolute;
+            height: $text-small;
+            width: 100%;
+            color: $color-white;
+            background-color: $color-primary;
+            bottom: 0;
+            text-align: center;
+            padding: 5px 10px;
+
+            &:hover {
+                background-color: $color-hover;
+            }
+        }
+
+        .secondary {
+            position: absolute;
+            height: $text-small;
+            width: 100%;
+            color: $color-white;
+            background-color: $color-secondary;
+            bottom: 0;
+            text-align: center;
+            padding: 5px 10px;
+
+            &:hover {
+                background-color: $color-hover;
+            }
+        }
+
+        .fas-icon {
+            width: 25px;
+            height: $text-icon;
+            font-size: $text-content;
+            line-height: 10px;
+            color: $color-white;
+        }
+
+        .fa-vote {
+            position: absolute;
+            left: 15px;
+            top: 0;
+            height: $text-small;
+            text-indent: -9999px;
+            background-image: url(../../../../Images/icon/ic-vote.svg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 18px;
+        }
+
+        @media screen and (max-width: $screen-sm) {
+            .secondary {
+                position: relative;
+                margin-top: 10px;
+            }
+        }
+    }
+
+
+
+    .bg-first {
+        background-color: #5d768c !important;
+    }
+
+    .bg-second {
+        background-color: #8cb1dd !important;
+    }
+
+    .bg-third {
+        background-color: #eeb894 !important;
+    }
+
+    .member-data {
+        color: $color-text;
+        padding-left: 25px;
+        margin-bottom: 10px;
+        background-image: url(../../../../Images/icon/regist/ic-member.svg);
+        background-position: left 2px;
+        background-repeat: no-repeat;
+        background-size: 20px;
+    }    
+}

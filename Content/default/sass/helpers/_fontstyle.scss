@@ -1,0 +1,82 @@
+@import "../variables";
+
+.font-kiti {
+    font-family: $default-font;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+/* will be red only in google chrome */
+
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .font-kiti {
+        letter-spacing: 1px;
+    }
+}*/
+
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance:none) {
+        .font-kiti {
+            letter-spacing: -0.5px;
+        }
+    }
+}
+
+.x-large-kiti {
+    font-size: $text-x-large;
+    line-height: $text-x-large;
+
+    @media screen and (max-width: $screen-sm) {
+        font-size: $text-x-large-mb;
+        line-height: $text-x-large-mb;
+    }
+}
+
+.small-kiti {
+    font-size: $text-small;
+    line-height: $text-small;
+
+    @media screen and (max-width: $screen-sm) {
+        font-size: $text-small-mb;
+        line-height: $text-small-mb;
+    }
+}
+
+.content-kiti {
+    font-size: $text-content;
+    line-height: $text-content;
+
+    @media screen and (max-width: $screen-sm) {
+        font-size: $text-content-mb;
+        line-height: $text-content-mb;
+    }
+}
+
+.sub-content-kiti {
+    font-size: $text-sub-content;
+    line-height: $text-sub-content;
+
+    @media screen and (max-width: $screen-sm) {
+        font-size: $text-sub-content-mb;
+        line-height: $text-sub-content-mb;
+    }
+}
+
+
+
+.font-thm {
+    font-family: $default-font-thm;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+.content-thm {
+    font-size: $text-content-thm;
+    line-height: $text-content-lh-thm;
+
+    @media screen and (max-width: $screen-sm) {
+        font-size: $text-content-thm-mb;
+        line-height: $text-content-lh-thm-mb;
+    }
+}
+

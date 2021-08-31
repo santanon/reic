@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140.436" height="158" viewBox="0 0 140.436 158">
+  <g id="Mail" transform="translate(-7 -5.999)">
+    <path id="Path_810" data-name="Path 810" d="M147.436,76.227,77.4,120.108,7,76.227V58.673L77.218,6l70.218,52.673Z" transform="translate(0)" fill="#2e3092" opacity="0.8" style="isolation: isolate"/>
+    <rect id="Rectangle_110" data-name="Rectangle 110" width="119.306" height="114.004" transform="translate(17.605 33.177)" fill="#fff"/>
+    <path id="Path_811" data-name="Path 811" d="M7,16,77.4,59.877,147.436,16V86.219H7Z" transform="translate(0 77.781)" fill="#00aff0"/>
+    <g id="Circle_Button" data-name="Circle Button" transform="translate(47.391 49.954)">
+      <rect id="Area" width="57" height="57" rx="28.5" transform="translate(-0.391 0.045)" fill="#2e3092"/>
+      <g id="Icon" transform="translate(13.068 16.632)">
+        <rect id="Area-2" data-name="Area" width="28" height="27" transform="translate(-0.459 0.414)" fill="none" opacity="0"/>
+        <g id="Icon-2" data-name="Icon" transform="translate(2.153 2.288)">
+          <line id="Line" x1="12.586" y2="12.586" transform="translate(10.297 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path" d="M24.549,1.667,16.54,24.549l-4.576-10.3L1.667,9.676Z" transform="translate(-1.667 -1.667)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

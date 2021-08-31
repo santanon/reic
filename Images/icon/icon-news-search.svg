@@ -1,0 +1,10 @@
+<svg id="News_Search_Default_" data-name="News Search Default " xmlns="http://www.w3.org/2000/svg" width="20.24" height="18.481" viewBox="0 0 20.24 18.481">
+  <g id="Group_28" data-name="Group 28" transform="translate(0 0.481)">
+    <rect id="Rectangle_26" data-name="Rectangle 26" width="11" height="14" fill="#65768c"/>
+    <rect id="Rectangle_27" data-name="Rectangle 27" width="11" height="14" transform="translate(4 4)" fill="#65768c" opacity="0.8" style="isolation: isolate"/>
+  </g>
+  <g id="SEARCH" transform="translate(11.759 0)">
+    <path id="Path_771" data-name="Path 771" d="M2.871,2.175l-.7.7L0,.7A2.78,2.78,0,0,0,.7,0l.75.755Z" transform="translate(5.61 5.61)" fill="#65768c"/>
+    <path id="Path_772" data-name="Path 772" d="M7.529,2.3a3.948,3.948,0,1,0-1.164,4.77,4.063,4.063,0,0,0,.7-.7,3.915,3.915,0,0,0,.829-2.521A4.051,4.051,0,0,0,7.529,2.3ZM5.61,6.311a2.847,2.847,0,0,1-1.588.528,2.894,2.894,0,1,1,2.55-4.1,2.926,2.926,0,0,1,.266,1.139A2.884,2.884,0,0,1,6.311,5.61,2.78,2.78,0,0,1,5.61,6.311Z" transform="translate(0 0)" fill="#65768c" opacity="0.8"/>
+  </g>
+</svg>

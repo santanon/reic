@@ -1,0 +1,35 @@
+﻿@import "../variables";
+@import "../helpers/fontface";
+@import "../helpers/fontstyle";
+@import "../helpers/mixin_css3";
+
+#maincontainer-wrapper {
+    .search-wrapper {
+        display: block;
+        padding-bottom: 50px;
+        background-color: $color-white;
+
+        .search-form {
+            display: block;
+
+            .form {
+                padding: 20px;
+                margin-bottom: 20px;
+                /*border: 1px solid $color-grey;*/
+                .slc-custom{
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .search-result {
+            display: block;
+
+            .result {
+                min-height: 300px;
+                padding: 20px;
+                border: 1px solid $color-grey;
+            }
+        }
+    }
+}

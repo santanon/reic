@@ -1,0 +1,284 @@
+﻿@import "../variables";
+@import "../helpers/fontface";
+@import "../helpers/mixin_css3";
+
+
+#maincontainer-wrapper {
+    .tb-desktop {
+        display: block;
+
+        @media screen and (max-width: $screen-sm) {
+            display: none;
+        }
+    }
+
+    .tb-mobile {
+        display: none;
+
+        @media screen and (max-width: $screen-sm) {
+            display: block;
+        }
+
+        .table {
+            thead {
+                tr {
+                    &:nth-child(1){
+                        th{
+                            position: sticky;
+                            top: 0;
+                        }
+                    }
+                    th {
+                        width: 33.3333%;
+
+                        .button {
+                            .btn-med {
+                                padding: 5px 8px;
+
+                                i {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .table {
+
+        @media screen and (max-width: $screen-sm) {
+
+            .pst-lefttocen {
+                text-align: center !important;
+            }
+        }
+
+        thead {
+            tr {
+                border: none;
+
+                th {
+                    font-family: $font-bold;
+                    font-size: $text-content;
+                    line-height: $text-content;
+                    color: $color-primary;
+                    background-color: $color-blue-light;
+                    border: none;
+                    border-right: 2px solid $color-white;
+                    border-bottom: 2px solid $color-blue;
+                    border-top: 0;
+                    padding: 15px;
+                    text-align: center;
+                }
+            }
+
+            .no-bg {
+                background-color: transparent !important;
+                border: none;
+            }
+
+            .half {
+                width: 50%;
+            }
+
+            @media screen and (max-width: $screen-sm) {
+
+                tr {
+
+                    th {
+                        font-size: $text-content-mobile;
+                        line-height: $text-content-mobile;
+                    }
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                border: none;
+
+                &.bg-title {
+                    background-color: #1F218B !important;
+
+                    th {
+                        color: #ccc !important;
+                    }
+                }
+
+                &.bg-title-light {
+                    background-color: #E1ECF4 !important;
+
+                    th {
+                        color: #1F218B !important;
+                    }
+                }
+
+                &.no-bg {
+                    background-color: inherit !important;
+
+                    th {
+                        font-size: 30px;
+                        color: #1F218B !important;
+                    }
+                }
+
+                &:nth-child(odd) {
+                    background-color: $color-white;
+                    border: none;
+                }
+
+                &:nth-child(even) {
+                    background-color: $body-bg;
+                    border: none;
+                }
+
+                td {
+                    font-weight: normal;
+                    font-size: $text-content;
+                    line-height: $text-content;
+                    color: $color-text;
+                    text-align: center;
+                    border: none;
+                    padding: 15px 20px;
+
+                    .padding-list {
+                        padding: 10px 20px;
+                    }
+
+                    .half {
+                        width: 50%;
+                    }
+
+                    img {
+                        height: 30px;
+                        vertical-align: middle;
+                        border-style: none;
+                        margin: -5px 0 0 0;
+
+                        @media screen and (max-width: $screen-md) {
+                            margin-bottom: 5px;
+                        }
+                    }
+
+                    a {
+                        color: $color-text;
+                        height: $text-content;
+
+                        &:hover {
+                            color: $color-primary;
+                        }
+
+                        @media screen and (max-width: $screen-md) {
+                            font-size: $base-fontsize;
+                        }
+                    }
+
+                    i {
+                        &.not {
+                            color: #EC0E17;
+                        }
+
+                        &.use {
+                            color: #00d400;
+                        }
+                    }
+                }
+            }
+
+            @media screen and (max-width: $screen-sm) {
+                tr {
+                    td {
+                        font-size: $text-content-mobile;
+                        line-height: $text-content-mobile;
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .desktop {
+        tr {
+            border: none;
+
+            &:nth-child(odd) {
+                background-color: $body-bg !important;
+                border: none;
+            }
+
+            &:nth-child(even) {
+                background-color: $color-white !important;
+                border: none;
+            }
+
+            td {
+                border: none;
+            }
+        }
+    }
+
+    .mobile {
+        tr {
+            border: none;
+
+            &:nth-child(odd) {
+                background-color: $body-bg !important;
+                border: none;
+            }
+
+            &:nth-child(even) {
+                background-color: $color-white !important;
+                border: none;
+            }
+
+            td {
+                font-weight: normal;
+                font-size: $text-content;
+                line-height: $text-content;
+                color: $color-text;
+                text-align: center;
+                border: none;
+
+                .half {
+                    width: 50%;
+                }
+
+                img {
+                    height: 30px;
+                    vertical-align: middle;
+                    border-style: none;
+                    margin: -5px 10px 0 0;
+                }
+
+                a {
+                    color: $color-text;
+                    height: $text-content;
+
+                    &:hover {
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: $screen-sm) {
+            .button {
+                .btn-med {
+                    font-size: $base-fontsize-mobile;
+                    line-height: $text-x-small;
+                    padding: 5px 15px;
+
+                    .fa-angle-right {
+                        margin-left: 5px;
+                    }
+
+                    .fas {
+                        line-height: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
