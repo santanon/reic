@@ -1,14 +1,13 @@
 ﻿<div class="login-section">
     <div class="container">
         <div class="row pst-center">
-            <div class="col-xl-6 col-lg-12">
+            <div class="col-lg-6">
                 <div class="tab-content modal-txt" id="searchTabContent">
                     <div class="tab-pane tab-pane-primary fade show active" id="estate" role="tabpanel" aria-labelledby="estate-tab">
 
                         <h4 class="color-white bold padding-input">เข้าระบบสมาชิกผู้ใช้ข้อมูลเว็บไซต์</h4>
 
                         <form class="form-contact margin-top-half">
-
 
                             <div class="row pst-center">
                                 <div class="col-md-9 col-12 pst-center nopadding-right">
