@@ -149,7 +149,6 @@
         /*br {
             display: none;
         }*/
-
         .height-input {
             height: auto !important;
         }
@@ -175,19 +174,20 @@
         .title {
             @extend .font-kiti;
             @extend .content-kiti;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
         .title-desc {
             @extend .font-thm;
             @extend .content-thm;
             font-weight: bold;
-            margin: 0;
+            margin-bottom: 15px;
         }
 
         .content-desc {
             @extend .font-thm;
             @extend .content-thm;
+            margin-bottom: 35px;
 
             span {
                 @extend .font-thm;
@@ -199,6 +199,22 @@
                 @extend .font-thm;
                 @extend .content-thm;
                 color: $color-primary;
+            }
+        }
+
+        .content-readmore {
+            display: block;
+            text-align: right;
+
+            a {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 20px;
+                color: $color-hover;
+
+                &:hover {
+                    color: $color-secondary;
+                }
             }
         }
 
@@ -350,7 +366,6 @@
         /*br {
             display: block !important;
         }*/
-
         ul {
             @extend .font-thm;
             @extend .content-thm;
@@ -703,21 +718,33 @@
 
 
         .bord-icons {
-            height: $height-input;
+            /*height: $height-input;
             line-height: 30px;
             display: inline-block;
             vertical-align: middle;
             border-right: 1px solid $color-text;
             padding: 0 15px;
-            margin-bottom: 15px;
+            margin-bottom: 15px;*/
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
 
             .label-custom {
-                display: inline-block;
-                vertical-align: middle;
+                /*display: inline-block;
+                vertical-align: middle;*/
+                margin-right: 10px;
                 @extend .font-kiti;
                 @extend .content-kiti;
                 line-height: $height-input;
                 color: $color-text;
+            }
+
+            .label-text {
+                display: block;
+                padding: 5px 15px;
+                color: white;
+                background-color: #858585;
+                border-radius: 17px;
             }
 
             .custom-icons {

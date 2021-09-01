@@ -1,3 +1,7 @@
 .vs/
 bin/
 obj/
+*.config
+.vs/gh_reic/v16/.suo
+*.txt
+*.cache
