@@ -372,6 +372,7 @@
   display: block !important;
 }
 .captcha-contact-form-white p {
+  font-family: "KitithadaBold" !important;
   color: #fff;
 }
 .captcha-contact-form-white img {
