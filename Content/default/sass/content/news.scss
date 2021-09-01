@@ -13,7 +13,18 @@
         cursor: pointer;
 
         a {
-            color: $color-text;
+            display: block;
+
+            &:hover {
+                .type-title {
+                    color: $color-white;
+                    background-color: $color-blue;
+
+                    .fa-angle-right {
+                        background-image: url(../../../../Images/icon/icon-right-white.svg);
+                    }
+                }
+            }
         }
 
         ul {
@@ -40,41 +51,52 @@
 
         .title {
             font-weight: bold;
-            @extend .font-kiti;
-            @extend .content-kiti;
-            border-top: 4px solid $color-blue !important;
+            font-family: $font-bold;
+            font-size: $text-sub-content;
+            line-height: $text-sub-content;
             color: $color-primary;
-            padding: 15px 15px 10px 15px;
+            border-top: 4px solid $color-blue !important;
+            padding: 25px 15px 12.5px;
             margin: 0;
-            height: auto;
+            /*height: auto;
             max-height: 70px;
             overflow: hidden;
-            text-overflow: ellipsis;
-
-            @media screen and (max-width: $screen-sm) {
-                max-height: 62px;
-            }
+            text-overflow: ellipsis;*/
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
         }
 
         .sub-title {
-            padding: 0px 15px 15px 15px;
+            padding: 12.5px 15px 25px 15px;
+            transition: all 0.3s ease-in-out;
 
             .desc {
                 color: $color-text;
-                max-height: 203px;
-                overflow: hidden;
-                text-overflow: ellipsis;
+                /*max-height: 203px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;*/
+                transition: all 0.3s ease-in-out;
 
                 .desc-title {
                     font-weight: bold;
                     @extend .font-kiti;
                     @extend .content-kiti;
                     color: $color-text;
-                    margin-bottom: 10px;
+                    /*margin-bottom: 10px;
                     height: auto;
                     max-height: 50px;
                     overflow: hidden;
-                    text-overflow: ellipsis;
+                    text-overflow: ellipsis;*/
+                    margin-bottom: 15px;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                    transition: all 0.3s ease-in-out;
                 }
 
                 .desc-price {
@@ -87,13 +109,21 @@
                     max-height: 50px;
                     overflow: hidden;
                     text-overflow: ellipsis;
+                    transition: all 0.3s ease-in-out;
                 }
 
                 .desc {
                     @extend .font-thm;
                     @extend .content-thm;
+                    font-size: $text-sub-title-thm;
+                    line-height: $text-content-lh-thm;
                     color: $color-hover;
-                    margin-bottom: 5px;
+                    /*margin-bottom: 5px;*/
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 7;
+                    overflow: hidden;
+                    transition: all 0.3s ease-in-out;
                 }
                 /*.desc-type {
                     font-size: $text-content;
@@ -101,14 +131,24 @@
                     margin-bottom: 5px;
                     cursor: default;
                 }*/
-                &:hover {
+                /*&:hover {
                     color: $color-primary;
-                }
+                }*/
             }
 
             @media screen and (max-width: $screen-md) {
-                .desc {
+                /*.desc {
                     max-height: 159px;
+                }*/
+            }
+        }
+
+        &:hover {
+            .sub-title {
+                .desc {
+                    .desc {
+                        color: $color-primary;
+                    }
                 }
             }
         }
@@ -121,8 +161,15 @@
             color: $color-primary;
             background-color: $body-bg;
             border-top: 4px solid $color-blue !important;
-            padding: 20px 15px;
+            /*padding: 20px 15px;*/
+            padding: 20px 5px;
             margin: 0;
+            transition: all 0.3s ease-in-out;
+
+            div:first-child {
+                font-size: $text-x-content;
+                line-height: $text-x-content;
+            }
 
             i {
                 float: right;
@@ -150,16 +197,6 @@
                 background-size: auto;
             }
 
-            &:hover {
-                color: $color-white;
-                background-color: $color-blue;
-
-                .fa-angle-right {
-                    background-image: url(../../../../Images/icon/icon-right-white.svg);
-                }
-            }
-
-
             @media screen and (max-width: $screen-md) {
                 min-height: auto;
                 padding: 15px;
@@ -167,37 +204,60 @@
         }
 
         .type-box {
-            padding: 0 15px;
+            padding: 0;
             background-color: $body-bg;
+
+            a {
+                display: block;
+                padding: 25px 15px;
+                border-top: 1px solid #DDD;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    border-color: $color-primary;
+
+                    .type-date {
+                        color: $color-primary;
+                    }
+
+                    .type-content {
+                        color: $color-primary;
+                    }
+                }
+            }
 
             .type-date {
                 font-family: $font-bold;
-                font-size: $text-content;
-                line-height: $text-content;
+                font-size: $text-sub-content;
+                line-height: $text-sub-content;
                 color: $color-primary;
-                padding: 15px 10px 0px 10px;
-                border-top: 1px solid $color-grey;
+                /*padding: 15px 10px 0px 10px;*/
+                margin-bottom: 15px;
+                /*border-top: 1px solid $color-grey;*/
             }
 
             .type-content {
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                overflow: hidden;
                 font-family: $font-bold;
-                font-size: $text-content;
-                line-height: $text-content;
+                font-size: $text-sub-content;
+                line-height: $text-sub-content;
                 color: $color-text;
-                padding: 0px 10px 15px 10px;
-                cursor: pointer;
-
-                a {
+                /*padding: 0px 10px 15px 10px;*/
+                /*cursor: pointer;*/
+                /*a {
                     color: $color-text;
+
 
                     &:hover {
                         color: $color-primary;
                     }
-                }
-
-                &:hover {
+                }*/
+                /*&:hover {
                     color: $color-primary;
-                }
+                }*/
             }
         }
 
@@ -633,16 +693,35 @@
     //END img
     //news
     .download {
-        margin: 15px 0 30px 0;
+        margin: 25px 0;
 
         .file-download {
             background-color: $body-bg;
-            padding: 10px;
+            padding: 20px;
 
 
             @media screen and (max-width: $screen-xs) {
                 .txt-download {
                     margin-bottom: 15px;
+                }
+            }
+        }
+
+        .download-box {
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+            .custom-icons{
+                display: block;
+
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    li{
+                        margin: 5px 0;
+                    }
                 }
             }
         }
