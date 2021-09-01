@@ -85,8 +85,8 @@
                         </div>
 
                         <%-- Address --%>
-                        <div class="title bold margin-row">
-                            <img src="../../../../Images/icon/ic-address.png">
+                        <div class="title bold margin-row d-flex align-items-center">
+                            <img class="mr-2" src="../../../../Images/icon/member/icon-address.svg">
                             ที่อยู่
                        
                         </div>
@@ -94,8 +94,8 @@
                             <div class="row">
                                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="ที่อยู่เลขที่" value="" autocomplete="off" type="text">
-                                        <div class="require">*</div>
+                                        <input name="" placeholder="ที่อยู่เลขที่ *" value="" autocomplete="off" type="text">
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
 
@@ -122,21 +122,21 @@
 
                                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <label for="country" class="sr-only">ประเทศ</label>
+                                        <label for="country" class="sr-only">ประเทศ *</label>
                                         <select class="slc" id="country">
                                             <option selected="">ประเทศ</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
                                         </select>
-                                        <div class="require">*</div>
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
 
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="เมือง/รัฐ" value="" autocomplete="off" type="text">
-                                        <div class="require">*</div>
+                                        <input name="" placeholder="เมือง/รัฐ *" value="" autocomplete="off" type="text">
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                             </div>
@@ -145,55 +145,55 @@
                             <div class="row">
                                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <label for="province" class="sr-only">จังหวัด</label>
+                                        <label for="province" class="sr-only">จังหวัด *</label>
                                         <select class="slc" id="province">
                                             <option selected="">จังหวัด</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
                                         </select>
-                                        <div class="require">*</div>
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
 
                                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <label for="district" class="sr-only">อำเภอ/เขต</label>
+                                        <label for="district" class="sr-only">อำเภอ/เขต *</label>
                                         <select class="slc" id="district">
                                             <option selected="">อำเภอ/เขต</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
                                         </select>
-                                        <div class="require">*</div>
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
 
                                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <label for="district2" class="sr-only">ตำบล/แขวง</label>
+                                        <label for="district2" class="sr-only">ตำบล/แขวง *</label>
                                         <select class="slc" id="district2">
                                             <option selected="">ตำบล/แขวง</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
                                         </select>
-                                        <div class="require">*</div>
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
 
                                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="รหัสไปรษณีย์" value="" autocomplete="off" type="text">
-                                        <div class="require">*</div>
+                                        <input name="" placeholder="รหัสไปรษณีย์ *" value="" autocomplete="off" type="text">
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <%-- Education --%>
-                        <div class="title bold margin-row">
-                            <img src="../../../../Images/icon/ic-education.png">
+                        <div class="title bold margin-row d-flex align-items-center">
+                            <img class="mr-2" src="../../../../Images/icon/member/icon-education.svg">
                             การศึกษา
                        
                         </div>
@@ -201,21 +201,21 @@
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <label for="country" class="sr-only">การศึกษา</label>
+                                        <label for="country" class="sr-only">การศึกษา *</label>
                                         <select class="slc" id="education">
                                             <option selected="">การศึกษา</option>
                                             <option value="1">ปริญญาตรี</option>
                                             <option value="2">ปริญญาโท</option>
                                         </select>
-                                        <div class="require">*</div>
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <%-- Career --%>
-                        <div class="title bold margin-row">
-                            <img src="../../../../Images/icon/ic-career.png">
+                        <div class="title bold margin-row d-flex align-items-center">
+                            <img class="mr-2" src="../../../../Images/icon/member/icon-job.svg">
                             อาชีพ
                        
                         </div>
@@ -225,17 +225,17 @@
                                     <div class="slc-custom">
                                         <label for="country" class="sr-only">หน่วยงาน/อาชีพ</label>
                                         <select class="slc" id="career">
-                                            <option selected="">หน่วยงาน/อาชีพ</option>
+                                            <option selected="">หน่วยงาน/อาชีพ *</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                         </select>
-                                        <div class="require">*</div>
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="อาชีพอื่นๆ" value="" autocomplete="off" type="text">
-                                        <div class="require">*</div>
+                                        <input name="" placeholder="อาชีพอื่นๆ *" value="" autocomplete="off" type="text">
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                             </div>
@@ -244,21 +244,21 @@
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="ชื่อหน่วยงาน/บริษัท" value="" autocomplete="off" type="text">
-                                        <div class="require">*</div>
+                                        <input name="" placeholder="ชื่อหน่วยงาน/บริษัท *" value="" autocomplete="off" type="text">
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="เบอร์โทรศัพท์มือถือ" value="" autocomplete="off" type="text" maxlength="10">
-                                        <div class="require">*</div>
+                                        <input name="" placeholder="เบอร์โทรศัพท์มือถือ *" value="" autocomplete="off" type="text" maxlength="10">
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                             </div>
                         </div>
 
 
-                        <div class="row pst-center margin-top">
+                        <div class="row pst-right margin-top">
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
                                 <div class="button">
                                     <a href="/Member/Register_General1" class="btn-med btn-icon-right btn-grey btn-width" style="display: block; text-align: center;">กลับไป</a>
@@ -266,7 +266,7 @@
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
                                 <div class="button">
-                                    <a href="/Member/Register_General3" class="btn-med btn-icon-right btn-login btn-width" style="display: block; text-align: center;">ถัดไป</a>
+                                    <a href="/Member/Register_General3" class="btn-med btn-icon-right btn-login btn-width" style="display: block; text-align: center;">ถัดไป <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>

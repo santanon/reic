@@ -93,3 +93,12 @@ D:\Project\ghreic\obj\Debug\gh_reic.csproj.CoreCompileInputs.cache
 D:\Project\ghreic\obj\Debug\gh_reic.csproj.CopyComplete
 D:\Project\ghreic\obj\Debug\gh_reic.dll
 D:\Project\ghreic\obj\Debug\gh_reic.pdb
+D:\Project\reic\bin\ApplicationInsights.config
+D:\Project\reic\bin\gh_reic.dll.config
+D:\Project\reic\bin\gh_reic.dll
+D:\Project\reic\bin\gh_reic.pdb
+D:\Project\reic\obj\Debug\gh_reic.csproj.AssemblyReference.cache
+D:\Project\reic\obj\Debug\gh_reic.csproj.CoreCompileInputs.cache
+D:\Project\reic\obj\Debug\gh_reic.csproj.CopyComplete
+D:\Project\reic\obj\Debug\gh_reic.dll
+D:\Project\reic\obj\Debug\gh_reic.pdb

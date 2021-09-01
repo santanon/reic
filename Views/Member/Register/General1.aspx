@@ -77,31 +77,45 @@
                                     </div>
                                     <div class="line-step">
                                         <span></span>
-                                        <span style="right: 0; left: auto;"></span>
                                     </div>
                                 </li>
                                 <div class="clearfix"></div>
                             </ul>
                         </div>
 
-                        <div class="row padding-top pst-center form-register">
-                            <div class="col-md-auto pst-right">
-                                <div class="txt bold">ประเภทสมาชิก</div>
-                            </div>
-                            <div class="col-md-auto pst-left">
-                                <div class="slc-custom ">
-                                    <input id="status1" name="status" type="radio" value="">
-                                    <label for="status1"></label>
-                                    <span class="txt">สมาชิกทั่วไป</span>
+                        <div class="row padding-top form-register">
+                            <div class="col-lg-3">
+                                <div class="txt">
+                                    <img src="/Images/icon/regist/icon-type-member.svg" alt="icon man" /> ประเภทสมาชิก
                                 </div>
                             </div>
-                            <div class="col-md-auto pst-left">
-                                <div class="slc-custom ">
-                                    <input id="status2" name="status" type="radio" value="">
-                                    <label for="status2"></label>
-                                    <span class="txt">สมาชิกพิเศษพร้อมข้อมูลรายพื้นที่</span> (ค่าสนับสนุน 10,000 บาทต่อปี)
+                            <div class="col-lg-9">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="slc-custom slc-custom-radio">
+                                            <input id="status1" name="status" type="radio" value="">
+                                            <label for="status1"></label>
+                                            <span class="txt">สมาชิกทั่วไป</span>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="slc-custom slc-custom-radio">
+                                            <input id="status2" name="status" type="radio" value="">
+                                            <label for="status2"></label>
+                                            <span class="txt">สมาชิกพิเศษพร้อมข้อมูลรายพื้นที่ (ค่าสนับสนุน 10,000 บาทต่อปี)</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="slc-custom slc-custom-radio">
+                                            <input id="status3" name="status" type="radio" value="">
+                                            <label for="status3"></label>
+                                            <span class="txt">สมาชิกแบบPersonalize Member Package</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            
                         </div>
 
                         <div class="type-register">
@@ -136,10 +150,10 @@
                                 <%--Sex--%>
                                 <div class="col-md-6">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="icon-form-wrapper click-action">
-                                                <div class="icon-images man center">
-                                                    <img src="/Images/icon/member/icon-man.png" alt="icon man" />
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="icon-form-wrapper d-flex flex-lg-column align-items-center align-items-lg-start click-action">
+                                                <div class="icon-images man center mr-3 mr-lg-0">
+                                                    <img src="/Images/icon/member/icon-man.svg" alt="icon man" />
                                                 </div>
                                                 <div class="custom-radio">
                                                     <input id="general_male" name="status" type="radio" value="">
@@ -148,10 +162,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="icon-form-wrapper click-action">
-                                                <div class="icon-images woman center">
-                                                    <img src="/Images/icon/member/icon-women.png" alt="icon woman" />
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="icon-form-wrapper d-flex flex-lg-column align-items-center align-items-lg-start click-action">
+                                                <div class="icon-images woman center mr-3 mr-lg-0">
+                                                    <img src="/Images/icon/member/icon-women.svg" alt="icon woman" />
                                                 </div>
                                                 <div class="custom-radio">
                                                     <input id="general_female" name="status" type="radio" value="">
@@ -171,8 +185,8 @@
                                                     <img src="/Images/icon/member/icon-HDB.png" alt="icon HDB" />
                                                 </div>
                                                 <div class="slc-custom no-border">
-                                                    <input name="" placeholder="วัน/เดือน/ปีเกิด" value="" autocomplete="off" type="text">
-                                                    <div class="require">*</div>
+                                                    <input name="" placeholder="วัน/เดือน/ปีเกิด *" value="" autocomplete="off" type="text">
+                                                    <!--<div class="require">*</div>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -182,8 +196,8 @@
                                                     <img src="/Images/icon/member/icon-age.png" alt="icon age" />
                                                 </div>
                                                 <div class="slc-custom no-border">
-                                                    <input name="" placeholder="อายุ" value="" autocomplete="off" type="text">
-                                                    <div class="require">*</div>
+                                                    <input name="" placeholder="อายุ *" value="" autocomplete="off" type="text">
+                                                    <!--<div class="require">*</div>-->
                                                 </div>
                                             </div>
                                         </div>
@@ -192,15 +206,15 @@
                                 <%--Name--%>
                                 <div class="col-md-6 margin-top-half">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="ชื่อ" value="" autocomplete="off" type="text">
-                                        <div class="require">*</div>
+                                        <input name="" placeholder="ชื่อ *" value="" autocomplete="off" type="text">
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                                 <%--Lastname--%>
                                 <div class="col-md-6 margin-top-half">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="นามสกุล" value="" autocomplete="off" type="text">
-                                        <div class="require">*</div>
+                                        <input name="" placeholder="นามสกุล *" value="" autocomplete="off" type="text">
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                             </div>

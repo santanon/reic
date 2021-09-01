@@ -420,6 +420,13 @@
     <Compile Include="Views\Member\Register\General3.aspx.designer.cs">
       <DependentUpon>General3.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Member\registnews.aspx.cs">
+      <DependentUpon>registnews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Member\registnews.aspx.designer.cs">
+      <DependentUpon>registnews.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Member\status.aspx.cs">
       <DependentUpon>status.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1080,6 +1087,9 @@
     <Content Include="Images\icon\member\icon-man.png" />
     <Content Include="Images\icon\member\icon-security.png" />
     <Content Include="Images\icon\member\icon-women.png" />
+    <Content Include="Images\icon\regist\icon-corporate.svg" />
+    <Content Include="Images\icon\regist\icon-general.svg" />
+    <Content Include="Images\icon\regist\icon-type-member.svg" />
     <Content Include="Images\icon\select-down.png" />
     <Content Include="Images\icon\select-up.png" />
     <Content Include="Images\icon\social\facebook.png" />
@@ -1243,6 +1253,7 @@
     <Content Include="Views\Member\Register\General1.aspx" />
     <Content Include="Views\Member\Register\General2.aspx" />
     <Content Include="Views\Member\Register\General3.aspx" />
+    <Content Include="Views\Member\registnews.aspx" />
     <Content Include="Views\Member\status.aspx" />
     <Content Include="Views\News\Event\calendar.aspx" />
     <Content Include="Views\News\Event\Detail\calendar.aspx" />

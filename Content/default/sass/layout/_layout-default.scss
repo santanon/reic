@@ -1109,6 +1109,14 @@
     @media screen and (max-width: $screen-lg) {
         top: 0;
     }
+
+    @media screen and (max-width: $screen-md) {
+        .tab-content {
+            .tab-pane-primary {
+                @include opacity-bg($color-primary, 1);
+            }
+        }
+    }
 }
 
 .landing-section {
@@ -2414,7 +2422,11 @@
 
                 .form-check-label {
                     color: $color-white;
-                }               
+                }
+                .link-otp{
+                    color: $color-white;
+                    display: flex;
+                }
             }
 
             .modal-footer {
@@ -3862,6 +3874,7 @@ if it's not present, don't show loader */
         outline: none;
         width: 100%;
         background-color: $body-bg;
+        font-family: $default-font;
         font-size: $text-content;
         line-height: $text-content;
         height: $height-input !important;
@@ -3869,6 +3882,21 @@ if it's not present, don't show loader */
         padding: 0 20px;
         border: none;
         border-radius: 0;
+
+        &::-webkit-input-placeholder { /* Edge */
+            color: #555555;
+            opacity: 0.4;
+        }
+
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #555555;
+            opacity: 0.4;
+        }
+
+        &::placeholder {
+            color: #555555;
+            opacity: 0.4;
+        }
     }
 
     textarea {
@@ -3881,6 +3909,21 @@ if it's not present, don't show loader */
         padding: 20px;
         border: none;
         border-radius: 0;
+
+        &::-webkit-input-placeholder { /* Edge */
+            color: #555555;
+            opacity: 0.4;
+        }
+
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #555555;
+            opacity: 0.4;
+        }
+
+        &::placeholder {
+            color: #555555;
+            opacity: 0.4;
+        }
     }
 
     .dateinput {

@@ -86,7 +86,7 @@
 
                         <div class="head-icon-form">
                             <div class="head-icon">
-                                <img src="/Images/icon/member/icon-security.png" />
+                                <img src="/Images/icon/member/icon-security.svg" />
                             </div>
                             <div class="title color-secondary margin-row pst-center">ข้อมูลความปลอดภัย</div>
                         </div>
@@ -97,8 +97,7 @@
                                     <div class="row">
                                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm- col-xs- col-  margin-bottom-half">
                                             <div class="slc-custom">
-                                                <textarea name="" title="Message" placeholder="ระบุการใช้ประโยชน์ข้อมูลเพื่อ" style="height: 209px;"></textarea>
-                                                <div class="require">*</div>
+                                                <textarea name="" title="Message" placeholder="ระบุการใช้ประโยชน์ข้อมูลเพื่อ *" style="height: 209px;"></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -108,28 +107,22 @@
                                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm- col-xs- col-  margin-bottom-half">
                                             <div class="">
                                                 <div class="slc-custom">
-                                                    <input name="" placeholder="อีเมล" value="" autocomplete="off" type="text">
-                                                    <div class="require">*</div>
+                                                    <input name="" placeholder="อีเมล *" value="" autocomplete="off" type="text">
                                                 </div>
-                                                <div class="require">*</div>
                                             </div>
                                         </div>
                                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm- col-xs- col-  margin-bottom-half">
                                             <div class="">
                                                 <div class="slc-custom">
-                                                    <input name="" placeholder="รหัสผ่าน" value="" autocomplete="off" type="text">
-                                                    <div class="require">*</div>
+                                                    <input name="" placeholder="รหัสผ่าน *" value="" autocomplete="off" type="text">
                                                 </div>
-                                                <div class="require">*</div>
                                             </div>
                                         </div>
                                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm- col-xs- col-  margin-bottom-half">
                                             <div class="">
                                                 <div class="slc-custom">
-                                                    <input name="" placeholder="ยืนยันรหัสผ่าน" value="" autocomplete="off" type="text">
-                                                    <div class="require">*</div>
+                                                    <input name="" placeholder="ยืนยันรหัสผ่าน *" value="" autocomplete="off" type="text">
                                                 </div>
-                                                <div class="require">*</div>
                                             </div>
                                         </div>
                                     </div>
@@ -145,12 +138,12 @@
                         <div class="row pst-center margin-top">
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
                                 <div class="button">
-                                    <a href="/Member/Register_General2" class="btn-med btn-icon-right btn-grey btn-width" style="display: block; text-align: center;">กลับไป</a>
+                                    <a href="/Member/Register_General2" class="btn-med btn-icon-right btn-grey btn-width" style="display: block; text-align: center;">กลับ</a>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
                                 <div class="button">
-                                    <a href="#" class="btn-med btn-icon-right btn-login btn-width" style="display: block; text-align: center;">ส่งข้อมูล<i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                    <a href="#" class="btn-med btn-icon-right btn-login btn-width" style="display: block; text-align: center;">ยืนยัน<i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
