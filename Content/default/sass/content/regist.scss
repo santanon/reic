@@ -7,8 +7,8 @@
 #maincontainer-wrapper {
     #regist-head {
         .button {
-            font-size: $text-small;
-            line-height: $text-small;
+            font-size: 22px;
+            line-height: 28px;
 
             .fa {
                 position: absolute;
@@ -277,6 +277,10 @@
     width: 100%;
     margin: auto;
 
+    .txt {
+        font-family: $font-bold;
+    }
+
     .list-step-register {
         margin-top: 30px;
 
@@ -291,12 +295,13 @@
 
                 .name-step-wrapper {
                     .name-step {
-                        font-family: $default-font;
-                        font-size: $text-x-small;
-                        line-height: $text-x-small;
+                        font-family: $font-bold;
+                        font-size: 22px;
+                        line-height: 22px;
                         color: #cccccc;
                         float: left;
-                        padding-left: 20px;
+                        padding-left: 0px;
+                        padding-top: 4px;
                     }
 
                     .percent-step {
@@ -308,6 +313,8 @@
                         border: 1px solid #6F90C8;
                         float: right;
                         visibility: hidden;
+                        position: relative;
+                        right: 5px;
 
                         .num {
                             font-family: $default-font;
@@ -372,6 +379,25 @@
         text-align: center;
         margin: 40px 0 0;
     }
+
+    .slc-custom {
+        position: relative;
+        //padding-left: 40px;
+        &.slc-custom-radio{
+            padding-left: 40px;
+        }
+
+        label {
+            position: absolute;
+            left: 0;
+        }
+
+        span {
+            line-height: 28px !important;
+            position: relative;
+            top: 5px;
+        }
+    }
 }
 
 .type-register {
@@ -381,7 +407,7 @@
         margin-right: 15px;
 
         .icon-type {
-            background-image: url('../../../../Images/icon/member/icon-general.png');
+            background-image: url('../../../../Images/icon/regist/icon-general.svg');
         }
     }
 
@@ -389,12 +415,13 @@
         margin-left: 15px;
 
         .icon-type {
-            background-image: url('../../../../Images/icon/member/icon-corporate.png');
+            background-image: url('../../../../Images/icon/regist/icon-corporate.svg');
         }
     }
 
     .box {
-        padding: 10px 15px;
+        //padding: 10px 15px;
+        padding: 0 15px;
         display: inline-block;
         width: 100%;
         cursor: pointer;
@@ -407,7 +434,7 @@
             width: 80px;
             height: 80px;
             background-repeat: no-repeat;
-            background-position: bottom center;
+            background-position: center;
         }
 
         .name-type {
@@ -438,11 +465,6 @@
     .box.active {
         background-color: #F8F8F8;
         border-bottom: 2px solid $color-primary;
-
-        .icon-type {
-            background-position: top center;
-        }
-
         .name-type {
             .icon-check {
                 background-image: url('../../../../Images/icon/ic-radio-select.svg');
@@ -484,15 +506,17 @@
         .icon-images {
             opacity: 0.5;
             margin-bottom: 10px;
-            width: 64px;
-            height: 73px;
+            /*width: 64px;
+            height: 73px;*/
+            width: 39px;
+            height: 55px;
         }
 
-        .icon-images.center {
+        /*.icon-images.center {
             margin: 0 auto 10px;
-        }
+        }*/
 
-        .custom-radio {
+       /* .custom-radio {
             label {
                 float: none;
                 margin: auto;
@@ -504,7 +528,7 @@
                 max-width: unset;
                 margin-top: 10px;
             }
-        }
+        }*/
 
         .selector.no-border {
             input {
@@ -524,7 +548,7 @@
             opacity: 1;
         }
 
-        .custom-radio {
+        /*.custom-radio {
             label {
                 float: none;
                 margin: auto;
@@ -537,13 +561,13 @@
                 margin-top: 10px;
                 color: $color-primary;
             }
-        }
+        }*/
     }
 }
 
 .login-section {
 
-    @media screen and (max-width: $screen-lg) {
+    @media screen and (max-width: 999px) {
         position: relative;
         bottom: unset !important;
         padding: 15px 0;
