@@ -118,8 +118,8 @@
                             <div class="row">
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="ชื่อหน่วยงาน/บริษัท " value="" autocomplete="off" type="text">
-                                        <div class="require">*</div>
+                                        <input name="" placeholder="ชื่อหน่วยงาน/บริษัท *" value="" autocomplete="off" type="text">
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                             </div>
@@ -134,13 +134,13 @@
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                         </select>
-                                        <div class="require">*</div>
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm- col-xs- col-  margin-bottom-half">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="ธุรกิจอื่นๆ" value="" autocomplete="off" type="text">
-                                        <div class="require">*</div>
+                                        <input name="" placeholder="ธุรกิจอื่นๆ *" value="" autocomplete="off" type="text">
+                                        <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                             </div>

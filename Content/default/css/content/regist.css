@@ -180,8 +180,8 @@
 
 /* note : for IE8,7 need css3pie helper*/
 #maincontainer-wrapper #regist-head .button {
-  font-size: 31px;
-  line-height: 31px;
+  font-size: 22px;
+  line-height: 28px;
 }
 #maincontainer-wrapper #regist-head .button .fa {
   position: absolute;
@@ -396,6 +396,9 @@
   width: 100%;
   margin: auto;
 }
+.register-wrapper .txt {
+  font-family: "KitithadaBold";
+}
 .register-wrapper .list-step-register {
   margin-top: 30px;
 }
@@ -409,12 +412,13 @@
   float: left;
 }
 .register-wrapper .list-step-register ul li .name-step-wrapper .name-step {
-  font-family: "Kitithada";
-  font-size: 34px;
-  line-height: 34px;
+  font-family: "KitithadaBold";
+  font-size: 22px;
+  line-height: 22px;
   color: #cccccc;
   float: left;
-  padding-left: 20px;
+  padding-left: 0px;
+  padding-top: 4px;
 }
 .register-wrapper .list-step-register ul li .name-step-wrapper .percent-step {
   text-align: center;
@@ -424,6 +428,8 @@
   border: 1px solid #6F90C8;
   float: right;
   visibility: hidden;
+  position: relative;
+  right: 5px;
 }
 .register-wrapper .list-step-register ul li .name-step-wrapper .percent-step .num {
   font-family: "Kitithada";
@@ -470,6 +476,21 @@
   text-align: center;
   margin: 40px 0 0;
 }
+.register-wrapper .slc-custom {
+  position: relative;
+}
+.register-wrapper .slc-custom.slc-custom-radio {
+  padding-left: 40px;
+}
+.register-wrapper .slc-custom label {
+  position: absolute;
+  left: 0;
+}
+.register-wrapper .slc-custom span {
+  line-height: 28px !important;
+  position: relative;
+  top: 5px;
+}
 
 .type-register {
   margin: 40px 0;
@@ -478,16 +499,16 @@
   margin-right: 15px;
 }
 .type-register .general .icon-type {
-  background-image: url("../../../../Images/icon/member/icon-general.png");
+  background-image: url("../../../../Images/icon/regist/icon-general.svg");
 }
 .type-register .corporate {
   margin-left: 15px;
 }
 .type-register .corporate .icon-type {
-  background-image: url("../../../../Images/icon/member/icon-corporate.png");
+  background-image: url("../../../../Images/icon/regist/icon-corporate.svg");
 }
 .type-register .box {
-  padding: 10px 15px;
+  padding: 0 15px;
   display: inline-block;
   width: 100%;
   cursor: pointer;
@@ -500,7 +521,7 @@
   width: 80px;
   height: 80px;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center;
 }
 .type-register .box .name-type {
   display: inline-block;
@@ -526,9 +547,6 @@
 .type-register .box.active {
   background-color: #F8F8F8;
   border-bottom: 2px solid #2E3092;
-}
-.type-register .box.active .icon-type {
-  background-position: top center;
 }
 .type-register .box.active .name-type .icon-check {
   background-image: url("../../../../Images/icon/ic-radio-select.svg");
@@ -558,25 +576,30 @@
 .form-register .icon-form-wrapper {
   text-align: center;
   margin: 0 0 15px 0;
+  /*.icon-images.center {
+      margin: 0 auto 10px;
+  }*/
+  /* .custom-radio {
+       label {
+           float: none;
+           margin: auto;
+       }
+
+       span {
+           text-align: center;
+           float: none;
+           max-width: unset;
+           margin-top: 10px;
+       }
+   }*/
 }
 .form-register .icon-form-wrapper .icon-images {
   opacity: 0.5;
   margin-bottom: 10px;
-  width: 64px;
-  height: 73px;
-}
-.form-register .icon-form-wrapper .icon-images.center {
-  margin: 0 auto 10px;
-}
-.form-register .icon-form-wrapper .custom-radio label {
-  float: none;
-  margin: auto;
-}
-.form-register .icon-form-wrapper .custom-radio span {
-  text-align: center;
-  float: none;
-  max-width: unset;
-  margin-top: 10px;
+  /*width: 64px;
+  height: 73px;*/
+  width: 39px;
+  height: 55px;
 }
 .form-register .icon-form-wrapper .selector.no-border input {
   height: 25px;
@@ -586,22 +609,27 @@
 .form-register .icon-form-wrapper .selector.no-border .require {
   top: 5px;
 }
+.form-register .icon-form-wrapper.active {
+  /*.custom-radio {
+      label {
+          float: none;
+          margin: auto;
+      }
+
+      span {
+          text-align: center;
+          float: none;
+          max-width: unset;
+          margin-top: 10px;
+          color: $color-primary;
+      }
+  }*/
+}
 .form-register .icon-form-wrapper.active .icon-images {
   opacity: 1;
 }
-.form-register .icon-form-wrapper.active .custom-radio label {
-  float: none;
-  margin: auto;
-}
-.form-register .icon-form-wrapper.active .custom-radio span {
-  text-align: center;
-  float: none;
-  max-width: unset;
-  margin-top: 10px;
-  color: #2E3092;
-}
 
-@media screen and (max-width: 1199.98px) {
+@media screen and (max-width: 999px) {
   .login-section {
     position: relative;
     bottom: unset !important;

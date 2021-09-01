@@ -11785,6 +11785,13 @@ body .swal2-modal .swal2-content {
     top: 0;
   }
 }
+@media screen and (max-width: 991.98px) {
+  .login-section .tab-content .tab-pane-primary {
+    background: #2e3092;
+    background: transparent\9 ;
+    background: #2e3092;
+  }
+}
 
 .landing-section {
   top: 95px;
@@ -12891,6 +12898,12 @@ body .swal2-modal .swal2-content {
 }
 .modal-custom .modal-dialog .modal-content .modal-body .form-check-label {
   color: #fff;
+}
+.modal-custom .modal-dialog .modal-content .modal-body .link-otp {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .modal-custom .modal-dialog .modal-content .modal-footer {
   position: relative;
@@ -14668,6 +14681,7 @@ input[type=submit] .btn-vote.btn-disable .fa-angle-right {
   outline: none;
   width: 100%;
   background-color: #F7F7F7;
+  font-family: "Kitithada";
   font-size: 25px;
   line-height: 25px;
   height: 41px !important;
@@ -14675,6 +14689,28 @@ input[type=submit] .btn-vote.btn-disable .fa-angle-right {
   padding: 0 20px;
   border: none;
   border-radius: 0;
+}
+.slc-custom input::-webkit-input-placeholder {
+  /* Edge */
+  color: #555555;
+  opacity: 0.4;
+}
+.slc-custom input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #555555;
+  opacity: 0.4;
+}
+.slc-custom input::-moz-placeholder {
+  color: #555555;
+  opacity: 0.4;
+}
+.slc-custom input::-ms-input-placeholder {
+  color: #555555;
+  opacity: 0.4;
+}
+.slc-custom input::placeholder {
+  color: #555555;
+  opacity: 0.4;
 }
 .slc-custom textarea {
   outline: none;
@@ -14686,6 +14722,28 @@ input[type=submit] .btn-vote.btn-disable .fa-angle-right {
   padding: 20px;
   border: none;
   border-radius: 0;
+}
+.slc-custom textarea::-webkit-input-placeholder {
+  /* Edge */
+  color: #555555;
+  opacity: 0.4;
+}
+.slc-custom textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #555555;
+  opacity: 0.4;
+}
+.slc-custom textarea::-moz-placeholder {
+  color: #555555;
+  opacity: 0.4;
+}
+.slc-custom textarea::-ms-input-placeholder {
+  color: #555555;
+  opacity: 0.4;
+}
+.slc-custom textarea::placeholder {
+  color: #555555;
+  opacity: 0.4;
 }
 .slc-custom .dateinput {
   padding-right: 35px;

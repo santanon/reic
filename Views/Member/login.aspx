@@ -41,9 +41,9 @@
 
         <div class="" id="maincontainer-wrapper">
 
-            <!--#include file="../Include/tab/inc-tab-home.aspx"-->
+            <%--<!--#include file="../Include/tab/inc-tab-home.aspx"-->
 
-            <!--#include file="../Include/banner/inc-banner-highlight.aspx"-->
+            <!--#include file="../Include/banner/inc-banner-highlight.aspx"-->--%>
         </div>
         <div class="clearfix"></div>
         <!-- #maincontainer-wrapper" -->
@@ -58,8 +58,8 @@
 
     <%--ForgotPassword--%>
     <div class="modal fade modal-custom xs" tabindex="-1" role="dialog" id="ForgotPassword">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content bg-white">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-primary">
                 <div class="modal-header pst-center">
                     <h4 class="bold padding-top-half"></h4>
                     <a class="close" data-dismiss="modal" aria-label="Close"></a>
@@ -76,7 +76,7 @@
 
                     <div class="row pst-center">
                         <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col- pst-center">
-                            <p class="bold padding-bottom-half">ระบบจะทำการส่งรหัสผ่านไปให้โดยผ่านทางอีเมลของคุณ</p>
+                            <p class="bold padding-bottom-half" style="color: #fff;">ระบบจะทำการส่งรหัสผ่านไปให้โดยผ่านทางอีเมลของคุณ</p>
                         </div>
                     </div>
 
@@ -97,6 +97,49 @@
         <!-- /.modal-dialog -->
     </div>
     <!-- /.modal -->
+
+
+
+    <%--OTP--%>
+    <div class="modal fade modal-custom xs" tabindex="-1" role="dialog" id="OTP">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-primary">
+                <div class="modal-header pst-center">
+                    <h4 class="bold padding-top-half"></h4>
+                    <a class="close" data-dismiss="modal" aria-label="Close"></a>
+                </div>
+                <div class="modal-body margin-row pst-center img">
+                    
+                    <div class="row pst-center padding-bottom">
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                            <p class="pst-center" style="color:#fff;">กรุณายืนยันรหัส OTP</p>
+                            <br>
+                            <div class="slc-custom">
+                                <input name="" placeholder="ระบุ OTP" value="" autocomplete="off" type="text">
+                            </div>
+                            <a href="#" class="link-otp">ส่งรหัส OTP อีกครั้ง</a>
+                        </div>
+                    </div>
+
+                    <div class="row pst-center padding-bottom-half">
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col- pst-left">
+                            <div class="">
+                                <div class="button">
+                                    <a class="btn-med btn-icon-right btn-login btn-width" style="display: block; text-align: center;" data-dismiss="modal" aria-label="Close">ยืนยัน<i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
 
     <!--#include file="../Include/scripts.aspx"-->
 
