@@ -88,7 +88,7 @@
                             <div class="head-icon">
                                 <img src="/Images/icon/member/icon-security.svg" />
                             </div>
-                            <div class="title color-secondary margin-row pst-center">ข้อมูลความปลอดภัย</div>
+                            <div class="title color-secondary margin-row pst-center">ข้อมูลความปลอดภัยs</div>
                         </div>
 
                         <div class="pst-center">
@@ -132,6 +132,22 @@
                         </div>
 
 
+                        <div class="row pst-center padding-row-half">
+                            <div class="col-md-9 col-12 pst-center">
+                                <div class="captcha-contact-form-white" >
+                                    <p style="color:#2E3092;">กรุณากรอกรหัสเพื่อยืนยันตัวตน</p>
+                                    <br>
+                                    <div class="row pst-center">
+                                        <div class="col-lg-5 col-md-6">
+                                            <div class="slc-custom">
+                                                <input name="captcha" id="captcha" placeholder="CAPTCHA" required autocomplete="off" type="text" class="KeyblockSpecialRegex_Capcha" maxlength="4" style="text-transform:uppercase;text-align:center;">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
 
 
 
