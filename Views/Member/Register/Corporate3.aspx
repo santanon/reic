@@ -77,7 +77,6 @@
                                     </div>
                                     <div class="line-step">
                                         <span></span>
-                                        <span style="right: 0; left: auto;"></span>
                                     </div>
                                 </li>
                                 <div class="clearfix"></div>

@@ -32,7 +32,7 @@
                             
                             <button class="dropdown-toggle" type="button" onclick="location.href='/Search'">
                                 <!--<i class="fas-search-custom fa-search-custom"></i>-->
-                                <img src="../../Images/icon/ic-search.svg" />
+                                <img src="../../Images/icon/ic-search-head.svg" />
                             </button>
 
                         </div>

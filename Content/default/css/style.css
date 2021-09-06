@@ -14505,7 +14505,7 @@ input[type=submit] .btn-vote.btn-disable .fa-angle-right {
 
 .slc-custom {
   background-color: transparent !important;
-  margin: 0 0 15px 0;
+  margin: 0 0 20px 0;
   /*----- scroll -----*/
   /*----- scroll -----*/
   /*----- input -----*/
@@ -15083,6 +15083,81 @@ input[type=submit] .btn-vote.btn-disable .fa-angle-right {
   border: 1px solid #777;
   color: #fff;
   background-color: #777;
+}
+
+.box-inp-file-upload {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.box-inp-file-upload input[type=file] {
+  display: none;
+}
+.box-inp-file-upload label {
+  font-family: "KitithadaBold";
+  position: relative;
+  font-size: 22px;
+  line-height: 22px;
+  width: 185px;
+  height: 40px;
+  margin-right: 15px;
+  margin-bottom: 0;
+  padding: 0 80px 0 20px;
+  color: #858585;
+  border: 1px solid #858585;
+  border-radius: 0;
+  outline: 0 none;
+  letter-spacing: 1px;
+  text-transform: none;
+  cursor: pointer;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.box-inp-file-upload label i {
+  font-size: 16px;
+}
+.box-inp-file-upload label:after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  background-image: url("../../../../Images/icon/payment/icon-upload-file.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.box-inp-file-upload .file-name {
+  font-family: "KitithadaBold";
+  float: left;
+  font-size: 22px;
+  line-height: 22px;
+  word-break: break-all;
+}
+@media screen and (max-width: 575px) {
+  .box-inp-file-upload {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+            align-items: inherit;
+  }
+  .box-inp-file-upload label {
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 }
 
 .survey-wrapper {

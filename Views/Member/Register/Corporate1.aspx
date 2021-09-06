@@ -63,7 +63,7 @@
                                 </li>
                                 <li>
                                     <div class="name-step-wrapper">
-                                        <div class="name-step">ข้อมูลที่อยู่</div>
+                                        <div class="name-step d-none d-sm-block">ข้อมูลที่อยู่</div>
                                         <div class="percent-step"><span class="num">60%</span><span class="success"><i class="fas fa-check"></i></span></div>
                                         <div class="clearfix"></div>
                                     </div>
@@ -71,13 +71,12 @@
                                 </li>
                                 <li>
                                     <div class="name-step-wrapper">
-                                        <div class="name-step">ข้อมูลความปลอดภัย</div>
+                                        <div class="name-step d-none d-sm-block">ข้อมูลความปลอดภัย</div>
                                         <div class="percent-step"><span class="num">100%</span><span class="success"><i class="fas fa-check"></i></span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="line-step">
                                         <span></span>
-                                        <span style="right: 0; left: auto;"></span>
                                     </div>
                                 </li>
                                 <div class="clearfix"></div>
