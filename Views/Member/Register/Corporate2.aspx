@@ -71,13 +71,12 @@
                                 </li>
                                 <li>
                                     <div class="name-step-wrapper">
-                                        <div class="name-step">ข้อมูลความปลอดภัย</div>
+                                        <div class="name-step d-none d-sm-block">ข้อมูลความปลอดภัย</div>
                                         <div class="percent-step"><span class="num">100%</span></div>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="line-step">
                                         <span></span>
-                                        <span style="right: 0; left: auto;"></span>
                                     </div>
                                 </li>
                                 <div class="clearfix"></div>
@@ -230,7 +229,7 @@
                         </div>
 
 
-                        <div class="row pst-center margin-top">
+                        <div class="row pst-right margin-top">
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
                                 <div class="button">
                                     <a href="/Member/Register_Corporate1" class="btn-med btn-icon-right btn-grey btn-width" style="display: block; text-align: center;">กลับไป</a>
@@ -238,7 +237,7 @@
                             </div>
                             <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
                                 <div class="button">
-                                    <a href="/Member/Register_Corporate3" class="btn-med btn-icon-right btn-login btn-width" style="display: block; text-align: center;">ถัดไป</a>
+                                    <a href="/Member/Register_General3" class="btn-med btn-icon-right btn-login btn-width" style="display: block; text-align: center;">ถัดไป <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>

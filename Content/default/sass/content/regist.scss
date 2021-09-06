@@ -384,7 +384,7 @@
     .slc-custom {
         position: relative;
         //padding-left: 40px;
-        &.slc-custom-radio{
+        &.slc-custom-radio {
             padding-left: 40px;
         }
 
@@ -397,6 +397,54 @@
             line-height: 28px !important;
             position: relative;
             top: 5px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .list-step-register {
+            ul {
+                li {
+                    .name-step-wrapper {
+                        position: relative;
+
+                        .name-step {
+                            position: absolute;
+                        }
+
+                        .percent-step {
+                            visibility: hidden !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        .list-step-register {
+            ul {
+                li {
+                    .name-step-wrapper {
+                        .percent-step {
+                            visibility: hidden !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        .list-step-register {
+            ul {
+                li {
+                    .name-step-wrapper {
+                        .name-step {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
