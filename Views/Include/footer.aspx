@@ -401,9 +401,9 @@
                                     </div>
                                     <div class="footer_sub">
                                         <div class="footer_sub--block">
-                                            <div class="row justify-content-end">
+                                            <div class="row">
                                                 <div class="col-12">
-                                                    <div class="bottom-menu pst-righttocen-md">
+                                                    <div class="bottom-menu pst-righttoleft-md">
                                                         <ul>
                                                             <li class="mathHeight">
                                                                 <a href="/" title="หน้าแรก">หน้าแรก</a>

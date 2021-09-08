@@ -477,7 +477,25 @@
             $('a[href="#news-list"]').on('shown.bs.tab', function () {
                 $(".owl-carousel-texteditor").trigger('destroy.owl.carousel');
                 $(".owl-carousel-texteditor").html($(".owl-carousel-texteditor").find('.owl-stage-outer').html()).removeClass('owl-loaded');
-                
+                $(".owl-carousel-texteditor").owlCarousel({
+                    nav: true,
+                    margin: 30,
+                    touchDrag: false,
+                    dots: true,
+                    responsiveClass: true,
+                    loop: false,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true,
+                            dots: false,
+                        },
+                        1200: {
+                            items: 1,
+                            dots: true,
+                        },
+                    }
+                });
             });
             $('a[href="#vdo-list"]').on('shown.bs.tab', function () {
                 $(".owl-carousel-vdo").trigger('destroy.owl.carousel');

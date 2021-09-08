@@ -22,12 +22,11 @@
 
         <div id="main-slider" class="main-slider">
             <!--#include file="../Include/slide/inc-slider-main.aspx"-->
-            <div class="btn-back-onbanner">
+            <%--<div class="btn-back-onbanner">
                 <div class="button">
                     <a class="btn-med btn-white" href="/News/Finance"><i class="fas fa-angle-left" aria-hidden="true"></i>กลับไป</a>
                 </div>
-
-            </div>
+            </div>--%>
         </div>
         <div class="clearfix"></div>
         <!-- .main-slider -->
@@ -56,11 +55,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="color-primary bold pst-center mb-3 mb-md-4">ข่าวการเงิน-การคลัง</h1>
+                            <h1 class="color-primary bold pst-center my-3 my-md-4">ข่าวการเงิน-การคลัง</h1>
                             <div class="clearfix"></div>
 
-                            <div class="row justify-content-between">
-                                <!--#include file="../Include/research/detail-top.aspx"-->
+                            <div class="head-content-border">
+                                <div class="row justify-content-between">
+                                    <!--#include file="../Include/research/detail-top.aspx"-->
+                                </div>
                             </div>
                             <div class="clearfix"></div>
 

@@ -21,6 +21,12 @@
 
         <div id="main-slider" class="main-slider">
             <!--#include file="../Include/slide/inc-slider-main.aspx"-->
+
+            <div class="btn-back-onbanner">
+                <div class="button">
+                    <a class="btn-med" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>ย้อนกลับ</a>
+                </div>
+            </div>
         </div>
         <div class="clearfix"></div>
         <!-- .main-slider -->
@@ -121,7 +127,7 @@
                                     <tr>
                                         <td>
                                             <div class="addon">
-                                                <input type="checkbox" id="addon1" />
+                                                <input type="checkbox" id="addon1"  disabled/>
                                                 <label for="addon1">
                                                     <span class="text">ยอดขายที่อยู่อาศัยใหม่ (กรุงเทพฯ - ปริมณฑล)</span> <span class="price">2,000</span>
                                                 </label>

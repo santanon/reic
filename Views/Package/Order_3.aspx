@@ -167,7 +167,7 @@
 
 
                     <div class="row pst-right my-3">
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- mb-3 mb-md-0">
                                 <div class="button">
                                     <a href="#" class="btn-med btn-icon-right btn-primary btn-width" style="display: block; text-align: center;">แจ้งค่าบริการ</a>
                                 </div>

@@ -181,7 +181,7 @@
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="icon-form-wrapper active">
-                                                <div class="icon-images">
+                                                <div class="icon-images mr-3 mr-lg-0 d-none d-sm-block">
                                                     <img src="/Images/icon/member/icon-HDB.png" alt="icon HDB" />
                                                 </div>
                                                 <div class="slc-custom no-border">
@@ -192,7 +192,7 @@
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <div class="icon-form-wrapper active">
-                                                <div class="icon-images">
+                                                <div class="icon-images mr-3 mr-lg-0 d-none d-sm-block">
                                                     <img src="/Images/icon/member/icon-age.png" alt="icon age" />
                                                 </div>
                                                 <div class="slc-custom no-border">
@@ -204,14 +204,14 @@
                                     </div>
                                 </div>
                                 <%--Name--%>
-                                <div class="col-md-6 margin-top-half">
+                                <div class="col-md-6 col-sm-6 margin-top-half">
                                     <div class="slc-custom">
                                         <input name="" placeholder="ชื่อ *" value="" autocomplete="off" type="text">
                                         <!--<div class="require">*</div>-->
                                     </div>
                                 </div>
                                 <%--Lastname--%>
-                                <div class="col-md-6 margin-top-half">
+                                <div class="col-md-6 col-sm-6 margin-top-half">
                                     <div class="slc-custom">
                                         <input name="" placeholder="นามสกุล *" value="" autocomplete="off" type="text">
                                         <!--<div class="require">*</div>-->

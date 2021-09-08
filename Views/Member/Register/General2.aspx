@@ -258,7 +258,7 @@
 
 
                         <div class="row pst-right margin-top">
-                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- mb-3 mb-md-0">
                                 <div class="button">
                                     <a href="/Member/Register_General1" class="btn-med btn-icon-right btn-grey btn-width" style="display: block; text-align: center;">กลับไป</a>
                                 </div>

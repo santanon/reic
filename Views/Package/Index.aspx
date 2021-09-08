@@ -367,6 +367,72 @@
     <!-- #main-wrapper -->
     <div class="exit-canvas"></div>
 
+
+    <%--expire--%>
+    <div class="modal fade modal-custom" tabindex="-1" role="dialog" id="expire">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content modal-md modal-expire bg-white">
+                <div class="modal-header pst-center">
+                    <h4>แจ้งเตือนแพ็คเกจหมดอายุ</h4>
+                    <a class="close" data-dismiss="modal" aria-label="Close"></a>
+                </div>
+                <div class="modal-body pst-center img">
+                    <div class="list-expire">
+                        <ul>
+                            <li class="item">
+                                <div class="name-package">
+                                    <div class="name">Package 1 (ระยะเวลา 1 ปี)</div>
+                                    <div class="button">
+                                        <a href="#" class="btn-med btn-icon-right btn-login" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="date-package">
+                                    <span class="d-start">วันที่สั่งซื้อ 09 เม.ย. 2564 / เวลา 10 : 23 น.</span> - <span class="e-start">สิ้นสุด 10 เม.ย. 2565 / เวลา 10 : 23 น.</span>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <div class="name-package">
+                                    <div class="name">Package 2 (ระยะเวลา 1 ปี)</div>
+                                    <div class="button">
+                                        <a href="#" class="btn-med btn-icon-right btn-login" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="date-package">
+                                    <span class="d-start">วันที่สั่งซื้อ 09 เม.ย. 2564 / เวลา 10 : 23 น.</span> - <span class="e-start">สิ้นสุด 10 เม.ย. 2565 / เวลา 10 : 23 น.</span>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <div class="name-package">
+                                    <div class="name">Package 3 (ระยะเวลา 1 ปี)</div>
+                                    <div class="button">
+                                        <a href="#" class="btn-med btn-icon-right btn-login" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="date-package">
+                                    <span class="d-start">วันที่สั่งซื้อ 09 เม.ย. 2564 / เวลา 10 : 23 น.</span> - <span class="e-start">สิ้นสุด 10 เม.ย. 2565 / เวลา 10 : 23 น.</span>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <div class="name-package">
+                                    <div class="name">Package 4 (ระยะเวลา 1 ปี)</div>
+                                    <div class="button">
+                                        <a href="#" class="btn-med btn-icon-right btn-login" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="date-package">
+                                    <span class="d-start">วันที่สั่งซื้อ 09 เม.ย. 2564 / เวลา 10 : 23 น.</span> - <span class="e-start">สิ้นสุด 10 เม.ย. 2565 / เวลา 10 : 23 น.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
     <!-- /.modal -->
 
     <!--#include file="../Include/scripts.aspx"-->
@@ -439,6 +505,8 @@
     <script type="text/javascript">
         $(function () {
             $('.content-box').matchHeight();
+
+            $('#expire').modal('show');
         });
     </script>
 

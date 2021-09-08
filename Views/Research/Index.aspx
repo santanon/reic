@@ -46,7 +46,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="color-primary bold pst-center mb-3 mb-md-4">REIC Research Report Member</h1>
+                            <h1 class="color-primary bold pst-center my-3 my-md-4">REIC Research Report Member</h1>
 
                             <div class="list-group" id="list-group-1">
 
