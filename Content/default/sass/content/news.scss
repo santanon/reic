@@ -917,19 +917,21 @@
                             }
                         }
 
-                        a{
-                            &:hover{
+                        a {
+                            &:hover {
                                 color: $color-primary;
                             }
                         }
 
-                        .waiting{
+                        .waiting {
                             color: #ED1C24;
                         }
-                        .pending{
+
+                        .pending {
                             color: #EDA51C;
                         }
-                        .success{
+
+                        .success {
                             color: #00AC4F;
                         }
                     }
@@ -975,6 +977,7 @@
                                     content: url(../../../../Images/icon/icon-check-white-active.svg);
                                 }
 
+
                                 input[type=checkbox] {
                                     display: none;
                                 }
@@ -993,6 +996,7 @@
                                         font-family: $font-bold;
                                         color: #858585;
                                         height: auto;
+                                        cursor: pointer;
 
                                         &.text {
                                             padding-left: 55px;
@@ -1004,13 +1008,20 @@
                                         }
                                     }
                                 }
+
+                                :disabled + label {
+                                    span {
+                                        color: #C6C6C6;
+                                        cursor: not-allowed;
+                                    }
+                                }
                             }
                         }
                     }
                 }
             }
 
-            &.table-layout-fix{
+            &.table-layout-fix {
                 table-layout: fixed;
             }
 
@@ -1123,23 +1134,28 @@
             }
         }
 
-        .order-result{
+        .order-result {
             background-color: #F4F5F5;
             padding: 15px;
-            h2{
-                margin-bottom: 10px; 
+
+            h2 {
+                margin-bottom: 10px;
             }
-            p{
+
+            p {
                 color: $color-text;
                 margin-bottom: 0;
             }
-            .order-bank{
+
+            .order-bank {
                 display: flex;
                 align-items: center;
-                .logo-bank{
+
+                .logo-bank {
                     margin-right: 20px;
                 }
-                .account-number{
+
+                .account-number {
                     font-family: $font-bold;
                     font-size: 38px;
                     color: $color-primary;
@@ -1147,12 +1163,13 @@
             }
         }
 
-        .remark{
-            p{
+        .remark {
+            p {
                 font-size: 25px;
                 line-height: 28px;
                 color: $color-text;
-                span{
+
+                span {
                     font-family: $font-bold;
                     font-size: 27px;
                     color: $color-secondary;

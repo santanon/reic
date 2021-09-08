@@ -11559,6 +11559,7 @@ body .swal2-modal .swal2-content {
   line-height: 28px !important;
   color: #2E3092;
   margin: 0;
+  word-break: break-all;
 }
 .banner-section .initial-wrapper p {
   font-family: "KitithadaBold" !important;
@@ -11566,6 +11567,7 @@ body .swal2-modal .swal2-content {
   line-height: 28px !important;
   color: #555;
   margin: 0;
+  word-break: break-all;
 }
 .banner-section .initial-wrapper a {
   padding: 15px;
@@ -11701,6 +11703,12 @@ body .swal2-modal .swal2-content {
   overflow: hidden;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
+}
+.card-section .card-wrapper .card-block:hover a .title {
+  color: #2E3092;
+}
+.card-section .card-wrapper .card-block:hover a .desc {
+  color: #2E3092;
 }
 .card-section .card-wrapper .link {
   display: block;
@@ -12231,6 +12239,12 @@ body .swal2-modal .swal2-content {
   overflow: hidden;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
+}
+.tab-news-section .new-slide-wrapper .card-block:hover a .title {
+  color: #2E3092;
+}
+.tab-news-section .new-slide-wrapper .card-block:hover a .desc {
+  color: #2E3092;
 }
 .tab-news-section .owl-carousel .owl-stage-outer .owl-stage .owl-item .banner-item a .overlay {
   bottom: 2px !important;
@@ -13004,6 +13018,75 @@ body .swal2-modal .swal2-content {
   background-position-y: center;
   background-position-x: calc(100% - 15px);
 }
+.modal-custom .modal-dialog .modal-content.modal-md {
+  max-width: 800px;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-header {
+  padding: 40px 0;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-header h4 {
+  font-family: "KitithadaBold";
+  font-size: 38px;
+  line-height: 34px;
+  color: #EC0E17;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire {
+  max-height: 390px;
+  overflow-y: auto;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul {
+  margin: 0;
+  padding: 0;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul li {
+  list-style: none;
+  margin-bottom: 0;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .name-package {
+  background-color: #F4F5F5;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .name-package .name {
+  font-family: "KitithadaBold";
+  font-size: 27px;
+  line-height: 28px;
+  color: #ED1C24;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .date-package {
+  background-color: #FAFBFB;
+  padding: 15px;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .date-package span {
+  font-family: "KitithadaBold";
+  font-size: 25px;
+  line-height: 28px;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .date-package .d-start {
+  color: #555555;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .date-package .e-start {
+  color: #ED1C24;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire::-webkit-scrollbar-track {
+  border: 1px solid #EEEEEE;
+  background-color: #fff;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire::-webkit-scrollbar {
+  width: 10px;
+  background-color: #fff;
+}
+.modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire::-webkit-scrollbar-thumb {
+  background-color: #2E3092;
+}
 @media screen and (max-width: 767px) {
   .modal-custom {
     /*&.lg {
@@ -13022,6 +13105,19 @@ body .swal2-modal .swal2-content {
   }
   .modal-custom .modal-dialog .modal-content {
     max-width: 95%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .name-package {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .name-package .name {
+    margin-bottom: 15px;
   }
 }
 
@@ -13299,6 +13395,15 @@ if it's not present, don't show loader */
 }
 @media screen and (max-width: 575.98px) {
   .pst-righttoleft {
+    text-align: left !important;
+  }
+}
+
+.pst-righttoleft-md {
+  text-align: right !important;
+}
+@media screen and (max-width: 991.98px) {
+  .pst-righttoleft-md {
     text-align: left !important;
   }
 }
@@ -14467,6 +14572,25 @@ input[type=submit] .btn-vote.btn-disable .fa-angle-right {
   position: absolute !important;
   margin-top: -60px;
   left: 25px;
+}
+.btn-back-onbanner .button .btn-med {
+  background-color: #858585;
+  color: #fff;
+}
+.btn-back-onbanner .button .btn-med .fa-angle-left {
+  background-image: url(../../../../Images/icon/icon-left-white.svg);
+}
+@media screen and (max-width: 767.98px) {
+  .btn-back-onbanner {
+    position: relative !important;
+    margin: 20px auto;
+    left: 0;
+    max-width: 540px;
+    padding-left: 10px;
+  }
+  .btn-back-onbanner .button {
+    width: 200px;
+  }
 }
 
 .btn-fix {
@@ -15640,6 +15764,11 @@ input[type=submit] .btn-vote.btn-disable .fa-angle-right {
   padding: 50px 0 0;
   border-top: 2px solid #E0E0EF;
 }
+@media screen and (max-width: 999px) {
+  .footer-wrapper {
+    padding-bottom: 30px;
+  }
+}
 
 .footer {
   min-height: 100px;
@@ -15777,7 +15906,6 @@ input[type=submit] .btn-vote.btn-disable .fa-angle-right {
 }
 .footer .footer_sub .footer_sub--block .bottom-menu {
   position: relative;
-  text-align: right;
 }
 .footer .footer_sub .footer_sub--block .bottom-menu ul {
   list-style: none;

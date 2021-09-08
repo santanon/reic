@@ -535,6 +535,13 @@
             }
         }
     }
+
+    @media screen and (max-width: 767px){
+        .corporate{
+            margin-left: 0;
+        }
+    }
+
 }
 
 .form-register {
@@ -560,12 +567,10 @@
             width: 39px;
             height: 55px;
         }
-
         /*.icon-images.center {
             margin: 0 auto 10px;
         }*/
-
-       /* .custom-radio {
+        /* .custom-radio {
             label {
                 float: none;
                 margin: auto;
@@ -596,7 +601,6 @@
         .icon-images {
             opacity: 1;
         }
-
         /*.custom-radio {
             label {
                 float: none;

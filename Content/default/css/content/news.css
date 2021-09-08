@@ -965,6 +965,7 @@
   font-family: "KitithadaBold";
   color: #858585;
   height: auto;
+  cursor: pointer;
 }
 #maincontainer-wrapper .table-package .table.table-addon tbody tr td .addon label span.text {
   padding-left: 55px;
@@ -972,6 +973,10 @@
 }
 #maincontainer-wrapper .table-package .table.table-addon tbody tr td .addon label span.price {
   padding-left: 10px;
+}
+#maincontainer-wrapper .table-package .table.table-addon tbody tr td .addon :disabled + label span {
+  color: #C6C6C6;
+  cursor: not-allowed;
 }
 #maincontainer-wrapper .table-package .table.table-layout-fix {
   table-layout: fixed;

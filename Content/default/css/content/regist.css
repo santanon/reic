@@ -587,6 +587,11 @@
   display: inline-block;
   vertical-align: middle;
 }
+@media screen and (max-width: 767px) {
+  .type-register .corporate {
+    margin-left: 0;
+  }
+}
 
 .form-register .txt {
   font-size: 25px;
@@ -602,18 +607,18 @@
       margin: 0 auto 10px;
   }*/
   /* .custom-radio {
-       label {
-           float: none;
-           margin: auto;
-       }
+      label {
+          float: none;
+          margin: auto;
+      }
 
-       span {
-           text-align: center;
-           float: none;
-           max-width: unset;
-           margin-top: 10px;
-       }
-   }*/
+      span {
+          text-align: center;
+          float: none;
+          max-width: unset;
+          margin-top: 10px;
+      }
+  }*/
 }
 .form-register .icon-form-wrapper .icon-images {
   opacity: 0.5;

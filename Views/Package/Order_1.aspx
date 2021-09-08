@@ -124,7 +124,7 @@
                                     <tr>
                                         <td>&nbsp;</td>
                                         <td colspan="4">
-                                            <div class="col-md-2">
+                                            <div class="col-lg-2 col-md-3 col-3">
                                                 <div class="button">
                                                     <a href="/Package/Detail" class="btn-med btn-icon-right">แก้ไข <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                                 </div>
@@ -146,7 +146,7 @@
 
 
                     <div class="row pst-right margin-top">
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- mb-3 mb-md-0">
                                 <div class="button">
                                     <a href="/Package/Detail" class="btn-med btn-icon-right btn-grey btn-width" style="display: block; text-align: center;">กลับ</a>
                                 </div>

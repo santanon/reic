@@ -1439,6 +1439,8 @@
     <Content Include="Views\Include\other\inc-regist-box.aspx" />
     <Content Include="Views\Include\other\inc-social-detail.aspx" />
     <Content Include="Views\Include\other\inc-social.aspx" />
+    <Content Include="Views\Include\research\detail-research.aspx" />
+    <Content Include="Views\Include\research\detail-top.aspx" />
     <Content Include="Views\Include\search\inc-search-login.aspx" />
     <Content Include="Views\Include\search\inc-search-home.aspx" />
     <Content Include="Views\Include\banner\inc-banner-highlight.aspx" />

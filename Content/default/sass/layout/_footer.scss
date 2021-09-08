@@ -319,6 +319,9 @@
     background-color: #fff;
     padding: 50px 0 0;
     border-top: 2px solid #E0E0EF;
+    @media screen and (max-width: 999px) {
+        padding-bottom: 30px;
+    }
 }
 
 .footer {
@@ -472,7 +475,7 @@
 
             .bottom-menu {
                 position: relative;
-                text-align: right;
+                //text-align: right;
 
                 ul {
                     list-style: none;
