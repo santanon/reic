@@ -25,7 +25,7 @@
 <link href="../../Content/css/sweetalert2.min.css" rel="stylesheet" />--%>
 
 <!-- initialize js -->
-<script src="../../Content/js/init-script.js"></script>
+<script src="../../Content/js/init-script-dist.js"></script>
 
 <!-- responsive control js script -->
 <%--<script src="../../Content/js/responsive-ctrl.js"></script>--%>
@@ -34,8 +34,8 @@
 
 <!--Other-->
 <script src="../../Scripts/highcharts.js"></script>
-<script src="../../Scripts/date.js"></script>
-<script src="../../Scripts/tabs.js"></script>
+<script src="../../Scripts/date-dist.js"></script>
+<script src="../../Scripts/tabs-dist.js"></script>
 <script src="../../Scripts/plugins/jPages.min.js"></script>
 <script src="../../Scripts/plugins/jquery.flexslider-min.js"></script>
 <script src="../../Scripts/bootstrap-select.min.js"></script>

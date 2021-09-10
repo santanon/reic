@@ -1339,6 +1339,8 @@
     <Content Include="Scripts\bootstrap-select.js" />
     <Content Include="Scripts\bootstrap-select.min.js" />
     <Content Include="Scripts\date.js" />
+    <Content Include="Scripts\functions\slide-home-dist.js" />
+    <Content Include="Scripts\functions\slide-home.js" />
     <Content Include="Scripts\highcharts.js" />
     <Content Include="Scripts\jquery-1.11.0.min.js" />
     <Content Include="Scripts\jquery.CongelarFilaColumna.js" />
@@ -1346,17 +1348,6 @@
     <Content Include="Scripts\plugins\jquery.flexslider-min.js" />
     <Content Include="Scripts\tabs.js" />
     <Content Include="Scripts\easypiechart.js" />
-    <Content Include="Scripts\ie8\css3-mediaqueries.js" />
-    <Content Include="Scripts\ie8\css3-mediaqueries.min.js" />
-    <Content Include="Scripts\ie8\hoverTransition.js" />
-    <Content Include="Scripts\ie8\hoverTransition.min.js" />
-    <Content Include="Scripts\ie8\html5shiv.min.js" />
-    <Content Include="Scripts\ie8\ie8_fix_maxwidth.js" />
-    <Content Include="Scripts\ie8\ie8_fix_maxwidth.min.js" />
-    <Content Include="Scripts\ie8\PIE_IE678.js" />
-    <Content Include="Scripts\ie8\PIE_IE678.min.js" />
-    <Content Include="Scripts\ie8\placeholder.min.js" />
-    <Content Include="Scripts\ie8\respond.min.js" />
     <Content Include="Scripts\jquery.dotdotdot.js" />
     <Content Include="Scripts\jquery.easypiechart.min.js" />
     <Content Include="Scripts\jquery.floatThead.min.js" />

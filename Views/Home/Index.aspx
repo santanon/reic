@@ -215,7 +215,7 @@
 
     <!--#include file="../Include/scripts.aspx"-->
 
-    <script src="../../Scripts/functions/slide-home.js"></script>
+    <script src="../../Scripts/functions/slide-home-dist.js"></script>
 
     <!-- addition script for current page -->
     <script type="text/javascript">

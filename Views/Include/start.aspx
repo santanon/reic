@@ -28,8 +28,6 @@
     <script src="../../Scripts/main/jquery-ui.min.js"></script>
     <script src="../../Scripts/main/bootstrap.min.js"></script>
 
-    <script src="../../Scripts/main/fastclick.js"></script>
-    <script src="../../Scripts/main/jquery.ba-throttle-debounce.min.js"></script>
     <script src="../../Scripts/lazysizes.min.js"></script>
 
     <script>
