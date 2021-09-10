@@ -102,3 +102,11 @@ D:\Project\reic\obj\Debug\gh_reic.csproj.CopyComplete
 D:\Project\reic\obj\Debug\gh_reic.dll
 D:\Project\reic\obj\Debug\gh_reic.pdb
 D:\Project\reic\obj\Debug\gh_reic.csproj.AssemblyReference.cache
+D:\Asp.net\reic\bin\ApplicationInsights.config
+D:\Asp.net\reic\bin\gh_reic.dll.config
+D:\Asp.net\reic\bin\gh_reic.dll
+D:\Asp.net\reic\bin\gh_reic.pdb
+D:\Asp.net\reic\obj\Debug\gh_reic.csprojAssemblyReference.cache
+D:\Asp.net\reic\obj\Debug\gh_reic.csproj.CopyComplete
+D:\Asp.net\reic\obj\Debug\gh_reic.dll
+D:\Asp.net\reic\obj\Debug\gh_reic.pdb

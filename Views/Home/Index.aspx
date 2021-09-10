@@ -148,6 +148,217 @@
 
             <!--#include file="../Include/tab/inc-tab-home-news.aspx"-->
 
+            <div class="card-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 mb-5 mb-lg-0">
+                            <div class="card-wrapper">
+                                <div class="card-title">REAL ESTATE NEWS</div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card-block">
+                                            <a href="#">
+                                                <div class="card-image">
+                                                    <img src="../../Images/home/news/img-news-main.png" alt="images"/>
+                                                </div>
+                                            </a>
+                                            <div class="card-date">
+                                                <div class="date">
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                </div>
+                                                <div class="shared">
+                                                    <a href="#">
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="card-text card-text--main">
+                                                <a href="#">
+                                                    <div class="title">
+                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="card-block">
+                                            <a href="#">
+                                                <div class="card-image">
+                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                </div>
+                                            </a>
+                                            <div class="card-date">
+                                                <div class="date">
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                </div>
+                                                <div class="shared">
+                                                    <a href="#">
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="card-text card-text--sub">
+                                                <a href="#">
+                                                    <div class="title">
+                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต
+                                                    </div>
+                                                    <div class="desc"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="card-block">
+                                            <a href="#">
+                                                <div class="card-image"></div>
+                                            </a>
+                                            <div class="card-date">
+                                                <div class="date">
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                </div>
+                                                <div class="shared">
+                                                    <a href="#">
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="card-text card-text--sub">
+                                                <a href="#">
+                                                    <div class="title">
+                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต
+                                                    </div>
+                                                    <div class="desc">
+                                                        ปลัดคลังเปิดไทม์ไลน์กระตุ้นเศรษฐกิจ
+                                                        ดันจีดีพีโต 4% กระตุ้นบริโภค Q2 
+                                                        ต่อเนื่องถึง Q3 พ่วงช่วย ขรก.ชั้นผู้น้อย
+                                                        กวาดทุกเก๊ะตุนกระสุนรับความเสี่ยง
+                                                        ยันจัดเก็บรายได้ต่ำเป้ากระเป๋าไม่ฉีก 
+                                                        พร้อมกู้เงินเกินกรอบวินัยการคลัง
+                                                        หากสถานการณ์ฉุกเฉิน
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-end">
+                                    <div class="col-12">
+                                        <a class="link">
+                                            ดูทั้งหมด <i class="f-icon icon-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6  mb-5 mb-lg-0">
+                            <div class="card-wrapper">
+                                <div class="card-title">PRESS RELEASE</div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card-block">
+                                            <a href="#">
+                                                <div class="card-image">
+                                                    <img src="../../Images/home/news/img-news-main-2.png" alt="images"/>
+                                                </div>
+                                            </a>
+                                            <div class="card-date">
+                                                <div class="date">
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                </div>
+                                                <div class="shared">
+                                                    <a href="#">
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="card-text card-text--main">
+                                                <a href="#">
+                                                    <div class="title">
+                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="card-block">
+                                            <a href="#">
+                                                <div class="card-image">
+                                                    <img src="../../Images/home/news/img-news-main.png" alt="images"/>
+                                                </div>
+                                            </a>
+                                            <div class="card-date">
+                                                <div class="date">
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                </div>
+                                                <div class="shared">
+                                                    <a href="#">
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="card-text card-text--sub">
+                                                <a href="#">
+                                                    <div class="title">
+                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต
+                                                    </div>
+                                                    <div class="desc"></div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="card-block">
+                                            <a href="#">
+                                                <div class="card-image"></div>
+                                            </a>
+                                            <div class="card-date">
+                                                <div class="date">
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                </div>
+                                                <div class="shared">
+                                                    <a href="#">
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="card-text card-text--sub">
+                                                <a href="#">
+                                                    <div class="title">
+                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต
+                                                    </div>
+                                                    <div class="desc">
+                                                        ปลัดคลังเปิดไทม์ไลน์กระตุ้นเศรษฐกิจ
+                                                        ดันจีดีพีโต 4% กระตุ้นบริโภค Q2 
+                                                        ต่อเนื่องถึง Q3 พ่วงช่วย ขรก.ชั้นผู้น้อย
+                                                        กวาดทุกเก๊ะตุนกระสุนรับความเสี่ยง
+                                                        ยันจัดเก็บรายได้ต่ำเป้ากระเป๋าไม่ฉีก 
+                                                        พร้อมกู้เงินเกินกรอบวินัยการคลัง
+                                                        หากสถานการณ์ฉุกเฉิน
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-end">
+                                    <div class="col-12">
+                                        <a class="link">
+                                            ดูทั้งหมด <i class="f-icon icon-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!--#include file="../Include/banner/inc-banner-highlight.aspx"-->
 
         </div>
