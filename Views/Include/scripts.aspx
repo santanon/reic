@@ -16,7 +16,7 @@
 <script src="../../Scripts/plugins/jquery.placeholder.min.js"></script>
 
 <!-- initialize js -->
-<script src="../../Content/js/init-script-dist.js"></script>
+<script src="../../Content/js/init-script-dist.js"></script> 
 
 <!--Other-->
 <script src="../../Scripts/highcharts.js"></script>
