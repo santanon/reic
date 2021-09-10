@@ -8,7 +8,6 @@
 
 <head>
 
-    <%--<meta content="IE=9" http-equiv="X-UA-Compatible">--%>
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="format-detection" content="telephone=no">

@@ -30,8 +30,6 @@
 <!-- responsive control js script -->
 <%--<script src="../../Content/js/responsive-ctrl.js"></script>--%>
 
-
-
 <!--Other-->
 <script src="../../Scripts/highcharts.js"></script>
 <script src="../../Scripts/date.js"></script>

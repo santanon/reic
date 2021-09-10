@@ -21,6 +21,18 @@
             position: relative;
             width: 100%;
             height: auto;
+
+            .desktop-show {
+                display: block;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .mobile-show {
+                display: none;
+                opacity: 0;
+                visibility: hidden;
+            }
         }
 
         .caption-outer {
@@ -98,6 +110,19 @@
         }
 
         @include media-breakpoint-down(xs) {
+            .image-wrapper {
+                .desktop-show {
+                    display: none;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+
+                .mobile-show {
+                    display: block;
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
         }
 
         @media screen and (max-width: $screen-mobile) {
