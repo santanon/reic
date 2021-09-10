@@ -43,13 +43,13 @@
                                             <span class="bold">สถานะลูกค้า</span><span class="color-secondary">*</span>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-12">
-                                            <div class="slc-custom ">
+                                            <div class="slc-custom slc-custom-radio">
                                                 <input id="status1" name="status" type="radio" value="">
                                                 <label for="status1"></label>
                                                 <span class="txt">ปัจจุบันเป็นลูกค้า ธอส.</span>
                                             </div>
 
-                                            <div class="slc-custom ">
+                                            <div class="slc-custom slc-custom-radio">
                                                 <input id="status2" name="status" type="radio" value="">
                                                 <label for="status2"></label>
                                                 <span class="txt">เคยเป็นลูกค้า ธอส.</span>
@@ -62,13 +62,13 @@
                                             <span class="bold">ประเภทลูกค้า</span> (เลือกได้มากกว่า 1 ข้อ)<span class="color-secondary">*</span>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-12">
-                                            <div class="slc-custom ">
+                                            <div class="slc-custom slc-custom-radio">
                                                 <input id="type1" name="type" type="checkbox" value="">
                                                 <label for="type1"></label>
                                                 <span class="txt">ปัจจุบันเป็นลูกค้า ธอส.</span>
                                             </div>
 
-                                            <div class="slc-custom ">
+                                            <div class="slc-custom slc-custom-radio">
                                                 <input id="type2" name="type" type="checkbox" value="">
                                                 <label for="type2"></label>
                                                 <span class="txt">เคยเป็นลูกค้า ธอส.</span>
