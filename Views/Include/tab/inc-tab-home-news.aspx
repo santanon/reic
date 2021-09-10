@@ -1,4 +1,4 @@
-﻿<div class="tab-news-section">
+﻿<div class="tab-news-section lazy">
 
     <div class="container-fluid">
         <div class="section-tabs">
@@ -18,44 +18,40 @@
 
                     <ul class="nav nav-tabs" id="NewsSlideTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link nav-link-icon active" id="news-list-tab" data-toggle="tab" href="#news-list" role="tab" aria-controls="news-list" aria-selected="true">
-                                ข่าวอสังหาฯ
+                            <a class="nav-link nav-link-icon active" id="news-list-tab" data-toggle="tab" href="#news-list" role="tab" aria-controls="news-list" aria-selected="true">ข่าวอสังหาฯ
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-icon" id="vdo-list-tab" data-toggle="tab" href="#vdo-list" role="tab" aria-controls="vdo-list" aria-selected="false">
-                                VDO
+                            <a class="nav-link nav-link-icon" id="vdo-list-tab" data-toggle="tab" href="#vdo-list" role="tab" aria-controls="vdo-list" aria-selected="false">VDO
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-icon" id="law-list-tab" data-toggle="tab" href="#law-list" role="tab" aria-controls="law-list" aria-selected="false">
-                                กฎหมายอสังหาฯ
+                            <a class="nav-link nav-link-icon" id="law-list-tab" data-toggle="tab" href="#law-list" role="tab" aria-controls="law-list" aria-selected="false">กฎหมายอสังหาฯ
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-icon" id="activity-list-tab" data-toggle="tab" href="#activity-list" role="tab" aria-controls="activity-list" aria-selected="false">
-                                กิจกรรม
+                            <a class="nav-link nav-link-icon" id="activity-list-tab" data-toggle="tab" href="#activity-list" role="tab" aria-controls="activity-list" aria-selected="false">กิจกรรม
                             </a>
                         </li>
                     </ul>
 
                     <div class="tab-content" id="NewsSlideTabContent">
-                        
+
                         <div class="tab-pane fade show active" id="news-list" role="tabpanel" aria-labelledby="news-list-tab">
-                            <div class="container">
-                                <div class="news-content">
-                                <div class="row">
-                                    <div class="col-xl-6 col-lg-12 col-md-12 col-12 mb-4 mb-xl-0">
-                                        <a href="#" title="" class="video-wrapper embed-responsive embed-responsive-16by9 matchHeight">
-                                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Kz_ZMlMiSHc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                        </a>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-12 col-md-12 col-12">
-                                        <div class="new-slide-wrapper tab-texteditor matchHeight">
-                                            <div class="owl-carousel-texteditor">
+                            <div class="news-content">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-12 mb-4 mb-xl-0">
+                                            <a href="#" title="" class="video-wrapper embed-responsive embed-responsive-16by9 matchHeight">
+                                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Kz_ZMlMiSHc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12">
+                                            <div class="new-slide-wrapper tab-texteditor matchHeight">
+                                                <div class="owl-carousel-texteditor">
 
-                                                <div class="list-content">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                    <div class="list-content">
+                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                                                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                                                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
@@ -64,41 +60,41 @@
                                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                                                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                                                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                                </div>
-                                                <%--END--%>
-                                                <div class="list-content">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                    </div>
+                                                    <%--END--%>
+                                                    <div class="list-content">
+                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                                                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                                                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                                </div>
-                                                <%--END--%>
-                                                <div class="list-content">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                    </div>
+                                                    <%--END--%>
+                                                    <div class="list-content">
+                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                                                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                                                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                                </div>
-                                                <%--END--%>
-                                                <div class="list-content">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                    </div>
+                                                    <%--END--%>
+                                                    <div class="list-content">
+                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                                                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                                                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                                    </div>
+                                                    <%--END--%>
                                                 </div>
-                                                <%--END--%>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                            </div>
+                                </div>
                             </div>
                         </div>
 
                         <div class="tab-pane fade" id="vdo-list" role="tabpanel" aria-labelledby="vdo-list-tab">
-                            <div class="container">
-                                <div class="news-content">
+                            <div class="news-content">
+                                <div class="container">
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="new-slide-wrapper tab-news-slide matchHeight">
@@ -107,16 +103,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -134,16 +131,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -161,16 +159,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -188,16 +187,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -220,8 +220,8 @@
                         </div>
 
                         <div class="tab-pane fade" id="law-list" role="tabpanel" aria-labelledby="law-list-tab">
-                            <div class="container">
-                                <div class="news-content">
+                            <div class="news-content">
+                                <div class="container">
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="new-slide-wrapper tab-news-slide matchHeight">
@@ -230,16 +230,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -257,16 +258,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -284,16 +286,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -311,16 +314,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -342,10 +346,9 @@
                             </div>
                         </div>
 
-
                         <div class="tab-pane fade" id="activity-list" role="tabpanel" aria-labelledby="activity-list-tab">
-                            <div class="container">
-                                <div class="news-content">
+                            <div class="news-content">
+                                <div class="container">
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="new-slide-wrapper tab-news-slide matchHeight">
@@ -354,16 +357,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -381,16 +385,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -408,16 +413,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -435,16 +441,17 @@
                                                         <div class="card-block">
                                                             <a href="#">
                                                                 <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                                 </div>
                                                             </a>
                                                             <div class="card-date">
                                                                 <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
                                                                 </div>
                                                                 <div class="shared">
                                                                     <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -470,7 +477,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
-    
+
 </div>
