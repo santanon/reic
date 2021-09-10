@@ -1480,5 +1480,389 @@ ViewBag.SEO_End_Image = "";
         });
     </script>
 
+    <script type="text/javascript">
+        $('.owl-carousel-situation').owlCarousel({
+            nav: true,
+            margin: 25,
+            touchDrag: false,
+            dots: false,
+            responsiveClass: true,
+            loop: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                530: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 5,
+                    nav: true,
+                    loop: true
+                }
+            }
+        });
+
+        // Tab Situation
+        $('a[href="#situation"]').on('shown.bs.tab', function () {
+            $(".owl-carousel-situation").trigger('destroy.owl.carousel');
+            $(".owl-carousel-situation").html($(".owl-carousel-situation").find('.owl-stage-outer').html()).removeClass('owl-loaded');
+            $(".owl-carousel-situation").owlCarousel({
+                nav: true,
+                margin: 25,
+                touchDrag: false,
+                dots: false,
+                responsiveClass: true,
+                loop: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    530: {
+                        items: 2,
+                        nav: true
+                    },
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+            $('.all-content a').attr('href', 'news.aspx');
+            owl_control();
+        });
+
+        // Tab Report
+        $('a[href="#report"]').on('shown.bs.tab', function () {
+            $(".owl-carousel-report").trigger('destroy.owl.carousel');
+            $(".owl-carousel-report").html($(".owl-carousel-report").find('.owl-stage-outer').html()).removeClass('owl-loaded');
+            $(".owl-carousel-report").owlCarousel({
+                nav: true,
+                margin: 25,
+                touchDrag: false,
+                dots: false,
+                responsiveClass: true,
+                loop: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    530: {
+                        items: 2,
+                        nav: true
+                    },
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+            $('.all-content a').attr('href', 'news.aspx');
+            owl_control();
+        });
+
+        // Tab Report
+        $('a[href="#research"]').on('shown.bs.tab', function () {
+            $(".owl-carousel-research").trigger('destroy.owl.carousel');
+            $(".owl-carousel-research").html($(".owl-carousel-research").find('.owl-stage-outer').html()).removeClass('owl-loaded');
+            $(".owl-carousel-research").owlCarousel({
+                nav: true,
+                margin: 25,
+                touchDrag: false,
+                dots: false,
+                responsiveClass: true,
+                loop: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    530: {
+                        items: 2,
+                        nav: true
+                    },
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+            $('.all-content a').attr('href', 'news.aspx');
+            owl_control();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            truncated();
+        });
+
+        $('.owl-carousel-news').owlCarousel({
+            nav: true,
+            margin: 25,
+            touchDrag: false,
+            dots: false,
+            responsiveClass: true,
+            loop: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                530: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                }
+            }
+        });
+
+        // Tab News
+        $('a[href="#news-list"]').on('shown.bs.tab', function () {
+            $(".owl-carousel-news").trigger('destroy.owl.carousel');
+            $(".owl-carousel-news").html($(".owl-carousel-news").find('.owl-stage-outer').html()).removeClass('owl-loaded');
+            $(".owl-carousel-news").owlCarousel({
+                nav: true,
+                margin: 25,
+                touchDrag: false,
+                dots: false,
+                responsiveClass: true,
+                loop: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    530: {
+                        items: 1,
+                        nav: true
+                    },
+                    1000: {
+                        items: 2,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+            owl_control();
+            truncated();
+        });
+
+        // Tab Calendar
+        $('a[href="#calendar-list"]').on('shown.bs.tab', function () {
+            $(".owl-carousel-calendar").trigger('destroy.owl.carousel');
+            $(".owl-carousel-calendar").html($(".owl-carousel-calendar").find('.owl-stage-outer').html()).removeClass('owl-loaded');
+            $(".owl-carousel-calendar").owlCarousel({
+                nav: true,
+                margin: 25,
+                touchDrag: false,
+                dots: false,
+                responsiveClass: true,
+                loop: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    530: {
+                        items: 1,
+                        nav: true
+                    },
+                    1000: {
+                        items: 2,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+            owl_control();
+            truncated();
+        });
+
+        // Tab Activity
+        $('a[href="#activity-list"]').on('shown.bs.tab', function () {
+            $(".owl-carousel-activity").trigger('destroy.owl.carousel');
+            $(".owl-carousel-activity").html($(".owl-carousel-activity").find('.owl-stage-outer').html()).removeClass('owl-loaded');
+            $(".owl-carousel-activity").owlCarousel({
+                nav: true,
+                margin: 25,
+                touchDrag: false,
+                dots: false,
+                responsiveClass: true,
+                loop: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    530: {
+                        items: 1,
+                        nav: true
+                    },
+                    1000: {
+                        items: 2,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+            owl_control();
+            truncated();
+        });
+
+        // Tab Release
+        $('a[href="#release-list"]').on('shown.bs.tab', function () {
+            $(".owl-carousel-release").trigger('destroy.owl.carousel');
+            $(".owl-carousel-release").html($(".owl-carousel-release").find('.owl-stage-outer').html()).removeClass('owl-loaded');
+            $(".owl-carousel-release").owlCarousel({
+                nav: true,
+                margin: 25,
+                touchDrag: false,
+                dots: false,
+                responsiveClass: true,
+                loop: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    530: {
+                        items: 1,
+                        nav: true
+                    },
+                    1000: {
+                        items: 2,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+            owl_control();
+            truncated();
+        });
+
+        // Tab Law
+        $('a[href="#law-list"]').on('shown.bs.tab', function () {
+            $(".owl-carousel-law").trigger('destroy.owl.carousel');
+            $(".owl-carousel-law").html($(".owl-carousel-law").find('.owl-stage-outer').html()).removeClass('owl-loaded');
+            $(".owl-carousel-law").owlCarousel({
+                nav: true,
+                margin: 25,
+                touchDrag: false,
+                dots: false,
+                responsiveClass: true,
+                loop: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    530: {
+                        items: 1,
+                        nav: true
+                    },
+                    1000: {
+                        items: 2,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+            owl_control();
+            truncated();
+        });
+
+        // Tab Document
+        $('a[href="#document-list"]').on('shown.bs.tab', function () {
+            $(".owl-carousel-document").trigger('destroy.owl.carousel');
+            $(".owl-carousel-document").html($(".owl-carousel-document").find('.owl-stage-outer').html()).removeClass('owl-loaded');
+            $(".owl-carousel-document").owlCarousel({
+                nav: true,
+                margin: 25,
+                touchDrag: false,
+                dots: false,
+                responsiveClass: true,
+                loop: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    530: {
+                        items: 1,
+                        nav: true
+                    },
+                    1000: {
+                        items: 2,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+            owl_control();
+            truncated();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('.owl-carousel-banner').owlCarousel({
+            nav: true,
+            margin: 4,
+            touchDrag: false,
+            dots: false,
+            responsiveClass: true,
+            loop: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                530: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: true
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#dropdown-menu-tab").on("click", "a", function () {
+                console.log('Click');
+                $('#searchTab a[href="#' + $(this).attr("class") + '"]').tab('show');
+                $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+                $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+            });
+
+            $("#dropdown-menu-tab1").on("click", "a", function () {
+                console.log('Click');
+                $('#SlideTab a[href="#' + $(this).attr("class") + '"]').tab('show');
+                $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+                $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+            });
+
+            $("#dropdown-menu-tab2").on("click", "a", function () {
+                console.log('Click');
+                $('#NewsSlideTab a[href="#' + $(this).attr("class") + '"]').tab('show');
+                $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+                $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+            });
+        });
+    </script>
 </body>
 </html>

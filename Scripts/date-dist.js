@@ -1,1 +1,0 @@
-function GetAge(e){var t=new Date,a=t.getFullYear()-e.getFullYear(),n=t.getMonth()-e.getMonth();return(n<0||0===n&&t.getDate()<e.getDate())&&a--,a}$((function(){$("#DateBirth").datepicker({dateFormat:"dd-mm-yy",yearRange:"-80:+0",maxDate:0,changeMonth:!0,changeYear:!0,onSelect:function(e,t){var a=GetAge($(this).datepicker("getDate"));console.log(a),$("#age").val(a)}})}));
