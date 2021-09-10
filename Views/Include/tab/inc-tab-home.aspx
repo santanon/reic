@@ -1,4 +1,4 @@
-﻿<div class="tab-content-section">
+﻿<div class="tab-content-section lazy">
     <div class="container">
         <div class="row">
             <div class="col-12">

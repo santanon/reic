@@ -21,18 +21,6 @@
             position: relative;
             width: 100%;
             height: auto;
-
-            .desktop-show {
-                display: block;
-                opacity: 1;
-                visibility: visible;
-            }
-
-            .mobile-show {
-                display: none;
-                opacity: 0;
-                visibility: hidden;
-            }
         }
 
         .caption-outer {
@@ -41,56 +29,50 @@
             left: 0;
             width: 100%;
 
-            .caption {
+            .title {
+                font-family: $font-kanit !important;
+                font-size: 38px !important;
+                line-height: 46px !important;
+                color: $color-white;
+                margin: 0 !important;
+                margin-bottom: 15px !important;
+            }
 
-                .title {
-                    font-family: $font-kanit !important;
-                    font-size: 38px !important;
-                    line-height: 46px !important;
-                    color: $color-white;
-                    margin: 0 !important;
-                    margin-bottom: 15px !important;
-                }
+            .subtitle {
+                font-size: 50px !important;
+                line-height: 50px !important;
+                font-weight: bold !important;
+                color: $color-secondary;
+                margin: 10px !important;
+            }
 
-                .subtitle {
-                    font-size: 50px !important;
-                    line-height: 50px !important;
-                    font-weight: bold !important;
-                    color: $color-secondary;
-                    margin: 10px !important;
-                }
-
-                .description {
-                    font-family: $font-bold !important;
-                    font-size: $text-small !important;
-                    line-height: $text-small !important;
-                    color: $color-white;
-                    margin: 0 !important;
-                }
+            .description {
+                font-family: $font-bold !important;
+                font-size: $text-small !important;
+                line-height: $text-small !important;
+                color: $color-white;
+                margin: 0 !important;
             }
         }
 
         @include media-breakpoint-down(xl) {
             .caption-outer {
+                .title {
+                    margin: 0 !important;
+                    font-size: $text-x-large-mobile !important;
+                    line-height: $text-x-large-mobile !important;
+                }
 
-                .caption {
-                    .title {
-                        margin: 0 !important;
-                        font-size: $text-x-large-mobile !important;
-                        line-height: $text-x-large-mobile !important;
-                    }
+                .subtitle {
+                    margin: 0 !important;
+                    font-size: $text-large-mobile !important;
+                    line-height: $text-large-mobile !important;
+                }
 
-                    .subtitle {
-                        margin: 0 !important;
-                        font-size: $text-large-mobile !important;
-                        line-height: $text-large-mobile !important;
-                    }
-
-                    .description {
-                        margin: 0 !important;
-                        font-size: $text-small-mobile !important;
-                        line-height: $text-small-mobile !important;
-                    }
+                .description {
+                    margin: 0 !important;
+                    font-size: $text-small-mobile !important;
+                    line-height: $text-small-mobile !important;
                 }
             }
         }
@@ -103,51 +85,33 @@
 
         @include media-breakpoint-down(sm) {
             .caption-outer {
-                .caption {
-                    .title {
-                        font-size: 22px !important;
-                        line-height: 22px !important;
-                    }
+                .title {
+                    font-size: 22px !important;
+                    line-height: 22px !important;
+                }
 
-                    .description {
-                        font-size: 22px !important;
-                        line-height: 22px !important;
-                    }
+                .description {
+                    font-size: 22px !important;
+                    line-height: 22px !important;
                 }
             }
         }
 
         @include media-breakpoint-down(xs) {
-            .image-wrapper {
-                .desktop-show {
-                    display: none;
-                    opacity: 0;
-                    visibility: hidden;
-                }
-
-                .mobile-show {
-                    display: block;
-                    opacity: 1;
-                    visibility: visible;
-                }
-            }
         }
 
         @media screen and (max-width: $screen-mobile) {
             .caption-outer {
+                .title {
+                    margin-bottom: 15px !important;
+                }
 
-                .caption {
-                    .title {
-                        margin-bottom: 15px !important;
-                    }
+                .subtitle {
+                    margin: 0 !important;
+                }
 
-                    .subtitle {
-                        margin: 0 !important;
-                    }
-
-                    .description {
-                        margin: 0 !important;
-                    }
+                .description {
+                    margin: 0 !important;
                 }
             }
         }
@@ -212,7 +176,6 @@
         right: 0;
         margin: auto;
         text-align: right !important;
-
         z-index: 9;
 
         .pager_list {
@@ -876,6 +839,7 @@
 .card-section {
     .card-wrapper {
         background-color: #fff;
+
         .card-title {
             border-left: 2px solid #ED1C24;
             padding: 10px;
@@ -898,12 +862,11 @@
 
             .card-image {
                 margin-bottom: 10px;
+                border-bottom: 2px solid #ED1C24;
 
                 img {
                     width: 100%;
                 }
-
-                border-bottom: 2px solid #ED1C24;
             }
 
             .card-date {
@@ -932,7 +895,7 @@
             .card-text {
                 .title {
                     font-family: $font-kanit;
-                    font-size: 22px;
+                    font-size: 20px;
                     line-height: 28px;
                     color: $color-text;
                     margin-bottom: 10px;
@@ -969,11 +932,12 @@
                 }
             }
 
-            &:hover{
-                a{
-                    .title{
+            &:hover {
+                a {
+                    .title {
                         color: $color-primary;
                     }
+
                     .desc {
                         color: $color-primary;
                     }
@@ -1271,7 +1235,6 @@
             border-radius: 0;
             border: none;
             outline: none;
-
             display: flex;
             justify-content: center;
             align-items: center;
@@ -1494,12 +1457,11 @@
 
             .card-image {
                 margin-bottom: 10px;
+                border-bottom: 2px solid #ED1C24;
 
                 img {
                     width: 100%;
                 }
-
-                border-bottom: 2px solid #ED1C24;
             }
 
             .card-date {
@@ -1580,7 +1542,7 @@
             }
         }
     }
-    
+
     .owl-carousel {
         .owl-stage-outer {
             .owl-stage {
@@ -1623,6 +1585,7 @@
                     background-position: center center;
                     background-repeat: no-repeat;
                     transition: all 0.3s ease-in-out;
+
                     &:hover {
                         background-image: url('../../../Images/icon/icon-prev-slide-active.svg');
                     }
@@ -1640,6 +1603,7 @@
                     background-position: center center;
                     background-repeat: no-repeat;
                     transition: all 0.3s ease-in-out;
+
                     &:hover {
                         background-image: url('../../../Images/icon/icon-next-slide-active.svg');
                     }
