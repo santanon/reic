@@ -3,7 +3,6 @@
 @import "../helpers/fontstyle";
 @import "../helpers/mixin_css3";
 
-
 #maincontainer-wrapper {
 
     .desktop-show {
@@ -42,14 +41,7 @@
     .intro {
         display: table;
         width: 100%;
-        /*.images-intro {
-            margin: auto;
 
-            img {
-                position: absolute;
-                width: 100%;
-            }
-        }*/
         .intro-content {
             position: relative;
 
@@ -75,12 +67,7 @@
                 }
             }
 
-            /*img {
-                width: 100%;
-            }*/
-
             .content {
-                /*margin-top: 150px;*/
                 img{
                     max-width: 100%;
                 }
@@ -127,7 +114,7 @@
             -webkit-transition: all 0.4s ease-in-out;
             -moz-transition: all 0.4s ease-in-out;
             transition: all 0.4s ease-in-out;
-            /*background: rgba(0,0,0,0.2);*/
+
             h3 {
                 color: $color-white;
             }
@@ -205,13 +192,6 @@
         }
 
         @media screen and (max-width: $screen-md) {
-
-            .intro-content {
-
-                .content {
-                    /*margin-top: 50px;*/
-                }
-            }
         }
     }
     //img
@@ -240,6 +220,7 @@
         }
     }
     //END img
+
     //news
     .item-news {
         background-color: $color-white;
@@ -275,7 +256,6 @@
     height: 100%;
     padding: 0;
     margin: 0 auto;
-    /*background-color: #808080;*/
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;

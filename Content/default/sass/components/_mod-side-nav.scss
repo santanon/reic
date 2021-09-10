@@ -33,7 +33,6 @@
     list-style: none;
 
     >li{
-      // background: url(../images/side-nav/icn-black-arrow.png) right 6px no-repeat;
       line-height: 1.1em;
 
       a{
@@ -235,25 +234,18 @@
         }
         .has-sub{
           &.expanded{
-            // background: darken($color-primary,15%);
           }
         }
 
         .side-nav-lv4{
           display: none;
-          // margin: 0 0 0 10px;
           >li{
             >a{
               >span{
                 padding-left: 30px;
               }
               >i.fa-caret-right{
-                // position: absolute;
                 left: 25px;
-                // top: 10px;
-                // margin: 3px 0 0 0;
-                // font-size: 17px;
-                // color: #DF0000;
               }
             }
           }

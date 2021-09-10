@@ -12,7 +12,6 @@
         .corporate-item {
             position: relative;
             border-bottom: 3px solid $body-bg;
-            //background-color: $color-white;
             background-color: #00AFF0;
             overflow: hidden;
             transition: height 0.35s ease 0s;
@@ -30,7 +29,6 @@
                     padding-right: 40px;
                     font-size: $text-small-ft;
                     line-height: $text-small-ft;
-                    //color: $color-text;
                     color: $color-white;
 
                     .head-collapse {
@@ -81,7 +79,6 @@
 
                 .fas {
                     width: 30px;
-                    /*height: 30px;*/
                     font-size: $text-small-ft;
                     line-height: $text-small-ft;
                     color: $color-white;
@@ -248,7 +245,8 @@
             padding: 15px 0 50px 0;
             margin: 0 auto;
             background-color: $color-white;
-            //override grid
+
+            /*override grid*/
             .form-row {
                 margin-right: -2px;
                 margin-left: -2px;
@@ -327,7 +325,6 @@
 .footer {
     min-height: 100px;
     height: auto;
-    //margin-bottom: 20px;
     margin-bottom: 0;
 
     .slide-sponser {
@@ -475,7 +472,6 @@
 
             .bottom-menu {
                 position: relative;
-                //text-align: right;
 
                 ul {
                     list-style: none;
@@ -486,7 +482,6 @@
                         display: inline-block;
                         padding-right: 5px;
                         margin-right: 5px;
-                        //border-right: 1px solid $color-text;
 
                         &:last-child {
                             padding-right: 0;
@@ -884,6 +879,4 @@
 
 #___gcse_0 {
     position: relative;
-    /*z-index: -1;*/
-    /*height: 0px;*/
 }

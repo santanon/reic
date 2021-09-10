@@ -2,7 +2,6 @@
     position: relative;
     display: none;
     margin: 0;
-    /*border: 1px solid #fff;*/
 }
 // sample css
 .banner-slider-container ul {
@@ -23,17 +22,6 @@
         &:nth-child(4) {
             border-right: 0px;
         }
-        /*@media screen and (max-width: 999px) {
-       &:nth-child(2){
-         border-right: 0px;
-       }
-       &:nth-child(3){
-         border-right: solid 1px #fff;
-       }   
-    }
-    @media screen and (max-width: 640px){
-       border-right: 0;
-    }*/
     }
 }
 
@@ -52,16 +40,6 @@
     &.disabled {
         opacity: 0.5;
     }
-    /*>i{
-    display: block;
-    padding-top: 0px;
-    font-size: $text-small;
-    text-align: center;
-    color: $color-text;
-  }*/
-    // &.index{
-    //   @include opacity-bg($color-secondary,0.79);
-    // }
 }
 #foo1_next {
     position: absolute;
@@ -78,16 +56,6 @@
     &.disabled {
         opacity: 0.5;
     }
-    /*>i{
-    display: block;
-    padding-top:0px;
-    font-size: $text-small;
-    text-align: center;
-    color: $color-text;
-  }*/
-    // &.index{
-    //   @include opacity-bg($color-secondary,0.79);
-    // }
 }
 
 
@@ -106,16 +74,6 @@
     &.disabled {
         opacity: 0.5;
     }
-    /*>i{
-    display: block;
-    padding-top: 0px;
-    font-size: $text-small;
-    text-align: center;
-    color: $color-text;
-  }*/
-    // &.index{
-    //   @include opacity-bg($color-secondary,0.79);
-    // }
 }
 
 #foo2_next {
@@ -133,16 +91,6 @@
     &.disabled {
         opacity: 0.5;
     }
-    /*>i{
-    display: block;
-    padding-top:0px;
-    font-size: $text-small;
-    text-align: center;
-    color: $color-text;
-  }*/
-    // &.index{
-    //   @include opacity-bg($color-secondary,0.79);
-    // }
 }
 
 #foo-value-prev {

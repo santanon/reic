@@ -3,7 +3,6 @@
 @import "../helpers/fontstyle";
 @import "../helpers/mixin_css3";
 
-
 #maincontainer-wrapper {
 
     .btn-buy {
@@ -62,8 +61,6 @@
                 width: 100%;
                 min-height: 41px;
                 padding: 0;
-                /*margin-bottom: 15px;
-                padding-bottom: 15px;*/
 
                 .product {
                     min-height: $height-input;
@@ -124,7 +121,6 @@
 
                     .percent-step {
                         text-align: center;
-                        //padding: 7px 0 0;
                         width: 30px;
                         height: 30px;
                         border-radius: 100%;
@@ -276,15 +272,6 @@
         tbody {
             tr {
                 border: none;
-                /*&:nth-child(odd) {
-                    background-color: $color-white;
-                    border: none;
-                }
-
-                &:nth-child(even) {
-                    background-color: $body-bg;
-                    border: none;
-                }*/
                 td {
                     font-family: $default-font;
                     font-size: $text-content;

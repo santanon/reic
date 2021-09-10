@@ -299,7 +299,7 @@
                 margin-bottom: 0;
                 height: $height-input;
                 background-color: $body-bg;
-                /*border-left: 1px solid $color-white;*/
+
                 .tab {
                     color: $color-text;
                     font-size: $text-content;
@@ -355,7 +355,7 @@
 
                 .active {
                     background-color: $color-blue;
-                    /*border-left: 1px solid $color-white;*/
+
                     .download {
                         span {
                             color: $color-white;
@@ -707,7 +707,6 @@
 
         th {
             visibility: hidden;
-            /*border-color: transparent !important;*/
         }
 
         td {

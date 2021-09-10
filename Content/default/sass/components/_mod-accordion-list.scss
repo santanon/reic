@@ -4,23 +4,19 @@
     .list-group-item {
         padding: 1px 0 1px 0;
         margin: 1px 0 0 0;
-        /*background:#F7A6FD;*/
-        /*&:first-child {
-            padding: 0 0 1px 0;
-        }*/
+
         .list-group-head {
             position: relative;
             height: 25px;
-            /*background: url(../images/bg-list-group-bar.jpg) repeat-x;*/
             font-size: 1.2em;
             cursor: pointer;
-            /*@include gradient-bg(#5a95c1 ,#385773);*/
+
             > div {
                 position: relative;
                 display: block;
                 margin-right: 10px;
                 height: 25px;
-                /*background:url('../images/icn-plus.png') right 5px no-repeat;*/
+
                 .icn-circle {
                     position: absolute;
                     top: 3px;
@@ -42,7 +38,6 @@
                     text-decoration: none;
                     vertical-align: middle;
                     line-height: 23px;
-                    /*background: url(../images/icn-plus.jpg) right 0 no-repeat #71F49B;*/
                 }
             }
         }
@@ -53,7 +48,7 @@
                 display: block;
                 margin-right: 10px;
                 height: 25px;
-                /*background:url('../images/icn-minus.png') right 5px no-repeat;*/
+
                 .fa-plus:before {
                     content: "\f068";
                 }
@@ -149,9 +144,7 @@
             padding: 0;
             border-bottom: 1px solid #ccc;
             background: #F7A6FD;
-            /*&:first-child {
-                padding: 0;
-            }*/
+
             .list-group-head {
                 position: relative;
                 height: auto;

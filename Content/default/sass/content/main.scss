@@ -3,7 +3,9 @@
 @import "../helpers/fontstyle";
 @import "../helpers/mixin_css3";
 
-#main-wrapper, #maincontainer-wrapper, .modal {
+#main-wrapper,
+#maincontainer-wrapper,
+.modal {
 
     h1 {
         @extend .font-kiti;
@@ -146,9 +148,7 @@
                 line-height: $text-content-mb;
             }
         }
-        /*br {
-            display: none;
-        }*/
+
         .height-input {
             height: auto !important;
         }
@@ -160,7 +160,7 @@
     /* ------------------------------------------------------ */
     /*                       START main                       */
     /* ------------------------------------------------------ */
-    /*---------- START content-editor ----------*/
+    /*---------- START Content Editor ----------*/
     .content-editor {
         font-size: $text-content;
         line-height: $text-content;
@@ -364,14 +364,12 @@
             margin-bottom: 30px;
         }
     }
-    /*---------- END ontent-editor ----------*/
-    /*---------- START text-editor ----------*/
+    /*---------- END Content Editor ----------*/
+    /*---------- START Text Editor ----------*/
     //text-editor
     .text-editor {
         background-color: $color-white;
-        /*br {
-            display: block !important;
-        }*/
+
         ul {
             @extend .font-thm;
             @extend .content-thm;
@@ -437,7 +435,7 @@
             }
         }
     }
-    /*---------- END text-editor ----------*/
+    /*---------- END Text Editor ----------*/
     //text
     .bold {
         font-weight: bold !important;
@@ -489,8 +487,6 @@
 
         .holder {
             padding: 0;
-            /*margin-left: 10px;
-        margin-right: 10px;*/
             display: inline-block;
             vertical-align: middle;
             background-color: transparent;
@@ -521,7 +517,6 @@
                     background-repeat: no-repeat;
 
                     &:hover {
-                        /*background-color: transparent;*/
                         color: $color-white;
                     }
                 }
@@ -534,7 +529,6 @@
                     background-repeat: no-repeat;
 
                     &:hover {
-                        /*background-color: transparent;*/
                         color: $color-white;
                     }
                 }
@@ -722,22 +716,12 @@
         padding: 0;
         text-align: right;
 
-
         .bord-icons {
-            /*height: $height-input;
-            line-height: 30px;
-            display: inline-block;
-            vertical-align: middle;
-            border-right: 1px solid $color-text;
-            padding: 0 15px;
-            margin-bottom: 15px;*/
             display: flex;
             justify-content: flex-start;
             align-items: center;
 
             .label-custom {
-                /*display: inline-block;
-                vertical-align: middle;*/
                 margin-right: 10px;
                 @extend .font-kiti;
                 @extend .content-kiti;

@@ -164,7 +164,6 @@
         }
 
         .upload {
-            /*margin: 15px 0 30px 0;*/
             .file-upload {
                 background-color: $body-bg;
                 padding: 10px;
@@ -307,7 +306,6 @@
 
                     .percent-step {
                         text-align: center;
-                        //padding: 7px 0 0;
                         width: 30px;
                         height: 30px;
                         border-radius: 100%;
@@ -383,7 +381,6 @@
 
     .slc-custom {
         position: relative;
-        //padding-left: 40px;
         &.slc-custom-radio {
             padding-left: 40px;
         }
@@ -469,7 +466,6 @@
     }
 
     .box {
-        //padding: 10px 15px;
         padding: 0 15px;
         display: inline-block;
         width: 100%;
@@ -562,27 +558,9 @@
         .icon-images {
             opacity: 0.5;
             margin-bottom: 10px;
-            /*width: 64px;
-            height: 73px;*/
             width: 39px;
             height: 55px;
         }
-        /*.icon-images.center {
-            margin: 0 auto 10px;
-        }*/
-        /* .custom-radio {
-            label {
-                float: none;
-                margin: auto;
-            }
-
-            span {
-                text-align: center;
-                float: none;
-                max-width: unset;
-                margin-top: 10px;
-            }
-        }*/
 
         .selector.no-border {
             input {
@@ -601,20 +579,6 @@
         .icon-images {
             opacity: 1;
         }
-        /*.custom-radio {
-            label {
-                float: none;
-                margin: auto;
-            }
-
-            span {
-                text-align: center;
-                float: none;
-                max-width: unset;
-                margin-top: 10px;
-                color: $color-primary;
-            }
-        }*/
     }
 }
 
