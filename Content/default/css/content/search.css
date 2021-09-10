@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* set global config vars */
 /* defualt page width setting(PC) */
 /* off canvas menu width *eg. 70px or 70% */
@@ -7,8 +6,6 @@
 /* footer height */
 /* global body setting */
 /* default font family */
-/*$default-font-detail: "THSarabunNew";*/
-/*$font-bold-detail: "THSarabunNewBold";*/
 /* text sizing multiplier */
 /* text sizing */
 /* default theme color */
@@ -19,50 +16,50 @@
 /*media screen*/
 /*mobile*/
 @font-face {
-  font-family: "Kitithada";
+  font-family: 'Kitithada';
   src: url("../../../../fonts/PSL094pro_0.eot");
   src: url("../../../../fonts/PSL094pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL094pro_0.woff") format("woff"), url("../../../../fonts/PSL094pro_0.ttf") format("truetype"), url("../../../../fonts/PSL094pro_0.svg") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
+
 @font-face {
-  font-family: "KitithadaBold";
+  font-family: 'KitithadaBold';
   src: url("../../../../fonts/PSL096pro_0.eot");
   src: url("../../../../fonts/PSL096pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL096pro_0.woff") format("woff"), url("../../../../fonts/PSL096pro_0.ttf") format("truetype"), url("../../../../fonts/PSL096pro_0.svg") format("svg");
   font-weight: bold;
-  font-style: normal;
-}
+  font-style: normal; }
+
 @font-face {
-  font-family: "kanitmedium";
+  font-family: 'kanitmedium';
   src: url("../../../../fonts/kanit-medium.woff2") format("woff2"), url("../../../../fonts/kanit-medium.woff") format("woff");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
+
 @font-face {
-  font-family: "THSarabunNew";
+  font-family: 'THSarabunNew';
   src: url("../../../../fonts/thsarabunnew-webfont.eot");
   src: url("../../../../fonts/thsarabunnew-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/thsarabunnew-webfont.woff") format("woff"), url("../../../../fonts/thsarabunnew-webfont.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
+
 @font-face {
-  font-family: "THSarabunNewBold";
+  font-family: 'THSarabunNewBold';
   src: url("../../../../fonts/thsarabunnew_bold-webfont.eot");
   src: url("../../../../fonts/thsarabunnew_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/thsarabunnew_bold-webfont.woff") format("woff"), url("../../../../fonts/thsarabunnew_bold-webfont.ttf") format("truetype");
   font-weight: bold;
-  font-style: normal;
-}
+  font-style: normal; }
+
 @font-face {
-  font-family: "icomoon";
+  font-family: 'icomoon';
   src: url("../../../../fonts/icomoon.eot?ho9c1c");
   src: url("../../../../fonts/icomoon.eot?ho9c1c#iefix") format("embedded-opentype"), url("../../../../fonts/icomoon.ttf?ho9c1c") format("truetype"), url("../../../../fonts/icomoon.woff?ho9c1c") format("woff"), url("../../../../fonts/icomoon.svg?ho9c1c#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-  font-display: block;
-}
-[class^=icon-], [class*=" icon-"] {
+  font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon";
+  font-family: 'icomoon';
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -71,13 +68,11 @@
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
 .icon-arrow-right:before {
-  content: "";
-  color: #ed1c24;
-}
+  content: "\e900";
+  color: #ed1c24; }
 
 /* set global config vars */
 /* defualt page width setting(PC) */
@@ -87,8 +82,6 @@
 /* footer height */
 /* global body setting */
 /* default font family */
-/*$default-font-detail: "THSarabunNew";*/
-/*$font-bold-detail: "THSarabunNewBold";*/
 /* text sizing multiplier */
 /* text sizing */
 /* default theme color */
@@ -101,8 +94,7 @@
 .font-kiti {
   font-family: "Kitithada";
   font-weight: normal;
-  letter-spacing: 0.5px;
-}
+  letter-spacing: 0.5px; }
 
 /* will be red only in google chrome */
 /*@media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -110,96 +102,71 @@
         letter-spacing: 1px;
     }
 }*/
-@media not all and (-webkit-min-device-pixel-ratio: 0), not all and (-o-min-device-pixel-ratio: 0/1), not all and (min-resolution: 0.001dpcm) {
+@media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) {
     .font-kiti {
-      letter-spacing: -0.5px;
-    }
-  }
-}
+      letter-spacing: -0.5px; } } }
+
 .x-large-kiti {
   font-size: 50px;
-  line-height: 50px;
-}
-@media screen and (max-width: 767.98px) {
-  .x-large-kiti {
-    font-size: 46px;
-    line-height: 46px;
-  }
-}
+  line-height: 50px; }
+  @media screen and (max-width: 767.98px) {
+    .x-large-kiti {
+      font-size: 46px;
+      line-height: 46px; } }
 
 .small-kiti {
   font-size: 31px;
-  line-height: 31px;
-}
-@media screen and (max-width: 767.98px) {
-  .small-kiti {
-    font-size: 24px;
-    line-height: 24px;
-  }
-}
+  line-height: 31px; }
+  @media screen and (max-width: 767.98px) {
+    .small-kiti {
+      font-size: 24px;
+      line-height: 24px; } }
 
 .content-kiti {
   font-size: 25px;
-  line-height: 25px;
-}
-@media screen and (max-width: 767.98px) {
-  .content-kiti {
-    font-size: 20px;
-    line-height: 20px;
-  }
-}
+  line-height: 25px; }
+  @media screen and (max-width: 767.98px) {
+    .content-kiti {
+      font-size: 20px;
+      line-height: 20px; } }
 
 .sub-content-kiti {
   font-size: 22px;
-  line-height: 22px;
-}
-@media screen and (max-width: 767.98px) {
-  .sub-content-kiti {
-    font-size: 18px;
-    line-height: 18px;
-  }
-}
+  line-height: 22px; }
+  @media screen and (max-width: 767.98px) {
+    .sub-content-kiti {
+      font-size: 18px;
+      line-height: 18px; } }
 
 .font-thm {
   font-family: "Tahoma";
   font-weight: normal;
-  letter-spacing: 0;
-}
+  letter-spacing: 0; }
 
 .content-thm {
   font-size: 16px;
-  line-height: 20px;
-}
-@media screen and (max-width: 767.98px) {
-  .content-thm {
-    font-size: 12px;
-    line-height: 16px;
-  }
-}
+  line-height: 20px; }
+  @media screen and (max-width: 767.98px) {
+    .content-thm {
+      font-size: 12px;
+      line-height: 16px; } }
 
 /* note : for IE8,7 need css3pie helper*/
 #maincontainer-wrapper .search-wrapper {
   display: block;
   padding-bottom: 50px;
-  background-color: #fff;
-}
-#maincontainer-wrapper .search-wrapper .search-form {
-  display: block;
-}
-#maincontainer-wrapper .search-wrapper .search-form .form {
-  padding: 20px;
-  margin-bottom: 20px;
-  /*border: 1px solid $color-grey;*/
-}
-#maincontainer-wrapper .search-wrapper .search-form .form .slc-custom {
-  margin-bottom: 0;
-}
-#maincontainer-wrapper .search-wrapper .search-result {
-  display: block;
-}
-#maincontainer-wrapper .search-wrapper .search-result .result {
-  min-height: 300px;
-  padding: 20px;
-  border: 1px solid #ccc;
-}
+  background-color: #fff; }
+  #maincontainer-wrapper .search-wrapper .search-form {
+    display: block; }
+    #maincontainer-wrapper .search-wrapper .search-form .form {
+      padding: 20px;
+      margin-bottom: 20px; }
+      #maincontainer-wrapper .search-wrapper .search-form .form .slc-custom {
+        margin-bottom: 0; }
+  #maincontainer-wrapper .search-wrapper .search-result {
+    display: block; }
+    #maincontainer-wrapper .search-wrapper .search-result .result {
+      min-height: 300px;
+      padding: 20px;
+      border: 1px solid #ccc; }

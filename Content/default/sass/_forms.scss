@@ -61,133 +61,10 @@ textarea.form-control{
     }
 }
 
-/*override Bootstrap Button*/
-/*.btn {
-    position: relative;
-    height: 40px;
-    padding: 0 15px;
-    border: 0 none;
-    border-radius: 0;
-    font-weight: 700;
-    line-height: 40px;
-    color: $color-white;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    outline: 0 none !important;
-
-    &:focus, &:active:focus, &.active:focus {
-        outline: 0 none !important;
-    }
-
-    &.btn-outline {
-        color: $color-hover;
-        border: 1px solid $color-hover;
-    }
-
-    &.btn-primary {
-        color: $color-white;
-        background-color: $color-primary;
-
-        &:hover, &:focus, &:active, &.active {
-            background-color: $color-hover;
-        }
-
-        &.btn-outline {
-            color: $color-primary;
-            border-color: $color-primary;
-            background-color: transparent;
-
-            &:hover, &:focus, &:active, &.active {
-                color: $color-white;
-                background-color: $color-primary;
-            }
-        }
-    }
-
-    &.btn-secondary {
-        color: $color-white;
-        border-color: $color-secondary;
-        background-color: $color-secondary;
-
-        &:hover, &:focus, &:active, &.active {
-            border-color: $color-hover;
-            background-color: $color-hover;
-        }
-    }
-
-    &.btn-transparent {
-        background-color: transparent;
-
-        &:hover, &:focus, &:active, &.active {
-            color: $color-text;
-        }
-    }
-
-    &.btn-learnmore {
-        color: $color-hover;
-        border-color: $color-hover;
-        background-color: transparent;
-
-        &:hover, &:focus, &:active, &.active {
-            color: $color-white;
-            border-color: $color-primary;
-            background-color: $color-primary;
-        }
-    }
-
-    &.btn-share {
-        width: 40px;
-        height: 40px;
-        padding: 0;
-        line-height: 40px;
-        color: $color-hover;
-        border-color: $color-hover;
-        background-color: transparent;
-
-        &:hover, &:focus, &:active, &.active {
-            color: $color-white;
-            border-color: $color-primary;
-            background-color: $color-primary;
-        }
-    }
-
-    &.btn-icon-right {
-        padding: 0 45px;
-
-        .fas {
-            position: absolute;
-
-            &.fa-angle-right {
-                top: 8px;
-                right: 10px;
-                font-size: $base-fontsize;
-            }
-        }
-    }
-
-    &.btn-icon-left {
-        padding: 0 45px;
-
-        fas {
-            position: absolute;
-
-            &.fa-angle-right {
-                top: 8px;
-                left: 10px;
-                font-size: $base-fontsize;
-            }
-        }
-    }
-}*/
-
 .dropup, .dropright, .dropdown, .dropleft {
     margin-bottom: 10px;
 
     @include media-breakpoint-down(xs) {
-        /*button, .btn, button.btn {
-            min-width: 75%;
-            max-width: 100%;
-        }*/
     }
 }
 
@@ -204,14 +81,12 @@ textarea.form-control{
 .inputfile + label {
     max-width: 100%;
     font-size: $base-fontsize;
-    /* 20px */
     text-overflow: ellipsis;
     white-space: nowrap;
     cursor: pointer;
     display: inline-block;
     overflow: hidden;
     padding: 0.625rem 1rem;
-    /* 10px 20px */
 }
 
 .no-js .inputfile + label {
@@ -226,8 +101,6 @@ textarea.form-control{
 }
 
 .inputfile + label * {
-    /* pointer-events: none; */
-    /* in case of FastClick lib use */
 }
 
 .inputfile + label svg {
@@ -236,9 +109,7 @@ textarea.form-control{
     vertical-align: middle;
     fill: currentColor;
     margin-top: -0.25em;
-    /* 4px */
     margin-right: 0.25em;
-    /* 4px */
 }
 
 .inputfile-6 + label {
@@ -258,7 +129,6 @@ textarea.form-control{
 .inputfile-6 + label span,
 .inputfile-6 + label strong {
     padding: 0.625rem 1rem;
-    /* 10px 20px */
 }
 
 .inputfile-6 + label span {

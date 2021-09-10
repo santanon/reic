@@ -3,11 +3,8 @@
 @import "../helpers/fontstyle";
 @import "../helpers/mixin_css3";
 
-
 #maincontainer-wrapper {
     #chart-spline {
-        /*height: 400px;
-        max-width: 800px;*/
         width: 100%;
         margin: 0 auto;
 
@@ -16,29 +13,13 @@
                 display: none;
             }
 
-            .highcharts-legend {
-                /*display: none;*/
-            }
-
             svg {
                 font-size: $text-content;
-
-                .highcharts-grid {
-                    /*display: none;*/
-                    path {
-                        /*width: 10px;*/
-                    }
-                }
             }
-        }
-
-        rect {
         }
     }
 
     #chart-pie, #chart-pie2 {
-        /*height: 400px;
-        max-width: 800px;*/
         width: 100%;
         height: 250px !important;
         margin: 0 auto;
@@ -49,19 +30,8 @@
                 display: none;
             }
 
-            .highcharts-legend {
-                /*display: none;*/
-            }
-
             svg {
                 font-size: $text-content;
-
-                .highcharts-grid {
-                    /*display: none;*/
-                    path {
-                        /*width: 10px;*/
-                    }
-                }
             }
         }
 

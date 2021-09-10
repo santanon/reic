@@ -4,20 +4,17 @@
 #header-wrapper {
     position: fixed;
     left: 0;
-    //z-index: 9998;
     z-index: 997;
 }
 
 #header {
     .top-menu-wrapper {
-        //position: relative;
         position: absolute;
         display: block;
         width: 100%;
         height: auto;
         padding: 20px 0 10px;
         margin: 0;
-        //background-color: $color-primary;
         background-color: #fff;
         z-index: 9;
 
@@ -116,8 +113,6 @@
             height: auto;
             padding: 0;
             margin: 0;
-            //margin-left: 10px;
-            //padding-left: 10px;
             padding-right: 15px;
             border-left: 1px solid #eee;
 
@@ -130,16 +125,13 @@
 
                 .dropdown-toggle {
                     display: block;
-                    //width: 35px;
                     height: 30px;
                     font-family: $font-bold;
                     font-size: $base-fontsize;
                     font-weight: normal;
                     line-height: 30px;
                     text-align: center;
-                    //color: #ccc;
                     color: $color-primary;
-                    //border: 1px solid #ccc;
                     border: none;
                     background-color: transparent;
                     outline: 0 none;
@@ -151,11 +143,9 @@
 
                     &:hover {
                         color: $color-primary;
-                        //border-color: $color-white;
                     }
 
                     &:after {
-                        //display: none;
                         border: none;
                         margin-left: 0;
                         content: "";
@@ -230,7 +220,6 @@
             .dropdown {
                 position: unset;
                 display: block;
-                //width: 35px;
                 height: 30px;
                 margin: 0;
 
@@ -238,7 +227,6 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    //width: 35px;
                     height: 30px;
                     padding: 0;
                     font-size: $text-breadcrumb;
@@ -290,8 +278,6 @@
                     }
 
                     .fa-member {
-                        /*position: absolute;*/
-                        /*left: 15px;*/
                         top: 0;
                         height: $height-icon;
                         text-indent: -9999px;
@@ -307,13 +293,10 @@
                         line-height: 10px;
                         color: $color-white;
                         border: 1px solid $color-grey;
-                        /*margin: 0 5px;*/
                     }
 
 
                     .fa-member-bord {
-                        /*position: absolute;*/
-                        /*left: 15px;*/
                         top: 0;
                         height: $height-icon;
                         text-indent: -9999px;
@@ -330,12 +313,9 @@
                         line-height: 10px;
                         color: $color-white;
                         border: 1px solid $color-grey;
-                        /*margin: 0 5px;*/
                     }
 
                     .fa-search-custom {
-                        /*position: absolute;*/
-                        /*left: 15px;*/
                         top: 0;
                         height: $height-icon;
                         text-indent: -9999px;
@@ -346,8 +326,6 @@
                     }
 
                     .fa-arr {
-                        /*position: absolute;*/
-                        /*left: 15px;*/
                         top: 0;
                         height: $height-icon;
                         text-indent: -9999px;
@@ -378,8 +356,6 @@
                         }
 
                         .fa-arr {
-                            /*position: absolute;*/
-                            /*left: 15px;*/
                             top: 0;
                             height: $height-icon;
                             text-indent: -9999px;
@@ -389,8 +365,6 @@
                         }
 
                         .fa-member {
-                            /*position: absolute;*/
-                            /*left: 15px;*/
                             top: 0;
                             height: $height-icon;
                             text-indent: -9999px;
@@ -482,7 +456,6 @@
             .dropdown {
                 position: unset;
                 display: block;
-                //width: 35px;
                 height: 30px;
                 margin: 0;
 
@@ -490,7 +463,6 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    //width: 35px;
                     height: 30px;
                     padding: 0;
                     font-size: $text-breadcrumb;
@@ -542,8 +514,6 @@
                     }
 
                     .fa-member {
-                        /*position: absolute;*/
-                        /*left: 15px;*/
                         top: 0;
                         height: $height-icon;
                         text-indent: -9999px;
@@ -559,13 +529,10 @@
                         line-height: 10px;
                         color: $color-white;
                         border: 1px solid $color-grey;
-                        /*margin: 0 5px;*/
                     }
 
 
                     .fa-member-bord {
-                        /*position: absolute;*/
-                        /*left: 15px;*/
                         top: 0;
                         height: $height-icon;
                         text-indent: -9999px;
@@ -582,12 +549,9 @@
                         line-height: 10px;
                         color: $color-white;
                         border: 1px solid $color-grey;
-                        /*margin: 0 5px;*/
                     }
 
                     .fa-search-custom {
-                        /*position: absolute;*/
-                        /*left: 15px;*/
                         top: 0;
                         height: $height-icon;
                         text-indent: -9999px;
@@ -598,8 +562,6 @@
                     }
 
                     .fa-arr {
-                        /*position: absolute;*/
-                        /*left: 15px;*/
                         top: 0;
                         height: $height-icon;
                         text-indent: -9999px;
@@ -630,8 +592,6 @@
                         }
 
                         .fa-arr {
-                            /*position: absolute;*/
-                            /*left: 15px;*/
                             top: 0;
                             height: $height-icon;
                             text-indent: -9999px;
@@ -641,8 +601,6 @@
                         }
 
                         .fa-member {
-                            /*position: absolute;*/
-                            /*left: 15px;*/
                             top: 0;
                             height: $height-icon;
                             text-indent: -9999px;
@@ -734,7 +692,6 @@
             .dropdown {
                 position: unset;
                 display: block;
-                /*width: 35px;*/
                 height: 30px;
                 margin: 0;
 
@@ -742,7 +699,6 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    /*width: 35px;*/
                     height: 30px;
                     padding: 0;
                     font-size: $text-breadcrumb;
@@ -757,14 +713,12 @@
                     padding: 0 15px;
 
                     .count {
-                        //width: 35px;
                         width: auto;
                         height: 30px;
                         font-size: 22px;
                         line-height: 30px;
                         margin-left: 15px;
                         color: $color-primary;
-                        //border: 1px solid $color-grey;
                         cursor: pointer;
                     }
 
@@ -787,8 +741,6 @@
                     }
 
                     .fa-member {
-                        /*position: absolute;*/
-                        /*left: 15px;*/
                         top: 0;
                         height: $height-icon;
                         text-indent: -9999px;
@@ -799,8 +751,6 @@
 
 
                     .fa-arr {
-                        /*position: absolute;*/
-                        /*left: 15px;*/
                         top: 0;
                         height: $height-icon;
                         text-indent: -9999px;
@@ -815,12 +765,9 @@
 
                         .count {
                             color: $color-primary;
-                            //border: 1px solid $color-white;
                         }
 
                         .fa-arr {
-                            /*position: absolute;*/
-                            /*left: 15px;*/
                             top: 0;
                             height: $height-icon;
                             text-indent: -9999px;
@@ -830,8 +777,6 @@
                         }
 
                         .fa-member {
-                            /*position: absolute;*/
-                            /*left: 15px;*/
                             top: 0;
                             height: $height-icon;
                             text-indent: -9999px;
@@ -936,7 +881,6 @@
         position: relative;
         display: block;
         width: 100%;
-        //height: 75px;
         height: auto;
         padding: 0;
         margin: 0;
@@ -1001,7 +945,6 @@
                             line-height: 35px;
                             font-weight: bold;
                             text-transform: capitalize;
-                            //color: $color-text;
                             color: #707070;
                             &:hover {
                                 color: $color-primary;
@@ -1156,7 +1099,6 @@
 
                                 .list-menu {
                                     color: $color-white;
-                                    /*list-style: disc;*/
                                     list-style-type: square;
                                     list-style-position: outside;
                                     padding: 0;
@@ -1170,12 +1112,8 @@
                                         display: list-item;
                                         width: 100%;
                                         height: auto;
-                                        /*padding-left: 20px;*/
                                         margin: 0 0 10px 0;
                                         color: $color-white;
-                                        /*background-image: url('../../../../Images/icon/ic-list-white.jpg');
-                                        background-position: left 10px;
-                                        background-repeat: no-repeat;*/
                                         &:hover {
 
                                             > a {
@@ -1217,12 +1155,6 @@
 
                         &:hover {
                             .sub-menu-hover {
-                                /*opacity: 1;
-                                top: 100%;
-                                visibility: visible;*/
-                                /*.button-close {
-                                    opacity: 0.95;
-                                }*/
                             }
                         }
 
@@ -1273,12 +1205,9 @@
 
             .logo {
                 max-width: 90%;
-                //position: absolute;
                 position: relative;
                 margin: 0;
-                //left: 50px;
                 left: 0;
-                //top: 15px;
                 top: 0;
                 display: block;
             }
@@ -1291,25 +1220,12 @@
 
             .logo {
                 max-width: 70%;
-                /*position: absolute;
-                margin: 0;
-                left: 50px;
-                top: 10px;
-                display: block;*/
             }
         }
 
         @include media-breakpoint-down(sm) {
             display: flex;
             align-items: center;
-            /*.logo {
-                max-width: 70%;
-                position: absolute;
-                margin: 0;
-                left: 50px;
-                top: 10px;
-                display: block;
-            }*/
         }
     }
 
@@ -1352,7 +1268,6 @@
         }
 
         @include media-breakpoint-down(sm) {
-            /*top: 20px;*/
             top: 0;
         }
     }

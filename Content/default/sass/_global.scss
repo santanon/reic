@@ -3,8 +3,7 @@ html, body {
     font-family: $default-font;
     color: $color-text;
     line-height: $page-lineheight;
-    //background-color: $body-bg;
-    background-color: #FAFBFB;
+    background-color: #FAFAFA;
 }
 
 body .swal2-modal .swal2-content {
@@ -12,7 +11,7 @@ body .swal2-modal .swal2-content {
     font-weight: 400;
 }
 
-/* main structure */
+/*main structure*/ 
 #main-wrapper {
     position: relative;
     max-width: $page-max-width;
@@ -21,7 +20,7 @@ body .swal2-modal .swal2-content {
     margin: 0 auto;
     overflow: hidden;
 
-    // disable responsive layout in old browser
+    /*disable responsive layout in old browser*/
     .lt-ie9 & {
         min-width: $page-oldbrowser-width;
     }

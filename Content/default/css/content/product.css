@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* set global config vars */
 /* defualt page width setting(PC) */
 /* off canvas menu width *eg. 70px or 70% */
@@ -7,8 +6,6 @@
 /* footer height */
 /* global body setting */
 /* default font family */
-/*$default-font-detail: "THSarabunNew";*/
-/*$font-bold-detail: "THSarabunNewBold";*/
 /* text sizing multiplier */
 /* text sizing */
 /* default theme color */
@@ -19,50 +16,50 @@
 /*media screen*/
 /*mobile*/
 @font-face {
-  font-family: "Kitithada";
+  font-family: 'Kitithada';
   src: url("../../../../fonts/PSL094pro_0.eot");
   src: url("../../../../fonts/PSL094pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL094pro_0.woff") format("woff"), url("../../../../fonts/PSL094pro_0.ttf") format("truetype"), url("../../../../fonts/PSL094pro_0.svg") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
+
 @font-face {
-  font-family: "KitithadaBold";
+  font-family: 'KitithadaBold';
   src: url("../../../../fonts/PSL096pro_0.eot");
   src: url("../../../../fonts/PSL096pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL096pro_0.woff") format("woff"), url("../../../../fonts/PSL096pro_0.ttf") format("truetype"), url("../../../../fonts/PSL096pro_0.svg") format("svg");
   font-weight: bold;
-  font-style: normal;
-}
+  font-style: normal; }
+
 @font-face {
-  font-family: "kanitmedium";
+  font-family: 'kanitmedium';
   src: url("../../../../fonts/kanit-medium.woff2") format("woff2"), url("../../../../fonts/kanit-medium.woff") format("woff");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
+
 @font-face {
-  font-family: "THSarabunNew";
+  font-family: 'THSarabunNew';
   src: url("../../../../fonts/thsarabunnew-webfont.eot");
   src: url("../../../../fonts/thsarabunnew-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/thsarabunnew-webfont.woff") format("woff"), url("../../../../fonts/thsarabunnew-webfont.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
+
 @font-face {
-  font-family: "THSarabunNewBold";
+  font-family: 'THSarabunNewBold';
   src: url("../../../../fonts/thsarabunnew_bold-webfont.eot");
   src: url("../../../../fonts/thsarabunnew_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/thsarabunnew_bold-webfont.woff") format("woff"), url("../../../../fonts/thsarabunnew_bold-webfont.ttf") format("truetype");
   font-weight: bold;
-  font-style: normal;
-}
+  font-style: normal; }
+
 @font-face {
-  font-family: "icomoon";
+  font-family: 'icomoon';
   src: url("../../../../fonts/icomoon.eot?ho9c1c");
   src: url("../../../../fonts/icomoon.eot?ho9c1c#iefix") format("embedded-opentype"), url("../../../../fonts/icomoon.ttf?ho9c1c") format("truetype"), url("../../../../fonts/icomoon.woff?ho9c1c") format("woff"), url("../../../../fonts/icomoon.svg?ho9c1c#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-  font-display: block;
-}
-[class^=icon-], [class*=" icon-"] {
+  font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon";
+  font-family: 'icomoon';
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -71,13 +68,11 @@
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
 .icon-arrow-right:before {
-  content: "";
-  color: #ed1c24;
-}
+  content: "\e900";
+  color: #ed1c24; }
 
 /* set global config vars */
 /* defualt page width setting(PC) */
@@ -87,8 +82,6 @@
 /* footer height */
 /* global body setting */
 /* default font family */
-/*$default-font-detail: "THSarabunNew";*/
-/*$font-bold-detail: "THSarabunNewBold";*/
 /* text sizing multiplier */
 /* text sizing */
 /* default theme color */
@@ -101,8 +94,7 @@
 .font-kiti {
   font-family: "Kitithada";
   font-weight: normal;
-  letter-spacing: 0.5px;
-}
+  letter-spacing: 0.5px; }
 
 /* will be red only in google chrome */
 /*@media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -110,414 +102,329 @@
         letter-spacing: 1px;
     }
 }*/
-@media not all and (-webkit-min-device-pixel-ratio: 0), not all and (-o-min-device-pixel-ratio: 0/1), not all and (min-resolution: 0.001dpcm) {
+@media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) {
     .font-kiti {
-      letter-spacing: -0.5px;
-    }
-  }
-}
+      letter-spacing: -0.5px; } } }
+
 .x-large-kiti {
   font-size: 50px;
-  line-height: 50px;
-}
-@media screen and (max-width: 767.98px) {
-  .x-large-kiti {
-    font-size: 46px;
-    line-height: 46px;
-  }
-}
+  line-height: 50px; }
+  @media screen and (max-width: 767.98px) {
+    .x-large-kiti {
+      font-size: 46px;
+      line-height: 46px; } }
 
 .small-kiti {
   font-size: 31px;
-  line-height: 31px;
-}
-@media screen and (max-width: 767.98px) {
-  .small-kiti {
-    font-size: 24px;
-    line-height: 24px;
-  }
-}
+  line-height: 31px; }
+  @media screen and (max-width: 767.98px) {
+    .small-kiti {
+      font-size: 24px;
+      line-height: 24px; } }
 
 .content-kiti {
   font-size: 25px;
-  line-height: 25px;
-}
-@media screen and (max-width: 767.98px) {
-  .content-kiti {
-    font-size: 20px;
-    line-height: 20px;
-  }
-}
+  line-height: 25px; }
+  @media screen and (max-width: 767.98px) {
+    .content-kiti {
+      font-size: 20px;
+      line-height: 20px; } }
 
 .sub-content-kiti {
   font-size: 22px;
-  line-height: 22px;
-}
-@media screen and (max-width: 767.98px) {
-  .sub-content-kiti {
-    font-size: 18px;
-    line-height: 18px;
-  }
-}
+  line-height: 22px; }
+  @media screen and (max-width: 767.98px) {
+    .sub-content-kiti {
+      font-size: 18px;
+      line-height: 18px; } }
 
 .font-thm {
   font-family: "Tahoma";
   font-weight: normal;
-  letter-spacing: 0;
-}
+  letter-spacing: 0; }
 
 .content-thm {
   font-size: 16px;
-  line-height: 20px;
-}
-@media screen and (max-width: 767.98px) {
-  .content-thm {
-    font-size: 12px;
-    line-height: 16px;
-  }
-}
+  line-height: 20px; }
+  @media screen and (max-width: 767.98px) {
+    .content-thm {
+      font-size: 12px;
+      line-height: 16px; } }
 
 /* note : for IE8,7 need css3pie helper*/
 #maincontainer-wrapper .btn-buy {
-  padding: 0 15px 10px 15px;
-}
-#maincontainer-wrapper .btn-buy .button .btn-med {
-  padding: 5px 55px;
-  display: inline-block;
-  color: #fff;
-}
+  padding: 0 15px 10px 15px; }
+  #maincontainer-wrapper .btn-buy .button .btn-med {
+    padding: 5px 55px;
+    display: inline-block;
+    color: #fff; }
+
 #maincontainer-wrapper .gallery-wrapper {
-  max-width: 100%;
-}
-@media screen and (max-width: 1199.98px) {
-  #maincontainer-wrapper .gallery-wrapper {
-    width: 100% !important;
-    margin-right: 0 !important;
-    margin-bottom: 20px !important;
-  }
-}
-@media screen and (max-width: 991.98px) {
-  #maincontainer-wrapper .gallery-wrapper {
-    max-width: 100% !important;
-    margin-right: 0 !important;
-    margin-bottom: 20px !important;
-  }
-}
+  max-width: 100%; }
+  @media screen and (max-width: 1199.98px) {
+    #maincontainer-wrapper .gallery-wrapper {
+      width: 100% !important;
+      margin-right: 0 !important;
+      margin-bottom: 20px !important; } }
+  @media screen and (max-width: 991.98px) {
+    #maincontainer-wrapper .gallery-wrapper {
+      max-width: 100% !important;
+      margin-right: 0 !important;
+      margin-bottom: 20px !important; } }
+
 #maincontainer-wrapper .product-item {
   background-color: #F7F7F7;
   padding: 10px;
-  margin-top: 2px;
-}
-#maincontainer-wrapper .product-item .item {
-  padding: 0 10px;
-}
-#maincontainer-wrapper .product-item .item .product-title {
-  font-size: 25px;
-  color: #2E3092;
-  line-height: 41px;
-  min-height: 45px;
-}
-#maincontainer-wrapper .product-item .item .product-box {
-  display: block;
-  background-color: #fff;
-  width: 100%;
-  min-height: 41px;
-  padding: 0;
-  /*margin-bottom: 15px;
-  padding-bottom: 15px;*/
-}
-#maincontainer-wrapper .product-item .item .product-box .product {
-  min-height: 41px;
-  line-height: 30px;
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0;
-}
-#maincontainer-wrapper .product-item .item .product-box .product .label-custom {
-  display: inline-block;
-  vertical-align: top;
-  font-size: 25px;
-  line-height: 41px;
-  color: #555;
-}
-#maincontainer-wrapper .product-item .item .product-box .product .label-custom .product-price {
-  font-family: "KitithadaBold";
-  font-size: 25px;
-  color: #EC0E17;
-}
-#maincontainer-wrapper .product-item .item .product-box .product .custom-icons {
-  display: inline-block;
-  vertical-align: top;
-  height: auto;
-}
-#maincontainer-wrapper .product-item .item .product-box .product .custom-icons .btn-buy {
-  padding: 0 0px 0px 15px;
-}
+  margin-top: 2px; }
+  #maincontainer-wrapper .product-item .item {
+    padding: 0 10px; }
+    #maincontainer-wrapper .product-item .item .product-title {
+      font-size: 25px;
+      color: #2E3092;
+      line-height: 41px;
+      min-height: 45px; }
+    #maincontainer-wrapper .product-item .item .product-box {
+      display: block;
+      background-color: #fff;
+      width: 100%;
+      min-height: 41px;
+      padding: 0; }
+      #maincontainer-wrapper .product-item .item .product-box .product {
+        min-height: 41px;
+        line-height: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0; }
+        #maincontainer-wrapper .product-item .item .product-box .product .label-custom {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 25px;
+          line-height: 41px;
+          color: #555; }
+          #maincontainer-wrapper .product-item .item .product-box .product .label-custom .product-price {
+            font-family: "KitithadaBold";
+            font-size: 25px;
+            color: #EC0E17; }
+        #maincontainer-wrapper .product-item .item .product-box .product .custom-icons {
+          display: inline-block;
+          vertical-align: top;
+          height: auto; }
+          #maincontainer-wrapper .product-item .item .product-box .product .custom-icons .btn-buy {
+            padding: 0 0px 0px 15px; }
+
 #maincontainer-wrapper .list-step {
-  margin-top: 30px;
-}
-#maincontainer-wrapper .list-step ul {
-  margin: 0;
-  padding: 0;
-}
-#maincontainer-wrapper .list-step ul li {
-  list-style: none;
-  width: 33.3333%;
-  float: left;
-}
-#maincontainer-wrapper .list-step ul li .name-step-wrapper .name-step {
-  font-family: "Kitithada";
-  font-size: 34px;
-  line-height: 34px;
-  color: #cccccc;
-  float: left;
-  padding-left: 20px;
-}
-#maincontainer-wrapper .list-step ul li .name-step-wrapper .percent-step {
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  border: 1px solid #6F90C8;
-  float: right;
-  visibility: hidden;
-}
-#maincontainer-wrapper .list-step ul li .name-step-wrapper .percent-step .num {
-  font-family: "Kitithada";
-  font-size: 16px !important;
-  line-height: 16px !important;
-  color: #444444;
-}
-#maincontainer-wrapper .list-step ul li .name-step-wrapper .percent-step .success {
-  font-family: "Kitithada";
-  font-size: 16px !important;
-  line-height: 16px !important;
-  color: #00AFF0;
-}
-#maincontainer-wrapper .list-step ul li .name-step-wrapper .percent-step .success i {
-  padding-top: 7px;
-}
-#maincontainer-wrapper .list-step ul li .line-step {
-  position: relative;
-  border-bottom: 2px solid #cccccc;
-  margin-top: 10px;
-}
-#maincontainer-wrapper .list-step ul li .line-step span {
-  position: absolute;
-  left: 0;
-  top: -7px;
-  background-color: #cccccc;
-  width: 15px;
-  height: 15px;
-  border-radius: 100%;
-}
-#maincontainer-wrapper .list-step ul li.active .name-step-wrapper .name-step {
-  color: #2E3092;
-}
-#maincontainer-wrapper .list-step ul li.active .name-step-wrapper .percent-step {
-  visibility: visible;
-}
-#maincontainer-wrapper .list-step ul li.active .line-step {
-  border-bottom: 2px solid #00AFF0;
-}
-#maincontainer-wrapper .list-step ul li.active .line-step span {
-  background-color: #00AFF0;
-}
-@media screen and (max-width: 767.98px) {
-  #maincontainer-wrapper .list-step li {
-    width: 100% !important;
-  }
-}
+  margin-top: 30px; }
+  #maincontainer-wrapper .list-step ul {
+    margin: 0;
+    padding: 0; }
+    #maincontainer-wrapper .list-step ul li {
+      list-style: none;
+      width: 33.3333%;
+      float: left; }
+      #maincontainer-wrapper .list-step ul li .name-step-wrapper .name-step {
+        font-family: "Kitithada";
+        font-size: 34px;
+        line-height: 34px;
+        color: #cccccc;
+        float: left;
+        padding-left: 20px; }
+      #maincontainer-wrapper .list-step ul li .name-step-wrapper .percent-step {
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        border: 1px solid #6F90C8;
+        float: right;
+        visibility: hidden; }
+        #maincontainer-wrapper .list-step ul li .name-step-wrapper .percent-step .num {
+          font-family: "Kitithada";
+          font-size: 16px !important;
+          line-height: 16px !important;
+          color: #444444; }
+        #maincontainer-wrapper .list-step ul li .name-step-wrapper .percent-step .success {
+          font-family: "Kitithada";
+          font-size: 16px !important;
+          line-height: 16px !important;
+          color: #00AFF0; }
+          #maincontainer-wrapper .list-step ul li .name-step-wrapper .percent-step .success i {
+            padding-top: 7px; }
+      #maincontainer-wrapper .list-step ul li .line-step {
+        position: relative;
+        border-bottom: 2px solid #cccccc;
+        margin-top: 10px; }
+        #maincontainer-wrapper .list-step ul li .line-step span {
+          position: absolute;
+          left: 0;
+          top: -7px;
+          background-color: #cccccc;
+          width: 15px;
+          height: 15px;
+          border-radius: 100%; }
+    #maincontainer-wrapper .list-step ul li.active .name-step-wrapper .name-step {
+      color: #2E3092; }
+    #maincontainer-wrapper .list-step ul li.active .name-step-wrapper .percent-step {
+      visibility: visible; }
+    #maincontainer-wrapper .list-step ul li.active .line-step {
+      border-bottom: 2px solid #00AFF0; }
+      #maincontainer-wrapper .list-step ul li.active .line-step span {
+        background-color: #00AFF0; }
+  @media screen and (max-width: 767.98px) {
+    #maincontainer-wrapper .list-step li {
+      width: 100% !important; } }
+
 #maincontainer-wrapper .count-num-box .count-num input {
   width: 100%;
   border: 1px solid #ccc;
-  text-align: center;
-}
+  text-align: center; }
+
 #maincontainer-wrapper .count-num-box .action .fam-minus {
   border: 1px solid #ccc;
   border-right: 0;
   text-align: center;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 #maincontainer-wrapper .count-num-box .action .fam-add {
   border: 1px solid #ccc;
   border-left: 0;
   text-align: center;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 @media screen and (max-width: 767.98px) {
   #maincontainer-wrapper .table .pst-lefttocen {
-    text-align: center !important;
-  }
-}
+    text-align: center !important; } }
+
 #maincontainer-wrapper .table thead tr {
-  border: none;
-}
-#maincontainer-wrapper .table thead tr th {
-  font-family: "KitithadaBold";
-  font-size: 25px;
-  line-height: 25px;
-  color: #2E3092;
-  background-color: #D7EBFF;
-  border: none;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #00AFF0;
-  border-top: 0;
-  padding: 10px;
-  text-align: center;
-}
+  border: none; }
+  #maincontainer-wrapper .table thead tr th {
+    font-family: "KitithadaBold";
+    font-size: 25px;
+    line-height: 25px;
+    color: #2E3092;
+    background-color: #D7EBFF;
+    border: none;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #00AFF0;
+    border-top: 0;
+    padding: 10px;
+    text-align: center; }
+
 #maincontainer-wrapper .table thead .no-bg {
   background-color: transparent !important;
-  border: none;
-}
+  border: none; }
+
 #maincontainer-wrapper .table thead .half {
-  width: 50%;
-}
+  width: 50%; }
+
 @media screen and (max-width: 767.98px) {
   #maincontainer-wrapper .table thead tr th {
     font-size: 20px;
-    line-height: 20px;
-  }
-}
-#maincontainer-wrapper .table tbody tr {
-  border: none;
-  /*&:nth-child(odd) {
-      background-color: $color-white;
-      border: none;
-  }
+    line-height: 20px; } }
 
-  &:nth-child(even) {
-      background-color: $body-bg;
-      border: none;
-  }*/
-}
-#maincontainer-wrapper .table tbody tr td {
-  font-family: "Kitithada";
-  font-size: 25px;
-  line-height: 25px;
-  color: #555;
-  text-align: center;
-  border: none;
-  border-bottom: 1px solid #ccc;
-}
-#maincontainer-wrapper .table tbody tr td .padding-list {
-  padding: 10px 20px;
-}
-#maincontainer-wrapper .table tbody tr td .half {
-  width: 50%;
-}
-#maincontainer-wrapper .table tbody tr td img {
-  height: 30px;
-  vertical-align: middle;
-  border-style: none;
-  margin: -5px 0 0 0;
-}
-@media screen and (max-width: 991.98px) {
-  #maincontainer-wrapper .table tbody tr td img {
-    margin-bottom: 5px;
-  }
-}
-#maincontainer-wrapper .table tbody tr td a {
-  color: #555;
-  height: 25px;
-}
-#maincontainer-wrapper .table tbody tr td a:hover {
-  color: #2E3092;
-}
-@media screen and (max-width: 991.98px) {
-  #maincontainer-wrapper .table tbody tr td a {
-    font-size: 22px;
-  }
-}
-#maincontainer-wrapper .table tbody tr td span {
-  color: #555;
-  height: 25px;
-  color: #2E3092;
-}
+#maincontainer-wrapper .table tbody tr {
+  border: none; }
+  #maincontainer-wrapper .table tbody tr td {
+    font-family: "Kitithada";
+    font-size: 25px;
+    line-height: 25px;
+    color: #555;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #ccc; }
+    #maincontainer-wrapper .table tbody tr td .padding-list {
+      padding: 10px 20px; }
+    #maincontainer-wrapper .table tbody tr td .half {
+      width: 50%; }
+    #maincontainer-wrapper .table tbody tr td img {
+      height: 30px;
+      vertical-align: middle;
+      border-style: none;
+      margin: -5px 0 0 0; }
+      @media screen and (max-width: 991.98px) {
+        #maincontainer-wrapper .table tbody tr td img {
+          margin-bottom: 5px; } }
+    #maincontainer-wrapper .table tbody tr td a {
+      color: #555;
+      height: 25px; }
+      #maincontainer-wrapper .table tbody tr td a:hover {
+        color: #2E3092; }
+      @media screen and (max-width: 991.98px) {
+        #maincontainer-wrapper .table tbody tr td a {
+          font-size: 22px; } }
+    #maincontainer-wrapper .table tbody tr td span {
+      color: #555;
+      height: 25px;
+      color: #2E3092; }
+
 @media screen and (max-width: 767.98px) {
   #maincontainer-wrapper .table tbody tr {
     border-top: 1px solid #ccc;
-    padding: 5px 0;
-  }
-  #maincontainer-wrapper .table tbody tr:nth-child(odd) {
-    background-color: #F7F7F7;
-    border: none;
-  }
-  #maincontainer-wrapper .table tbody tr:nth-child(even) {
-    background-color: #fff;
-    border: none;
-  }
-  #maincontainer-wrapper .table tbody tr td {
-    font-size: 20px;
-    line-height: 20px;
-    text-align: left;
-    padding: 10px 20px;
-    border: none;
-  }
-}
+    padding: 5px 0; }
+    #maincontainer-wrapper .table tbody tr:nth-child(odd) {
+      background-color: #F7F7F7;
+      border: none; }
+    #maincontainer-wrapper .table tbody tr:nth-child(even) {
+      background-color: #fff;
+      border: none; }
+    #maincontainer-wrapper .table tbody tr td {
+      font-size: 20px;
+      line-height: 20px;
+      text-align: left;
+      padding: 10px 20px;
+      border: none; } }
+
 #maincontainer-wrapper .table tfoot tr {
   border: none;
-  border-bottom: 1px solid #ccc;
-}
-#maincontainer-wrapper .table tfoot tr th {
-  font-family: "Kitithada";
-  font-size: 25px;
-  line-height: 25px;
-  font-weight: normal;
-  color: #2E3092;
-  background-color: #fff;
-  border: none;
-  border-right: 2px solid #fff;
-  border-top: 0;
-  padding: 25px 15px 25px 25px;
-  text-align: center;
-}
+  border-bottom: 1px solid #ccc; }
+  #maincontainer-wrapper .table tfoot tr th {
+    font-family: "Kitithada";
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #2E3092;
+    background-color: #fff;
+    border: none;
+    border-right: 2px solid #fff;
+    border-top: 0;
+    padding: 25px 15px 25px 25px;
+    text-align: center; }
+
 #maincontainer-wrapper .table tfoot .no-bg {
   background-color: transparent !important;
-  border: none;
-}
+  border: none; }
+
 #maincontainer-wrapper .table tfoot .half {
-  width: 50%;
-}
+  width: 50%; }
+
 #maincontainer-wrapper .table tfoot .title-price {
   font-size: 34px;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
+
 #maincontainer-wrapper .table tfoot .price {
   font-size: 38px;
-  line-height: 41px;
-}
+  line-height: 41px; }
+
 @media screen and (max-width: 767.98px) {
   #maincontainer-wrapper .table tfoot tr {
-    border-top: 1px solid #ccc;
-  }
-  #maincontainer-wrapper .table tfoot tr th {
-    font-size: 20px;
-    line-height: 20px;
-  }
+    border-top: 1px solid #ccc; }
+    #maincontainer-wrapper .table tfoot tr th {
+      font-size: 20px;
+      line-height: 20px; }
   #maincontainer-wrapper .table tfoot .title-price {
     font-size: 20px;
-    margin-top: 10px;
-  }
+    margin-top: 10px; }
   #maincontainer-wrapper .table tfoot .price {
     font-size: 32px;
-    line-height: 41px;
-  }
-}
+    line-height: 41px; } }
+
 #maincontainer-wrapper .desktop-md {
-  display: unset;
-}
-@media screen and (max-width: 767.98px) {
-  #maincontainer-wrapper .desktop-md {
-    display: none;
-  }
-}
+  display: unset; }
+  @media screen and (max-width: 767.98px) {
+    #maincontainer-wrapper .desktop-md {
+      display: none; } }
+
 #maincontainer-wrapper .mobile-md {
-  display: none;
-}
-@media screen and (max-width: 767.98px) {
-  #maincontainer-wrapper .mobile-md {
-    display: block;
-  }
-}
+  display: none; }
+  @media screen and (max-width: 767.98px) {
+    #maincontainer-wrapper .mobile-md {
+      display: block; } }
