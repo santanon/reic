@@ -43,11 +43,14 @@
                                             <p>เลือกแพคเกจข้อมูลที่ใช่ จัดแบบที่ชอบออกแบบสมาชิกด้วยตัวคุณเอง ให้ตรงใจคุณ</p>
                                         </div>
                                     </div>
-                                    <a href="#" class="">
+                                    <div class="btn-link">
+                                        <a href="#" title="GET STARTED">GET STARTED</a>
+                                    </div>
+                                    <%--<a href="#" class="">
                                         <div class="btn-link">
                                             GET STARTED
                                         </div>
-                                    </a>
+                                    </a>--%>
                                 </div>
                             </div>
                         </div>
@@ -138,10 +141,10 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
 
             <%--#include file="../Include/tab/inc-tab-home.aspx"--%>
@@ -159,16 +162,17 @@
                                         <div class="card-block">
                                             <a href="#">
                                                 <div class="card-image">
-                                                    <img src="../../Images/home/news/img-news-main.png" alt="images"/>
+                                                    <img src="../../Images/home/news/img-news-main.png" alt="images" />
                                                 </div>
                                             </a>
                                             <div class="card-date">
                                                 <div class="date">
-                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                    12 เมษายน 2564
                                                 </div>
                                                 <div class="shared">
                                                     <a href="#">
-                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                     </a>
                                                 </div>
                                             </div>
@@ -187,16 +191,17 @@
                                         <div class="card-block">
                                             <a href="#">
                                                 <div class="card-image">
-                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images"/>
+                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
                                                 </div>
                                             </a>
                                             <div class="card-date">
                                                 <div class="date">
-                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                    12 เมษายน 2564
                                                 </div>
                                                 <div class="shared">
                                                     <a href="#">
-                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                     </a>
                                                 </div>
                                             </div>
@@ -217,11 +222,12 @@
                                             </a>
                                             <div class="card-date">
                                                 <div class="date">
-                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                    12 เมษายน 2564
                                                 </div>
                                                 <div class="shared">
                                                     <a href="#">
-                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                     </a>
                                                 </div>
                                             </div>
@@ -246,8 +252,7 @@
                                 </div>
                                 <div class="row justify-content-end">
                                     <div class="col-12">
-                                        <a class="link">
-                                            ดูทั้งหมด <i class="f-icon icon-arrow-right"></i>
+                                        <a class="link">ดูทั้งหมด <i class="f-icon icon-arrow-right"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -261,16 +266,17 @@
                                         <div class="card-block">
                                             <a href="#">
                                                 <div class="card-image">
-                                                    <img src="../../Images/home/news/img-news-main-2.png" alt="images"/>
+                                                    <img src="../../Images/home/news/img-news-main-2.png" alt="images" />
                                                 </div>
                                             </a>
                                             <div class="card-date">
                                                 <div class="date">
-                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                    12 เมษายน 2564
                                                 </div>
                                                 <div class="shared">
                                                     <a href="#">
-                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                     </a>
                                                 </div>
                                             </div>
@@ -289,16 +295,17 @@
                                         <div class="card-block">
                                             <a href="#">
                                                 <div class="card-image">
-                                                    <img src="../../Images/home/news/img-news-main.png" alt="images"/>
+                                                    <img src="../../Images/home/news/img-news-main.png" alt="images" />
                                                 </div>
                                             </a>
                                             <div class="card-date">
                                                 <div class="date">
-                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                    12 เมษายน 2564
                                                 </div>
                                                 <div class="shared">
                                                     <a href="#">
-                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                     </a>
                                                 </div>
                                             </div>
@@ -319,11 +326,12 @@
                                             </a>
                                             <div class="card-date">
                                                 <div class="date">
-                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date"/> 12 เมษายน 2564
+                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                    12 เมษายน 2564
                                                 </div>
                                                 <div class="shared">
                                                     <a href="#">
-                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share"/>
+                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
                                                     </a>
                                                 </div>
                                             </div>
@@ -348,8 +356,7 @@
                                 </div>
                                 <div class="row justify-content-end">
                                     <div class="col-12">
-                                        <a class="link">
-                                            ดูทั้งหมด <i class="f-icon icon-arrow-right"></i>
+                                        <a class="link">ดูทั้งหมด <i class="f-icon icon-arrow-right"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -442,7 +449,7 @@
             $('.slide-box').matchHeight();
 
             $('.overlay-half').matchHeight();
-            
+
         });
     </script>
 </body>

@@ -8782,7 +8782,27 @@ body .swal2-modal .swal2-content {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out; }
+    transition: all 0.4s ease-in-out;
+    /*a {
+            display: flex;
+            position: absolute;
+            left: 15px;
+            bottom: 15px;
+        }*/
+    /*.btn-link {
+            padding: 10px 15px;
+            background-color: $color-primary;
+            font-family: $font-kanit;
+            font-size: 18px;
+            line-height: 26px;
+            color: $color-white;
+            text-transform: uppercase;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }*/ }
     .banner-section .initial-wrapper h3 {
       font-family: "kanitmedium" !important;
       font-size: 22px !important;
@@ -8797,35 +8817,58 @@ body .swal2-modal .swal2-content {
       color: #555;
       margin: 0;
       word-break: break-all; }
-    .banner-section .initial-wrapper a {
-      padding: 15px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      width: 100%;
+    .banner-section .initial-wrapper .btn-link {
       position: absolute;
-      bottom: 0; }
-      .banner-section .initial-wrapper a .btn-link {
+      left: 15px;
+      bottom: 15px; }
+      .banner-section .initial-wrapper .btn-link a {
+        position: relative;
+        display: inline-block;
         padding: 10px 15px;
         background-color: #2E3092;
         font-family: "kanitmedium";
         font-size: 18px;
         line-height: 26px;
         color: #fff;
-        text-transform: uppercase; }
-        .banner-section .initial-wrapper a .btn-link:hover {
+        text-transform: uppercase;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out; }
+        .banner-section .initial-wrapper .btn-link a:after {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          content: '';
+          display: block;
+          width: 0;
+          height: 2px;
+          background: #EC0E17;
+          -webkit-transition: width .3s ease-in-out;
+          -o-transition: width .3s ease-in-out;
+          transition: width .3s ease-in-out; }
+        .banner-section .initial-wrapper .btn-link a:hover {
           text-decoration: none; }
+          .banner-section .initial-wrapper .btn-link a:hover:after {
+            width: 100%; }
     @media screen and (max-width: 1199.98px) {
-      .banner-section .initial-wrapper h3 {
-        font-size: 18px !important;
-        line-height: 24px !important; }
-      .banner-section .initial-wrapper p {
-        font-size: 18px !important;
-        line-height: 24px !important; }
-      .banner-section .initial-wrapper a .btn-link {
-        padding: 10px 15px;
-        font-size: 14px;
-        line-height: 22px; } }
+      .banner-section .initial-wrapper {
+        /*a {
+                .btn-link {
+                    padding: 10px 15px;
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }*/ }
+        .banner-section .initial-wrapper h3 {
+          font-size: 18px !important;
+          line-height: 24px !important; }
+        .banner-section .initial-wrapper p {
+          font-size: 18px !important;
+          line-height: 24px !important; }
+        .banner-section .initial-wrapper .btn-link a {
+          padding: 10px 15px;
+          font-size: 14px;
+          line-height: 22px; } }
   .banner-section .table {
     padding: 15px; }
 
@@ -11095,7 +11138,10 @@ if it's not present, don't show loader */
     font-size: 25px;
     line-height: 31px !important;
     height: 41px;
-    padding: 5px 40px; }
+    padding: 5px 40px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
     .button .btn-med .fa, .btn-submit .btn-med .fa, input[type=button] .btn-med .fa, input[type=submit] .btn-med .fa {
       position: absolute;
       font-size: 26px;
