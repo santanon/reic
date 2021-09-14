@@ -64,7 +64,7 @@
                 </div>
                 <div class="text">
                     <h3>E-NEWSLETTER</h3>
-                    <p>Tojoin Real Estate Society </p>
+                    <p>To join Real Estate Society </p>
                 </div>
             </div>
             <div class="contact-form">

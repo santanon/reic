@@ -722,7 +722,6 @@
     margin: 0 auto;
     margin-top: 4px;
     margin-bottom: 30px;
-
     /*override grid*/
     .form-row {
         margin-right: -2px;
@@ -809,14 +808,14 @@
             word-break: break-all;
         }
 
-        a {
-            padding: 15px;
-            display: flex;
-            width: 100%;
+        .btn-link {
             position: absolute;
-            bottom: 0;
+            left: 15px;
+            bottom: 15px;
 
-            .btn-link {
+            a {
+                position: relative;
+                display: inline-block;
                 padding: 10px 15px;
                 background-color: $color-primary;
                 font-family: $font-kanit;
@@ -824,14 +823,50 @@
                 line-height: 26px;
                 color: $color-white;
                 text-transform: uppercase;
+                transition: all .3s ease-in-out;
+
+                &:after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    content: '';
+                    display: block;
+                    width: 0;
+                    height: 2px;
+                    background: $color-secondary;
+                    transition: width .3s ease-in-out;
+                }
 
                 &:hover {
                     text-decoration: none;
+
+                    &:after {
+                        width: 100%;
+                        //transition: width .3s;
+                    }
                 }
             }
         }
+        /*a {
+            display: flex;
+            position: absolute;
+            left: 15px;
+            bottom: 15px;
+        }*/
+        /*.btn-link {
+            padding: 10px 15px;
+            background-color: $color-primary;
+            font-family: $font-kanit;
+            font-size: 18px;
+            line-height: 26px;
+            color: $color-white;
+            text-transform: uppercase;
+            transition: all .3s ease-in-out;
 
-
+            &:hover {
+                text-decoration: none;
+            }
+        }*/
         @media screen and (max-width: $screen-lg) {
             h3 {
                 font-size: 18px !important;
@@ -843,13 +878,20 @@
                 line-height: 24px !important;
             }
 
-            a {
-                .btn-link {
+            .btn-link {
+                a {
                     padding: 10px 15px;
                     font-size: 14px;
                     line-height: 22px;
                 }
             }
+            /*a {
+                .btn-link {
+                    padding: 10px 15px;
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }*/
         }
     }
 
@@ -3398,6 +3440,7 @@ if it's not present, don't show loader */
         line-height: $text-small !important;
         height: $height-input;
         padding: 5px 40px;
+        transition: all .3s ease-in-out;
 
         .fa {
             position: absolute;
