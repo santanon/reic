@@ -14,37 +14,37 @@
                             <div class="owl-carousel-advertise">
                                 <div class="banner-item">
                                     <a href="http://www.treasury.go.th/main.php?filename=index">
-                                        <img src="../../Images/banner/sponser/5.jpg" />
+                                        <img class="lazyload"" data-src="../../Images/banner/sponser/5.jpg" />
                                     </a>
                                 </div>
                                 <div class="banner-item">
                                     <a href="http://www.dol.go.th/_layouts/15/start.aspx#/Pages/internet.aspx">
-                                        <img src="../../Images/banner/sponser/6.jpg" />
+                                        <img class="lazyload"" data-src="../../Images/banner/sponser/6.jpg" />
                                     </a>
                                 </div>
                                 <div class="banner-item">
                                     <a href="http://www.led.go.th/">
-                                        <img src="../../Images/banner/sponser/7.jpg" />
+                                        <img class="lazyload"" data-src="../../Images/banner/sponser/7.jpg" />
                                     </a>
                                 </div>
                                 <div class="banner-item">
                                     <a href="http://www.dpt.go.th/">
-                                        <img src="../../Images/banner/sponser/8.jpg" />
+                                        <img class="lazyload"" data-src="../../Images/banner/sponser/8.jpg" />
                                     </a>
                                 </div>
                                 <div class="banner-item">
                                     <a href="http://www.nso.go.th/sites/2014    ">
-                                        <img src="../../Images/banner/sponser/9.jpg" />
+                                        <img class="lazyload"" data-src="../../Images/banner/sponser/9.jpg" />
                                     </a>
                                 </div>
                                 <div class="banner-item">
                                     <a href="http://www.bangkok.go.th/main/">
-                                        <img src="../../Images/banner/sponser/12.jpg" />
+                                        <img class="lazyload"" data-src="../../Images/banner/sponser/12.jpg" />
                                     </a>
                                 </div>
                                 <div class="banner-item">
                                     <a href="https://www.bot.or.th/Thai/Pages/default.aspx ">
-                                        <img src="../../Images/banner/sponser/13.jpg" />
+                                        <img class="lazyload"" data-src="../../Images/banner/sponser/13.jpg" />
                                     </a>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
         <div class="contact-box">
             <div class="contact-title">
                 <div class="icon-newsletter">
-                    <img src="../../Images/e-newsletter/icon-e-news.svg" alt="e-newsletter" />
+                    <img class="lazyload"" data-src="../../Images/e-newsletter/icon-e-news.svg" alt="e-newsletter" />
                 </div>
                 <div class="text">
                     <h3>E-NEWSLETTER</h3>
@@ -327,7 +327,7 @@
 
     <div class="backtotop">
         <i class="sprite-p_back_to_top totop">
-            <img src="/Images/icon/icon-back-to-top.svg" />
+            <img class="lazyload"" data-src="/Images/icon/icon-back-to-top.svg" />
         </i>
     </div>
     <!-- backtotop -->
@@ -372,7 +372,7 @@
                                                 <ul class="contact-links">
                                                     <li>
                                                         <div class="ico">
-                                                            <img src="../../Images/icon/footer/icon-phone.svg" />
+                                                            <img class="lazyload"" data-src="../../Images/icon/footer/icon-phone.svg" />
                                                         </div>
                                                         <a class="alink" href="tel:0-2664-6400" target="_blank" title="02-202-1768">
                                                             <span>Call Center</span>
@@ -388,7 +388,7 @@
                                                 <ul class="contact-links">
                                                     <li>
                                                         <div class="ico">
-                                                            <img src="../../Images/icon/footer/icon-qa.svg" />
+                                                            <img class="lazyload"" data-src="../../Images/icon/footer/icon-qa.svg" />
                                                         </div>
                                                         <a class="alink" href="#" target="_blank" title="สอบถามข้อมูลออนไลน์">
                                                             <span>สอบถามข้อมูล</span>
@@ -526,41 +526,3 @@
     <!-- /.modal -->
 
 </div>
-
-<script type="text/javascript">
-    $(function () {
-        $(document).on('scroll', function () {
-            if ($(window).scrollTop() > 50) {
-                $('.backtotop .totop').addClass('show');
-            } else {
-                $('.backtotop .totop').removeClass('show');
-            }
-        });
-
-        $('.backtotop .totop').on('click', scrollToTop);
-
-
-        $('.head-collapse-wrapper').click(function () {
-            $('.bar-wrapper').toggleClass('change');
-        });
-    });
-
-    function scrollToTop() {
-        verticalOffset = typeof (verticalOffset) != 'undefined' ? verticalOffset : 0;
-        element = $('body');
-        offset = element.offset();
-        offsetTop = offset.top;
-        $('html, body').animate({ scrollTop: offsetTop }, 500, 'linear');
-    }
-</script>
-
-<script type="text/javascript">
-    $(function () {
-        $('.mathHeight').matchHeight();
-
-        $('#close_cookies').click(function () {
-            $('.cookie-wrapper').hide();
-        });
-
-    });
-</script>

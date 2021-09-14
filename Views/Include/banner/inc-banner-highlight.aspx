@@ -7,44 +7,32 @@
                 <div class="owl-carousel-banner">
                     <div class="banner-item">
                         <a href="#">
-                            <img src="../../Images/banner/sponser/1.png" />
+                            <img class="lazyload"" data-src="../../Images/banner/sponser/1.png" />
                             <div class="overlay  pst-center">
-                                <%--<div class="ic-img">
-                                    <img src="../../Images/home/icon/icon-1.png" class="icon-custom">
-                                </div>--%>
                                 <div class="txt-desc">VIEW ALL</div>
                             </div>
                         </a>
                     </div>
                     <div class="banner-item">
                         <a href="#">
-                            <img src="../../Images/banner/sponser/2.png" />
+                            <img class="lazyload"" data-src="../../Images/banner/sponser/2.png" />
                             <div class="overlay  pst-center">
-                                <%--<div class="ic-img">
-                                    <img src="../../Images/home/icon/icon-1.png" class="icon-custom">
-                                </div>--%>
                                 <div class="txt-desc">VIEW ALL</div>
                             </div>
                         </a>
                     </div>
                     <div class="banner-item">
                         <a href="#">
-                            <img src="../../Images/banner/sponser/3.png" />
+                            <img class="lazyload"" data-src="../../Images/banner/sponser/3.png" />
                             <div class="overlay  pst-center">
-                                <%--<div class="ic-img">
-                                    <img src="../../Images/home/icon/icon-1.png" class="icon-custom">
-                                </div>--%>
                                 <div class="txt-desc">VIEW ALL</div>
                             </div>
                         </a>
                     </div>
                     <div class="banner-item">
                         <a href="#">
-                            <img src="../../Images/banner/sponser/4.png" />
+                            <img class="lazyload"" data-src="../../Images/banner/sponser/4.png" />
                             <div class="overlay  pst-center">
-                                <%--<div class="ic-img">
-                                    <img src="../../Images/home/icon/icon-1.png" class="icon-custom">
-                                </div>--%>
                                 <div class="txt-desc">VIEW ALL</div>
                             </div>
                         </a>
