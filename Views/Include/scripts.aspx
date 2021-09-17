@@ -1,6 +1,8 @@
 <!-- CSS -->
 <link href="../../Content/css/fontawesome.css" rel="stylesheet" />
 <link href="../../Content/css/jquery-ui.min.css" rel="stylesheet" />
+<link href="../../Content/default/css/content/bootstrap-select.css" rel="stylesheet" />
+<link href="../../Content/default/css/content/dropdown.css" rel="stylesheet"  />
 <link href="../../Content/default/css/print.css" rel="stylesheet" media="print" />
 
 <!-- JS -->
