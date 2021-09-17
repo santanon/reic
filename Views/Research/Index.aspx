@@ -3,8 +3,6 @@
 <title>ศูนย์ข้อมูลอสังหาริมทรัพย์ ธนาคารอาคารสงเคราะห์ : Real Estate Information Center (REIC) Government Housing Bank</title>
 <meta name="description" content="" />
 <meta name="keywords" content="" />
-<link rel="stylesheet" href="../Content/default/css/content/bootstrap-select.css">
-<link rel="stylesheet" href="../Content/default/css/content/dropdown.css" />
 <link rel="stylesheet" href="../Content/default/css/content/main.css" />
 <link rel="stylesheet" href="../Content/default/css/content/news.css" />
 </head>
