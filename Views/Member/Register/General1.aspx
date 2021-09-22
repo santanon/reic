@@ -103,7 +103,7 @@
                                         <div class="slc-custom slc-custom-radio">
                                             <input id="status2" name="status" type="radio" value="">
                                             <label for="status2"></label>
-                                            <span class="txt">สมาชิกพิเศษพร้อมข้อมูลรายพื้นที่ (ค่าสนับสนุน 10,000 บาทต่อปี)</span>
+                                            <span class="txt">สมาชิกพิเศษพร้อมข้อมูลรายพื้นที่ (ค่าสนับสนุน 20,000 บาทต่อปี)</span>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
