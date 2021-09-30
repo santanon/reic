@@ -105,6 +105,60 @@
                                                     </div>
                                                     <%--END--%>
                                                     <div class="list-content">
+                                                        <table style="width: 100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td><img src="../../../Images/home/icon/calendar.svg" style="width: 30px; display: inline-block; vertical-align: top;" /> <span style="color: #2E3092">28 กันยายน 2564</span>
+                                                                    </td>
+                                                                    <td style="text-align: right">
+                                                                        <span style="color: #2E3092">สถิติอสังหาริมทรัพย์</span>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <br />
+                                                        <ul>
+                                                            <li>
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                            </li>
+                                                            <li>
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                            </li>
+                                                            <li>
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                            </li>
+                                                            <li>
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                            </li>
+                                                        </ul>
+                                                        <br />
+                                                        <table style="width: 100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <img src="../../../Images/home/icon/calendar.svg" style="width: 30px; display: inline-block; vertical-align: top;" /> <span style="color: #2E3092">28 กันยายน 2564</span>
+                                                                    </td>
+                                                                    <td style="text-align: right">
+                                                                        <span style="color: #2E3092">บทวิเคราะห์</span>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <br />
+                                                        <ul>
+                                                            <li>
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                            </li>
+                                                            <li>
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                            </li>
+                                                            <li>
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <%--END--%>
+                                                    <div class="list-content">
                                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                                                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
