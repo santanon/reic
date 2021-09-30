@@ -385,3 +385,7 @@
         line-height: 22px !important;
         color: #fff;
         margin: 0 !important; } }
+
+.list-content {
+  max-height: 325px;
+  overflow: hidden; }
