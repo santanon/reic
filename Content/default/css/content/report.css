@@ -1,1 +1,238 @@
-@charset "UTF-8";@font-face{font-family:"Kitithada";src:url("../../../../fonts/PSL094pro_0.eot");src:url("../../../../fonts/PSL094pro_0.eot?#iefix") format("embedded-opentype"),url("../../../../fonts/PSL094pro_0.woff") format("woff"),url("../../../../fonts/PSL094pro_0.ttf") format("truetype"),url("../../../../fonts/PSL094pro_0.svg") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:"KitithadaBold";src:url("../../../../fonts/PSL096pro_0.eot");src:url("../../../../fonts/PSL096pro_0.eot?#iefix") format("embedded-opentype"),url("../../../../fonts/PSL096pro_0.woff") format("woff"),url("../../../../fonts/PSL096pro_0.ttf") format("truetype"),url("../../../../fonts/PSL096pro_0.svg") format("svg");font-weight:bold;font-style:normal}@font-face{font-family:"kanitmedium";src:url("../../../../fonts/kanit-medium.woff2") format("woff2"),url("../../../../fonts/kanit-medium.woff") format("woff");font-weight:normal;font-style:normal}@font-face{font-family:"THSarabunNew";src:url("../../../../fonts/thsarabunnew-webfont.eot");src:url("../../../../fonts/thsarabunnew-webfont.eot?#iefix") format("embedded-opentype"),url("../../../../fonts/thsarabunnew-webfont.woff") format("woff"),url("../../../../fonts/thsarabunnew-webfont.ttf") format("truetype");font-weight:normal;font-style:normal}@font-face{font-family:"THSarabunNewBold";src:url("../../../../fonts/thsarabunnew_bold-webfont.eot");src:url("../../../../fonts/thsarabunnew_bold-webfont.eot?#iefix") format("embedded-opentype"),url("../../../../fonts/thsarabunnew_bold-webfont.woff") format("woff"),url("../../../../fonts/thsarabunnew_bold-webfont.ttf") format("truetype");font-weight:bold;font-style:normal}@font-face{font-family:"icomoon";src:url("../../../../fonts/icomoon.eot?ho9c1c");src:url("../../../../fonts/icomoon.eot?ho9c1c#iefix") format("embedded-opentype"),url("../../../../fonts/icomoon.ttf?ho9c1c") format("truetype"),url("../../../../fonts/icomoon.woff?ho9c1c") format("woff"),url("../../../../fonts/icomoon.svg?ho9c1c#icomoon") format("svg");font-weight:normal;font-style:normal;font-display:block}[class*=" icon-"],[class^=icon-]{font-family:"icomoon";speak:never;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-arrow-right:before{content:"";color:#ed1c24}#maincontainer-wrapper .tb-desktop{display:block}@media screen and (max-width:767.98px){#maincontainer-wrapper .tb-desktop{display:none}}#maincontainer-wrapper .tb-mobile{display:none}@media screen and (max-width:767.98px){#maincontainer-wrapper .tb-mobile{display:block}}#maincontainer-wrapper .tb-mobile .table thead tr:first-child th{position:-webkit-sticky;position:sticky;top:0}#maincontainer-wrapper .tb-mobile .table thead tr th{width:33.3333%}#maincontainer-wrapper .tb-mobile .table thead tr th .button .btn-med{padding:5px 8px}#maincontainer-wrapper .tb-mobile .table thead tr th .button .btn-med i{display:none}@media screen and (max-width:767.98px){#maincontainer-wrapper .table .pst-lefttocen{text-align:center!important}}#maincontainer-wrapper .table thead tr{border:none}#maincontainer-wrapper .table thead tr th{font-family:"KitithadaBold";font-size:25px;line-height:25px;color:#2E3092;background-color:#D7EBFF;border:none;border-right:2px solid #fff;border-bottom:2px solid #00AFF0;border-top:0;padding:15px;text-align:center}#maincontainer-wrapper .table thead .no-bg{background-color:transparent!important;border:none}#maincontainer-wrapper .table thead .half{width:50%}@media screen and (max-width:767.98px){#maincontainer-wrapper .table thead tr th{font-size:20px;line-height:20px}}#maincontainer-wrapper .table tbody tr{border:none}#maincontainer-wrapper .table tbody tr.bg-title{background-color:#1F218B!important}#maincontainer-wrapper .table tbody tr.bg-title th{color:#ccc!important}#maincontainer-wrapper .table tbody tr.bg-title-light{background-color:#E1ECF4!important}#maincontainer-wrapper .table tbody tr.bg-title-light th{color:#1F218B!important}#maincontainer-wrapper .table tbody tr.no-bg{background-color:inherit!important}#maincontainer-wrapper .table tbody tr.no-bg th{font-size:30px;color:#1F218B!important}#maincontainer-wrapper .table tbody tr:nth-child(odd){background-color:#fff;border:none}#maincontainer-wrapper .table tbody tr:nth-child(2n){background-color:#F7F7F7;border:none}#maincontainer-wrapper .table tbody tr td{font-weight:normal;font-size:25px;line-height:25px;color:#555;text-align:center;border:none;padding:15px 20px}#maincontainer-wrapper .table tbody tr td .padding-list{padding:10px 20px}#maincontainer-wrapper .table tbody tr td .half{width:50%}#maincontainer-wrapper .table tbody tr td img{height:30px;vertical-align:middle;border-style:none;margin:-5px 0 0 0}@media screen and (max-width:991.98px){#maincontainer-wrapper .table tbody tr td img{margin-bottom:5px}}#maincontainer-wrapper .table tbody tr td a{color:#555;height:25px}#maincontainer-wrapper .table tbody tr td a:hover{color:#2E3092}@media screen and (max-width:991.98px){#maincontainer-wrapper .table tbody tr td a{font-size:22px}}#maincontainer-wrapper .table tbody tr td i.not{color:#EC0E17}#maincontainer-wrapper .table tbody tr td i.use{color:#00d400}@media screen and (max-width:767.98px){#maincontainer-wrapper .table tbody tr td{font-size:20px;line-height:20px;padding:10px 20px}}#maincontainer-wrapper .desktop tr{border:none}#maincontainer-wrapper .desktop tr:nth-child(odd){background-color:#F7F7F7!important;border:none}#maincontainer-wrapper .desktop tr:nth-child(2n){background-color:#fff!important;border:none}#maincontainer-wrapper .desktop tr td{border:none}#maincontainer-wrapper .mobile tr{border:none}#maincontainer-wrapper .mobile tr:nth-child(odd){background-color:#F7F7F7!important;border:none}#maincontainer-wrapper .mobile tr:nth-child(2n){background-color:#fff!important;border:none}#maincontainer-wrapper .mobile tr td{font-weight:normal;font-size:25px;line-height:25px;color:#555;text-align:center;border:none}#maincontainer-wrapper .mobile tr td .half{width:50%}#maincontainer-wrapper .mobile tr td img{height:30px;vertical-align:middle;border-style:none;margin:-5px 10px 0 0}#maincontainer-wrapper .mobile tr td a{color:#555;height:25px}#maincontainer-wrapper .mobile tr td a:hover{color:#2E3092}@media screen and (max-width:767.98px){#maincontainer-wrapper .mobile .button .btn-med{font-size:18px;line-height:34px;padding:5px 15px}#maincontainer-wrapper .mobile .button .btn-med .fa-angle-right{margin-left:5px}#maincontainer-wrapper .mobile .button .btn-med .fas{line-height:5px}}
+/* set global config vars */
+/* defualt page width setting(PC) */
+/* off canvas menu width *eg. 70px or 70% */
+/* main slide margin top */
+/* header height */
+/* footer height */
+/* global body setting */
+/* default font family */
+/* text sizing multiplier */
+/* text sizing */
+/* default theme color */
+/* special theme */
+/* insert special theme for this website */
+/* text sizing */
+/* footer sizing */
+/*media screen*/
+/*mobile*/
+@font-face {
+  font-family: 'Kitithada';
+  src: url("../../../../fonts/PSL094pro_0.eot");
+  src: url("../../../../fonts/PSL094pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL094pro_0.woff") format("woff"), url("../../../../fonts/PSL094pro_0.ttf") format("truetype"), url("../../../../fonts/PSL094pro_0.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'KitithadaBold';
+  src: url("../../../../fonts/PSL096pro_0.eot");
+  src: url("../../../../fonts/PSL096pro_0.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/PSL096pro_0.woff") format("woff"), url("../../../../fonts/PSL096pro_0.ttf") format("truetype"), url("../../../../fonts/PSL096pro_0.svg") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'kanitmedium';
+  src: url("../../../../fonts/kanit-medium.woff") format("woff"), url("../../../../fonts/kanit-medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'THSarabunNew';
+  src: url("../../../../fonts/thsarabunnew-webfont.eot");
+  src: url("../../../../fonts/thsarabunnew-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/thsarabunnew-webfont.woff") format("woff"), url("../../../../fonts/thsarabunnew-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'THSarabunNewBold';
+  src: url("../../../../fonts/thsarabunnew_bold-webfont.eot");
+  src: url("../../../../fonts/thsarabunnew_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../../../fonts/thsarabunnew_bold-webfont.woff") format("woff"), url("../../../../fonts/thsarabunnew_bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../../../../fonts/icomoon.eot?ho9c1c");
+  src: url("../../../../fonts/icomoon.eot?ho9c1c#iefix") format("embedded-opentype"), url("../../../../fonts/icomoon.ttf?ho9c1c") format("truetype"), url("../../../../fonts/icomoon.woff?ho9c1c") format("woff"), url("../../../../fonts/icomoon.svg?ho9c1c#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon';
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-arrow-right:before {
+  content: "\e900";
+  color: #ed1c24; }
+
+/* note : for IE8,7 need css3pie helper*/
+#maincontainer-wrapper .tb-desktop {
+  display: block; }
+  @media screen and (max-width: 767.98px) {
+    #maincontainer-wrapper .tb-desktop {
+      display: none; } }
+
+#maincontainer-wrapper .tb-mobile {
+  display: none; }
+  @media screen and (max-width: 767.98px) {
+    #maincontainer-wrapper .tb-mobile {
+      display: block; } }
+  #maincontainer-wrapper .tb-mobile .table thead tr:nth-child(1) th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; }
+  #maincontainer-wrapper .tb-mobile .table thead tr th {
+    width: 33.3333%; }
+    #maincontainer-wrapper .tb-mobile .table thead tr th .button .btn-med {
+      padding: 5px 8px; }
+      #maincontainer-wrapper .tb-mobile .table thead tr th .button .btn-med i {
+        display: none; }
+
+@media screen and (max-width: 767.98px) {
+  #maincontainer-wrapper .table .pst-lefttocen {
+    text-align: center !important; } }
+
+#maincontainer-wrapper .table thead tr {
+  border: none; }
+  #maincontainer-wrapper .table thead tr th {
+    font-family: "KitithadaBold";
+    font-size: 25px;
+    line-height: 25px;
+    color: #2E3092;
+    background-color: #D7EBFF;
+    border: none;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #00AFF0;
+    border-top: 0;
+    padding: 15px;
+    text-align: center; }
+
+#maincontainer-wrapper .table thead .no-bg {
+  background-color: transparent !important;
+  border: none; }
+
+#maincontainer-wrapper .table thead .half {
+  width: 50%; }
+
+@media screen and (max-width: 767.98px) {
+  #maincontainer-wrapper .table thead tr th {
+    font-size: 20px;
+    line-height: 20px; } }
+
+#maincontainer-wrapper .table tbody tr {
+  border: none; }
+  #maincontainer-wrapper .table tbody tr.bg-title {
+    background-color: #1F218B !important; }
+    #maincontainer-wrapper .table tbody tr.bg-title th {
+      color: #ccc !important; }
+  #maincontainer-wrapper .table tbody tr.bg-title-light {
+    background-color: #E1ECF4 !important; }
+    #maincontainer-wrapper .table tbody tr.bg-title-light th {
+      color: #1F218B !important; }
+  #maincontainer-wrapper .table tbody tr.no-bg {
+    background-color: inherit !important; }
+    #maincontainer-wrapper .table tbody tr.no-bg th {
+      font-size: 30px;
+      color: #1F218B !important; }
+  #maincontainer-wrapper .table tbody tr:nth-child(odd) {
+    background-color: #fff;
+    border: none; }
+  #maincontainer-wrapper .table tbody tr:nth-child(even) {
+    background-color: #F7F7F7;
+    border: none; }
+  #maincontainer-wrapper .table tbody tr td {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    color: #555;
+    text-align: center;
+    border: none;
+    padding: 15px 20px; }
+    #maincontainer-wrapper .table tbody tr td .padding-list {
+      padding: 10px 20px; }
+    #maincontainer-wrapper .table tbody tr td .half {
+      width: 50%; }
+    #maincontainer-wrapper .table tbody tr td img {
+      height: 30px;
+      vertical-align: middle;
+      border-style: none;
+      margin: -5px 0 0 0; }
+      @media screen and (max-width: 991.98px) {
+        #maincontainer-wrapper .table tbody tr td img {
+          margin-bottom: 5px; } }
+    #maincontainer-wrapper .table tbody tr td a {
+      color: #555;
+      height: 25px; }
+      #maincontainer-wrapper .table tbody tr td a:hover {
+        color: #2E3092; }
+      @media screen and (max-width: 991.98px) {
+        #maincontainer-wrapper .table tbody tr td a {
+          font-size: 22px; } }
+    #maincontainer-wrapper .table tbody tr td i.not {
+      color: #EC0E17; }
+    #maincontainer-wrapper .table tbody tr td i.use {
+      color: #00d400; }
+
+@media screen and (max-width: 767.98px) {
+  #maincontainer-wrapper .table tbody tr td {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px 20px; } }
+
+#maincontainer-wrapper .desktop tr {
+  border: none; }
+  #maincontainer-wrapper .desktop tr:nth-child(odd) {
+    background-color: #F7F7F7 !important;
+    border: none; }
+  #maincontainer-wrapper .desktop tr:nth-child(even) {
+    background-color: #fff !important;
+    border: none; }
+  #maincontainer-wrapper .desktop tr td {
+    border: none; }
+
+#maincontainer-wrapper .mobile tr {
+  border: none; }
+  #maincontainer-wrapper .mobile tr:nth-child(odd) {
+    background-color: #F7F7F7 !important;
+    border: none; }
+  #maincontainer-wrapper .mobile tr:nth-child(even) {
+    background-color: #fff !important;
+    border: none; }
+  #maincontainer-wrapper .mobile tr td {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    color: #555;
+    text-align: center;
+    border: none; }
+    #maincontainer-wrapper .mobile tr td .half {
+      width: 50%; }
+    #maincontainer-wrapper .mobile tr td img {
+      height: 30px;
+      vertical-align: middle;
+      border-style: none;
+      margin: -5px 10px 0 0; }
+    #maincontainer-wrapper .mobile tr td a {
+      color: #555;
+      height: 25px; }
+      #maincontainer-wrapper .mobile tr td a:hover {
+        color: #2E3092; }
+
+@media screen and (max-width: 767.98px) {
+  #maincontainer-wrapper .mobile .button .btn-med {
+    font-size: 18px;
+    line-height: 34px;
+    padding: 5px 15px; }
+    #maincontainer-wrapper .mobile .button .btn-med .fa-angle-right {
+      margin-left: 5px; }
+    #maincontainer-wrapper .mobile .button .btn-med .fas {
+      line-height: 5px; } }

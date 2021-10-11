@@ -44,7 +44,7 @@
 
                     <h1 class="color-primary bold pst-center">ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กทม.และปริมณฑล)</h1>
 
-                    <div class="padding-row-half">
+                    <%--<div class="padding-row-half">
                         <h4 class="bold color-primary pst-left">สินเชื่อที่อยู่อาศัยบุคคลทั่วไปปล่อยใหม่ ทั่วประเทศ แสดงมูลค่าล้านบาท รายปี</h4>
                     </div>
 
@@ -65,7 +65,6 @@
                             </div>
                         </div>
                     </div>
-
 
                     <div class="row">
                         <div class="col-md-6 col-12">
@@ -88,8 +87,6 @@
                     </div>
 
                     <div class="row">
-
-
                         <div class="col-xl-6 col-12">
                             <div class="row ">
                                 <div class="col-xl-2 col-md-12 col- txt-input nomargin">ตั้งแต่ :</div>
@@ -150,41 +147,191 @@
                             </div>
                         </div>
 
-                    </div>
+                    </div>--%>
 
-                    <div class="margin-row-half">
-                        <div class="nobg-sm">
-                            <div class="row height-input-auto">
+                    <div class="table--wrap-top">
+                        <div class="row justify-content-between">
+                            <div class="col-md-6">
 
-                                <div class="col-xl-4 col-12 tab">
-                                    <ul class="nav nav-tabs pst-left" role="tablist">
-                                        <li role="presentation" class="half-sm">
-                                            <div href="#table" aria-controls="table" role="tab" data-toggle="tab" class="tab active">
+                                <div class="row">
+                                    <div class="col-md-2 txt-input nomargin">ไตรมาส :</div>
 
-                                                <div class="padding-list row pst-left download">
-                                                    <div class="col-md- col- pst-left nopadding-left">
-                                                        <img src="../../../../Images/icon/table/ic-table.png" alt="pdf">
-                                                    </div>
-                                                    <div class="col-md-auto col-auto nopadding-left pst-left"><span title="ตาราง">ตาราง</span></div>
-                                                </div>
+                                    <div class="col-md-5">
+                                        <div class="slc-custom bg-grey">
+                                            <select class="slc" id="">
+                                                <option selected>ไตรมาสที่ 1</option>
+                                                <option>ไตรมาสที่ 2</option>
+                                            </select>
+                                        </div>
+                                    </div>
 
-                                            </div>
-                                        </li>
-                                        <li role="presentation" class="half-sm">
-                                            <div href="#graph" aria-controls="graph" role="tab" data-toggle="tab" class="tab">
-
-                                                <div class="padding-list row pst-left download">
-                                                    <div class="col-md- col- pst-left nopadding-left">
-                                                        <img src="../../../../Images/icon/table/ic-graph.png" alt="pdf">
-                                                    </div>
-                                                    <div class="col-md-auto col-auto nopadding-left pst-left"><span title="กราฟ">กราฟ</span></div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
                                 </div>
 
-                                <div class="col-xl-8 col-12 ">
+                            </div>
+
+                            <div class="col-md-auto">
+                                <div class="social-box pst-righttocen">
+                                    <div class="bord-icons">
+                                        <div class="label-custom">พิมพ์ :</div>
+                                        <div class="custom-icons">
+                                            <ul>
+                                                <li class="print">
+                                                    <a href="javascript:void(0)" onclick="window.print();" target="_blank" title="Print">
+                                                        <img src="../../../../Images/icon/action/ic-print.svg">
+                                                    </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table--wrap">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row ">
+                                    <div class="col-md-2 txt-input nomargin">ตั้งแต่ :</div>
+                                    <div class="col-md-5">
+                                        <div class="slc-custom bg-grey">
+                                            <select class="slc" id="">
+                                                <option selected>ไตรมาสที่ 1</option>
+                                                <option>ไตรมาสที่ 2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="slc-custom bg-grey">
+                                            <select class="slc" id="">
+                                                <option value="0" selected>เลือกปี</option>
+                                                <option value="2559">2559</option>
+                                                <option value="2558">2558</option>
+                                                <option value="2557">2557</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="row ">
+                                    <div class="col-md-2 txt-input nomargin">ถึง :</div>
+                                    <div class="col-md-5">
+                                        <div class="slc-custom bg-grey">
+                                            <select class="slc" id="quartar">
+                                                <option selected>ไตรมาสที่ 1</option>
+                                                <option>ไตรมาสที่ 2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="row pst-lefttocen">
+                                            <div class="col-xl-12 col-12 fill">
+                                                <div class="fill-keyword">
+                                                    <div class="slc-custom bg-grey">
+                                                        <select class="slc" id="year">
+                                                            <option value="0" selected>เลือกปี</option>
+                                                            <option value="2559">2559</option>
+                                                            <option value="2558">2558</option>
+                                                            <option value="2557">2557</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="fill-search">
+                                                    <div class="btn-submit">
+                                                        <div class="btn-med secondary nopadding"><i class="fas fa-search"></i></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p style="font-size: 23px; color: red">
+                                    ** ค้นหาช่วงเวลารายปี สามารถเลือกช่วงเวลาได้ครั้งละ 2 ปี ข้อมูลมีตั้งแต่ปี <span id="remark_data_year">2550 - 2561</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table--wrap">
+                        <div class="row justify-content-between">
+                            <div class="col-md-6">
+                                <div class="title bold color-primary">ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กรุงเทพฯ - ปริมณฑล)</div>
+                            </div>
+                            <div class="col-md-auto">
+                                <div class="link--icon">
+                                    <div class="icon__item">
+                                        <div class="icon__text">
+                                            คำอธิบายข้อมูล :
+                                        </div>
+                                        <div class="icon__image">
+                                             <a title="PDF" href="/upload/โอนกรรมสิทธิ์กทมปริ_914_1559207037_67673.pdf" target="_blank">
+                                                 <img src="/Images/icon/table/ic-pdf.png" alt="pdf">
+                                             </a>
+                                        </div>
+                                    </div>
+                                    <div class="icon__item">
+                                        <div class="icon__text">
+                                            Download :
+                                        </div>
+                                        <div class="icon__image">
+                                             <a href="javascript:;" target="_blank" title="Download Excel">
+                                                 <img src="/Images/icon/table/ic-excel.png" alt="Download Excel">
+                                             </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table--wrap-bottom">
+                        <div class="bg-default nobg-sm">
+                            <div class="row justify-content-between">
+                                <div class="col-sm-4">
+                                    <div class="slc-custom bg-primary mb-0">
+                                        <select class="slc">
+                                            <option selected>เลือกประเภท</option>
+                                            <option value="1">จำนวนหน่วย</option>
+                                            <option value="2">จำนวนหน่วย แยกนิติบุคคลและบุคคลธรรมดา</option>
+                                            <option value="3">มูลค่า (ลบ.)</option>
+                                            <option value="4">มูลค่า แยกนิติบุคคลและบุคคลธรรมดา</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="tab">
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="half-sm mb-0">
+                                                <a href="#table" aria-controls="table" role="tab" data-toggle="tab" class="tab active">
+                                                    <div class="tab__icon">
+                                                         <img src="../../../../Images/icon/table/ic-table.png" alt="ตาราง">
+                                                    </div>
+                                                    <div class="tab__text">
+                                                        ตาราง
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li role="presentation" class="half-sm mb-0">
+                                                <a href="#graph" aria-controls="graph" role="tab" data-toggle="tab" class="tab">
+                                                    <div class="tab__icon">
+                                                         <img src="../../../../Images/icon/table/ic-graph.png" alt="กราฟ">
+                                                    </div>
+                                                    <div class="tab__text">
+                                                        กราฟ
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                               <%-- <div class="col-xl-8 col-12 ">
                                     <div class="social-box pst-righttocen">
                                         <div class="bord-icons margin-bottom-half">
                                             <div class="label-custom">คำอธิบายข้อมูล :</div>
@@ -232,11 +379,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>--%>
 
                             </div>
                         </div>
                     </div>
+
 
                     <div class="tab-content">
 

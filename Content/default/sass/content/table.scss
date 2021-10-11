@@ -293,6 +293,9 @@
             background-color: $body-bg;
 
             .tab {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 color: $color-text;
                 font-size: $text-content;
                 line-height: $height-input;
@@ -304,7 +307,19 @@
                 border-radius: 0;
                 cursor: pointer;
 
-                .download {
+                .tab__icon {
+                    img {
+                        height: $text-content;
+                    }
+                }
+
+                .tab__text {
+                    font-size: $text-content;
+                    line-height: $text-content;
+                    color: $color-text;
+                }
+
+                /*.download {
                     margin: 0;
 
                     img {
@@ -342,17 +357,17 @@
                             line-height: $text-content-mobile;
                         }
                     }
-                }
+                }*/
             }
 
             .active {
                 background-color: $color-blue;
 
-                .download {
+                /*.download {
                     span {
                         color: $color-white;
                     }
-                }
+                }*/
             }
         }
 
@@ -361,6 +376,90 @@
             color: $color-white;
             background-color: $color-primary;
             border-left: 1px solid $color-white;
+        }
+    }
+}
+
+.table--wrap {
+    display: block;
+    margin: 0 0 20px 0;
+
+    &-top {
+        display: block;
+        margin-top: 25px;
+
+        .tab {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .link--icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .icon__item {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-left: 15px;
+            }
+
+            .icon__text {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    &-bottom {
+        display: block;
+        margin-bottom: 25px;
+
+        .tab {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .link--icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .icon__item {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-left: 15px;
+            }
+
+            .icon__text {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .tab {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .link--icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .icon__item {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 15px;
+        }
+
+        .icon__text {
+            margin-right: 5px;
         }
     }
 }

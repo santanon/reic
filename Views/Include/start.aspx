@@ -13,7 +13,6 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="shortcut icon" href="favicon.ico">
     <meta charset="UTF-8">
-
     <link rel="preload" href="../../Content/default/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="../../Content/default/css/style.css"></noscript>
     

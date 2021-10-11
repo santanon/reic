@@ -55,7 +55,7 @@
                                 <div class="col-sm-6 col-lg-6">
                                     <a href="#" title="สถิติอสังหาริมทรัพย์" class="link-block sub">
                                         <%--Recommend Image Size 317x169px--%>
-                                        <img src="../../Images/home/banner/img-highlight-01.png" />
+                                        <img src="../../Images/home/banner/img-highlight-main.png" />
                                         <div class="initial-wrapper">
                                             <div class="table">
                                                 <div class="cell">
@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="col-sm-6 col-lg-6">
                                     <a href="#" title="สรุปสถานการณ์อสังหาริมทรัพย์" class="link-block sub">
-                                        <img src="../../Images/home/banner/img-highlight-02.png" />
+                                        <img src="../../Images/home/banner/img-highlight-main.png" />
                                         <div class="initial-wrapper">
                                             <div class="table">
                                                 <div class="cell">
@@ -95,7 +95,7 @@
                                 </div>
                                 <div class="col-sm-6 col-lg-6">
                                     <a href="#" title="สถิติอสังหาริมทรัพย์" class="link-block sub">
-                                        <img src="../../Images/home/banner/img-highlight-03.png" />
+                                        <img src="../../Images/home/banner/img-highlight-main.png" />
                                         <div class="initial-wrapper">
                                             <div class="table">
                                                 <div class="cell">
@@ -116,7 +116,7 @@
                                 </div>
                                 <div class="col-sm-6 col-lg-6">
                                     <a href="#" title="สั่งซื้อสินค้าและบริการ" class="link-block sub">
-                                        <img src="../../Images/home/banner/img-highlight-04.png" />
+                                        <img src="../../Images/home/banner/img-highlight-main.png" />
                                         <div class="initial-wrapper">
                                             <div class="table">
                                                 <div class="cell">
@@ -179,6 +179,12 @@
                                                     </div>
                                                 </a>
                                             </div>
+                                            <div class="card--download">
+                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF">
+                                                    Download PDF
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -207,6 +213,12 @@
                                                         คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต
                                                     </div>
                                                     <div class="desc"></div>
+                                                </a>
+                                            </div>
+                                            <div class="card--download">
+                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF">
+                                                    Download PDF
                                                 </a>
                                             </div>
                                         </div>
@@ -241,6 +253,12 @@
                                                         พร้อมกู้เงินเกินกรอบวินัยการคลัง
                                                         หากสถานการณ์ฉุกเฉิน
                                                     </div>
+                                                </a>
+                                            </div>
+                                            <div class="card--download">
+                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF">
+                                                    Download PDF
                                                 </a>
                                             </div>
                                         </div>
@@ -283,6 +301,12 @@
                                                     </div>
                                                 </a>
                                             </div>
+                                            <div class="card--download">
+                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF">
+                                                    Download PDF
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -311,6 +335,12 @@
                                                         คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต
                                                     </div>
                                                     <div class="desc"></div>
+                                                </a>
+                                            </div>
+                                            <div class="card--download">
+                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF">
+                                                    Download PDF
                                                 </a>
                                             </div>
                                         </div>
@@ -345,6 +375,12 @@
                                                         พร้อมกู้เงินเกินกรอบวินัยการคลัง
                                                         หากสถานการณ์ฉุกเฉิน
                                                     </div>
+                                                </a>
+                                            </div>
+                                            <div class="card--download">
+                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF">
+                                                    Download PDF
                                                 </a>
                                             </div>
                                         </div>
@@ -427,13 +463,12 @@
     </div>
     <!-- /.modal -->
 
-    
-
-    <link rel="stylesheet" href="../Content/default/css/content/bootstrap-select.css">
-    <link rel="stylesheet" href="../Content/default/css/content/dropdown.css" />
+ 
+    <%--<link rel="stylesheet" href="../Content/default/css/content/bootstrap-select.css">
+    <link rel="stylesheet" href="../Content/default/css/content/dropdown.css" />--%>
     <link rel="stylesheet" href="../Content/default/css/content/main.css" />
     <link rel="stylesheet" href="../Content/default/css/content/home.css" />
-    <link rel="stylesheet" href="../Content/default/css/content/news.css" />
+    <%--<link rel="stylesheet" href="../Content/default/css/content/news.css" />--%>
 
     <!--#include file="../Include/scripts.aspx"-->
 
@@ -447,12 +482,6 @@
             setTimeout(function () {
                 //$('#popupModal').modal('hide');
             });
-
-        });
-        $(function () {
-            $('.slide-box').matchHeight();
-
-            $('.overlay-half').matchHeight();
 
         });
     </script>

@@ -21,11 +21,64 @@
         <div id="main-slider" class="main-slider">
             <!--#include file="../Include/slide/inc-slider-main-login.aspx"-->
 
-            <div class="search-section landing-section">
+            <div class="landing-section">
                 <div class="container">
-                    <div class="row pst-center">
-                        <div class="col-xl-6 col-lg-8">
-                            <div class="tab-content modal-txt">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-12">
+                            <div class="form--wrapper">
+                                <div class="form__header">
+                                    <h4 class="color-white bold">ติดต่อแบบฟอร์ม</h4>
+                                </div>
+                                <div class="form__body">
+                                    <form class="form-contact">
+
+                                        <div class="row justify-content-center">
+                                            <div class="col-xl-9 col-lg-6">
+                                                <div class="slc-custom">
+                                                    <input name="" placeholder="อีเมล" value="" autocomplete="off" type="text">
+                                                </div>
+
+                                                <div class="slc-custom">
+                                                    <input name="" placeholder="ชื่อ" value="" autocomplete="off" type="text">
+                                                </div>
+
+                                                <div class="slc-custom">
+                                                    <input name="" placeholder="นามสกุล" value="" autocomplete="off" type="text">
+                                                </div>
+
+                                                <div class="slc-custom">
+                                                    <div class="captcha-contact-form-white">
+                                                        <p style="color: #fff;">กรุณากรอกรหัสเพื่อยืนยันตัวตน</p>
+                                                        <br>
+                                                        <div class="slc-custom">
+                                                            <div class="realperson-challenge">
+                                                                <div class="realperson-text">
+                                                                    *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;*******&nbsp;&nbsp;*******&nbsp;&nbsp;*******&nbsp;&nbsp;<br>
+                                                                    *&nbsp;&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                    *&nbsp;**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                    **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                    *&nbsp;**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                    *&nbsp;&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                    *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;*******&nbsp;&nbsp;*******&nbsp;&nbsp;*******&nbsp;&nbsp;<br>
+                                                                </div>
+                                                                <div class="realperson-regen">Click to change</div>
+                                                            </div>
+                                                            <input name="captcha" id="captcha" placeholder="CAPTCHA" required="" autocomplete="off" type="text" class="KeyblockSpecialRegex_Capcha is-realperson" maxlength="4" style="text-transform: uppercase; text-align: center;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="button">
+                                                    <a href="#" class="btn-med btn-secondary" style="display: block; text-align: center;">ส่งข้อมูล <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <%--<div class="tab-content modal-txt">
                                 <div class="tab-pane tab-pane-primary fade show active">
 
                                     <h4 class="color-white bold">ติดต่อแบบฟอร์ม</h4>
@@ -37,11 +90,37 @@
                                                 <div class="slc-custom">
                                                     <input name="" placeholder="อีเมล" value="" autocomplete="off" type="text">
                                                 </div>
+
                                                 <div class="slc-custom">
                                                     <input name="" placeholder="ชื่อ" value="" autocomplete="off" type="text">
                                                 </div>
+
                                                 <div class="slc-custom">
                                                     <input name="" placeholder="นามสกุล" value="" autocomplete="off" type="text">
+                                                </div>
+
+                                                <div class="captcha-contact-form-white">
+                                                    <p style="color: #fff;">กรุณากรอกรหัสเพื่อยืนยันตัวตน</p>
+                                                    <br>
+                                                    <div class="row pst-center">
+                                                        <div class="col-lg-8 col-md-6 col-9">
+                                                            <div class="slc-custom">
+                                                                <div class="realperson-challenge">
+                                                                    <div class="realperson-text">
+                                                                        *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;*******&nbsp;&nbsp;*******&nbsp;&nbsp;*******&nbsp;&nbsp;<br>
+                                                                        *&nbsp;&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                        *&nbsp;**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                        **&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                        *&nbsp;**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                        *&nbsp;&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                                        *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;*******&nbsp;&nbsp;*******&nbsp;&nbsp;*******&nbsp;&nbsp;<br>
+                                                                    </div>
+                                                                    <div class="realperson-regen">Click to change</div>
+                                                                </div>
+                                                                <input name="captcha" id="captcha" placeholder="CAPTCHA" required="" autocomplete="off" type="text" class="KeyblockSpecialRegex_Capcha is-realperson" maxlength="4" style="text-transform: uppercase; text-align: center;">
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
 
                                                 <div class="button">
@@ -54,7 +133,7 @@
                                     </form>
 
                                 </div>
-                            </div>
+                            </div>--%>
 
                         </div>
                     </div>

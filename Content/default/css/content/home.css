@@ -31,7 +31,7 @@
 
 @font-face {
   font-family: 'kanitmedium';
-  src: url("../../../../fonts/kanit-medium.woff2") format("woff2"), url("../../../../fonts/kanit-medium.woff") format("woff");
+  src: url("../../../../fonts/kanit-medium.woff") format("woff"), url("../../../../fonts/kanit-medium.woff2") format("woff2");
   font-weight: normal;
   font-style: normal; }
 
@@ -387,6 +387,6 @@
         margin: 0 !important; } }
 
 .list-content {
-  max-height: 300px;
-  padding-bottom: 29px;
+  height: 305px;
+  /*padding-bottom: 30px;*/
   overflow: hidden; }

@@ -112,9 +112,6 @@
                                                         Shortcut Menu
                                                     </div>
                                                 </div>
-                                                
-                                                
-                                                <%--<span class="pull-right"><i class="fas fa-angle-down"></i></span>--%>
                                             </a>
                                         </h3>
                                     </div>
@@ -241,23 +238,6 @@
                                                         <li><a href="/Knowledge/Laws" title="กฎหมายน่ารู้">กฎหมายน่ารู้</a></li>
                                                     </ul>
                                                 </li>
-                                                <%--<li><a href="/Knowledge/AllWeblink" title="เว็บลิงค์">เว็บลิงค์</a>
-                                                    <ul>
-                                                        <li><a title="หน่วยงานราชการ">หน่วยงานราชการ</a>
-                                                            <ul>
-                                                                <li><a href="/Knowledge/Ministry" title="กระทรวง">กระทรวง</a></li>
-                                                                <li><a href="/Knowledge/Department" title="กรม/กอง">กรม/กอง</a></li>
-                                                                <li><a href="/Knowledge/Office" title="สำนักงานส่วนราชการ">สำนักงานส่วนราชการ</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="/Knowledge/Bank" title="สถาบันการเงิน/ธนาคาร">สถาบันการเงิน/ธนาคาร</a></li>
-                                                        <li><a href="/Knowledge/Develop" title="บริษัทพัฒนาอสังหาริมทรัพย์">บริษัทพัฒนาอสังหาริมทรัพย์</a></li>
-                                                        <li><a href="/Knowledge/Agent" title="ตัวแทนนายหน้าอสังหาริมทรัพย์">ตัวแทนนายหน้าอสังหาริมทรัพย์</a></li>
-                                                        <li><a href="/Knowledge/Association" title="สมาคม/ชมรม อสังหาริมทรัพย์">สมาคม/ชมรม อสังหาริมทรัพย์</a></li>
-                                                        <li><a href="/Knowledge/Build" title="บริษัท รับสร้างบ้าน">บริษัท รับสร้างบ้าน</a></li>
-                                                        <li><a href="/Knowledge/Other" title="อื่นๆ">อื่นๆ</a></li>
-                                                    </ul>
-                                                </li>--%>
                                             </ul>
                                         </div>
 
@@ -286,15 +266,6 @@
 
                                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
                                             <h3><a href="/Question/Question" title="ถามตอบ">ถามตอบ</a></h3>
-                                            <%--<h3><span title="ติดต่อเรา">ติดต่อเรา</span></h3>
-                                            <ul class="list-menu">
-                                                <li><a href="/Contact/ContactForm" title="ติดต่อแบบฟอร์ม">ติดต่อแบบฟอร์ม</a></li>
-                                                <li><a href="/Contact/Address" title="ที่อยู่">ที่อยู่</a></li>
-                                                <li><a href="/Contact/Social" title="สื่อ Social">สื่อ Social</a></li>
-                                                <li><a href="/Contact/Chatbot" title="LiveChat / Chatbot">LiveChat / Chatbot</a></li>
-                                                <li><a href="/Contact/News" title="รับข่าวสาร E-Newsletter">รับข่าวสาร E-Newsletter</a></li>
-                                                <li><a href="/Contact/join" title="ร่วมงานกับเรา">ร่วมงานกับเรา</a></li>
-                                            </ul>--%>
                                         </div>
 
                                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 matchHeight">
@@ -374,7 +345,7 @@
                                                         <div class="ico">
                                                             <img class="lazyload"" data-src="../../Images/icon/footer/icon-phone.svg" />
                                                         </div>
-                                                        <a class="alink" href="tel:0-2664-6400" target="_blank" title="02-202-1768">
+                                                        <a class="alink" href="tel:02-202-1768" target="_blank" title="02-202-1768">
                                                             <span>Call Center</span>
                                                             <p>02-202-1768</p>
                                                         </a>
@@ -431,60 +402,11 @@
                         
                     </div>
                 </div>
-
-                <%--<div class="col-xl-5 col-lg-6 col-md-6 col-12 mathHeight">
-                    <div class="contact-box">
-                        <div class="form-row pst-center">
-                            <div class="col-xl-5 col-lg-12 col-12 pst-left">
-                                <h3>E-Newsletter</h3>
-                                <p>
-                                    Receive the latest news,<br />
-                                    special offers and exclusives
-                                </p>
-                            </div>
-
-                            <div class="col-xl-7 col-lg-12 col-12">
-                                <div class="fill">
-                                    <div class="fill-keyword">
-                                        <div class="slc-custom">
-                                            <input class="bg-white" id="inlineFormInputEmail" type="text" placeholder="Your E-mail">
-                                        </div>
-                                    </div>
-                                    <div class="fill-search">
-                                        <button class="btn-submit" type="submit"  data-toggle="modal" data-target="#Email">
-                                            <div class="btn-med secondary nopadding"><i class="fas fa-angle-right"></i></div>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>--%>
             </div>
         </div>
     </div>
     <!-- contact-wrapper -->
     <div class="clearfix"></div>
-
-    <div class="footer_sub">
-        <div class="footer_sub--block">
-            <div class="container">
-                <div class="row">
-                    
-                    <%--<div class="col-md-12 col-lg-6 order-lg-1">
-                        <div class="copyright pst-lefttocen-md">
-                            <p>
-                                <span style="color: #EC0E17;">ศูนย์ข้อมูลอสังหาริมทรัพย์ ธนาคารอาคารสงเคราะห์</span><br />
-                                ชั้น 18 อาคาร 2 เลขที่ 63 ถ.พระราม9 ห้วยขวาง กรุงเทพ 10310
-                            </p>
-                        </div>
-                    </div>--%>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <div class="cookie-wrapper">
         <div class="ic-close" id="close_cookies">
