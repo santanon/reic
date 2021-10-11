@@ -48,17 +48,16 @@
 
                     <h1 class="color-primary bold pst-center">สินค้า</h1>
 
-                    <div class="row margin-top">
-                        <div class="col-lg-8 col-md-12 col-">
+                    <div class="row margin-top justify-content-between">
+                        <div class="col-lg-9">
                             <div class="row pst-lefttocen">
-
-                                <div class="col-lg-5 col-md-4 col-">
+                                <div class="col-lg-3 col-md-6">
                                     <div class="slc-custom bg-grey">
                                         <input name="" placeholder="คำค้นหาสินค้า" value="" autocomplete="off" type="text">
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-4 col-">
+                                <div class="col-lg-3 col-md-6">
                                     <div class="slc-custom bg-grey">
                                         <select class="slc" id="type">
                                             <option value="0" selected>เลือกหมวดสินค้า</option>
@@ -74,7 +73,23 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-3 col-md-4 col-">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="slc-custom bg-grey">
+                                        <select class="slc" id="type">
+                                            <option value="0" selected>เลือกหมวดสินค้า</option>
+                                            <option value="สำรองที่นั่งงานสัมมนา/อบรม">สำรองที่นั่งงานสัมมนา/อบรม</option>
+                                            <option value="สมัครสมาชิกผู้ใช้ข้อมูลเว็บไซต์ www.reic.or.th">สมัครสมาชิกผู้ใช้ข้อมูลเว็บไซต์ www.reic.or.th</option>
+                                            <option value="เอกสาร/DVD งานสัมมนาย้อนหลัง">เอกสาร/DVD งานสัมมนาย้อนหลัง</option>
+                                            <option value="รายงานผลสำรวจโครงการ">รายงานผลสำรวจโครงการ</option>
+                                            <option value="ที่อยู่อาศัย">ที่อยู่อาศัย</option>
+                                            <option value="โครงการอาคารชุดเปิดใหม่">โครงการอาคารชุดเปิดใหม่</option>
+                                            <option value="ข้อมูลรายโครงการพร้อมขาย">ข้อมูลรายโครงการพร้อมขาย</option>
+                                            <option value="REIC Directory">REIC Directory</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6">
                                     <div class="pst-lefttocen fill">
                                         <div class="fill-keyword">
                                             <div class="slc-custom bg-grey">
@@ -96,9 +111,27 @@
 
                             </div>
                         </div>
-
-                        <!--#include file="../../Include/other/inc-jpage-desktop.aspx"-->
-
+                        <div class="col-lg-auto">
+                            <div class="social-box pst-righttocen">
+                                <div class="bord-icons">
+                                    <div class="label-custom">แชร์ :</div>
+                                    <div class="custom-icons">
+                                        <ul>
+                                            <li class="facebook"><a href="#" target="_blank" title="Share on Facebook">
+                                                <img src="../../../../Images/icon/action/ic-fb.svg">
+                                            </a></li>
+                                            <li class="twitter"><a href="#" target="_blank" title="Share on Twitter">
+                                                <img src="../../../../Images/icon/action/ic-twitter.svg">
+                                            </a></li>
+                                            <li class="print">
+                                                <a href="javascript:void(0)" onclick="window.print();" target="_blank" title="Print">
+                                                    <img src="../../../../Images/icon/action/ic-print.svg">
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="list-group margin-row-half" id="list-group-1">
@@ -120,7 +153,7 @@
                                                     </div>
                                                     <div class="desc-price">ราคาปกติ: <span style="text-decoration: line-through;">1,000</span> บาท</div>
                                                     <div class="desc-price special">ราคาพิเศษ: 500 บาท</div>
-                                                   <%-- <div class="desc">
+                                                    <%-- <div class="desc">
                                                         ทำเนียบรายชื่อผู้ประกอบการพัฒนาโครงการ ที่อยู่อาศัยกทม.-ปริมณฑล
                                                     </div>--%>
                                                 </div>

@@ -195,12 +195,6 @@
     }
 
     .pager {
-        position: absolute;
-        bottom: 50px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        text-align: right !important;
         z-index: 9;
 
         .pager_list {
@@ -215,7 +209,7 @@
             }
         }
 
-        @media screen and (min-width: 576px) {
+        /*@media screen and (min-width: 576px) {
             max-width: 540px;
         }
 
@@ -229,7 +223,7 @@
 
         @media screen and (min-width: 1200px) {
             max-width: 1210px;
-        }
+        }*/
     }
 }
 
@@ -960,12 +954,15 @@
             }
 
             .card-text {
+                margin-bottom: 10px;
+
                 .title {
                     font-family: $font-kanit;
                     font-size: 20px;
                     line-height: 28px;
                     color: $color-text;
                     margin-bottom: 10px;
+                    transition: all 0.3s ease-in-out;
                 }
 
                 .desc {
@@ -978,6 +975,7 @@
                     -webkit-box-orient: vertical;
                     overflow: hidden;
                     text-overflow: ellipsis;
+                    transition: all 0.3s ease-in-out;
                 }
 
                 &--main {
@@ -985,6 +983,7 @@
                         overflow: hidden;
                         white-space: nowrap;
                         text-overflow: ellipsis;
+                        transition: all 0.3s ease-in-out;
                     }
                 }
 
@@ -995,11 +994,41 @@
                         -webkit-box-orient: vertical;
                         overflow: hidden;
                         text-overflow: ellipsis;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+
+                &:hover {
+                    .title, .desc {
+                        color: $color-primary;
                     }
                 }
             }
 
-            &:hover {
+
+            .card--download {
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    font-family: $font-kanit;
+                    font-size: 22px;
+                    line-height: 28px;
+                    color: $color-text;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        color: $color-primary;
+                    }
+                }
+
+                img {
+                    width: 24px;
+                    margin-right: 10px;
+                }
+            }
+            /*&:hover {
                 a {
                     .title {
                         color: $color-primary;
@@ -1009,7 +1038,7 @@
                         color: $color-primary;
                     }
                 }
-            }
+            }*/
         }
 
         .link {
@@ -1042,8 +1071,9 @@
 
 .login-section {
     position: absolute;
+    top: 50%;
     left: 0;
-    bottom: 75px;
+    transform: translate(0, -50%);
     display: block;
     width: 100%;
     height: auto;
@@ -1107,10 +1137,12 @@
     }
 
     @media screen and (max-width: $screen-lg) {
-        top: 0;
-    }
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: translate(0, 0);
+        margin: 25px auto;
 
-    @media screen and (max-width: $screen-md) {
         .tab-content {
             .tab-pane-primary {
                 @include opacity-bg($color-primary, 1);
@@ -1120,10 +1152,40 @@
 }
 
 .landing-section {
-    top: 95px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
 
-    @media screen and (max-width: $screen-md) {
-        top: 0;
+    .form--wrapper {
+        padding: 25px 30px;
+        @include opacity-bg($color-primary, 0.5);
+
+        .form__header {
+            margin: 0 0 15px;
+            text-align: center;
+        }
+    }
+
+    .captcha-contact-form-white {
+        text-align: center;
+    }
+
+    @media screen and (max-width: $screen-lg) {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: translate(0, 0);
+        margin: 25px auto;
+
+        .form--wrapper {
+            @include opacity-bg($color-primary, 1);
+        }
     }
 }
 
@@ -1517,14 +1579,14 @@
         .card-block {
             margin-bottom: 30px;
 
-            a {
-                width: 100%;
-                display: block;
-            }
-
             .card-image {
                 margin-bottom: 10px;
                 border-bottom: 2px solid #ED1C24;
+
+                a {
+                    width: 100%;
+                    display: block;
+                }
 
                 img {
                     width: 100%;
@@ -1557,12 +1619,15 @@
             }
 
             .card-text {
+                margin-bottom: 10px;
+
                 .title {
                     font-family: $font-kanit;
                     font-size: 22px;
                     line-height: 28px;
                     color: $color-text;
                     margin-bottom: 10px;
+                    transition: all 0.3s ease-in-out;
                 }
 
                 .desc {
@@ -1575,6 +1640,7 @@
                     -webkit-box-orient: vertical;
                     overflow: hidden;
                     text-overflow: ellipsis;
+                    transition: all 0.3s ease-in-out;
                 }
 
                 &--main {
@@ -1594,9 +1660,37 @@
                         text-overflow: ellipsis;
                     }
                 }
+
+                &:hover {
+                    .title, .desc {
+                        color: $color-primary;
+                    }
+                }
             }
 
-            &:hover {
+            .card--download {
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    font-family: $font-kanit;
+                    font-size: 22px;
+                    line-height: 28px;
+                    color: $color-text;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        color: $color-primary;
+                    }
+                }
+
+                img {
+                    width: 24px;
+                    margin-right: 10px;
+                }
+            }
+            /*&:hover {
                 a {
                     .title {
                         color: $color-primary;
@@ -1606,7 +1700,7 @@
                         color: $color-primary;
                     }
                 }
-            }
+            }*/
         }
     }
 

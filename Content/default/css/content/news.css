@@ -31,7 +31,7 @@
 
 @font-face {
   font-family: 'kanitmedium';
-  src: url("../../../../fonts/kanit-medium.woff2") format("woff2"), url("../../../../fonts/kanit-medium.woff") format("woff");
+  src: url("../../../../fonts/kanit-medium.woff") format("woff"), url("../../../../fonts/kanit-medium.woff2") format("woff2");
   font-weight: normal;
   font-style: normal; }
 
@@ -499,11 +499,11 @@
             margin: 0;
             background-position: 0 0;
             background-repeat: no-repeat; }
-            #maincontainer-wrapper .download-box .download .custom-icons ul li a img {
-              vertical-align: middle;
-              width: auto;
-              height: 100%;
-              margin: 0; }
+      #maincontainer-wrapper .download-box .download .custom-icons img {
+        vertical-align: middle;
+        width: auto;
+        height: 30px;
+        margin: 0; }
   #maincontainer-wrapper .download-box .share {
     float: right;
     height: 31px;
@@ -903,6 +903,11 @@
         margin: 0; }
         #maincontainer-wrapper .download .download-box .custom-icons ul li {
           margin: 5px 0; }
+      #maincontainer-wrapper .download .download-box .custom-icons img {
+        vertical-align: middle;
+        width: auto;
+        height: 30px;
+        margin: 0 5px 0; }
   #maincontainer-wrapper .download a {
     font-size: 25px;
     line-height: 25px;

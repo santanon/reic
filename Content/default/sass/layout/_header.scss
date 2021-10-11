@@ -48,8 +48,8 @@
                     cursor: pointer;
 
                     &:hover {
-                        color: $color-white;
-                        border-color: $color-white;
+                        color: #ccc;
+                        border-color: #ccc;
                     }
 
                     &:after {
@@ -240,11 +240,6 @@
                     cursor: pointer;
                     padding: 0 15px;
 
-                    &:hover {
-                        color: $color-white;
-                        border-color: $color-white;
-                    }
-
                     &:after {
                         display: none;
                     }
@@ -295,7 +290,6 @@
                         border: 1px solid $color-grey;
                     }
 
-
                     .fa-member-bord {
                         top: 0;
                         height: $height-icon;
@@ -335,8 +329,8 @@
                     }
 
                     &:hover {
-                        color: $color-white;
-                        border-color: $color-white;
+                        color: #ccc;
+                        border-color: #ccc;
 
                         .fas-member-bord {
                             border: 1px solid $color-white;
@@ -946,6 +940,7 @@
                             font-weight: bold;
                             text-transform: capitalize;
                             color: #707070;
+
                             &:hover {
                                 color: $color-primary;
                             }
@@ -1114,6 +1109,7 @@
                                         height: auto;
                                         margin: 0 0 10px 0;
                                         color: $color-white;
+
                                         &:hover {
 
                                             > a {
@@ -1199,6 +1195,7 @@
 
         @include media-breakpoint-down(lg) {
             height: 80px;
+
             .main-nav {
                 display: none;
             }

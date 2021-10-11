@@ -30,11 +30,11 @@
 }
 
 #foo_pager {
-    width: 100%;
+    width: auto;
     position: absolute;
     bottom: 50px;
-    left: 0;
-    right: 0;
+    left: auto;
+    right: 40px;
     margin: auto;
     text-align: right;
 

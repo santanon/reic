@@ -197,11 +197,11 @@
                                                 <div class="owl-carousel-vdo">
                                                     <div class="list-content">
                                                         <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
+                                                            <div class="card-image">
+                                                                <a href="#">
                                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                             <div class="card-date">
                                                                 <div class="date">
                                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -221,15 +221,20 @@
                                                                     <div class="desc"></div>
                                                                 </a>
                                                             </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <div class="list-content">
                                                         <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
+                                                            <div class="card-image">
+                                                                <a href="#">
                                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                             <div class="card-date">
                                                                 <div class="date">
                                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -244,20 +249,25 @@
                                                             <div class="card-text card-text--sub">
                                                                 <a href="#">
                                                                     <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 2
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
                                                                     </div>
                                                                     <div class="desc"></div>
                                                                 </a>
+                                                            </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="list-content">
                                                         <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
+                                                            <div class="card-image">
+                                                                <a href="#">
                                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                             <div class="card-date">
                                                                 <div class="date">
                                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -272,20 +282,25 @@
                                                             <div class="card-text card-text--sub">
                                                                 <a href="#">
                                                                     <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 3
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
                                                                     </div>
                                                                     <div class="desc"></div>
                                                                 </a>
+                                                            </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="list-content">
                                                         <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
+                                                            <div class="card-image">
+                                                                <a href="#">
                                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                             <div class="card-date">
                                                                 <div class="date">
                                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -300,10 +315,15 @@
                                                             <div class="card-text card-text--sub">
                                                                 <a href="#">
                                                                     <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 4
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
                                                                     </div>
                                                                     <div class="desc"></div>
                                                                 </a>
+                                                            </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -324,11 +344,11 @@
                                                 <div class="owl-carousel-law">
                                                     <div class="list-content">
                                                         <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
+                                                            <div class="card-image">
+                                                                <a href="#">
                                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                             <div class="card-date">
                                                                 <div class="date">
                                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -343,20 +363,91 @@
                                                             <div class="card-text card-text--sub">
                                                                 <a href="#">
                                                                     <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
                                                                     </div>
                                                                     <div class="desc"></div>
                                                                 </a>
+                                                            </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="list-content">
+                                                       <div class="card-block">
+                                                            <div class="card-image">
+                                                                <a href="#">
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="card-date">
+                                                                <div class="date">
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
+                                                                </div>
+                                                                <div class="shared">
+                                                                    <a href="#">
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-text card-text--sub">
+                                                                <a href="#">
+                                                                    <div class="title">
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
+                                                                    </div>
+                                                                    <div class="desc"></div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="list-content">
+                                                       <div class="card-block">
+                                                            <div class="card-image">
+                                                                <a href="#">
+                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
+                                                                </a>
+                                                            </div>
+                                                            <div class="card-date">
+                                                                <div class="date">
+                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
+                                                                    12 เมษายน 2564
+                                                                </div>
+                                                                <div class="shared">
+                                                                    <a href="#">
+                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card-text card-text--sub">
+                                                                <a href="#">
+                                                                    <div class="title">
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
+                                                                    </div>
+                                                                    <div class="desc"></div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="list-content">
                                                         <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
+                                                            <div class="card-image">
+                                                                <a href="#">
                                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                             <div class="card-date">
                                                                 <div class="date">
                                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -371,66 +462,15 @@
                                                             <div class="card-text card-text--sub">
                                                                 <a href="#">
                                                                     <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 2
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
                                                                     </div>
                                                                     <div class="desc"></div>
                                                                 </a>
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="list-content">
-                                                        <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
-                                                            <div class="card-date">
-                                                                <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
-                                                                    12 เมษายน 2564
-                                                                </div>
-                                                                <div class="shared">
-                                                                    <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="card-text card-text--sub">
-                                                                <a href="#">
-                                                                    <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 3
-                                                                    </div>
-                                                                    <div class="desc"></div>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="list-content">
-                                                        <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
-                                                                    <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
-                                                            <div class="card-date">
-                                                                <div class="date">
-                                                                    <img src="../../Images/icon/ic-date.svg" alt="icon date" />
-                                                                    12 เมษายน 2564
-                                                                </div>
-                                                                <div class="shared">
-                                                                    <a href="#">
-                                                                        <img src="../../Images/icon/ic-share-blue.svg" alt="icon share" />
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="card-text card-text--sub">
-                                                                <a href="#">
-                                                                    <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 4
-                                                                    </div>
-                                                                    <div class="desc"></div>
-                                                                </a>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -451,11 +491,11 @@
                                                 <div class="owl-carousel-activity">
                                                     <div class="list-content">
                                                         <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
+                                                            <div class="card-image">
+                                                                <a href="#">
                                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                             <div class="card-date">
                                                                 <div class="date">
                                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -470,20 +510,25 @@
                                                             <div class="card-text card-text--sub">
                                                                 <a href="#">
                                                                     <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
                                                                     </div>
                                                                     <div class="desc"></div>
                                                                 </a>
+                                                            </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="list-content">
                                                         <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
+                                                            <div class="card-image">
+                                                                <a href="#">
                                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                             <div class="card-date">
                                                                 <div class="date">
                                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -498,20 +543,25 @@
                                                             <div class="card-text card-text--sub">
                                                                 <a href="#">
                                                                     <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 2
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
                                                                     </div>
                                                                     <div class="desc"></div>
                                                                 </a>
+                                                            </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="list-content">
                                                         <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
+                                                            <div class="card-image">
+                                                                <a href="#">
                                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                             <div class="card-date">
                                                                 <div class="date">
                                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -526,20 +576,25 @@
                                                             <div class="card-text card-text--sub">
                                                                 <a href="#">
                                                                     <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 3
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
                                                                     </div>
                                                                     <div class="desc"></div>
                                                                 </a>
+                                                            </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="list-content">
                                                         <div class="card-block">
-                                                            <a href="#">
-                                                                <div class="card-image">
+                                                            <div class="card-image">
+                                                                <a href="#">
                                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
-                                                                </div>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                             <div class="card-date">
                                                                 <div class="date">
                                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -554,10 +609,15 @@
                                                             <div class="card-text card-text--sub">
                                                                 <a href="#">
                                                                     <div class="title">
-                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 4
+                                                                        คลังปั๊มศก.ครึ่งปีหลังคนละครึ่งรอบใหม่เปิดช่องกู้รับวิกฤต 1 
                                                                     </div>
                                                                     <div class="desc"></div>
                                                                 </a>
+                                                            </div>
+                                                            <div class="card--download">
+                                                                <a href="/Upload/PressRelease210921-1_23544_1632409163_99345.pdf" target="_blank" title="PDF">
+                                                                    <img src="../../../Images/icon/ic-pdf.svg" alt="Download PDF"> Download PDF
+																</a>
                                                             </div>
                                                         </div>
                                                     </div>
