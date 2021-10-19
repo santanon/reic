@@ -696,6 +696,8 @@
       border: none;
       background-color: #FAFBFB;
       padding: 20px 15px; }
+      #maincontainer-wrapper .table-package .table tbody tr td .table--inner {
+        width: 100%; }
       #maincontainer-wrapper .table-package .table tbody tr td .button .btn-med {
         display: block;
         text-align: center;
@@ -725,6 +727,18 @@
           border: none; }
           #maincontainer-wrapper .table-package .table tfoot tr td.font-lg {
             font-size: 38px; }
+          #maincontainer-wrapper .table-package .table tfoot tr td .text-total {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between; }
+            #maincontainer-wrapper .table-package .table tfoot tr td .text-total span.font-lg {
+              font-size: 38px; }
     #maincontainer-wrapper .table-package .table.table-addon {
       table-layout: fixed;
       background-color: #FAFBFB; }
@@ -763,6 +777,20 @@
         #maincontainer-wrapper .table-package .table.table-addon tbody tr td .addon :disabled + label span {
           color: #C6C6C6;
           cursor: not-allowed; }
+        #maincontainer-wrapper .table-package .table.table-addon tbody tr td .addon--text {
+          font-family: "KitithadaBold";
+          color: #858585;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          padding-left: 65px; }
+          #maincontainer-wrapper .table-package .table.table-addon tbody tr td .addon--text span {
+            font-family: "KitithadaBold";
+            color: #858585;
+            text-align: left; }
     #maincontainer-wrapper .table-package .table.table-layout-fix {
       table-layout: fixed; }
     @media screen and (max-width: 767px) {

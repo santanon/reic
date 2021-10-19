@@ -315,10 +315,215 @@
                                         </td>
                                     </tr>
                                 </tbody>
-                                <tfoot>
+                            </table>
+                        </div>
+
+
+                        <div class="table-responsive">
+                            <table class="table table-addon">
+                                <thead>
                                     <tr>
-                                        <td class="text-left">รวม</td>
+                                        <th class="text-left">REIC Research Report</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <%--<div class="addon">
+                                                <input type="checkbox" id="research1"/>
+                                                <label for="research1">
+                                                    <span class="text">สรุปสถานณ์การที่อยู่อาศัยรายจังหวัด</span> <span class="price">2,000</span>
+                                                </label>
+                                            </div>--%>
+                                            <div class="addon addon--text">
+                                                <span class="text">สรุปสถานณ์การที่อยู่อาศัยรายจังหวัด</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-5 py-0">
+                                            <table class="table table--inner">
+                                                <tr>
+                                                    <td>
+                                                        <div class="addon">
+                                                            <input type="checkbox" id="research1_1"/>
+                                                            <label for="research1_1">
+                                                                <span class="text">กรุงเทพฯ - ปริมณฑล</span> <span class="price"></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pl-5 pr-0 py-0">
+                                                        <table class="table table--inner">
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research1_1_1"/>
+                                                                        <label for="research1_1_1">
+                                                                            <span class="text">กรุงเทพมหานคร</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research1_1_2"/>
+                                                                        <label for="research1_1_2">
+                                                                            <span class="text">นครปฐม</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research1_1_3"/>
+                                                                        <label for="research1_1_3">
+                                                                            <span class="text">นนทบุรี</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research1_1_4"/>
+                                                                        <label for="research1_1_4">
+                                                                            <span class="text">ปทุมธานี</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research1_1_5"/>
+                                                                        <label for="research1_1_5">
+                                                                            <span class="text">สมุทรปราการ</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research1_1_6"/>
+                                                                        <label for="research1_1_6">
+                                                                            <span class="text">สมุทรสาคร</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-5 py-0">
+                                            <table class="table table--inner">
+                                                <tr>
+                                                    <td>
+                                                        <div class="addon">
+                                                            <input type="checkbox" id="research2_1"/>
+                                                            <label for="research2_1">
+                                                                <span class="text">ภาคใต้</span> <span class="price"></span>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pl-5 pr-0 py-0">
+                                                        <table class="table table--inner">
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research2_1_1"/>
+                                                                        <label for="research2_1_1">
+                                                                            <span class="text">สงขลา</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research2_1_2"/>
+                                                                        <label for="research2_1_2">
+                                                                            <span class="text">สุราษฎร์ธานี</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research2_1_3"/>
+                                                                        <label for="research2_1_3">
+                                                                            <span class="text">ภูเก็ต</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research2_1_4"/>
+                                                                        <label for="research2_1_4">
+                                                                            <span class="text">พัทลุง</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research2_1_5"/>
+                                                                        <label for="research2_1_5">
+                                                                            <span class="text">นครศรีธรรมราช</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="addon">
+                                                                        <input type="checkbox" id="research2_1_6"/>
+                                                                        <label for="research2_1_6">
+                                                                            <span class="text">ตรัง</span> <span class="price">3,000</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="addon">
+                                                <input type="checkbox" id="research2"/>
+                                                <label for="research2">
+                                                    <span class="text">สรุปสถานณ์การอสังหาริมทรัพย์ใน REIC</span> <span class="price">2,000</span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="addon">
+                                                <input type="checkbox" id="research3"/>
+                                                <label for="research3">
+                                                    <span class="text">สรุปสถานณ์การโอนกรรมสิทธิ์ห้องชุดของคนต่างด้าว</span> <span class="price">2,000</span>
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <%--<tr>
+                                        <td class="text-total">รวม</td>
                                         <td class="text-right font-lg">14,000</td>
+                                    </tr>--%>
+                                    <tr>
+                                        <td>
+                                            <div class="text-total">
+                                                <span class="text">รวม</span> <span class="price font-lg">14,000</span>
+                                            </div>
+                                        </td>
                                     </tr>
                                 </tfoot>
                             </table>

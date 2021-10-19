@@ -851,6 +851,12 @@
                         background-color: #FAFBFB;
                         padding: 20px 15px;
 
+                        .table {
+                            &--inner {
+                                width: 100%;
+                            }
+                        }
+
                         .button {
                             .btn-med {
                                 display: block;
@@ -902,6 +908,18 @@
 
                         &.font-lg {
                             font-size: 38px;
+                        }
+
+                        .text-total {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            span {
+                                &.font-lg {
+                                    font-size: 38px;
+                                }
+                            }
                         }
                     }
                 }
@@ -963,6 +981,21 @@
                                     span {
                                         color: #C6C6C6;
                                         cursor: not-allowed;
+                                    }
+                                }
+
+                                &--text {
+                                    font-family: $font-bold;
+                                    color: #858585;
+                                    display: flex;
+                                    justify-content: space-between;
+
+                                    padding-left: 65px;
+
+                                    span {
+                                        font-family: $font-bold;
+                                        color: #858585;
+                                        text-align: left;
                                     }
                                 }
                             }
@@ -1201,7 +1234,7 @@
                     }
                 }
 
-                img{
+                img {
                     vertical-align: middle;
                     width: auto;
                     height: 30px;
