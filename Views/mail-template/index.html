@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]>      <html lang="th" class="lt-ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="th">
+<!--<![endif]-->
+    <head>
+        <meta content="IE=9" http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="UTF-8">
+        <style type="text/css">
+            .mail--wrapper{
+                display: block;
+                padding: 15px;
+                color: #333;
+                overflow: hidden;
+            }
+
+            /* Layout */
+            .mail--wrapper .header{
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            .mail--wrapper .header img{
+                max-width: 100%;
+            }
+
+            .mail--wrapper .main{
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            .mail--wrapper .footer{
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            .order--detail{
+                display: block;
+                margin-bottom: 40px;
+            }
+
+            .detail__item{
+                display: block;
+                padding: 10px 20px 20px;
+                margin-bottom: 10px;
+                border-bottom: 1px solid #2E3092;
+                background-color: #F5F5F5;
+            }
+
+            /* Text */
+            .customer--info{
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            .order--number{
+                display: block;
+                margin-bottom: 20px;
+                color: #2E3092;
+            }
+
+            .order--date{
+                display: block;
+                margin-bottom: 20px;
+            }
+
+            .customer__title{
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+
+            .customer__text{
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+
+            .footer__title{
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+
+            .footer__text{
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+
+            /* Table */
+            .table--order{
+                width: 100%;
+            }
+            
+            .table--order table{
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            .table--order table th{
+                padding: 10px 20px;
+                text-align: center;
+                white-space: nowrap;
+                color: white;
+                border: 1px solid white;
+            }
+
+            .table--order table td{
+                padding: 10px 20px;
+                text-align: left;
+                white-space: nowrap;
+                border: 1px solid white;
+            }
+
+            .table--order table td.text-right{
+                text-align: right;
+            }
+
+            .table--order table thead tr th{
+                background-color: #2E3092;
+            }
+
+            .table--order table tbody tr td{
+                background-color: #F5F5F5;
+            }
+
+            .table--order table tbody tr.group td{
+                background-color: #E1ECF4;
+            }
+
+            .table--order table tfoot tr td{
+                font-size: 1.25rem;
+                line-height: 1.25rem;
+                color: #2E3092;
+                background-color: #F5F5F5;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="mail--wrapper">
+            <div class="header">
+                <a href="#"><img src="imgaes/logo-txt.svg"></a>
+            </div>
+            <div class="main">
+                <h2 class="order--number">
+                    Order Number : <span>00265273</span>
+                </h2>
+
+                <div class="customer--info">
+                    <h2 class="customer__title">
+                        คุณ ณรัฐ รุ่งเรือง
+                    </h2>
+                    <div class="customer__text">
+                        84/201 ถ.รัชดาภิเษก แขวงห้วยขวาง เขตห้วยขวาง Bangkok, 10310<br>
+                        Tel. 094-486-1676
+                    </div>
+                    <div class="customer__text">
+                        อีเมล : <span>naratt_ratt@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="order--date">
+                    วันที่สั่งซื้อ : <span>09/09/2564<span>
+                </div>
+
+                <div class="table--order">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>รหัสสินค้า</th>
+                                <th>ชื่อสินค้า</th>
+                                <th>จำนวน (หน่วย)</th>
+                                <th>ราคาปกติ/บาท</th>
+                                <th>ราคารวม/บาท</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="group">
+                                <td>&nbsp;</td>
+                                <td>
+                                    Package 1 (ระยะเวลา 1 ปี)
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td class="text-right">
+                                    12,000
+                                </td>
+                                <td class="text-right">
+                                    12,000
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กทม.และปริมณฑล)
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td class="text-right">
+                                    3,000
+                                </td>
+                                <td class="text-right">
+                                    -
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กทม.และปริมณฑล)
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td class="text-right">
+                                    9,000
+                                </td>
+                                <td class="text-right">
+                                    -
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">
+                                    ยอดชำระเงิน
+                                </td>
+                                <td class="text-right">
+                                    12,000
+                                </td>
+                            </tr> 
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="order--detail">
+                    <h2 class="dertail__title">
+                        รายละเอียดก่อนการเข้าอบรมสัมมนา
+                    </h2>
+                    <div class="detail__item">
+                        <h3>สัมมนา 1 : วิเคราะห์สถานการณ์ตลาดที่อยู่อาศัย จังหวัดสงขลา สุราษฎร์ธานี และนครศรีธรรมราช ปี 2562</h3>
+                        <ul>
+                            <li>
+                                ต้องการเข้าร่วมงานสัมมนาแบบใด : แบบ Private Seminar ณ สถานที่จัดงาน
+                            </li>
+                            <li>
+                                สิ่งที่คาดหวังจากงานสัมมนาครั้งนี้ : sdfdsfsdfsdf
+                            </li>
+                            <li>
+                                ท่านรับรู้เกี่ยวกับงานของเราจากสื่อใด : สื่อสิ่งพิมพ์,Google
+                            </li>
+                            <li>
+                                วัตถุประสงค์ของการร่วมฟังสัมมนา : ต้องการรับทราบความเคลื่อนไหวของตลาดที่อยู่อาศัย
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="detail__item">
+                        <h3>สัมมนา 2 : วิเคราะห์สถานการณ์ตลาดที่อยู่อาศัย จังหวัดสงขลา สุราษฎร์ธานี และนครศรีธรรมราช ปี 2562</h3>
+                        <ul>
+                            <li>
+                                ต้องการเข้าร่วมงานสัมมนาแบบใด : แบบ Private Seminar ณ สถานที่จัดงาน
+                            </li>
+                            <li>
+                                สิ่งที่คาดหวังจากงานสัมมนาครั้งนี้ : sdfdsfsdfsdf
+                            </li>
+                            <li>
+                                ท่านรับรู้เกี่ยวกับงานของเราจากสื่อใด : สื่อสิ่งพิมพ์,Google
+                            </li>
+                            <li>
+                                วัตถุประสงค์ของการร่วมฟังสัมมนา : ต้องการรับทราบความเคลื่อนไหวของตลาดที่อยู่อาศัย
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="detail__item">
+                        <h3>สัมมนา 3 : วิเคราะห์สถานการณ์ตลาดที่อยู่อาศัย จังหวัดสงขลา สุราษฎร์ธานี และนครศรีธรรมราช ปี 2562</h3>
+                        <ul>
+                            <li>
+                                ต้องการเข้าร่วมงานสัมมนาแบบใด : แบบ Private Seminar ณ สถานที่จัดงาน
+                            </li>
+                            <li>
+                                สิ่งที่คาดหวังจากงานสัมมนาครั้งนี้ : sdfdsfsdfsdf
+                            </li>
+                            <li>
+                                ท่านรับรู้เกี่ยวกับงานของเราจากสื่อใด : สื่อสิ่งพิมพ์,Google
+                            </li>
+                            <li>
+                                วัตถุประสงค์ของการร่วมฟังสัมมนา : ต้องการรับทราบความเคลื่อนไหวของตลาดที่อยู่อาศัย
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h2 class="footer__title">โอนเงินเข้าบัญชี</h2>
+                <p class="footer__text">ธนาคารอาคารสงเคราะห์ สำนักงานใหญ่ ชื่อบัญชี "ศูนย์ข้อมูลอสังหาริมทรัพย์" เลขที่บัญชี 001-11-044593-1</p>
+            </div>
+        </div>
+        
+    </body>
+</html>

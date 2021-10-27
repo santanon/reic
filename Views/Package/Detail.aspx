@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="../Content/default/css/content/main.css" />
 <link rel="stylesheet" href="../Content/default/css/content/news.css" />
 <link rel="stylesheet" href="../Content/default/css/content/product.css" />
+
 </head>
 
 <body class="default" id="page-default">
@@ -83,7 +84,7 @@
                     </div>
 
                     <div class="table-package">
-                        <div class="table-responsive mb-5">
+                        <div class="table-responsive">
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -92,24 +93,28 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr class="bg-title">
-                                        <td colspan="2" class="title">Package 1 มูลค่า 12,000</td>
+                                    <tr>
+                                        <td colspan="2" class="title" style="background-color: #E8E8E8;">Package 1 มูลค่า 12,000</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กรุงเทพฯ - ปริมณฑล)</td>
-                                        <td class="text-right">5,000</td>
+                                        <td class="text-left" style="background-color: #F5F5F5;">ที่อยู่อาศัย</td>
+                                        <td class="text-right" style="background-color: #F5F5F5;">5,000</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">ข้อมูลโอนกรรมสิทธิ์ ที่อยู่อาศัย (ทั่วประเทศ)</td>
-                                        <td class="text-right">2,000</td>
+                                        <td class="text-left" style="padding-left: 60px; background-color: #FAFAFA;">ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กรุงเทพฯ - ปริมณฑล)</td>
+                                        <td class="text-right" style="background-color: #FAFAFA;">5,000</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">สินเชื่อที่อยู่อาศัย</td>
-                                        <td class="text-right">2,000</td>
+                                        <td class="text-left" style="padding-left: 60px; background-color: #FAFAFA;">ข้อมูลโอนกรรมสิทธิ์ ที่อยู่อาศัย (ทั่วประเทศ)</td>
+                                        <td class="text-right" style="background-color: #FAFAFA;">2,000</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">ยอดขายที่อยู่อาศัยใหม่ (กรุงเทพฯ - ปริมณฑล)</td>
-                                        <td class="text-right">3,000</td>
+                                        <td class="text-left" style="background-color: #F5F5F5;">สินเชื่อที่อยู่อาศัย</td>
+                                        <td class="text-right" style="background-color: #F5F5F5;">2,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left" style="background-color: #F5F5F5;">ยอดขายที่อยู่อาศัยใหม่ (กรุงเทพฯ - ปริมณฑล)</td>
+                                        <td class="text-right" style="background-color: #F5F5F5;">3,000</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -327,8 +332,8 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
+                                    <tr class="bg-title">
+                                        <td style="background-color: #F5F5F5;">
                                             <%--<div class="addon">
                                                 <input type="checkbox" id="research1"/>
                                                 <label for="research1">
@@ -492,7 +497,7 @@
                                             </table>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr class="bg-title">
                                         <td>
                                             <div class="addon">
                                                 <input type="checkbox" id="research2"/>
@@ -502,7 +507,7 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr class="bg-title">
                                         <td>
                                             <div class="addon">
                                                 <input type="checkbox" id="research3"/>
