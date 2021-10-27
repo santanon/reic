@@ -684,14 +684,12 @@
         font-size: 25px !important;
         line-height: 28px !important; }
     #maincontainer-wrapper .table-package .table tbody tr.bg-title {
-      background-color: #F4F5F5; }
+      background-color: #E8E8E8; }
       #maincontainer-wrapper .table-package .table tbody tr.bg-title .title {
         color: #000000;
         font-size: 25px;
         line-height: 28px;
         background-color: inherit; }
-      #maincontainer-wrapper .table-package .table tbody tr.bg-title td {
-        background-color: #F4F5F5; }
     #maincontainer-wrapper .table-package .table tbody tr td {
       border: none;
       background-color: #FAFBFB;
@@ -800,6 +798,11 @@
           font-size: 20px;
           line-height: 20px; } }
 
+#maincontainer-wrapper .package-table-head {
+  background-color: #F4F5F5 !important;
+  /*color: white !important;*/
+  border-bottom: solid 1px white !important; }
+
 #maincontainer-wrapper .box-detail-order {
   margin-bottom: 40px; }
   #maincontainer-wrapper .box-detail-order p {
@@ -863,19 +866,12 @@
     #maincontainer-wrapper .box-detail-order .order-result p {
       color: #555;
       margin-bottom: 0; }
-    #maincontainer-wrapper .box-detail-order .order-result .order-bank {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center; }
-      #maincontainer-wrapper .box-detail-order .order-result .order-bank .logo-bank {
-        margin-right: 20px; }
-      #maincontainer-wrapper .box-detail-order .order-result .order-bank .account-number {
-        font-family: "KitithadaBold";
-        font-size: 38px;
-        color: #2E3092; }
+    #maincontainer-wrapper .box-detail-order .order-result .order-bank .logo-bank {
+      margin-right: 20px; }
+    #maincontainer-wrapper .box-detail-order .order-result .order-bank .account-number {
+      font-family: "KitithadaBold";
+      font-size: 38px;
+      color: #2E3092; }
   #maincontainer-wrapper .box-detail-order .remark p {
     font-size: 25px;
     line-height: 28px;

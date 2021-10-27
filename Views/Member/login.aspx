@@ -67,7 +67,7 @@
                 <div class="modal-body margin-row pst-center img">
                     
                     <div class="row pst-center padding-bottom">
-                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col- pst-center nopadding-right">
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pst-center nopadding-right">
                             <div class="slc-custom">
                                 <input name="" placeholder="อีเมล" value="" autocomplete="off" type="text">
                             </div>
@@ -75,13 +75,13 @@
                     </div>
 
                     <div class="row pst-center">
-                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col- pst-center">
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pst-center">
                             <p class="bold padding-bottom-half" style="color: #fff;">ระบบจะทำการส่งรหัสผ่านไปให้โดยผ่านทางอีเมลของคุณ</p>
                         </div>
                     </div>
 
                     <div class="row pst-center padding-bottom-half">
-                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col- pst-left">
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pst-left">
                             <div class="">
                                 <div class="button">
                                     <a class="btn-med btn-icon-right btn-login btn-width" style="display: block; text-align: center;" data-dismiss="modal" aria-label="Close">ส่งข้อมูล<i class="fas fa-angle-right" aria-hidden="true"></i></a>

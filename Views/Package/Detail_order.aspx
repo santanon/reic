@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="../Content/default/css/content/main.css" />
 <link rel="stylesheet" href="../Content/default/css/content/news.css" />
 <link rel="stylesheet" href="../Content/default/css/content/product.css" />
+
+
+<link rel="stylesheet" href="../Content/default/css/print.css" />
 </head>
 
 <body class="default" id="page-default">
@@ -49,10 +52,10 @@
                     <h1 class="color-primary bold pst-center mb-4">รายละเอียดการสั่งซื้อ</h1>
 
                     <div class="row margin-top justify-content-between package-header">
-                        <div class="col-12 col-md-4">
+                        <div class="col-md-4 col-md-print-6">
                             <div class="text-head text-left">เลขที่สั่งซื้อ : <span>PO20210721</span></div>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-md-4 col-md-print-6">
                             <div class="text-head text-left text-md-right">วันที่สั่งซื้อ : <span>09 เม.ย. 2564</span></div>
                         </div>
                     </div>
@@ -110,7 +113,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-md-print-6">
                             <div class="box-detail-order">
                                 <p>ที่อยู่จัดส่ง</p>
                                 <div class="order-result">
@@ -121,16 +124,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 ">
+                        <div class="col-md-6 col-md-print-6">
                             <div class="box-detail-order">
                                 <p>การชำระเงิน</p>
                                 <div class="order-result">
                                     <h2>โอนเงินเข้าบัญชี</h2>
                                     <div class="order-bank">
-                                        <div class="logo-bank">
+                                        <!--<div class="logo-bank">
                                             <img src="../../Images/icon/payment/logo-bank.png" alt="icon bank"/>
                                         </div>
-                                        <div class="account-number">001-11-044593-1</div>
+                                        <div class="account-number">001-11-044593-1</div>-->
+                                        (ธนาคารอาคารสงเคราะห์ สำนักงานใหญ่ ชื่อบัญชี “ศูนย์ข้อมูลอสังหารัมทรัพย์” เลขที่ 001-11-044593-1 จากนั้นส่งแฟกซ์ สลิปหรือหลักฐานการโอนเงิน เพื่อยืนยันการชำระเงินมาที่ โทรสาร 02-643-1251 ** ค่าใช้จ่ายในการโอนเป็นความรับผิดชอบของผู้ซื้อ โปรดตรวจสอบค่าธรรมเนียมก่อนการโอนทุกครั้ง **)
+                                        <br>
+                                        <strong>รายละเอียด</strong> : ทดสอบการทำงาน โอนเงินเข้าบัญชี
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +146,7 @@
                     
 
 
-                    <div class="row pst-right my-3">
+                    <div class="row pst-right my-3 print-display">
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
                                 <div class="button">
                                     <a href="#" class="btn-med btn-icon-right btn-primary btn-width" style="display: block; text-align: center;">แจ้งค่าบริการ</a>
@@ -160,8 +166,9 @@
 
 
             
-
-            <!--#include file="../Include/banner/inc-banner-highlight.aspx"-->
+            <div class="print-display">
+                <!--#include file="../Include/banner/inc-banner-highlight.aspx"-->
+            </div>
 
         </div>
         <div class="clearfix"></div>
