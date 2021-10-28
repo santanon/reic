@@ -1461,6 +1461,9 @@
     <Content Include="Views\Knowledge\weblink\bank.aspx" />
     <Content Include="Views\Knowledge\weblink\Detail\bank.aspx" />
     <Content Include="Views\Knowledge\weblink\government\all.aspx" />
+    <Content Include="Views\mail-template\imgaes\logo-txt.svg" />
+    <Content Include="Views\mail-template\index.html" />
+    <Content Include="Views\mail-template\mail-expire.html" />
     <Content Include="Views\Member\edit.aspx" />
     <Content Include="Views\Member\howtoregist.aspx" />
     <Content Include="Views\Member\login.aspx" />

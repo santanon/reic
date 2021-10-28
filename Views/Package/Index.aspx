@@ -383,18 +383,19 @@
                                 <div class="name-package">
                                     <div class="name">Package 1 (ระยะเวลา 1 ปี)</div>
                                     <div class="button">
-                                        <a href="#" class="btn-med btn-icon-right btn-login" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                        <a href="#" class="btn-med btn-icon-right btn-primary" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                                 <div class="date-package">
                                     <span class="d-start">วันที่สั่งซื้อ 09 เม.ย. 2564 / เวลา 10 : 23 น.</span> - <span class="e-start">สิ้นสุด 10 เม.ย. 2565 / เวลา 10 : 23 น.</span>
                                 </div>
+                                <div class="text-remark">หมายเหตุ : เพคเกจนี้ยกเลิกแล้ว กรุณาเลิอกซื้อแพคเกจใหม่</div>
                             </li>
                             <li class="item">
                                 <div class="name-package">
                                     <div class="name">Package 2 (ระยะเวลา 1 ปี)</div>
                                     <div class="button">
-                                        <a href="#" class="btn-med btn-icon-right btn-login" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                        <a href="#" class="btn-med btn-icon-right btn-secondary" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                                 <div class="date-package">
@@ -405,7 +406,7 @@
                                 <div class="name-package">
                                     <div class="name">Package 3 (ระยะเวลา 1 ปี)</div>
                                     <div class="button">
-                                        <a href="#" class="btn-med btn-icon-right btn-login" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                        <a href="#" class="btn-med btn-icon-right btn-secondary" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                                 <div class="date-package">
@@ -416,7 +417,7 @@
                                 <div class="name-package">
                                     <div class="name">Package 4 (ระยะเวลา 1 ปี)</div>
                                     <div class="button">
-                                        <a href="#" class="btn-med btn-icon-right btn-login" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                        <a href="#" class="btn-med btn-icon-right btn-secondary" style="display: block; text-align: center;">ต่ออายุ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                                 <div class="date-package">
