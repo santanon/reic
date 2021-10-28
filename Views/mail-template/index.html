@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if lt IE 9]>      <html lang="th" class="lt-ie9"> <![endif]-->
 <!--[if gt IE 9]><!-->
 <html lang="th">
@@ -107,7 +107,7 @@
             .table--order table td{
                 padding: 10px 20px;
                 text-align: left;
-                white-space: nowrap;
+                white-space: normal;
                 border: 1px solid white;
             }
 
@@ -132,6 +132,18 @@
                 line-height: 1.25rem;
                 color: #2E3092;
                 background-color: #F5F5F5;
+            }
+
+            @media print {
+                .table--order table th{
+                    color: white !important;
+                    border: 1px solid #000 !important;
+                }
+
+                .table--order table td{
+                    border: 1px solid #000 !important;
+                    white-space: normal;
+                }
             }
             
         </style>
@@ -193,7 +205,7 @@
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>
-                                    ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กทม.และปริมณฑล)
+                                    ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กทม.และปริมณฑล) ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กทม.และปริมณฑล)
                                 </td>
                                 <td>
                                     1

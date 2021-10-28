@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="../Content/default/css/content/home.css" />
 <link rel="stylesheet" href="../Content/default/css/content/regist.css" />
 <link rel="stylesheet" href="../Content/default/css/content/dropdown.css" />
+
 </head>
 
 <body class="default" id="page-default">
