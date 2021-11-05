@@ -434,6 +434,30 @@
 
                     .dropdown-toggle {
                         width: auto;
+                        position: relative;
+                        margin-right: 10px;
+
+                        .name-user {
+                            margin-left: 10px;
+                            font-family: $font-bold;
+                            color: #2E3092;
+                        }
+
+                        &:after {
+                            border: none;
+                            margin-left: 0;
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            right: 0;
+                            top: 13px;
+                            background-image: url(/Images/icon/ic-dropdown.svg);
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-position: center center;
+                            width: 10px;
+                            height: 4px;
+                        }
                     }
                 }
             }
