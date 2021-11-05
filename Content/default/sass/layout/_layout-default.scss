@@ -2604,8 +2604,14 @@
                                     }
 
                                     .button {
+                                        i{
+                                            color: $color-white;
+                                        }
                                         .btn-primary {
                                             background-color: $color-primary;
+                                            .fa-angle-right{
+                                                background-image: url(../../../../Images/icon/icon-right-white.svg) !important;
+                                            }
                                         }
 
                                         .btn-secondary {
@@ -3836,6 +3842,7 @@ if it's not present, don't show loader */
         color: $color-secondary;
         right: 0;
         top: $text-icon;
+        font-family: $default-font;
     }
 
     .require-txt {
@@ -4062,7 +4069,6 @@ if it's not present, don't show loader */
             font-size: $text-sub-content-mb;
         }
     }
-
     // Radio
     input[type=radio] {
         display: none;
@@ -4098,7 +4104,6 @@ if it's not present, don't show loader */
     input[type=radio]:checked + label + span.content-rdo-inline {
         color: $color-text;
     }
-
     // Checkbox
     input[type=checkbox] {
         display: none;

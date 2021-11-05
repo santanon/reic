@@ -10079,8 +10079,12 @@ body .swal2-modal .swal2-content {
               font-size: 27px;
               line-height: 28px;
               color: #2E3092; }
+            .modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .name-package .button i {
+              color: #fff; }
             .modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .name-package .button .btn-primary {
               background-color: #2E3092; }
+              .modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .name-package .button .btn-primary .fa-angle-right {
+                background-image: url(../../../../Images/icon/icon-right-white.svg) !important; }
             .modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .name-package .button .btn-secondary {
               background-color: #EC0E17; }
           .modal-custom .modal-dialog .modal-content.modal-expire .modal-body .list-expire ul .item .date-package {
@@ -11467,7 +11471,8 @@ if it's not present, don't show loader */
     font-size: 25px;
     color: #EC0E17;
     right: 0;
-    top: 15px; }
+    top: 15px;
+    font-family: "Kitithada"; }
   .slc-custom .require-txt {
     font-size: 22px;
     color: #EC0E17; }
