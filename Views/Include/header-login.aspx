@@ -17,12 +17,36 @@
                     </div>
                     <%--header-lang--%>
 
+                    <div class="header-cart">
+                        <div class="dropdown">
+                            
+                            <button class="dropdown-toggle" type="button" onclick="location.href='/Product/All'">
+                                <img src="../../Images/icon/ic-shopping.svg" /> <span class="count">0</span>
+                            </button>
+
+                        </div>
+                    </div>
+                    <%--header-cart--%>
+
+                    <div class="header-search">
+                        <div class="dropdown">
+                            
+                            <button class="dropdown-toggle" type="button" onclick="location.href='/Search'">
+                                <!--<i class="fas-search-custom fa-search-custom"></i>-->
+                                <img src="../../Images/icon/ic-search-head.svg" />
+                            </button>
+
+                        </div>
+                    </div>
+                    <%--header-member--%>
+
                     <div class="header-member">
                         <div class="dropdown login">
                             
                             <button class="dropdown-toggle" type="button" data-toggle="dropdown">
-                                <i class="fas-member fa-member"></i>กรนิชา กุลไพรศาล<i class="fas fa-arr"></i>
+                                <img src="../../Images/icon/ic-user.svg" /><span class="name-user">กรนิชา กุลไพรศาล</span>
                             </button>
+
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="/Member/Edit">แก้ไขข้อมูลสมาชิก</a>
                                 <a class="dropdown-item" href="/Member/Status">สมัครสมาชิกพิเศษ</a>
@@ -34,17 +58,6 @@
                         </div>
                     </div>
                      <%--header-member--%>
-
-                    <div class="header-cart">
-                        <div class="dropdown">
-                            
-                            <button class="dropdown-toggle" type="button" onclick="location.href='/Product/All'">
-                                ตะกร้า<span class="count">1</span>
-                            </button>
-
-                        </div>
-                    </div>
-                    <%--header-cart--%>
 
 
 

@@ -7564,7 +7564,27 @@ body .swal2-modal .swal2-content {
       #header .top-menu-wrapper .header-member .dropdown.login {
         width: auto; }
         #header .top-menu-wrapper .header-member .dropdown.login .dropdown-toggle {
-          width: auto; }
+          width: auto;
+          position: relative;
+          margin-right: 10px; }
+          #header .top-menu-wrapper .header-member .dropdown.login .dropdown-toggle .name-user {
+            margin-left: 10px;
+            font-family: "KitithadaBold";
+            color: #2E3092; }
+          #header .top-menu-wrapper .header-member .dropdown.login .dropdown-toggle:after {
+            border: none;
+            margin-left: 0;
+            content: "";
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 13px;
+            background-image: url(/Images/icon/ic-dropdown.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            width: 10px;
+            height: 4px; }
   #header .top-menu-wrapper .header-search {
     float: right;
     width: auto;
