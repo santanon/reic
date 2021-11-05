@@ -60,7 +60,7 @@
             margin: 0;
             display: -webkit-box;
             -webkit-box-orient: vertical;
-            -webkit-line-clamp: 1;
+            -webkit-line-clamp: 2;
             overflow: hidden;
         }
 
@@ -68,6 +68,7 @@
             padding: 12.5px 15px 25px 15px;
             transition: all 0.3s ease-in-out;
 
+            margin-top: auto;
             .desc {
                 color: $color-text;
                 transition: all 0.3s ease-in-out;

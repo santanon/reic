@@ -133,13 +133,13 @@
                             </div>
 
                             <div class="container pst-right download nomargin">
-                                <div class=" file-download row">
-                                    <div class="col-xl- col-lg- col-md- col-sm col- pst-lefttocen txt-download">
+                                <div class=" file-download row align-items-center">
+                                    <div class="col-xl- col-lg- col-md- col-sm col- pst-left txt-download">
                                         <span class=" color-primary">สามารถดาวน์โหลดได้ที่นี่</span>
                                     </div>
                                     <div class="col-xl- col-lg- col-md- col-sm col- pst-righttocen">
                                         <div class="download-box bg-default nomargin">
-                                            <div class="download">
+                                            <div class="download d-flex justify-content-start justify-content-sm-end align-items-center p-0">
                                                 <div class="custom-icons">
                                                     <ul>
                                                         <li>
