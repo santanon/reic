@@ -3295,6 +3295,31 @@ if it's not present, don't show loader */
         text-align: center;
     }
 
+    .btn-back {
+        position: relative;
+        border: 1px solid #858585;
+        color: $color-white;
+        background-color: #858585;
+
+        &:hover {
+            border: 1px solid $color-hover;
+            color: $color-white;
+            background-color: $color-hover;
+        }
+
+        .fa-angle-left {
+            background-image: url(../../../../Images/icon/icon-left-white.svg) !important;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        .fa-angle-right {
+            background-image: url(../../../../Images/icon/icon-right-white.svg) !important;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+    }
+
     .btn-sm,
     .btn-med,
     .btn-lg,

@@ -55,6 +55,12 @@
 
                     <h1 class="color-primary bold pst-center mb-4">Package 1</h1>
 
+                    <div class="text-editor">
+                        <div class="font-default text-desc pst-center">
+                            ตัวอย่าง text
+                        </div>
+                    </div>
+
                     <div class="row margin-top package-header">
                         <div class="col-lg-8 col-md-12 col-">
                             <div class="text-head">ระยะเวลา : <span>1 ปี</span></div>
@@ -101,11 +107,20 @@
                                         <td class="text-right" style="background-color: #F5F5F5;">5,000</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left" style="padding-left: 60px; background-color: #FAFAFA;">ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กรุงเทพฯ - ปริมณฑล)</td>
+                                        <td class="text-left" style="padding-left: 60px; background-color: #FAFAFA;">ข้อมูลโอนกรรมสิทธิ์ที่อยู่อาศัย (กรุงเทพฯ - ปริมณฑล) 
+                                            <a href="#">
+                                                <img src="../../../../../Images/icon/table/ic-table-hover.png" alt="table">
+                                            </a>
+                                        </td>
                                         <td class="text-right" style="background-color: #FAFAFA;">5,000</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left" style="padding-left: 60px; background-color: #FAFAFA;">ข้อมูลโอนกรรมสิทธิ์ ที่อยู่อาศัย (ทั่วประเทศ)</td>
+                                        <td class="text-left" style="padding-left: 60px; background-color: #FAFAFA;">
+                                            ข้อมูลโอนกรรมสิทธิ์ ที่อยู่อาศัย (ทั่วประเทศ)
+                                            <a href="#">
+                                                <img src="../../../../../Images/icon/table/ic-table-hover.png" alt="table">
+                                            </a>
+                                        </td>
                                         <td class="text-right" style="background-color: #FAFAFA;">2,000</td>
                                     </tr>
                                     <tr>
@@ -536,8 +551,13 @@
                     </div>
 
 
-                    <div class="row pst-right margin-top">
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
+                    <div class="row justify-content-between align-items-center margin-top">
+                        <div class="col-xl-3 col-lg-3 col-md-3">
+                            <div class="button mb-3 mb-md-0">
+                                <a class="btn-med btn-back" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>ย้อนกลับ</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3">
                             <div class="button">
                                 <a href="/Package/Order_1" class="btn-med btn-icon-right btn-login" style="display: block; text-align: center;">ซื้อ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                             </div>
