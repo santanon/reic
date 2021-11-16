@@ -8,6 +8,12 @@
 <link rel="stylesheet" href="../Content/default/css/content/main.css" />
 <link rel="stylesheet" href="../Content/default/css/content/news.css" />
 <link rel="stylesheet" href="../Content/default/css/content/product.css" />
+<style>
+    .hide--div{
+        display: none;
+        transition: all 0.3s ease-in-out;
+    }
+</style>
 </head>
 
 <body class="default" id="page-default">
@@ -217,6 +223,118 @@
                     </div>
 
                     <div class="box-detail-order">
+                        <p>ที่อยู่ในการออกใบเสร็จ</p>
+                        <div class="group-detail">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="slc-custom slc-custom-radio">
+                                        <input id="hide" name="toggleDiv" type="radio" value="" onclick="show1();">
+                                        <label for="hide"></label>
+                                        <span class="txt">ตามที่อยู่จัดส่ง</span>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="slc-custom slc-custom-radio">
+                                        <input id="show" name="toggleDiv" type="radio" value="" onclick="show2();">
+                                        <label for="show"></label>
+                                        <span class="txt">ที่อยู่ใหม่</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group-detail hide--div">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <input name="" placeholder="ชื่อ *" value="" autocomplete="off" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <input name="" placeholder="นามสกุล *" value="" autocomplete="off" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <input name="" placeholder="เบอร์โทรศัพท์มือถือ *" value="" autocomplete="off" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <input name="" placeholder="อีเมล *" value="" autocomplete="off" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <input name="" placeholder="เลขที่อยู่ *" value="" autocomplete="off" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <input name="" placeholder="หมู่บ้าน/อาคาร" value="" autocomplete="off" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <input name="" placeholder="ตรอก/ซอย" value="" autocomplete="off" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <input name="" placeholder="ถนน" value="" autocomplete="off" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <select class="slc" id="" title="จังหวัด *">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <select class="slc" id="" title="เขต/อำเภอ *">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <select class="slc" id="" title="ตำบล/แขวง *">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <input name="" placeholder="รหัสไปรษณีย์" value="" autocomplete="off" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-detail-order">
+                        <p>เลขที่ผู้เสียภาษี</p>
+                         <div class="group-detail">
+                             <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="slc-custom">
+                                        <input name="" placeholder="ระบุเลขที่ผู้เสียภาษี *" value="" autocomplete="off" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+
+                    <div class="box-detail-order">
                         <p>การชำระเงิน</p>
                         <div class="row">
                             <div class="col-lg-3 col-md-6">
@@ -357,6 +475,17 @@
         $(function () {
             $('.content-box').matchHeight();
         });
+    </script>
+
+    <script>
+        function show1() {
+            x = document.getElementsByClassName('hide--div');
+            x[0].style.display = 'none';
+        }
+        function show2() {
+            x = document.getElementsByClassName('hide--div')
+            x[0].style.display = 'block';
+        }
     </script>
 
 </body>
