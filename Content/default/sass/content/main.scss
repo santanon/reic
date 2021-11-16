@@ -3,6 +3,14 @@
 @import "../helpers/fontstyle";
 @import "../helpers/mixin_css3";
 
+.font-bold {
+    font-family: $font-bold !important;
+}
+
+.font-default {
+    font-family: $default-font !important;
+}
+
 #main-wrapper,
 #maincontainer-wrapper,
 .modal {
@@ -182,6 +190,10 @@
             @extend .content-thm;
             font-weight: bold;
             margin-bottom: 15px;
+        }
+        .text-desc{
+            font-size: 24px;
+            line-height: 28px;
         }
 
         .content-desc {

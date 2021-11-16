@@ -153,7 +153,8 @@
                                         <div class="title">Package 3</div>
                                         <div class="sub-title">
                                             <div class="desc">
-                                                <div class="desc-price">ราคาเริ่มต้น 9,000 บาท</div>
+                                                <div class="desc-price">ราคาเริ่มต้น <span style="text-decoration: line-through;">9,000</span> บาท</div>
+                                                <div class="desc-price special">ราคาเริ่มต้น พิเศษ: <span style="color: #EC0E17;">7,900 </span> บาท</div>
                                             </div>
                                         </div>
                                     </div>

@@ -2,11 +2,13 @@
     // Tab Calendar
     $(".owl-carousel-texteditor").owlCarousel({
         nav: true,
-        margin: 30,
+        margin: 150,
         touchDrag: false,
         dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
         responsiveClass: true,
-        loop: false,
+        loop: true,
         responsive: {
             0: {
                 items: 1,
