@@ -99,8 +99,6 @@
                                 </ul>
                             </div>
                         </div>
-
-
                     </div>
 
                     <div class="list-group margin-row-half" id="list-group-1">
