@@ -145,12 +145,12 @@
                     </div>
 
 
-                    <div class="row pst-right margin-top">
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- mb-3 mb-md-0">
-                                <div class="button">
-                                    <a href="/Package/Detail" class="btn-med btn-icon-right btn-grey btn-width" style="display: block; text-align: center;">กลับ</a>
-                                </div>
+                    <div class="row justify-content-between align-items-center margin-top">
+                        <div class="col-xl-3 col-lg-3 col-md-3">
+                            <div class="button mb-3 mb-md-0">
+                                <a class="btn-med btn-back" href="/Package/Detail"><i class="fas fa-angle-left" aria-hidden="true"></i>ย้อนกลับ</a>
                             </div>
+                        </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 col-sm- col-xs- col- ">
                             <div class="button">
                                 <a href="/Package/Order_2" class="btn-med btn-icon-right btn-login" style="display: block; text-align: center;">ซื้อ <i class="fas fa-angle-right" aria-hidden="true"></i></a>
