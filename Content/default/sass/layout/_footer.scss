@@ -332,17 +332,17 @@
 
         .slide-header {
             .title {
-                font-family: $font-kanit !important;
-                font-size: 38px;
-                line-height: 46px !important;
+                font-family: $font-bold !important;
+                font-size: 30px;
+                line-height: 38px !important;
                 color: $color-primary;
                 margin-bottom: 10px !important;
             }
 
             p {
-                font-family: $font-bold !important;
-                font-size: 22px !important;
-                line-height: 22px !important;
+                /*font-family: $font-bold !important;*/
+                font-size: 28px !important;
+                line-height: 25px !important;
                 color: #858585 !important;
             }
         }
@@ -801,14 +801,16 @@
         }
     }
 
-    @media screen and (max-width: 999px){
+    @media screen and (max-width: 999px) {
         .footer_sub {
             margin-top: 0;
         }
+
         .contact-wrapper {
             .social-networks {
                 margin-bottom: 0;
             }
+
             .copyright {
                 margin-bottom: 25px;
             }

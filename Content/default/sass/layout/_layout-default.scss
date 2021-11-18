@@ -399,7 +399,7 @@
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     margin-top: -65px;
 
     .nav-tabs {
@@ -418,7 +418,7 @@
             color: #65768C;
             border-radius: 0;
             border: none;
-            border-left: 2px solid #fff;
+            border-left: 2px solid #E0E0EF;
             background-color: #E0E0EF;
             outline: none;
             font-family: $font-bold !important;
@@ -714,8 +714,7 @@
     height: auto;
     padding: 0;
     margin: 0 auto;
-    margin-top: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     /*override grid*/
     .form-row {
         margin-right: -2px;
@@ -902,13 +901,13 @@
         background-color: #fff;
 
         .card-title {
-            border-left: 2px solid #ED1C24;
-            padding: 10px;
+            /*border-left: 2px solid #ED1C24;*/
+            padding: 20px 15px 10px;
+            margin-bottom: 10px;
             font-family: $font-kanit;
             font-size: 22px;
             line-height: 28px;
             color: $color-primary;
-            margin-bottom: 20px;
         }
 
         .card-block {
@@ -922,8 +921,7 @@
             }
 
             .card-image {
-                margin-bottom: 10px;
-                border-bottom: 2px solid #ED1C24;
+                margin: 0;
 
                 img {
                     width: 100%;
@@ -934,7 +932,9 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                padding-top: 15px;
                 margin-bottom: 15px;
+                border-top: 2px solid #00AFF0;
 
                 .date {
                     font-family: $font-bold;
@@ -1357,7 +1357,7 @@
         .nav-link {
             position: relative;
             margin: 0 auto;
-            font-family: $font-bold;
+            font-family: $font-bold !important;
             font-size: 22px !important;
             line-height: 28px !important;
             color: #65768C;
@@ -1580,8 +1580,7 @@
             margin-bottom: 30px;
 
             .card-image {
-                margin-bottom: 10px;
-                border-bottom: 2px solid #ED1C24;
+                margin: 0 auto;
 
                 a {
                     width: 100%;
@@ -1591,13 +1590,19 @@
                 img {
                     width: 100%;
                 }
+
+                .border {
+                    border: none !important;
+                }
             }
 
             .card-date {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                padding-top: 15px;
                 margin-bottom: 15px;
+                border-top: 2px solid #00AFF0;
 
                 .date {
                     font-family: $font-bold;
@@ -1660,12 +1665,6 @@
                         text-overflow: ellipsis;
                     }
                 }
-
-                &:hover {
-                    .title, .desc {
-                        color: $color-primary;
-                    }
-                }
             }
 
             .card--download {
@@ -1690,17 +1689,15 @@
                     margin-right: 10px;
                 }
             }
-            /*&:hover {
-                a {
-                    .title {
-                        color: $color-primary;
-                    }
 
-                    .desc {
+
+            &:hover {
+                .card-text {
+                    .title, .desc {
                         color: $color-primary;
                     }
                 }
-            }*/
+            }
         }
     }
 
@@ -2162,6 +2159,43 @@
 
     .owl-nav {
         .owl-prev {
+            position: absolute;
+            width: 40px;
+            height: 80px;
+            margin: 0;
+            left: -70px;
+            text-indent: 9999px;
+            background-color: transparent;
+            background-image: url('../../../Images/icon/icon-prev-slide.svg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                background-image: url('../../../Images/icon/icon-prev-slide-active.svg');
+            }
+        }
+
+        .owl-next {
+            position: absolute;
+            width: 40px;
+            height: 80px;
+            margin: 0;
+            right: -70px;
+            text-indent: 9999px;
+            background-color: transparent;
+            background-image: url('../../../Images/icon/icon-next-slide.svg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                background-image: url('../../../Images/icon/icon-next-slide-active.svg');
+            }
+        }
+    }
+    /*.owl-nav {
+        .owl-prev {
             margin: 0 20px;
             display: inline-block;
             vertical-align: middle;
@@ -2206,7 +2240,7 @@
             &:hover {
             }
         }
-    }
+    }*/
 }
 
 .sprite {
@@ -4197,7 +4231,6 @@ if it's not present, don't show loader */
     }
 
     .box-inp-file-upload {
-        position: relative;
 
         input[type="file"] {
             display: none;
@@ -4513,7 +4546,8 @@ if it's not present, don't show loader */
         i {
             font-size: 16px;
         }
-        &:after{
+
+        /*&:after{
             content: '';
             position: absolute;
             right: 20px;
@@ -4521,7 +4555,7 @@ if it's not present, don't show loader */
             background-repeat: no-repeat;
             width: 20px;
             height: 20px;
-        }
+        }*/
     }
 
     .btn-file {
@@ -4722,14 +4756,14 @@ if it's not present, don't show loader */
     width: 100%;
     bottom: 0;
     z-index: 999;
-    background: rgba(119, 119, 119, 0.9);
+    background: rgba(224, 224, 239, 0.95);
     padding: 20px;
     text-align: center;
 
     p {
         font-size: 25px;
         line-height: 25px;
-        color: #fff;
+        color: #555;
         margin-bottom: 15px !important;
         span{
             a{

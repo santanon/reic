@@ -180,133 +180,138 @@
 #maincontainer-wrapper #regist-content-box .regist-content {
   background-color: #F7F7F7; }
 
-#maincontainer-wrapper form .select-icon {
-  width: 45px;
-  height: auto; }
+#maincontainer-wrapper form {
+  /*.upload {
+            .file-upload {
+                background-color: $body-bg;
+                padding: 10px;
 
-#maincontainer-wrapper form .member-photo {
-  color: #555;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  background-image: url(../../../../Images/icon/regist/ic-photo.svg);
-  background-position: left 2px;
-  background-repeat: no-repeat;
-  background-size: 20px; }
 
-#maincontainer-wrapper form .member-data {
-  color: #555;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  background-image: url(../../../../Images/icon/regist/ic-member.svg);
-  background-position: left 2px;
-  background-repeat: no-repeat;
-  background-size: 20px; }
+                @media screen and (max-width: $screen-xs) {
+                    .txt-upload {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
 
-#maincontainer-wrapper form .member-address {
-  color: #555;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  background-image: url(../../../../Images/icon/regist/ic-location.svg);
-  background-position: left 2px;
-  background-repeat: no-repeat;
-  background-size: 20px; }
+            a {
+                font-size: $text-content;
+                line-height: $text-content;
+                color: $color-white;
 
-#maincontainer-wrapper form .member-contact {
-  color: #555;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  background-image: url(../../../../Images/icon/regist/ic-contact.svg);
-  background-position: left 2px;
-  background-repeat: no-repeat;
-  background-size: 20px; }
+                &:hover {
+                    color: $color-white;
+                }
+            }
 
-#maincontainer-wrapper form .member-edu {
-  color: #555;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  background-image: url(../../../../Images/icon/regist/ic-edu.svg);
-  background-position: left 2px;
-  background-repeat: no-repeat;
-  background-size: 20px; }
+            span {
+                font-size: $text-content;
+                line-height: $height-input;
+            }
 
-#maincontainer-wrapper form .member-language {
-  color: #555;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  background-image: url(../../../../Images/icon/regist/ic-language.svg);
-  background-position: left 2px;
-  background-repeat: no-repeat;
-  background-size: 20px; }
 
-#maincontainer-wrapper form .member-com {
-  color: #555;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  background-image: url(../../../../Images/icon/regist/ic-com.svg);
-  background-position: left 2px;
-  background-repeat: no-repeat;
-  background-size: 20px; }
+            @media screen and (max-width: $screen-sm) {
+                a {
+                    font-size: $text-content-mobile;
+                }
 
-#maincontainer-wrapper form .member-work {
-  color: #555;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  background-image: url(../../../../Images/icon/regist/ic-work.svg);
-  background-position: left 2px;
-  background-repeat: no-repeat;
-  background-size: 20px; }
-
-#maincontainer-wrapper form .member-work {
-  color: #555;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  background-image: url(../../../../Images/icon/regist/ic-work.svg);
-  background-position: left 2px;
-  background-repeat: no-repeat;
-  background-size: 20px; }
-
-#maincontainer-wrapper form .action {
-  position: absolute;
-  width: 41px;
-  height: 41px;
-  line-height: 41px;
-  color: #555;
-  font-size: 34px;
-  text-align: center;
-  background-color: #F7F7F7;
-  cursor: pointer; }
-  @media screen and (max-width: 768px) {
-    #maincontainer-wrapper form .action {
-      font-size: 22px; } }
-
-#maincontainer-wrapper form .action-txt {
-  margin-left: 50px;
-  line-height: 41px; }
-
-#maincontainer-wrapper form .upload .file-upload {
-  background-color: #F7F7F7;
-  padding: 10px; }
-  @media screen and (max-width: 575.98px) {
-    #maincontainer-wrapper form .upload .file-upload .txt-upload {
-      margin-bottom: 15px; } }
-
-#maincontainer-wrapper form .upload a {
-  font-size: 25px;
-  line-height: 25px;
-  color: #fff; }
-  #maincontainer-wrapper form .upload a:hover {
-    color: #fff; }
-
-#maincontainer-wrapper form .upload span {
-  font-size: 25px;
-  line-height: 41px; }
-
-@media screen and (max-width: 767.98px) {
-  #maincontainer-wrapper form .upload a {
-    font-size: 20px; }
-  #maincontainer-wrapper form .upload span {
-    font-size: 20px;
-    line-height: 20px; } }
+                span {
+                    font-size: $text-content-mobile;
+                    line-height: $text-content-mobile;
+                }
+            }
+        }*/ }
+  #maincontainer-wrapper form .select-icon {
+    width: 45px;
+    height: auto; }
+  #maincontainer-wrapper form .member-photo {
+    color: #555;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-image: url(../../../../Images/icon/regist/ic-photo.svg);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    background-size: 20px; }
+  #maincontainer-wrapper form .member-data {
+    color: #555;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-image: url(../../../../Images/icon/regist/ic-member.svg);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    background-size: 20px; }
+  #maincontainer-wrapper form .member-address {
+    color: #555;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-image: url(../../../../Images/icon/regist/ic-location.svg);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    background-size: 20px; }
+  #maincontainer-wrapper form .member-contact {
+    color: #555;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-image: url(../../../../Images/icon/regist/ic-contact.svg);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    background-size: 20px; }
+  #maincontainer-wrapper form .member-edu {
+    color: #555;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-image: url(../../../../Images/icon/regist/ic-edu.svg);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    background-size: 20px; }
+  #maincontainer-wrapper form .member-language {
+    color: #555;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-image: url(../../../../Images/icon/regist/ic-language.svg);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    background-size: 20px; }
+  #maincontainer-wrapper form .member-com {
+    color: #555;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-image: url(../../../../Images/icon/regist/ic-com.svg);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    background-size: 20px; }
+  #maincontainer-wrapper form .member-work {
+    color: #555;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-image: url(../../../../Images/icon/regist/ic-work.svg);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    background-size: 20px; }
+  #maincontainer-wrapper form .member-work {
+    color: #555;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-image: url(../../../../Images/icon/regist/ic-work.svg);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    background-size: 20px; }
+  #maincontainer-wrapper form .action {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    line-height: 41px;
+    color: #555;
+    font-size: 34px;
+    text-align: center;
+    background-color: #F7F7F7;
+    cursor: pointer; }
+    @media screen and (max-width: 768px) {
+      #maincontainer-wrapper form .action {
+        font-size: 22px; } }
+  #maincontainer-wrapper form .action-txt {
+    margin-left: 50px;
+    line-height: 41px; }
 
 .captcha-contact-form br {
   display: block !important; }
@@ -353,6 +358,12 @@
   max-width: 1000px;
   width: 100%;
   margin: auto; }
+  .register-wrapper .form-register .box-inp-file-upload {
+    background-color: #F7F7F7;
+    padding: 10px; }
+    @media screen and (max-width: 575.98px) {
+      .register-wrapper .form-register .box-inp-file-upload .txt-upload {
+        margin-bottom: 15px; } }
   .register-wrapper .txt {
     font-family: "KitithadaBold"; }
   .register-wrapper .list-step-register {
@@ -418,16 +429,18 @@
     text-align: center;
     margin: 40px 0 0; }
   .register-wrapper .slc-custom {
-    position: relative; }
+    position: relative;
+    /*label {
+            position: absolute;
+            left: 0;
+        }*/
+    /*span {
+            line-height: 28px !important;
+            position: relative;
+            top: 5px;
+        }*/ }
     .register-wrapper .slc-custom.slc-custom-radio {
       padding-left: 40px; }
-    .register-wrapper .slc-custom label {
-      position: absolute;
-      left: 0; }
-    .register-wrapper .slc-custom span {
-      line-height: 28px !important;
-      position: relative;
-      top: 5px; }
   @media screen and (max-width: 767px) {
     .register-wrapper .list-step-register ul li .name-step-wrapper {
       position: relative; }
@@ -520,7 +533,7 @@
     opacity: 0.5;
     margin-bottom: 10px;
     width: 39px;
-    height: 55px; }
+    min-height: 55px; }
   .form-register .icon-form-wrapper .selector.no-border input {
     height: 25px;
     background-color: #ffffff;

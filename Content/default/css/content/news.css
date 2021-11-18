@@ -240,9 +240,9 @@
   #maincontainer-wrapper .content-box .type-title {
     font-weight: bold;
     min-height: 70px;
-    color: #2E3092;
-    background-color: #F7F7F7;
-    border-top: 4px solid #00AFF0 !important;
+    color: #555;
+    background-color: white;
+    border-top: 2px solid #00AFF0 !important;
     padding: 20px 5px;
     margin: 0;
     -webkit-transition: all 0.3s ease-in-out;

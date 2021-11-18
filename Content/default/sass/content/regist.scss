@@ -163,7 +163,7 @@
             line-height: $height-input;
         }
 
-        .upload {
+        /*.upload {
             .file-upload {
                 background-color: $body-bg;
                 padding: 10px;
@@ -202,7 +202,7 @@
                     line-height: $text-content-mobile;
                 }
             }
-        }
+        }*/
     }
 
 
@@ -276,6 +276,19 @@
     max-width: 1000px;
     width: 100%;
     margin: auto;
+
+    .form-register {
+        .box-inp-file-upload {
+            background-color: $body-bg;
+            padding: 10px;
+
+            @media screen and (max-width: $screen-xs) {
+                .txt-upload {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
 
     .txt {
         font-family: $font-bold;
@@ -381,20 +394,21 @@
 
     .slc-custom {
         position: relative;
+
         &.slc-custom-radio {
             padding-left: 40px;
         }
 
-        label {
+        /*label {
             position: absolute;
             left: 0;
-        }
+        }*/
 
-        span {
+        /*span {
             line-height: 28px !important;
             position: relative;
             top: 5px;
-        }
+        }*/
     }
 
     @media screen and (max-width: 767px) {
@@ -559,7 +573,7 @@
             opacity: 0.5;
             margin-bottom: 10px;
             width: 39px;
-            height: 55px;
+            min-height: 55px;
         }
 
         .selector.no-border {
