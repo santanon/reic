@@ -380,12 +380,14 @@
         line-height: 25px;
         color: #555; }
     .tab .nav-tabs > li .active {
-      background-color: #00AFF0;
+      background-color: white;
       /*.download {
                     span {
                         color: $color-white;
                     }
                 }*/ }
+      .tab .nav-tabs > li .active .tab__text {
+        color: #2E3092; }
   .tab .nav-tabs .active {
     color: #fff;
     background-color: #2E3092;

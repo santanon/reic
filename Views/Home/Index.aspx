@@ -225,9 +225,6 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="card-block">
-                                            <a href="#">
-                                                <div class="card-image"></div>
-                                            </a>
                                             <div class="card-date">
                                                 <div class="date">
                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -347,9 +344,6 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="card-block">
-                                            <a href="#">
-                                                <div class="card-image"></div>
-                                            </a>
                                             <div class="card-date">
                                                 <div class="date">
                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />

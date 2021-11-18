@@ -318,7 +318,6 @@
                     line-height: $text-content;
                     color: $color-text;
                 }
-
                 /*.download {
                     margin: 0;
 
@@ -361,8 +360,11 @@
             }
 
             .active {
-                background-color: $color-blue;
+                background-color: white;
 
+                .tab__text {
+                    color: #2E3092;
+                }
                 /*.download {
                     span {
                         color: $color-white;

@@ -139,11 +139,11 @@
                                             <div class="container slc-custom upload">
                                                 <div class="box-inp-file-upload file-upload row">
                                                     <div class="col-xl- col-lg- col-md- col-sm col- pst-left">
-                                                        <div class="file-name"><i class="fas-icon fa-upload" aria-hidden="true"></i><span class="color-primary">เลือกไฟล์ </span>(ไม่ได้เลือกไฟล์ใด)</div>
+                                                        <div class="file-name"><i class="fas-icon fa-upload" aria-hidden="true"></i> (ไม่ได้เลือกไฟล์ใด)</div>
                                                     </div>
                                                     <div class="col-md-4 col-4 pst-right">
                                                         <input type="file" name="" id="file" value="" accept=",.doc, .docx, image/*">
-                                                        <label for="file">Upload File<i class="fas fa-angle-right" aria-hidden="true"></i></label>
+                                                        <label for="file"> เลือกไฟล์ <i class="fas fa-angle-right" aria-hidden="true"></i></label>
                                                     </div>
                                                 </div>
                                             </div>
