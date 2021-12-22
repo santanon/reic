@@ -974,6 +974,19 @@
 
                                         &.price {
                                             padding-left: 10px;
+                                            padding-right: 40px;
+                                            position: relative;
+                                            .link{
+                                                position: absolute;
+                                                top: 0;
+                                                right: 0;
+                                                a{
+                                                    img{
+                                                        width: 30px;
+                                                        height: 30px;
+                                                    }
+                                                }
+                                            }
                                         }
                                     }
                                 }

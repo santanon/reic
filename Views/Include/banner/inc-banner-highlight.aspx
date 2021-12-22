@@ -1,4 +1,4 @@
-﻿<div class="banner-highlight-section my-4">
+﻿<div class="banner-highlight-section mb-4 mt-0 my-md-4">
     <div class="container">
         <div class="row">
             <div class="col-12">
