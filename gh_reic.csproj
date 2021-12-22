@@ -760,6 +760,13 @@
     <Compile Include="Views\Question\question.aspx.designer.cs">
       <DependentUpon>question.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Report\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Report\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Research\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1339,6 +1346,8 @@
     <Content Include="Scripts\bootstrap-select.js" />
     <Content Include="Scripts\bootstrap-select.min.js" />
     <Content Include="Scripts\date.js" />
+    <Content Include="Scripts\functions\slide-home-dist.js" />
+    <Content Include="Scripts\functions\slide-home.js" />
     <Content Include="Scripts\highcharts.js" />
     <Content Include="Scripts\jquery-1.11.0.min.js" />
     <Content Include="Scripts\jquery.CongelarFilaColumna.js" />
@@ -1524,6 +1533,7 @@
     <Content Include="Views\Product\Table\transfer.aspx" />
     <Content Include="Views\Question\form\step1.aspx" />
     <Content Include="Views\Question\question.aspx" />
+    <Content Include="Views\Report\Index.aspx" />
     <Content Include="Views\Research\Index.aspx" />
     <Content Include="Views\Research\ResearchCategory.aspx" />
     <Content Include="Views\Research\ResearchDetail.aspx" />

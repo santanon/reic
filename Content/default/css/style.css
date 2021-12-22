@@ -8547,7 +8547,7 @@ body .swal2-modal .swal2-content {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   margin-top: -65px; }
   .search-section .nav-tabs {
     border-bottom: none; }
@@ -8729,7 +8729,8 @@ body .swal2-modal .swal2-content {
       bottom: unset !important;
       padding: 15px 0;
       background-color: #fff;
-      margin-top: 0; }
+      margin-top: 0;
+      margin-bottom: 45px; }
       .search-section .nav-tabs {
         display: none; }
       .search-section .dropdown {
@@ -8751,8 +8752,7 @@ body .swal2-modal .swal2-content {
   width: 100%;
   height: auto;
   padding: 0;
-  margin: 0 auto;
-  margin-bottom: 45px;
+  margin: 0 auto 50px;
   /*override grid*/ }
   .banner-section .form-row {
     margin-right: -2px;
@@ -8770,22 +8770,29 @@ body .swal2-modal .swal2-content {
     display: block; }
     .banner-section .link-block img {
       width: 100%; }
-    .banner-section .link-block.main img {
-      height: 344px;
-      -o-object-fit: cover;
-      object-fit: cover;
-      -o-object-position: center;
-      object-position: center; }
+    .banner-section .link-block.main {
+      height: 350px; }
+      .banner-section .link-block.main img {
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center; }
     .banner-section .link-block.sub {
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      height: 165px; }
+      .banner-section .link-block.sub img {
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center; }
     @media screen and (max-width: 1199.98px) {
       .banner-section .link-block.main img {
         height: 273px; } }
     @media screen and (max-width: 991.98px) {
       .banner-section .link-block.main {
-        margin-bottom: 20px; }
-        .banner-section .link-block.main img {
-          height: auto; } }
+        margin-bottom: 20px; } }
   .banner-section .initial-wrapper {
     position: absolute;
     top: 0;
@@ -8884,6 +8891,9 @@ body .swal2-modal .swal2-content {
           line-height: 22px; } }
   .banner-section .table {
     padding: 15px; }
+  @media screen and (max-width: 767px) {
+    .banner-section {
+      margin-bottom: 25px; } }
 
 .card-section .card-wrapper {
   background-color: #fff; }
@@ -9029,6 +9039,10 @@ body .swal2-modal .swal2-content {
       -o-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
       right: -5px; }
+
+@media screen and (max-width: 767.98px) {
+  .card-section .card-wrapper {
+    margin-bottom: 45px; } }
 
 .login-section {
   position: absolute;
@@ -9219,7 +9233,7 @@ body .swal2-modal .swal2-content {
   height: auto;
   padding: 0;
   padding-top: 25px;
-  margin: 0 auto; }
+  margin: 0 auto 50px; }
   .tab-news-section .section-tabs {
     position: relative;
     margin: 0 -10px; }
@@ -9331,7 +9345,7 @@ body .swal2-modal .swal2-content {
         padding: 50px 65px 100px; } }
     @media screen and (max-width: 767px) {
       .tab-news-section .tab-content {
-        padding: 50px 0px; } }
+        padding: 20px 0px; } }
   .tab-news-section .video-wrapper {
     position: relative;
     display: block;
@@ -9598,19 +9612,21 @@ body .swal2-modal .swal2-content {
           .tab-news-section .owl-carousel .owl-controls .owl-nav .owl-next:hover {
             background-image: url("../../../Images/icon/icon-next-slide-active-xs.svg"); } }
   @media screen and (max-width: 767.98px) {
-    .tab-news-section .nav-tabs {
-      display: none; }
-    .tab-news-section .dropdown {
-      display: block;
-      margin-bottom: 0; }
-      .tab-news-section .dropdown .btn {
-        padding: 15px;
-        height: auto !important;
-        background-color: #2E3092 !important;
-        background-position-y: calc(100% - 28px) !important; }
-        .tab-news-section .dropdown .btn span {
-          font-size: 22px !important;
-          line-height: 28px !important; } }
+    .tab-news-section {
+      margin-bottom: 45px; }
+      .tab-news-section .nav-tabs {
+        display: none; }
+      .tab-news-section .dropdown {
+        display: block;
+        margin-bottom: 0; }
+        .tab-news-section .dropdown .btn {
+          padding: 15px;
+          height: auto !important;
+          background-color: #2E3092 !important;
+          background-position-y: calc(100% - 28px) !important; }
+          .tab-news-section .dropdown .btn span {
+            font-size: 22px !important;
+            line-height: 28px !important; } }
 
 .tab-select-section {
   display: none; }
@@ -9747,9 +9763,11 @@ body .swal2-modal .swal2-content {
       .banner-highlight-section .owl-carousel .owl-controls .owl-nav .owl-next {
         right: 0; } }
   @media screen and (max-width: 767.98px) {
-    .banner-highlight-section .title {
-      font-size: 22px;
-      line-height: 22px; } }
+    .banner-highlight-section {
+      padding-top: 0; }
+      .banner-highlight-section .title {
+        font-size: 22px;
+        line-height: 22px; } }
   @media screen and (max-width: 575.98px) {
     .banner-highlight-section .owl-controls {
       top: -12px;
@@ -12546,7 +12564,6 @@ if it's not present, don't show loader */
           margin: 0; }
           .footer .footer_sub .footer_sub--block .bottom-menu ul li {
             display: inline-block;
-            padding-right: 5px;
             margin-right: 5px; }
             .footer .footer_sub .footer_sub--block .bottom-menu ul li:last-child {
               padding-right: 0;
@@ -12559,6 +12576,11 @@ if it's not present, don't show loader */
               color: #2E3092; }
               .footer .footer_sub .footer_sub--block .bottom-menu ul li a:hover {
                 color: #EC0E17; }
+            .footer .footer_sub .footer_sub--block .bottom-menu ul li + li:before {
+              content: '|';
+              color: #2E3092;
+              font-size: 21px !important;
+              line-height: 21px !important; }
       @media screen and (max-width: 767.98px) {
         .footer .footer_sub .footer_sub--block .copyright {
           text-align: center; }

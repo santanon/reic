@@ -4,9 +4,27 @@
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-MKZMM9Q');</script>
+<!-- End Google Tag Manager -->
+
 </head>
 
 <body class="default" id="page-default">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKZMM9Q"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
     <!--#include file="../Include/canvas-menu.aspx"-->
     <div id="main-wrapper">
         <header id="header-wrapper">
@@ -150,12 +168,12 @@
             <div class="card-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="col-lg-6">
                             <div class="card-wrapper">
                                 <div class="card-title">REAL ESTATE NEWS</div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <div class="card-block">
+                                        <div class="card-block match-main">
                                             <a href="#">
                                                 <div class="card-image">
                                                     <img src="../../Images/home/news/img-news-main.png" alt="images" />
@@ -190,7 +208,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <div class="card-block">
+                                        <div class="card-block match-sub">
                                             <a href="#">
                                                 <div class="card-image">
                                                     <img src="../../Images/home/news/img-news-sub.png" alt="images" />
@@ -224,7 +242,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="card-block">
+                                        <div class="card-block match-sub">
                                             <div class="card-date">
                                                 <div class="date">
                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -269,12 +287,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6  mb-5 mb-lg-0">
+                        <div class="col-lg-6">
                             <div class="card-wrapper">
                                 <div class="card-title">PRESS RELEASE</div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <div class="card-block">
+                                        <div class="card-block match-main">
                                             <a href="#">
                                                 <div class="card-image">
                                                     <img src="../../Images/home/news/img-news-main-2.png" alt="images" />
@@ -309,7 +327,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <div class="card-block">
+                                        <div class="card-block match-sub">
                                             <a href="#">
                                                 <div class="card-image">
                                                     <img src="../../Images/home/news/img-news-main.png" alt="images" />
@@ -343,7 +361,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="card-block">
+                                        <div class="card-block match-sub">
                                             <div class="card-date">
                                                 <div class="date">
                                                     <img src="../../Images/icon/ic-date.svg" alt="icon date" />
@@ -478,6 +496,11 @@
                 //$('#popupModal').modal('hide');
             });
 
+        });
+
+        $(function () {
+            $('.match-main').matchHeight();
+            $('.match-sub').matchHeight();
         });
     </script>
 </body>

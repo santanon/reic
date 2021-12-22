@@ -1,9 +1,9 @@
-﻿<div class="tab-news-section lazy">
+﻿<div class="tab-news-section lazy p-0">
 
     <div class="container-fluid">
         <div class="section-tabs">
             <div class="row">
-                <div class="col-12 mb-5">
+                <div class="col-12">
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span>ข่าวอสังหาฯ</span>

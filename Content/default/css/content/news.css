@@ -772,7 +772,16 @@
               padding-left: 55px;
               text-align: left; }
             #maincontainer-wrapper .table-package .table.table-addon tbody tr td .addon label span.price {
-              padding-left: 10px; }
+              padding-left: 10px;
+              padding-right: 40px;
+              position: relative; }
+              #maincontainer-wrapper .table-package .table.table-addon tbody tr td .addon label span.price .link {
+                position: absolute;
+                top: 0;
+                right: 0; }
+                #maincontainer-wrapper .table-package .table.table-addon tbody tr td .addon label span.price .link a img {
+                  width: 30px;
+                  height: 30px; }
         #maincontainer-wrapper .table-package .table.table-addon tbody tr td .addon :disabled + label span {
           color: #C6C6C6;
           cursor: not-allowed; }

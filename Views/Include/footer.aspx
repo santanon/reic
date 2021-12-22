@@ -68,18 +68,20 @@
                 </div>
             </div>
             <div class="contact-form">
-                <div class="fill">
-                    <div class="fill-keyword">
-                        <div class="slc-custom">
-                            <input class="bg-white" id="inlineFormInputEmail" type="text" placeholder="Your E-mail">
+                <form>
+                    <div class="fill">
+                        <div class="fill-keyword">
+                            <div class="slc-custom">
+                                <input class="bg-white" id="inlineFormInputEmail" type="text" placeholder="Your E-mail">
+                            </div>
+                        </div>
+                        <div class="fill-search">
+                            <button class="btn-submit" type="submit"  data-toggle="modal" data-target="#Email">
+                                <div class="btn-med primary nopadding">ส่ง</div>
+                            </button>
                         </div>
                     </div>
-                    <div class="fill-search">
-                        <button class="btn-submit" type="submit"  data-toggle="modal" data-target="#Email">
-                            <div class="btn-med primary nopadding">ส่ง</div>
-                        </button>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
