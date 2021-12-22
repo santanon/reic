@@ -91,7 +91,7 @@
 /* footer sizing */
 /*media screen*/
 /*mobile*/
-.font-kiti, #maincontainer-wrapper .intro .intro-content .content .title, #maincontainer-wrapper .intro .intro-content .content .subtitle, #maincontainer-wrapper .intro .intro-content .content .description, #main-intro .intro .content .title, #main-intro .intro .content .subtitle, #main-intro .intro .content .description {
+.font-kiti, #maincontainer-wrapper .intro .intro-content .content .title, #maincontainer-wrapper .intro .intro-content .content .subtitle, #maincontainer-wrapper .intro .intro-content .content .description {
   font-family: "Kitithada";
   font-weight: normal;
   letter-spacing: 0.5px; }
@@ -104,22 +104,22 @@
 }*/
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) {
-    .font-kiti, #maincontainer-wrapper .intro .intro-content .content .title, #maincontainer-wrapper .intro .intro-content .content .subtitle, #maincontainer-wrapper .intro .intro-content .content .description, #main-intro .intro .content .title, #main-intro .intro .content .subtitle, #main-intro .intro .content .description {
+    .font-kiti, #maincontainer-wrapper .intro .intro-content .content .title, #maincontainer-wrapper .intro .intro-content .content .subtitle, #maincontainer-wrapper .intro .intro-content .content .description {
       letter-spacing: -0.5px; } } }
 
-.x-large-kiti, #maincontainer-wrapper .intro .intro-content .content .title, #maincontainer-wrapper .intro .intro-content .content .subtitle, #main-intro .intro .content .title, #main-intro .intro .content .subtitle {
+.x-large-kiti, #maincontainer-wrapper .intro .intro-content .content .title, #maincontainer-wrapper .intro .intro-content .content .subtitle {
   font-size: 50px;
   line-height: 50px; }
   @media screen and (max-width: 767.98px) {
-    .x-large-kiti, #maincontainer-wrapper .intro .intro-content .content .title, #maincontainer-wrapper .intro .intro-content .content .subtitle, #main-intro .intro .content .title, #main-intro .intro .content .subtitle {
+    .x-large-kiti, #maincontainer-wrapper .intro .intro-content .content .title, #maincontainer-wrapper .intro .intro-content .content .subtitle {
       font-size: 46px;
       line-height: 46px; } }
 
-.small-kiti, #maincontainer-wrapper .intro .intro-content .content .description, #main-intro .intro .content .description {
+.small-kiti, #maincontainer-wrapper .intro .intro-content .content .description {
   font-size: 31px;
   line-height: 31px; }
   @media screen and (max-width: 767.98px) {
-    .small-kiti, #maincontainer-wrapper .intro .intro-content .content .description, #main-intro .intro .content .description {
+    .small-kiti, #maincontainer-wrapper .intro .intro-content .content .description {
       font-size: 24px;
       line-height: 24px; } }
 
@@ -307,86 +307,6 @@
     padding: 0;
     padding-bottom: 15px; }
 
-#main-intro {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0 auto;
-  background-position: center top;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  #main-intro .intro {
-    width: 1140px;
-    margin: 0 auto;
-    height: 100%;
-    position: relative; }
-    #main-intro .intro .intro-content {
-      display: table;
-      width: 100%;
-      height: 100%; }
-      #main-intro .intro .intro-content .table {
-        display: table-row;
-        width: 100%;
-        height: 100%; }
-        #main-intro .intro .intro-content .table .cell {
-          display: table-cell;
-          vertical-align: middle;
-          text-align: center;
-          padding: 50px 0; }
-    #main-intro .intro .content {
-      margin-bottom: 20px; }
-      #main-intro .intro .content img {
-        max-width: 100%; }
-      #main-intro .intro .content .title {
-        font-weight: bold !important;
-        font-weight: bold;
-        color: #2E3092;
-        margin: 0 !important; }
-      #main-intro .intro .content .subtitle {
-        font-weight: bold;
-        font-weight: bold;
-        color: #EC0E17;
-        margin: 10px !important; }
-      #main-intro .intro .content .description {
-        color: #fff;
-        margin: 0 !important; }
-    #main-intro .intro .btn-group {
-      text-align: center; }
-      #main-intro .intro .btn-group .button {
-        display: inline-block;
-        width: auto;
-        height: auto;
-        margin: 0 10px;
-        margin-bottom: 10px; }
-  @media screen and (max-width: 1140px) {
-    #main-intro .intro {
-      width: 100%;
-      padding: 0 10px; } }
-  @media screen and (max-width: 767.98px) {
-    #main-intro .intro {
-      height: inherit;
-      padding: 0 20px; }
-      #main-intro .intro .content .title {
-        font-size: 40px !important;
-        line-height: 40px !important;
-        font-weight: bold;
-        color: #2E3092;
-        margin: 0 !important; }
-      #main-intro .intro .content .subtitle {
-        font-size: 32px !important;
-        line-height: 32px !important;
-        font-weight: bold;
-        color: #EC0E17;
-        margin: 0px !important; }
-      #main-intro .intro .content .description {
-        font-size: 22px !important;
-        line-height: 22px !important;
-        color: #fff;
-        margin: 0 !important; } }
-
 .list-content {
   height: 305px;
-  /*padding-bottom: 30px;*/
   overflow: hidden; }
