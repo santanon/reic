@@ -67,8 +67,8 @@
         .sub-title {
             padding: 12.5px 15px 25px 15px;
             transition: all 0.3s ease-in-out;
-
             margin-top: auto;
+
             .desc {
                 color: $color-text;
                 transition: all 0.3s ease-in-out;
@@ -976,12 +976,14 @@
                                             padding-left: 10px;
                                             padding-right: 40px;
                                             position: relative;
-                                            .link{
+
+                                            .link {
                                                 position: absolute;
                                                 top: 0;
                                                 right: 0;
-                                                a{
-                                                    img{
+
+                                                a {
+                                                    img {
                                                         width: 30px;
                                                         height: 30px;
                                                     }
@@ -1019,6 +1021,59 @@
 
             &.table-layout-fix {
                 table-layout: fixed;
+            }
+
+            &.fold-table {
+                tr.view {
+                    cursor: pointer;
+
+                    td.text-right {
+                        position: relative;
+
+                        &:after {
+                            content: "";
+                            background-image: url('../../../../Images/icon/icon-down-primary.svg');
+                            background-repeat: no-repeat;
+                            width: 20px;
+                            height: 20px;
+                            position: absolute;
+                            top: 30px;
+                            right: 30px;
+                        }
+                    }
+
+
+                    &.open {
+                        .package-table-head {
+                            background-color: #1F218B !important;
+
+                            .text {
+                                color: #fff;
+                            }
+                        }
+
+                        td.text-right {
+                            &:after {
+                                content: "";
+                                background-image: url('../../../../Images/icon/icon-up-white.svg');
+                                background-repeat: no-repeat;
+                                width: 20px;
+                                height: 20px;
+                                position: absolute;
+                                top: 30px;
+                                right: 30px;
+                            }
+                        }
+                    }
+                }
+
+                tr.fold {
+                    display: none;
+
+                    &.open {
+                        display: table-row;
+                    }
+                }
             }
 
             @media screen and (max-width: 767px) {
