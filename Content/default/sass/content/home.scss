@@ -32,7 +32,6 @@
     }
 
     @media screen and (max-width: $screen-sm) {
-
         .paading-top-mobile {
             padding-top: 10px;
         }
@@ -194,6 +193,7 @@
         @media screen and (max-width: $screen-md) {
         }
     }
+
     //img
     .img {
         img {
@@ -219,7 +219,6 @@
             width: 100%;
         }
     }
-    //END img
 
     //news
     .item-news {
@@ -246,134 +245,9 @@
             padding-bottom: 15px;
         }
     }
-    //END news
-}
-
-#main-intro {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0 auto;
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    .intro {
-        width: 1140px;
-        margin: 0 auto;
-        height: 100%;
-        position: relative;
-
-        .intro-content {
-            display: table;
-            width: 100%;
-            height: 100%;
-
-            .table {
-                display: table-row;
-                width: 100%;
-                height: 100%;
-
-                .cell {
-                    display: table-cell;
-                    vertical-align: middle;
-                    text-align: center;
-                    padding: 50px 0;
-                }
-            }
-        }
-
-        .content {
-            margin-bottom: 20px;
-
-            img {
-                max-width: 100%;
-            }
-
-            .title {
-                font-weight: bold !important;
-                @extend .font-kiti;
-                @extend .x-large-kiti;
-                font-weight: bold;
-                color: $color-primary;
-                margin: 0 !important;
-            }
-
-            .subtitle {
-                font-weight: bold;
-                @extend .font-kiti;
-                @extend .x-large-kiti;
-                font-weight: bold;
-                color: $color-secondary;
-                margin: 10px !important;
-            }
-
-            .description {
-                @extend .font-kiti;
-                @extend .small-kiti;
-                color: $color-white;
-                margin: 0 !important;
-            }
-        }
-
-        .btn-group {
-            text-align: center;
-
-            .button {
-                display: inline-block;
-                width: auto;
-                height: auto;
-                margin: 0 10px;
-                margin-bottom: 10px;
-            }
-        }
-    }
-
-    @media screen and (max-width: 1140px) {
-        .intro{
-            width: 100%;
-            padding: 0 10px;
-        }
-    }
-
-    @media screen and (max-width: $screen-sm) {
-        .intro {
-            height: inherit;
-            padding: 0 20px;
-
-            .content {
-
-                .title {
-                    font-size: $text-x-large-mobile !important;
-                    line-height: $text-x-large-mobile !important;
-                    font-weight: bold;
-                    color: $color-primary;
-                    margin: 0 !important;
-                }
-
-                .subtitle {
-                    font-size: $text-large-mobile !important;
-                    line-height: $text-large-mobile !important;
-                    font-weight: bold;
-                    color: $color-secondary;
-                    margin: 0px !important;
-                }
-
-                .description {
-                    font-size: $text-x-small-mobile !important;
-                    line-height: $text-x-small-mobile !important;
-                    color: $color-white;
-                    margin: 0 !important;
-                }
-            }
-        }
-    }
 }
 
 .list-content{
     height: 305px;
-    /*padding-bottom: 30px;*/
     overflow: hidden;
 }

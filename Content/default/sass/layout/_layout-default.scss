@@ -1,10 +1,6 @@
 @import "../variables";
 @import "../helpers/fontstyle";
 
-.main-slider {
-    margin: 0;
-}
-
 .index-slider {
     width: 100%;
     height: auto;
@@ -208,22 +204,6 @@
                 border-radius: 100% !important;
             }
         }
-
-        /*@media screen and (min-width: 576px) {
-            max-width: 540px;
-        }
-
-        @media screen and (min-width: 768px) {
-            max-width: 720px;
-        }
-
-        @media screen and (min-width: 992px) {
-            max-width: 960px;
-        }
-
-        @media screen and (min-width: 1200px) {
-            max-width: 1210px;
-        }*/
     }
 }
 
@@ -232,7 +212,7 @@
     display: block;
     width: 100%;
     height: auto;
-    padding: 10px 0;
+    padding: 15px 0;
 
     &.absolute {
         position: absolute;
@@ -391,16 +371,13 @@
 
 .search-section {
     position: relative;
-    left: 0;
+    // left: 0;
     display: block;
     max-width: 940px;
     width: 100%;
     height: auto;
     padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-top: -65px;
+    margin: -65px auto 50px auto;
 
     .nav-tabs {
         border-bottom: none;
@@ -2793,7 +2770,7 @@
 }
 //override sweet modal
 .swal2-modal {
-    font-family: $font-header !important;
+    font-family: $font-normal !important;
     border-radius: 0 !important;
 
     .swal2-content {

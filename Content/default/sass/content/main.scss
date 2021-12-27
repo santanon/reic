@@ -3,59 +3,51 @@
 @import "../helpers/fontstyle";
 @import "../helpers/mixin_css3";
 
-.font-bold {
-    font-family: $font-bold !important;
-}
-
-.font-default {
-    font-family: $default-font !important;
-}
-
 #main-wrapper,
 #maincontainer-wrapper,
 .modal {
 
-    h1 {
-        @extend .font-kiti;
-        font-size: $text-large;
-        line-height: $text-large;
-        margin: 0;
-    }
+    // h1 {
+    //     @extend .font-kiti;
+    //     font-size: $text-large;
+    //     line-height: $text-large;
+    //     margin: 0;
+    // }
 
-    h2 {
-        @extend .font-kiti;
-        font-size: $text-large;
-        line-height: $text-large;
-        margin: 0;
-    }
+    // h2 {
+    //     @extend .font-kiti;
+    //     font-size: $text-large;
+    //     line-height: $text-large;
+    //     margin: 0;
+    // }
 
-    h3 {
-        @extend .font-kiti;
-        font-size: $text-x-small;
-        line-height: $text-x-small;
-        margin: 0;
-    }
+    // h3 {
+    //     @extend .font-kiti;
+    //     font-size: $text-x-small;
+    //     line-height: $text-x-small;
+    //     margin: 0;
+    // }
 
-    h4 {
-        @extend .font-kiti;
-        font-size: $text-small;
-        line-height: $text-small;
-        margin: 0;
-    }
+    // h4 {
+    //     @extend .font-kiti;
+    //     font-size: $text-small;
+    //     line-height: $text-small;
+    //     margin: 0;
+    // }
 
-    h5 {
-        @extend .font-kiti;
-        font-size: $text-x-content;
-        line-height: $text-content;
-        margin: 0;
-    }
+    // h5 {
+    //     @extend .font-kiti;
+    //     font-size: $text-x-content;
+    //     line-height: $text-content;
+    //     margin: 0;
+    // }
 
-    h6 {
-        @extend .font-kiti;
-        font-size: $text-content;
-        line-height: $text-content;
-        margin: 0;
-    }
+    // h6 {
+    //     @extend .font-kiti;
+    //     font-size: $text-content;
+    //     line-height: $text-content;
+    //     margin: 0;
+    // }
 
     a {
         @extend .font-kiti;
