@@ -6,6 +6,79 @@
 html,
 body {
     font-family: $default-font;
+    font-size: $base-fontsize;
+    line-height: $page-lineheight;
+    color: $color-text;
+    background-color: #FAFAFA;
+}
+
+/* remove link outline */
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-normal;
+    font-weight: normal;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+h1 {
+    font-size: $text-large;
+    line-height: $text-large;
+    margin: 0;
+}
+
+h2 {
+    font-size: $text-large;
+    line-height: $text-large;
+    margin: 0;
+}
+
+h3 {
+    font-size: $text-x-small;
+    line-height: $text-x-small;
+    margin: 0;
+}
+
+h4 {
+    font-size: $text-small;
+    line-height: $text-small;
+    margin: 0;
+}
+
+h5 {
+    font-size: $text-x-content;
+    line-height: $text-content;
+    margin: 0;
+}
+
+h6 {
+    font-size: $text-content;
+    line-height: $text-content;
+    margin: 0;
+}
+
+p, span, a {
+    line-height: $text-content;
+}
+
+a{
+    text-decoration: none;
+    outline: 0;
+    outline-style: none;
+      &:hover{
+        text-decoration: none;
+        outline: 0;
+        outline-style: none;
+      }
+      &:focus{
+        text-decoration: none;
+        outline: 0;
+        outline-style: none;
+      }
+      &:active{
+        text-decoration: none;
+        outline: 0;
+        outline-style: none;
+      }
 }
 
 .clearfix{
@@ -45,42 +118,6 @@ ul {
         font-size: $text-x-small;
         line-height: $text-small;
     }
-}
-
-/* remove link outline */
-h1, h2, h3, h4, h5, h6 {
-    font-family: $font-header;
-    font-weight: normal;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 22px;
-    margin-bottom: 22px;
-}
-
-p, span, a {
-    line-height: $text-content;
-}
-
-a{
-    text-decoration: none;
-    outline: 0;
-    outline-style: none;
-      &:hover{
-        text-decoration: none;
-        outline: 0;
-        outline-style: none;
-      }
-      &:focus{
-        text-decoration: none;
-        outline: 0;
-        outline-style: none;
-      }
-      &:active{
-        text-decoration: none;
-        outline: 0;
-        outline-style: none;
-      }
 }
 
 .clear{

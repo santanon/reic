@@ -1235,10 +1235,6 @@
         }
 
         @include media-breakpoint-down(md) {
-            .main-nav {
-                display: none;
-            }
-
             .logo {
                 max-width: 70%;
             }

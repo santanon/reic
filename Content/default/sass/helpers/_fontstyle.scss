@@ -6,14 +6,6 @@
     letter-spacing: 0.5px;
 }
 
-/* will be red only in google chrome */
-
-/*@media screen and (-webkit-min-device-pixel-ratio:0) {
-    .font-kiti {
-        letter-spacing: 1px;
-    }
-}*/
-
 @media not all and (min-resolution:.001dpcm) {
     @supports (-webkit-appearance:none) {
         .font-kiti {
@@ -62,10 +54,8 @@
     }
 }
 
-
-
 .font-thm {
-    font-family: $default-font-thm;
+    font-family: $font-tahoma;
     font-weight: normal;
     letter-spacing: 0;
 }
