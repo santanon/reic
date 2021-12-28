@@ -1027,6 +1027,20 @@
                 tr.view {
                     cursor: pointer;
 
+                    td.text-left{
+
+                        &.package-table-head{
+                            font-family: "KitithadaBold";
+                            color: $color-primary;
+
+                            span{
+                                font-family: "KitithadaBold";
+                                color: $color-primary;
+                            }
+                        }
+                        
+                    }
+
                     td.text-right {
                         position: relative;
 
@@ -1045,10 +1059,10 @@
 
                     &.open {
                         .package-table-head {
-                            background-color: #1F218B !important;
+                            background-color: $color-primary !important;
 
                             .text {
-                                color: #fff;
+                                color: #fff !important;
                             }
                         }
 
@@ -1095,7 +1109,6 @@
 
     .package-table-head {
         background-color: #F4F5F5 !important;
-        /*color: white !important;*/
         border-bottom: solid 1px white !important;
     }
 
@@ -1512,7 +1525,7 @@
             padding: 3px;
             font-size: $text-content;
             line-height: $text-x-small;
-            color: #1F218B;
+            color: $color-primary;
             border: 1px solid #fff;
             border-bottom: 2px solid #00AFF0;
             background-color: #D7EBFF;
@@ -1636,7 +1649,7 @@
             border: 1px solid #fff;
             background: none;
             background-color: #D7EBFF;
-            color: #1F218B;
+            color: $color-primary;
         }
 
         .ui-datepicker th {
