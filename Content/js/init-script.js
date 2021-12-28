@@ -472,7 +472,7 @@ bgslider_init = function(){
     responsive: true,
       width: '100%',
     // height: 'auto',
-    auto: false,
+    auto: true,
     prev: '#foo_prev',
     next: '#foo_next',
     //pagination: "#foo_pager",
