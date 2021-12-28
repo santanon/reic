@@ -957,7 +957,7 @@
                                 }
 
                                 label {
-                                    margin: 10px;
+                                    //margin: 10px;
                                     display: flex;
                                     justify-content: space-between;
 
@@ -968,7 +968,7 @@
                                         cursor: pointer;
 
                                         &.text {
-                                            padding-left: 55px;
+                                            padding-left: 45px;
                                             text-align: left;
                                         }
 
@@ -1014,6 +1014,9 @@
                                     }
                                 }
                             }
+                            img{
+                                margin-bottom: 0;
+                            }
                         }
                     }
                 }
@@ -1027,18 +1030,17 @@
                 tr.view {
                     cursor: pointer;
 
-                    td.text-left{
+                    td.text-left {
 
-                        &.package-table-head{
+                        &.package-table-head {
                             font-family: "KitithadaBold";
                             color: $color-primary;
 
-                            span{
+                            span {
                                 font-family: "KitithadaBold";
                                 color: $color-primary;
                             }
                         }
-                        
                     }
 
                     td.text-right {
@@ -1087,11 +1089,26 @@
                     &.open {
                         display: table-row;
                     }
+
+                    @media screen and (max-width: 767px) {
+                        td {
+                            padding: 15px 0;
+                            table {
+                                tr {
+                                    td {
+                                        display: block;
+                                        padding: 15px; 
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
 
             @media screen and (max-width: 767px) {
-                width: 900px;
+                //width: 900px;
+                width: 100%;
 
                 tbody {
                     tr {
