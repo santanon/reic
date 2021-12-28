@@ -937,19 +937,30 @@
                                 position: relative;
 
                                 label:before {
-                                    content: url(../../../../Images/icon/icon-check-white.svg);
+                                    // content: url(../../../../Images/icon/icon-check-white.svg);
+                                    content: '';
                                     position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 25px;
+                                    height: 25px;
+                                    background-image: url(../../../../Images/icon/icon-check-white.svg);
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
                                     z-index: 100;
                                 }
 
                                 :checked + label:before {
-                                    content: url(../../../../Images/icon/icon-check-white-active.svg);
+                                    // content: url(../../../../Images/icon/icon-check-white-active.svg);
+                                    content: '';
+                                    background-image: url(../../../../Images/icon/icon-check-white-active.svg);
                                 }
 
 
                                 input[type=checkbox] {
                                     display: none;
                                 }
+                                
                                 /*pure cosmetics:*/
                                 img {
                                     width: 150px;
