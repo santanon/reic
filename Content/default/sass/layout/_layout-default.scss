@@ -976,6 +976,7 @@
                         white-space: nowrap;
                         text-overflow: ellipsis;
                         transition: all 0.3s ease-in-out;
+                        letter-spacing: normal;
                     }
                 }
 
@@ -987,6 +988,7 @@
                         overflow: hidden;
                         text-overflow: ellipsis;
                         transition: all 0.3s ease-in-out;
+                        letter-spacing: normal;
                     }
                 }
 
@@ -1059,8 +1061,9 @@
             }
         }
     }
+
     @media screen and (max-width: $screen-sm) {
-        .card-wrapper{
+        .card-wrapper {
             margin-bottom: 45px;
         }
     }
@@ -1628,7 +1631,7 @@
                     font-size: 20px;
                     line-height: 28px;
                     color: $color-text;
-                    letter-spacing: 1px;
+                    letter-spacing: normal;
                     margin-bottom: 10px;
                     transition: all 0.3s ease-in-out;
                 }
@@ -1694,7 +1697,7 @@
                 .card-text {
                     .title, .desc {
                         color: $color-primary;
-                        letter-spacing: 1px;
+                        //letter-spacing: 1px;
                     }
                 }
             }
@@ -1897,6 +1900,7 @@
 
     @media screen and (max-width: $screen-sm) {
         margin-bottom: 45px;
+
         .nav-tabs {
             display: none;
         }

@@ -757,16 +757,17 @@
         .copyright {
             p {
                 font-family: $font-bold !important;
-                font-size: 22px;
+                font-size: 22px !important;
                 line-height: 22px;
                 color: $color-text;
+            }
 
-                span {
-                    font-family: $font-kanit !important;
-                    font-size: 22px;
-                    line-height: 28px;
-                    color: $color-primary;
-                }
+            span {
+                font-family: $font-kanit !important;
+                font-size: 22px !important;
+                line-height: 28px;
+                color: $color-primary;
+                letter-spacing: normal !important;
             }
         }
     }
