@@ -3,8 +3,8 @@
     <!-- Sponser -->
     <div class="slide-sponser">
         <div class="slide-header">
-            <h2 class="title">SPONSORS</h2>
-            <p>ADDITIONAL SUPPORT INFORMATION</p>
+            <h2 class="title">หน่วยงานสนับสนุน</h2>
+            <p>คลิกที่ตราหน่วยงานเพื่อดูข้อมูลเพิ่มเติม</p>
         </div>
         <div class="slide-body">
             <div class="banner-highlight-section my-4">
@@ -63,8 +63,11 @@
                     <img class="lazyload"" data-src="../../Images/e-newsletter/icon-e-news.svg" alt="e-newsletter" />
                 </div>
                 <div class="text">
-                    <h3>E-NEWSLETTER</h3>
-                    <p>To join Real Estate Society </p>
+                    <%--<h3>E-NEWSLETTER</h3>
+                    <p>To join Real Estate Society </p>--%>
+
+                    <h3>จดหมายข่าวอีเล็กทรอนิกส์</h3>
+                    <p>เพื่อร่วมรับข่าวสารแวดวงอสังหาริมทรัพย์</p>
                 </div>
             </div>
             <div class="contact-form">
@@ -364,8 +367,8 @@
                                                             <img class="lazyload"" data-src="../../Images/icon/footer/icon-qa.svg" />
                                                         </div>
                                                         <a class="alink" href="#" target="_blank" title="สอบถามข้อมูลออนไลน์">
-                                                            <span>สอบถามข้อมูล</span>
-                                                            <p>ออนไลน์</p>
+                                                            <span>Online</span>
+                                                            <p>INQUIRY</p>
                                                         </a>
                                                     </li>
                                                 </ul>

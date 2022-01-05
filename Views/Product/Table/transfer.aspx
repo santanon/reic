@@ -269,9 +269,9 @@
                                         <div class="icon__text">
                                             คำอธิบายข้อมูล :
                                         </div>
-                                        <div class="icon__image">
+                                        <div class="icon__image icon__image__pdf">
                                              <a title="PDF" href="/upload/โอนกรรมสิทธิ์กทมปริ_914_1559207037_67673.pdf" target="_blank">
-                                                 <img src="/Images/icon/table/ic-pdf.png" alt="pdf">
+                                                 <img src="../../../Images/icon/ic-pdf.svg" alt="pdf">
                                              </a>
                                         </div>
                                     </div>

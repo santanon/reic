@@ -458,6 +458,15 @@
             justify-content: space-around;
             align-items: center;
             margin-left: 15px;
+            .icon__image{
+                &__pdf{
+                    a{
+                        img{
+                            width: 30px;
+                        }
+                    }
+                }
+            }
         }
 
         .icon__text {
