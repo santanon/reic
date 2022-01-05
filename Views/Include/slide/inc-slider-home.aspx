@@ -8,7 +8,14 @@
             <div class="caption-outer image-wrapper">
                 <div class="container">
                     <div class="caption-inner">
-                        <div class="caption">
+                        <div class="caption caption--lg">
+                            <h2 class="title">WELCOME TO REIC</h2>
+                            <p class="description">
+                                ศูนย์กลางข้อมูลด้านอสังหาริมทรัพย์ของประเทศ ที่ได้รับการยินยอมในระดับสากล
+                            </p>
+                        </div>
+
+                        <div class="caption caption--md">
                             <h2 class="title">WELCOME TO REIC</h2>
                             <p class="description">
                                 ศูนย์กลางข้อมูลด้านอสังหาริมทรัพย์ของประเทศ ที่ได้รับการยินยอมในระดับสากล

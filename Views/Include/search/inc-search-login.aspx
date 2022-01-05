@@ -19,8 +19,9 @@
 
                             <div class="row pst-center ">
                                 <div class="col-md-9 col-12 pst-center nopadding-right">
-                                    <div class="slc-custom">
-                                        <input name="" placeholder="รหัสผ่าน" value="" autocomplete="off" type="text">
+                                    <div class="slc-custom inp-icon__password">
+                                        <input id="password-field" name="" placeholder="รหัสผ่าน" value="" autocomplete="off" type="password">
+                                        <span toggle="#password-field" class="fas fa-eye field-icon toggle-password"></span>
                                     </div>
                                 </div>
                             </div>

@@ -61,6 +61,16 @@
                 color: $color-white;
                 margin: 0 !important;
             }
+
+            .caption {
+                &--lg {
+                    display: block;
+                }
+
+                &--md {
+                    display: none;
+                }
+            }
         }
 
         @include media-breakpoint-down(xl) {
@@ -133,6 +143,20 @@
 
                 .description {
                     margin: 0 !important;
+                }
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            .caption-outer {
+                .caption {
+                    &--lg {
+                        display: none;
+                    }
+
+                    &--md {
+                        display: block;
+                    }
                 }
             }
         }
@@ -3844,6 +3868,29 @@ if it's not present, don't show loader */
     @extend .font-kiti;
     @extend .content-kiti;
     line-height: $height-input;
+}
+
+.inp-icon__password {
+    position: relative;
+    input{
+        &::-ms-reveal {
+            display: none;
+        }
+    }
+    .field-icon {
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+    }
+
+    .toggle-password {
+        cursor: pointer !important;
+        font-family: 'Font Awesome 5 Free' !important;
+        font-weight: 900 !important;
+        color: #333 !important;
+        font-size: 15px !important;
+        line-height: 41px !important;
+    }
 }
 
 .slc-custom {

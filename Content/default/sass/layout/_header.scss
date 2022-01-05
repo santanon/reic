@@ -16,7 +16,8 @@
         padding: 20px 0 10px;
         margin: 0;
         background-color: #fff;
-        z-index: 9;
+        //z-index: 9;
+        z-index: 15;
 
         .header-clicker {
             float: right;
@@ -914,7 +915,7 @@
             width: 100%;
             margin: 10px auto 0 auto;
             position: relative;
-            z-index: 9;
+            z-index: 20;
 
             a {
                 display: block;
