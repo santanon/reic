@@ -88,10 +88,18 @@
                                                         </div>
                                                         <div class="col-lg-3 col-">
                                                             <div class="sub-menu-item">
-                                                                <a href="/Product/Table" title="ตารางเผยแพร่">ตารางเผยแพร่</a>
-
+                                                                <span title="แจ้งชำระเงิน">แจ้งชำระเงิน</span>
+                                                                <ul class="list-menu">
+                                                                    <li>
+                                                                        <a href="/Product/Payment" title="แจ้งชำระค่าสินค้าและบริการ">แจ้งชำระค่าสินค้าและบริการ</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="/Product/Paymentseminar" title="แจ้งชำระค่าสัมมนา">แจ้งชำระค่าสัมมนา</a>
+                                                                    </li>
+                                                                </ul>
                                                             </div>
                                                         </div>
+                                                        
                                                         <div class="col-lg-3 col-">
                                                             <div class="sub-menu-item">
                                                                 <span title="สินค้าและบริการ">สินค้าและบริการ</span>
@@ -107,6 +115,9 @@
                                                                     </li>
                                                                     <li>
                                                                         <a href="/Product/Seminar" title="สัมมนา">สัมมนา</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#" title="Personalize Member Package">Personalize Member Package</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -125,7 +136,7 @@
                                                         </div>
                                                         <div class="col-lg-3 col-">
                                                             <div class="sub-menu-item">
-                                                                <a href="/Product/Payment" title="แจ้งชำระค่าบริการ">แจ้งชำระค่าบริการ</a>
+                                                                <a href="/Product/Table" title="ตารางเผยแพร่">ตารางเผยแพร่</a>
 
                                                             </div>
                                                         </div>

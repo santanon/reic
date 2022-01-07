@@ -3813,6 +3813,26 @@ if it's not present, don't show loader */
     }
 }
 
+.button{
+    &__payment{
+        .btn-med{
+            color: $color-white;
+            &.primary{
+                background-color: $color-primary;
+            }
+        }
+        .btn-icon{
+            position: relative;
+            padding-left: 70px;
+            img{
+                position: absolute;
+                left: 20px;
+                top: 10px;
+                width: 18px;
+            }
+        }
+    }
+}
 .btn-back-onbanner {
     position: absolute !important;
     margin-top: -60px;
@@ -3966,6 +3986,17 @@ if it's not present, don't show loader */
         @extend .font-kiti;
         @extend .content-kiti;
         line-height: $height-input !important;
+
+        &__link {
+            a {
+                color: $color-secondary;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        
     }
 
     .dropdown {
@@ -4254,6 +4285,9 @@ if it's not present, don't show loader */
 
     .box-inp-file {
         position: relative;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
 
         input[type="file"] {
             display: none;
@@ -4268,6 +4302,9 @@ if it's not present, don't show loader */
             margin-right: 10px;
             font-size: 23px;
             color: $color-text;
+            height: 41px;
+            display: flex;
+            align-items: center;
 
             i {
                 margin-left: 10px;
@@ -4279,7 +4316,10 @@ if it's not present, don't show loader */
         .file-name {
             @extend .font-kiti;
             float: left;
-            line-height: $height-input;
+            line-height: 25px;
+            text-align: left;
+            word-break: break-all;
+            flex-basis: auto;
         }
     }
 
@@ -4584,7 +4624,8 @@ if it's not present, don't show loader */
         height: 40px;
         margin-right: 15px;
         margin-bottom: 0;
-        padding: 0 80px 0 20px;
+        //padding: 0 80px 0 20px;
+        padding: 0 20px;
         color: #858585;
         border: 1px solid #858585;
         border-radius: 0;
@@ -4595,6 +4636,7 @@ if it's not present, don't show loader */
         z-index: 99;
         display: flex;
         align-items: center;
+        justify-content: space-between;
 
         i {
             font-size: 16px;

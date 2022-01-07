@@ -35,7 +35,8 @@
                                 <ol class="breadcrumb">
                                     <li><a href="/" title="หน้าแรก">หน้าแรก</a></li>
                                     <li><span title="สินค้าและบริการ">สินค้าและบริการ</span></li>
-                                    <li class="active"><span title="แจ้งชำระค่าบริการ">แจ้งชำระค่าบริการ</span></li>
+                                    <li><span title="แจ้งชำระเงิน">แจ้งชำระเงิน</span></li>
+                                    <li class="active"><span title="แจ้งชำระค่าสินค้าและบริการ">แจ้งชำระค่าสินค้าและบริการ</span></li>
                                 </ol>
                             </div>
                         </div>

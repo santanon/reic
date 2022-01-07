@@ -48,58 +48,89 @@
 
                     <h1 class="color-primary bold pst-center">สัมมนา</h1>
 
-                    <div class="row margin-top">
-                        <div class="col-lg-8 col-md-12 col-">
-                            <div class="row pst-lefttocen">
+                    <div class="row pt-4 justify-content-between align-items-center">
+                        <div class="col-lg-7">
+                            <form>
+                                <div class="row pst-lefttocen">
 
-                                <div class="col-lg-5 col-md-4 col-">
-                                    <div class="slc-custom bg-grey">
-                                        <input name="" placeholder="คำค้นหาสัมมนา" value="" autocomplete="off" type="text">
-                                    </div>
-                                </div>
-
-                                <%--<div class="col-lg-4 col-md-4 col-">
-                                    <div class="slc-custom bg-grey">
-                                        <select class="slc" id="type">
-                                            <option value="0" selected>เลือกหมวดสินค้า</option>
-                                            <option value="สำรองที่นั่งงานสัมมนา/อบรม">สำรองที่นั่งงานสัมมนา/อบรม</option>
-                                            <option value="สมัครสมาชิกผู้ใช้ข้อมูลเว็บไซต์ www.reic.or.th">สมัครสมาชิกผู้ใช้ข้อมูลเว็บไซต์ www.reic.or.th</option>
-                                            <option value="เอกสาร/DVD งานสัมมนาย้อนหลัง">เอกสาร/DVD งานสัมมนาย้อนหลัง</option>
-                                            <option value="รายงานผลสำรวจโครงการ">รายงานผลสำรวจโครงการ</option>
-                                            <option value="ที่อยู่อาศัย">ที่อยู่อาศัย</option>
-                                            <option value="โครงการอาคารชุดเปิดใหม่">โครงการอาคารชุดเปิดใหม่</option>
-                                            <option value="ข้อมูลรายโครงการพร้อมขาย">ข้อมูลรายโครงการพร้อมขาย</option>
-                                            <option value="REIC Directory">REIC Directory</option>
-                                        </select>
-                                    </div>
-                                </div>--%>
-
-                                <div class="col-lg-3 col-md-4 col-">
-                                    <div class="pst-lefttocen fill">
-                                        <div class="fill-keyword">
-                                            <div class="slc-custom bg-grey">
-                                                <select class="slc" id="year">
-                                                    <option value="0" selected>เลือกปี</option>
-                                                    <option value="2559">2559</option>
-                                                    <option value="2558">2558</option>
-                                                    <option value="2557">2557</option>
-                                                </select>
-                                            </div>
+                                    <div class="col-xl-5 col-md-12">
+                                        <div class="slc-custom bg-grey">
+                                            <input name="" placeholder="คำค้นหา" value="" autocomplete="off" type="text">
                                         </div>
-                                        <div class="fill-search">
-                                            <div class="btn-submit">
-                                                <div class="btn-med secondary nopadding"><i class="fas fa-search"></i></div>
+                                    </div>
+
+                                    <div class="col-xl-5 col-md-6 col- padding-bottom-half">
+                                        <div class="pst-lefttocen fill">
+                                            <div class="fill-keyword">
+                                                <div class="slc-custom bg-grey">
+                                                    <select class="slc" id="year">
+                                                        <option value="0" selected>เลือกปี</option>
+                                                        <option value="2559">2559</option>
+                                                        <option value="2558">2558</option>
+                                                        <option value="2557">2557</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="fill-search">
+                                                <div class="btn-submit">
+                                                    <div class="btn-med secondary nopadding"><i class="fas fa-search"></i></div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
+                                </div>
+                            </form>
+                            
+                        </div>
+                        <div class="col-sm-auto">
+                            <div class="social-box pst-righttocen">
+                                <div class="bord-icons justify-content-end">
+                                    <div class="label-custom">แชร์ :</div>
+                                    <div class="custom-icons">
+                                        <ul>
+            
+                                            <li class="facebook" data-url="/Product/Seminar" data-menu_id="8">
+                                                <a href="javascript:void(0)" target="_blank" title="Share on Facebook">
+                                                    <img src="/Images/icon/action/ic-fb.svg" alt="Share on Facebook">
+                                                </a>
+                                            </li>
+                    
+                                            <li class="twitter" data-url="/Product/Seminar" data-menu_id="8">
+                                                <a href="javascript:void(0)" target="_blank" title="Share on Twitter">
+                                                    <img src="/Images/icon/action/ic-twitter.svg" alt="Share on Twitter">
+                                                </a>
+                                            </li>
+                    
+                                            <li class="line_app" data-url="/Product/Seminar" data-menu_id="8">
+                                                <a href="javascript:void(0)" target="_blank" title="Share on Line">
+                                                    <img src="/Images/icon/action/ic-line.svg" alt="Share on Line">
+                                                </a> 
+                                            </li>
+                    
+                                            <li class="print">
+                                                <a href="javascript:void(0)" onclick="window.print();" target="_blank" title="Print">
+                                                    <img src="/Images/icon/action/ic-print.svg" alt="Print">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <!--#include file="../../Include/other/inc-jpage-desktop.aspx"-->
-
                     </div>
+
+                    <div class="row pb-3 pt-3 pb-lg-4 pt-lg-0 justify-content-start justify-content-lg-end">
+                        <div class="col-sm-auto">
+                            <div class="button button__payment">
+                                <a href="/Product/Paymentseminar" class="btn-med primary btn-icon">
+                                    <img src="../../Images/icon/icon-payment.svg" alt="icon payment" />
+                                    แจ้งชำระเงิน
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <div class="list-group margin-row-half" id="list-group-1">
 
@@ -118,10 +149,10 @@
                                                     <%--<div class="desc-title">
                                                         “ธนารักษ์” เดินหน้าโครงการบ้านคนไทย 
                                                     </div>--%>
-                                                    <div class="desc-price">ราคาปกติ: <span style="text-decoration: line-through;">1,000</span> บาท</div>
-                                                    <div class="desc-price special">ราคาพิเศษ: 500 บาท</div>
+                                                    <div class="desc-title">สถานการณ์ตลาดที่อยู่อาศัย ครึ่งหลังปี 2564 และแนวโน้มปี 2565 ภายใต้วิกฤติโควิด-19 (ภาคตะวันตกและภาคใต้)</div>
+                                                    <div class="desc-price">ราคาปกติ: 500 บาท</div>
                                                     <div class="desc">
-                                                        ทำเนียบรายชื่อผู้ประกอบการพัฒนาโครงการ ที่อยู่อาศัยกทม.-ปริมณฑล
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -129,11 +160,9 @@
                                     </a>
                                     <div class="download-box download-position">
 
-                                        <div class="count">จำนวนที่นั่ง : <span class="bold color-primary">10</span></div>
-
                                         <div class="btn-buy">
                                             <div class="button">
-                                                <a class="btn-med btn-icon-right btn-hover" href="/Product/Seminar_Detail"><i class="fas-icon fa-buy" aria-hidden="true"></i>ซื้อ<i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                                <a class="btn-med btn-icon-right btn-hover" href="/Product/Seminar_Detail"><i class="fas-icon fa-buy" aria-hidden="true"></i>ดูรายละเอียด<i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
 
@@ -162,22 +191,19 @@
                                                     <%--<div class="desc-title">
                                                         “ธนารักษ์” เดินหน้าโครงการบ้านคนไทย 
                                                     </div>--%>
-                                                    <div class="desc-price">ราคาปกติ: <span style="text-decoration: line-through;">1,000</span> บาท</div>
-                                                    <div class="desc-price special">ราคาพิเศษ: 500 บาท</div>
+                                                    <div class="desc-title">สถานการณ์ตลาดที่อยู่อาศัย ครึ่งหลังปี 2564 และแนวโน้มปี 2565 ภายใต้วิกฤติโควิด-19 (ภาคตะวันตกและภาคใต้)</div>
+                                                    <div class="desc-price">ราคาปกติ: 500 บาท</div>
                                                     <div class="desc">
-                                                        ทำเนียบรายชื่อผู้ประกอบการพัฒนาโครงการ ที่อยู่อาศัยกทม.-ปริมณฑล
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </a>
                                     <div class="download-box download-position">
-
-                                        <div class="count">จำนวนที่นั่ง : <span class="bold color-primary">เต็ม</span></div>
-
                                         <div class="btn-buy">
                                             <div class="button">
-                                                <a class="btn-med btn-disable" aria-disabled="true"><i class="fas-icon fa-buy" aria-hidden="true"></i>สำรองที่นั่ง<i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                                <a class="btn-med btn-icon-right btn-hover" href="/Product/Seminar_Detail"><i class="fas-icon fa-buy" aria-hidden="true"></i>ดูรายละเอียด<i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
 
@@ -186,7 +212,7 @@
                                                 <ul>
                                                     <li>
                                                         <a title="PDF">
-                                                            <img src="../../../../Images/icon/table/ic-excel.png" alt="excel">
+                                                            <img src="../../../../Images/icon/ic-pdf.svg" alt="pdf">
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -206,22 +232,19 @@
                                                     <%--<div class="desc-title">
                                                         “ธนารักษ์” เดินหน้าโครงการบ้านคนไทย 
                                                     </div>--%>
-                                                    <div class="desc-price">ราคาปกติ: <span style="text-decoration: line-through;">1,000</span> บาท</div>
-                                                    <div class="desc-price special">ราคาพิเศษ: 500 บาท</div>
+                                                    <div class="desc-title">สถานการณ์ตลาดที่อยู่อาศัย ครึ่งหลังปี 2564 และแนวโน้มปี 2565 ภายใต้วิกฤติโควิด-19 (ภาคตะวันตกและภาคใต้)</div>
+                                                    <div class="desc-price">ราคาปกติ: 500 บาท</div>
                                                     <div class="desc">
-                                                        ทำเนียบรายชื่อผู้ประกอบการพัฒนาโครงการ ที่อยู่อาศัยกทม.-ปริมณฑล
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </a>
                                     <div class="download-box download-position">
-
-                                        <div class="count">จำนวนที่นั่ง : <span class="bold color-primary">99</span></div>
-
                                         <div class="btn-buy">
                                             <div class="button">
-                                                <a class="btn-med btn-icon-right btn-hover" href="/Product/Seminar_Detail"><i class="fas-icon fa-buy" aria-hidden="true"></i>สำรองที่นั่ง<i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                                <a class="btn-med btn-icon-right btn-hover" href="/Product/Seminar_Detail"><i class="fas-icon fa-buy" aria-hidden="true"></i>ดูรายละเอียด<i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                             </div>
                                         </div>
 
@@ -230,7 +253,7 @@
                                                 <ul>
                                                     <li>
                                                         <a title="PDF">
-                                                            <img src="../../../../Images/icon/table/ic-excel.png" alt="excel">
+                                                            <img src="../../../../Images/icon/ic-pdf.svg" alt="pdf">
                                                         </a>
                                                     </li>
                                                 </ul>
