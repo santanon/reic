@@ -59,6 +59,11 @@ namespace gh_reic.Controllers
             return View("~/Views/Product/products/seminar_detail.aspx");
         }
 
+        public ActionResult Seminarregistrant()
+        {
+            return View("~/Views/Product/products/Seminar-registrant.aspx");
+        }
+
         public ActionResult Detail()
         {
             return View("~/Views/Product/products/detail.aspx");
@@ -98,6 +103,10 @@ namespace gh_reic.Controllers
         public ActionResult Payment()
         {
             return View("~/Views/Product/payment.aspx");
+        }
+        public ActionResult Paymentseminar()
+        {
+            return View("~/Views/Product/payment-seminar.aspx");
         }
 
         public ActionResult Magazine()

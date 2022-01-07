@@ -110,13 +110,13 @@
 
                         <div class=" col-lg-6 col-12">
 
-                            <div class="text-editor padding-bottom">
+                            <div class="text-editor">
                                 <div class="title-desc pst-center padding-col">
                                     “ธนารักษ์” เดินหน้าโครงการบ้านคนไทย ขนที่ราชพัสดุ 10 แปลง
-                    ใน 8 จังหวัดทั่วประเทศ นำร่องเปิดประมูลที่ “เชียงราย-ชลบุรี”
-                    สร้างที่อยู่อาศัยราคาเป็นมิตรไม่เกิน 7 แสนบาท
-                    ดอกเบี้ยต่ำผ่อนยาว 30 ปี คาดลงเสาเข็มก่อสร้างได้สิ้นปีนี้ 
-                    ประเมินปลายปี 2562 ผู้มีรายได้น้อยขนกระเป๋าเข้าอยู่ได้
+                                    ใน 8 จังหวัดทั่วประเทศ นำร่องเปิดประมูลที่ “เชียงราย-ชลบุรี”
+                                    สร้างที่อยู่อาศัยราคาเป็นมิตรไม่เกิน 7 แสนบาท
+                                    ดอกเบี้ยต่ำผ่อนยาว 30 ปี คาดลงเสาเข็มก่อสร้างได้สิ้นปีนี้ 
+                                    ประเมินปลายปี 2562 ผู้มีรายได้น้อยขนกระเป๋าเข้าอยู่ได้
                     
                                 </div>
 
@@ -124,11 +124,19 @@
 
                                 <div class="content-desc">
                                     นายพชร อนันตศิลป์ อธิบดีกรมธนารักษ์ เปิดเผยว่า การจัดทำโครงการบ้านคนไทยประชารัฐ
-                    สำหรับผู้มีรายได้น้อยในพื้นที่ราชพัสดุทั้งหมด 10 แปลง ใน 8 จังหวัด ได้ผ่านความเห็นชอบ
-                    จากสำนักงานอัยการสูงสุดแล้ว และขณะนี้ได้ทยอยเปิดประมูลไปแล้วหลายจังหวัด อาทิ ชลบุรี 
-                    เชียงราย ซึ่งหลังจากนี้คาดว่าจะใช้เวลาในการประมูลอีกระยะหนึ่งก่อนจะเริ่มตอกเสาเข็มก่อสร้างได้
-                    ภายในสิ้นปีนี้ และจะใช้เวลาก่อสร้างประมาณ 1 ปี ทำให้ผู้มีรายได้น้อยจะสามารถเข้าอยู่ได้ในช่วง
-                    สิ้นปี 2562
+                                    สำหรับผู้มีรายได้น้อยในพื้นที่ราชพัสดุทั้งหมด 10 แปลง ใน 8 จังหวัด ได้ผ่านความเห็นชอบ
+                                    จากสำนักงานอัยการสูงสุดแล้ว และขณะนี้ได้ทยอยเปิดประมูลไปแล้วหลายจังหวัด อาทิ ชลบุรี 
+                                    เชียงราย ซึ่งหลังจากนี้คาดว่าจะใช้เวลาในการประมูลอีกระยะหนึ่งก่อนจะเริ่มตอกเสาเข็มก่อสร้างได้
+                                    ภายในสิ้นปีนี้ และจะใช้เวลาก่อสร้างประมาณ 1 ปี ทำให้ผู้มีรายได้น้อยจะสามารถเข้าอยู่ได้ในช่วง
+                                    สิ้นปี 2562
+                                </div>
+                            </div>
+
+                            <div class="row padding-bottom">
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="button">
+                                        <a href="/Product/Seminarregistrant" class="btn-med btn-secondary btn-icon-right btn-width" style="">ลงทะเบียน <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                    </div>
                                 </div>
                             </div>
 
@@ -139,7 +147,7 @@
                                     </div>
                                     <div class="col-xl- col-lg- col-md- col-sm col- pst-righttocen">
                                         <div class="download-box bg-default nomargin">
-                                            <div class="download">
+                                            <div class="download d-flex justify-content-end align-items-center">
                                                 <div class="custom-icons">
                                                     <ul>
                                                         <li>
@@ -156,7 +164,7 @@
                                 </div>
                             </div>
 
-                            <div class="product-item">
+                            <%--<div class="product-item">
                                 <div class="item">
                                     <div class="row">
                                         <div class="col-md-6 col-12 pst-lefttocen">
@@ -181,7 +189,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>--%>
 
 
                         </div>
@@ -195,146 +203,7 @@
             </div>
             <div class="clearfix"></div>
 
-            <div class="content-editor no-bg">
-                <div class="container padding-row">
 
-                    <div class="title color-secondary">สัมมนาอื่นๆ</div>
-
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-">
-                            <a href="/Product/Seminar_Detail" title="สัมมนา">
-                                <div class="content-box">
-                                    <div class="card">highlight</div>
-                                    <img src="../../Images/banner/news/banner1.jpg" class="img-width border" />
-                                    <div class="title">ราคาปกติ: 1,000 บาท</div>
-                                    <div class="sub-title">
-                                        <div class="desc">
-                                            <%--<div class="desc-title">
-                                                        “ธนารักษ์” เดินหน้าโครงการบ้านคนไทย 
-                                                    </div>--%>
-                                            <div class="desc">
-                                                ทำเนียบรายชื่อผู้ประกอบการพัฒนาโครงการ ที่อยู่อาศัยกทม.-ปริมณฑล
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="download-box download-position">
-
-                                <div class="count">จำนวนที่นั่ง : <span class="bold color-primary">10</span></div>
-
-                                <div class="btn-buy">
-                                    <div class="button">
-                                        <a class="btn-med btn-icon-right btn-hover" href="/Product/Seminar_Detail"><i class="fas-icon fa-buy" aria-hidden="true"></i>ซื้อ<i class="fas fa-angle-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-
-                                <div class="download">
-                                    <div class="custom-icons">
-                                        <ul>
-                                            <li>
-                                                <a title="PDF">
-                                                    <img src="../../../../Images/icon/ic-pdf.svg" alt="pdf">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="label-custom"><a href="../../../../Images/upload/pdf.pdf" target="_blank" title="ดูรายละเอียด">ดูรายละเอียด</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-">
-                            <a href="/Product/Seminar_Detail" title="สัมมนา">
-                                <div class="content-box">
-                                    <img src="../../Images/banner/news/banner1.jpg" class="img-width border" />
-                                    <div class="title">ราคาปกติ: ไม่มีค่าใช้จ่าย</div>
-                                    <div class="sub-title">
-                                        <div class="desc">
-                                            <%--<div class="desc-title">
-                                                        “ธนารักษ์” เดินหน้าโครงการบ้านคนไทย 
-                                                    </div>--%>
-                                            <div class="desc">
-                                                ทำเนียบรายชื่อผู้ประกอบการพัฒนาโครงการ ที่อยู่อาศัยกทม.-ปริมณฑล
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="download-box download-position">
-
-                                <div class="count">จำนวนที่นั่ง : <span class="bold color-primary">เต็ม</span></div>
-
-                                <div class="btn-buy">
-                                    <div class="button">
-                                        <a class="btn-med btn-disable" aria-disabled="true"><i class="fas-icon fa-buy" aria-hidden="true"></i>สำรองที่นั่ง<i class="fas fa-angle-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-
-                                <div class="download">
-                                    <div class="custom-icons">
-                                        <ul>
-                                            <li>
-                                                <a title="PDF">
-                                                    <img src="../../../../Images/icon/table/ic-excel.png" alt="excel">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="label-custom"><a href="../../../../Images/upload/pdf.pdf" target="_blank" title="ดูรายละเอียด">ดูรายละเอียด</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-">
-                            <a href="/Product/Seminar_Detail" title="สัมมนา">
-                                <div class="content-box">
-                                    <img src="../../Images/banner/news/banner1.jpg" class="img-width border" />
-                                    <div class="title">ราคาปกติ: ไม่มีค่าใช้จ่าย</div>
-                                    <div class="sub-title">
-                                        <div class="desc">
-                                            <%--<div class="desc-title">
-                                                        “ธนารักษ์” เดินหน้าโครงการบ้านคนไทย 
-                                                    </div>--%>
-                                            <div class="desc">
-                                                ทำเนียบรายชื่อผู้ประกอบการพัฒนาโครงการ ที่อยู่อาศัยกทม.-ปริมณฑล
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="download-box download-position">
-
-                                <div class="count">จำนวนที่นั่ง : <span class="bold color-primary">99</span></div>
-
-                                <div class="btn-buy">
-                                    <div class="button">
-                                        <a class="btn-med btn-icon-right btn-hover" href="/Product/Seminar_Detail"><i class="fas-icon fa-buy" aria-hidden="true"></i>สำรองที่นั่ง<i class="fas fa-angle-right" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-
-                                <div class="download">
-                                    <div class="custom-icons">
-                                        <ul>
-                                            <li>
-                                                <a title="PDF">
-                                                    <img src="../../../../Images/icon/table/ic-excel.png" alt="excel">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="label-custom"><a href="../../../../Images/upload/pdf.pdf" target="_blank" title="ดูรายละเอียด">ดูรายละเอียด</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!--#include file="../../Include/tab/inc-tab-home.aspx"-->
-
-            <!--#include file="../../Include/banner/inc-banner-highlight.aspx"-->
 
         </div>
         <div class="clearfix"></div>

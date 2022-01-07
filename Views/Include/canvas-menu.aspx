@@ -38,7 +38,13 @@
                     <ul>
                         <li><a href="/Member/Register_General1" title="Login & สมัครสมาชิก">Login & สมัครสมาชิก</a></li>
                         <li><a href="/Product/Chart" title="สถิติอสังหาริมทรัพย์">สถิติอสังหาริมทรัพย์</a></li>
-                        <li><a href="/Product/Table" title="ตารางเผยแพร่">ตารางเผยแพร่</a></li>
+                        <li><a href="/Product/Payment" title="แจ้งชำระเงิน">แจ้งชำระเงิน</a>
+                            <ul>
+                                <li><a href="/Product/Payment" title="แจ้งชำระค่าสินค้าและบริการ">แจ้งชำระค่าสินค้าและบริการ</a></li>
+                                <li><a href="/Product/Paymentseminar" title="แจ้งชำระค่าสัมมนา">แจ้งชำระค่าสัมมนา</a></li>
+                            </ul>
+                        </li>
+                        
                         <li><a title="สินค้าและบริการ">สินค้าและบริการ</a>
                             <ul>
                                 <li><a href="/Product/Product" title="สินค้า">สินค้า</a></li>
@@ -48,7 +54,7 @@
                         </li>
                         <li><a href="/Member/HowtoRegist" title="วิธีการสมัครสมาชิก ">วิธีการสมัครสมาชิก</a></li>
                         <li><a href="/Product/HowtoPay" title="วิธีการชำระค่าบริการ">วิธีการชำระค่าบริการ</a></li>
-                        <li><a href="/Product/Payment" title="แจ้งชำระค่าบริการ">แจ้งชำระค่าบริการ</a></li>
+                        <li><a href="/Product/Table" title="ตารางเผยแพร่">ตารางเผยแพร่</a></li>
                         <li><a href="/Product/Magazine" title="วารสาร GHB-REIC">วารสาร GHB-REIC</a></li>
                     </ul>
                 </li>

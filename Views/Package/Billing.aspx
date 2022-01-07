@@ -80,7 +80,7 @@
                                     <div class="box-inp-file-upload file-upload">
                                         <div class="btn-file">
                                             <input type="file" name="" id="file" value="" accept="">
-                                            <label for="file">แนบหลักฐาน</label>
+                                            <label for="file">แนบหลักฐาน <i class="fa fa-upload" aria-hidden="true"></i></label>
                                         </div>
                                         <div class="file-name">No file Selected.</div>
                                     </div>
