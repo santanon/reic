@@ -937,7 +937,6 @@
                                 position: relative;
 
                                 label:before {
-                                    // content: url(../../../../Images/icon/icon-check-white.svg);
                                     content: '';
                                     position: absolute;
                                     top: 0;
@@ -951,7 +950,6 @@
                                 }
 
                                 :checked + label:before {
-                                    // content: url(../../../../Images/icon/icon-check-white-active.svg);
                                     content: '';
                                     background-image: url(../../../../Images/icon/icon-check-white-active.svg);
                                 }
@@ -968,9 +966,9 @@
                                 }
 
                                 label {
-                                    //margin: 10px;
                                     display: flex;
                                     justify-content: space-between;
+                                    align-items: flex-start;
 
                                     span {
                                         font-family: $font-bold;
@@ -979,6 +977,7 @@
                                         cursor: pointer;
 
                                         &.text {
+                                            flex-basis: calc(100% - 110px);
                                             padding-left: 45px;
                                             text-align: left;
                                         }
