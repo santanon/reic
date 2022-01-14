@@ -850,7 +850,7 @@
                     td {
                         border: none;
                         background-color: #FAFBFB;
-                        padding: 20px 15px;
+                        padding: 15px;
 
                         .table {
                             &--inner {
@@ -1100,14 +1100,29 @@
                         display: table-row;
                     }
 
+                    td{
+                        padding: 15px;
+
+                        > table{
+                            width: 100%;
+
+                            tr{
+                                td{
+                                    width: 50%;
+                                }
+                            }
+                        }
+                    }
+
                     @media screen and (max-width: 767px) {
                         td {
-                            padding: 15px 0;
-                            table {
+                            padding: 0;
+                            > table {
                                 tr {
                                     td {
                                         display: block;
-                                        padding: 15px; 
+                                        width: 100%;
+                                        padding: 15px;
                                     }
                                 }
                             }
