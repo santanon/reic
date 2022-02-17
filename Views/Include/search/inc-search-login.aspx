@@ -55,10 +55,9 @@
                                     <div class="">
                                         <div class="button">
                                             <a class="btn-med btn-icon-right btn-login btn-width" title="เข้าระบบ" style="display: block;text-align: center;" onclick="$('#btn_submit').trigger('click');" href="javascript:;" data-toggle="modal" data-target="#OTP">
-                                                เข้าระบบ<i class="fas fa-angle-right" aria-hidden="true"></i>
                                             </a>
                                         </div>
-                                    </div>
+                                    </div   
                                 </div>
                             </div>
 

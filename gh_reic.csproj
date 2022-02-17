@@ -690,6 +690,13 @@
     <Compile Include="Views\Product\products\Detail\service.aspx.designer.cs">
       <DependentUpon>service.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Product\products\payment-seminar.aspx.cs">
+      <DependentUpon>payment-seminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\payment-seminar.aspx.designer.cs">
+      <DependentUpon>payment-seminar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Product\products\payment.aspx.cs">
       <DependentUpon>payment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -710,6 +717,27 @@
     </Compile>
     <Compile Include="Views\Product\products\product.aspx.designer.cs">
       <DependentUpon>product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\seminar-orderlist.aspx.cs">
+      <DependentUpon>seminar-orderlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\seminar-orderlist.aspx.designer.cs">
+      <DependentUpon>seminar-orderlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\Seminar-registrant-summary.aspx.cs">
+      <DependentUpon>Seminar-registrant-summary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\Seminar-registrant-summary.aspx.designer.cs">
+      <DependentUpon>Seminar-registrant-summary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\products\Seminar-registrant.aspx.cs">
+      <DependentUpon>Seminar-registrant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Product\products\Seminar-registrant.aspx.designer.cs">
+      <DependentUpon>Seminar-registrant.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Product\products\seminar.aspx.cs">
       <DependentUpon>seminar.aspx</DependentUpon>
@@ -1523,9 +1551,13 @@
     <Content Include="Views\Product\products\detail.aspx" />
     <Content Include="Views\Product\products\Detail\advertise.aspx" />
     <Content Include="Views\Product\products\Detail\service.aspx" />
+    <Content Include="Views\Product\products\payment-seminar.aspx" />
     <Content Include="Views\Product\products\payment.aspx" />
     <Content Include="Views\Product\products\print.aspx" />
     <Content Include="Views\Product\products\product.aspx" />
+    <Content Include="Views\Product\products\seminar-orderlist.aspx" />
+    <Content Include="Views\Product\products\Seminar-registrant-summary.aspx" />
+    <Content Include="Views\Product\products\Seminar-registrant.aspx" />
     <Content Include="Views\Product\products\seminar.aspx" />
     <Content Include="Views\Product\products\seminar_detail.aspx" />
     <Content Include="Views\Product\products\service.aspx" />

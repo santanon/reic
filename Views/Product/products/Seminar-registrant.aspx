@@ -53,58 +53,194 @@
             <div class="content-editor">
                 <div class="container padding-row">
 
-                    <h1 class="color-primary bold pst-center">ข้อมูลผู้ลงทะเบียน</h1>
+                    <h1 class="color-primary bold pst-center">ลงทะเบียนสัมมนา</h1>
 
                     <div class="payment-wrapper margin-row">
                         <form>
-                            <div class="row">
-                                <div class="col-md-6 col-12">
-                                    <div class="slc-custom">
-                                        <input name="" placeholder="ชื่อ" value="" autocomplete="off" type="text">
-                                    </div>
-                                    <div class="require">*</div>
-                                </div>
-                                <div class="col-md-6 col-12">
-                                    <div class="slc-custom">
-                                        <input name="" placeholder="นามสกุล" value="" autocomplete="off" type="text">
-                                    </div>
-                                    <div class="require">*</div>
+                            
+                            <div class="table-package">
+                                <div class="table-responsive" id="addon_tb">
+                                    <table class="table table-addon fold-table">
+                                        <tbody>
+                                            <tr id="addon_cate1411" class="view open">
+                                                <td class="text-left package-table-head">
+                                                                
+                                                    <div class="">
+                                                        <label for="check_table_cate1"><span class="text">ที่อยู่อาศัย</span></label>
+                                                    </div>                  
+                                                </td>
+                                                <td class="text-right package-table-head">
+                                                    <input type="hidden" id="cate_price_1" name="cate_price_1" value="">
+                                                </td>
+                                            </tr>
+                                            <tr class="fold open">
+                                                <td colspan="2">
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="addon">
+                                                                    <input type="checkbox" id="check_table13" name="check_table1[]" value="3">
+                                                                    <label for="check_table13">
+                                                                        <span class="text text__seminar">
+                                                                            สถานการณ์ตลาดที่อยู่อาศัย ครึ่งหลังปี 2564 และแนวโน้มปี 2565 ภายใต้วิกฤติโควิด-19(ภาคตะวันตกและภาคใต้) 
+                                                                        </span> 
+                                                                        <span class="price price__seminar">5,000  บาท/ท่าน</span>
+
+                                                                        <input type="hidden" id="sub_cate_3" name="sub_cate_3" value="5,000">
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="addon">
+                                                                    <input type="checkbox" id="check_table16" name="check_table1[]" value="6">
+                                                                    <label for="check_table16">
+                                                                        <span class="text text__seminar">
+                                                                            สถานการณ์ตลาดที่อยู่อาศัย ครึ่งหลังปี 2564 และแนวโน้มปี 2565 ภายใต้วิกฤติโควิด-19(ภาคตะวันออกเฉียงเหนือ)
+                                                                        </span> 
+                                                                        <span class="price price__seminar">5,000  บาท/ท่าน</span>
+
+                                                                        <input type="hidden" id="sub_cate_6" name="sub_cate_6" value="5,000">
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="addon">
+                                                                    <input type="checkbox" id="check_table17" name="check_table1[]" value="7">
+                                                                    <label for="check_table17">
+                                                                        <span class="text text__seminar">
+                                                                            สถานการณ์ตลาดที่อยู่อาศัย ครึ่งหลังปี 2564 และแนวโน้มปี 2565 ภายใต้วิกฤติโควิด-19(ภาคตะวันออก EEC) 
+                                                                        </span> 
+                                                                        <span class="price price__seminar">5,000  บาท/ท่าน</span>
+
+                                                                        <input type="hidden" id="sub_cate_7" name="sub_cate_7" value="5,000">
+                                                                    </label>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6 col-12">
-                                    <div class="slc-custom">
-                                        <input name="" placeholder="ตำแหน่ง" value="" autocomplete="off" type="text">
+                            
+
+
+                            <div class="box-detail-order">
+                                <p>ข้อมูลผู้ลงทะเบียน</p>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="ชื่อ" value="" autocomplete="off" type="text">
+                                        </div>
+                                        <div class="require">*</div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="นามสกุล" value="" autocomplete="off" type="text">
+                                        </div>
+                                        <div class="require">*</div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-12">
-                                    <div class="slc-custom">
-                                        <input name="" placeholder="บริษัท / หน่วยงาน" value="" autocomplete="off" type="text">
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="ตำแหน่ง" value="" autocomplete="off" type="text">
+                                        </div>
                                     </div>
-                                    <div class="require">*</div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="บริษัท / หน่วยงาน" value="" autocomplete="off" type="text">
+                                        </div>
+                                        <div class="require">*</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="เบอร์โทรศัพท์มือถือ" value="" autocomplete="off" type="text">
+                                        </div>
+                                        <div class="require">*</div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="อีเมล" value="" autocomplete="off" type="text">
+                                        </div>
+                                        <div class="require">*</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="ระบุ Facebook" value="" autocomplete="off" type="text">
+                                        </div>
+                                        <div class="require">*</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6 col-12">
-                                    <div class="slc-custom">
-                                        <input name="" placeholder="เบอร์มือถือ" value="" autocomplete="off" type="text">
+
+                            <div class="box-detail-order">
+                                <p>ข้อมูลผู้ประสานงาน (ถ้ามี)</p>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="ชื่อ" value="" autocomplete="off" type="text">
+                                        </div>
                                     </div>
-                                    <div class="require">*</div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="นามสกุล" value="" autocomplete="off" type="text">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 col-12">
-                                    <div class="slc-custom">
-                                        <input name="" placeholder="อีเมล" value="" autocomplete="off" type="text">
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="เบอร์โทรศัพท์มือถือ" value="" autocomplete="off" type="text">
+                                        </div>
                                     </div>
-                                    <div class="require">*</div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="slc-custom">
+                                            <input name="" placeholder="อีเมล" value="" autocomplete="off" type="text">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6 col-12">
-                                    <div class="slc-custom">
-                                        <input name="" placeholder="จำนวนผู้เข้าร่วมสัมนา (คน)" value="" autocomplete="off" type="text">
+
+                            <div class="box-detail-order">
+                                <p>การชำระเงิน</p>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="slc-custom slc-custom-radio">
+                                            <input id="pay_1" name="payment" type="radio" value="">
+                                            <label for="pay_1"></label>
+                                            <span class="txt">ชำระเงินสด</span>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="slc-custom slc-custom-radio">
+                                            <input id="pay_2" name="payment" type="radio" value="">
+                                            <label for="pay_2"></label>
+                                            <span class="txt">โอนเงินเข้าบัญชี</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="slc-custom slc-custom-radio">
+                                            <input id="pay_3" name="payment" type="radio" value="">
+                                            <label for="pay_3"></label>
+                                            <span class="txt">สั่งจ่ายเช็คขีดคร่อม</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            
+
 
                             <div class="row justify-content-center pt-3">
                                 <div class="col-12 pb-2">
@@ -146,14 +282,55 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="box-detail-order">
-                                <p>วิธีการชำระเงิน</p>
-                                <div class="order-result">
-                                    <h2>กรุณาโอนเงินเข้าบัญชี</h2>
-                                    <div class="order-bank">
-                                        ชื่อบัญชี “ศูนย์ข้อมูลอสังหารัมทรัพย์” เลขที่ <span style="color: #00AFF0;">001-11-044593-1</span><br>
-                                        ธนาคารอาคารสงเคราะห์ สาขาศูนย์พระราม 9
+                                <!-- ลิ้นชัก  -->
+                                <div id="howtopay" class="collapsible-content" role="tablist" aria-multiselectable="true">
+                                    <div class="corporate-item panel">
+                                        <%--<div class="container">--%>
+                                        <div role="tab" class="collapse-head">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="color-secondary">
+                                                        <a class="button" role="button" data-toggle="collapse" data-target="#collapse_content" aria-expanded="true" aria-controls="collapse_content">
+                                                            วิธีการชำระเงิน <span class="pull-right"><i class="fas fa-angle-down"></i></span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="collapse_content" class="panel-collapse collapse collapse-body showระบุ Facebook" aria-labelledby="collapse-head" data-parent="#howtopay">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="content">
+                                                        <div class="group-list">
+                                                            <div class="topic">เงินสด</div>
+                                                            <p>ชำระได้ที่ศูนย์ข้อมูลอสังหาริมทรัพย์</p>
+                                                        </div>
+                                                        <div class="group-list">
+                                                            <div class="topic">สั่งจ่ายเช็คขีดคร่อม</div>
+                                                            <p>
+                                                                ในนาม “ศูนย์ข้อมูลอสังหาริมทรัพย์” จากนั้นส่งเช็คมาที่ ศูนย์ข้อมูลอสังหาริมทรัพย์ ชั้น 18 อาคาร 2 ธนาคารอาคารสงเคราะห์ (สนญ.)
+                                                                เลขที่ 63 ถ.พระราม 9 แขวง/เขตห้วยขวาง กทม. 10310, โทร. 02-202-1768, โทรสาร 02-643-1251 <span style="color: #ED1C24;">(วงเล็บมุมซองว่า “ชำระค่าสินค้า”)</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="group-list">
+                                                            <div class="topic">โอนเงินเข้าบัญชีออมทรัพย์</div>
+                                                            <p>
+                                                                ธนาคารอาคารสงเคราะห์ สำนักงานใหญ่ ชื่อบัญชี “ศูนย์ข้อมูลอสังหารัมทรัพย์” เลขที่ <span style="color: #00AFF0;">001-11-044593-1</span> จากนั้นส่งแฟกซ์ สลิปหรือหลักฐานการโอนเงิน 
+                                                                เพื่อยืนยันการชำระเงินมาที่ โทรสาร 02-643-1251
+                                                                <br><br>
+                                                                <span style="color: #ED1C24;">** ค่าใช้จ่ายในการโอนเป็นความรับผิดชอบของผู้ซื้อ โปรดตรวจสอบค่าธรรมเนียมก่อนการโอนทุกครั้ง **</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <%--</div>--%>
                                     </div>
+                                    <!-- collapsible-content -->
+
                                 </div>
+                                <!-- collapsible-content -->
                             </div>
                         </div>
                     </div>
@@ -183,6 +360,16 @@
         $(function () {
             //dom ready
             listgroup_init();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('.content-box').matchHeight();
+
+            $(".fold-table tr.view").on("click", function () {
+                $(this).toggleClass("open").next(".fold").toggleClass("open");
+            });
         });
     </script>
 

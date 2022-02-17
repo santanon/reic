@@ -64,6 +64,21 @@ namespace gh_reic.Controllers
             return View("~/Views/Product/products/Seminar-registrant.aspx");
         }
 
+        public ActionResult Seminarregistrant_Summary()
+        {
+            return View("~/Views/Product/products/Seminar-registrant-summary.aspx");
+        }
+
+        public ActionResult Seminar_orderlist()
+        {
+            return View("~/Views/Product/products/seminar-orderlist.aspx");
+        }
+
+        public ActionResult Seminar_payment()
+        {
+            return View("~/Views/Product/products/payment-seminar.aspx");
+        }
+
         public ActionResult Detail()
         {
             return View("~/Views/Product/products/detail.aspx");
@@ -104,10 +119,7 @@ namespace gh_reic.Controllers
         {
             return View("~/Views/Product/payment.aspx");
         }
-        public ActionResult Paymentseminar()
-        {
-            return View("~/Views/Product/payment-seminar.aspx");
-        }
+        
 
         public ActionResult Magazine()
         {

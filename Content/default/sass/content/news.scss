@@ -958,7 +958,6 @@
                                 input[type=checkbox] {
                                     display: none;
                                 }
-                                
                                 /*pure cosmetics:*/
                                 img {
                                     width: 150px;
@@ -980,6 +979,10 @@
                                             flex-basis: calc(100% - 110px);
                                             padding-left: 45px;
                                             text-align: left;
+
+                                            &__seminar {
+                                                flex-basis: calc(100% - 220px);
+                                            }
                                         }
 
                                         &.price {
@@ -998,6 +1001,10 @@
                                                         height: 30px;
                                                     }
                                                 }
+                                            }
+
+                                            &__seminar {
+                                                padding-right: 0;
                                             }
                                         }
                                     }
@@ -1024,7 +1031,8 @@
                                     }
                                 }
                             }
-                            img{
+
+                            img {
                                 margin-bottom: 0;
                             }
                         }
@@ -1100,14 +1108,14 @@
                         display: table-row;
                     }
 
-                    td{
+                    td {
                         padding: 15px;
 
-                        > table{
+                        > table {
                             width: 100%;
 
-                            tr{
-                                td{
+                            tr {
+                                td {
                                     width: 50%;
                                 }
                             }
@@ -1117,6 +1125,7 @@
                     @media screen and (max-width: 767px) {
                         td {
                             padding: 0;
+
                             > table {
                                 tr {
                                     td {
@@ -1142,6 +1151,26 @@
                                 font-size: 20px;
                                 line-height: 20px;
                             }
+                        }
+                    }
+                }
+            }
+        }
+
+        &__even-odd {
+            .table {
+                tbody {
+                    tr {
+                        td {
+                            background-color: inherit;
+                        }
+
+                        &:nth-child(odd) {
+                            background-color: #F4F5F5;
+                        }
+
+                        &:nth-child(even) {
+                            background-color: #FAFBFB;
                         }
                     }
                 }

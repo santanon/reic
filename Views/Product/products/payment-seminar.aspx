@@ -1,4 +1,4 @@
-﻿<!--#include file="../Include/start.aspx"-->
+﻿<!--#include file="../../Include/start.aspx"-->
 <!-- addition meta tag -->
 <title>ศูนย์ข้อมูลอสังหาริมทรัพย์ ธนาคารอาคารสงเคราะห์ : Real Estate Information Center (REIC) Government Housing Bank</title>
 <meta name="description" content="" />
@@ -11,16 +11,16 @@
 </head>
 
 <body class="default" id="page-default">
-    <!--#include file="../Include/canvas-menu.aspx"-->
+    <!--#include file="../../Include/canvas-menu.aspx"-->
     <div id="main-wrapper">
         <header id="header-wrapper">
-            <!--#include file="../Include/header.aspx"-->
+            <!--#include file="../../Include/header.aspx"-->
         </header>
         <div class="clearfix"></div>
         <!-- #header-wrapper -->
 
         <div id="main-slider" class="main-slider">
-            <!--#include file="../Include/slide/inc-slider-main.aspx"-->
+            <!--#include file="../../Include/slide/inc-slider-main.aspx"-->
             <div class="btn-back-onbanner">
                 <div class="button">
                     <a class="btn-med btn-white" href="/Review/Build"><i class="fas fa-angle-left" aria-hidden="true"></i>กลับไป</a>
@@ -53,9 +53,9 @@
             <div class="content-editor">
                 <div class="container padding-row">
 
-                    <h1 class="color-primary bold pst-center">ยืนยันการชำระเงิน</h1>
+                    <h1 class="color-primary bold pst-center">แจ้งชำระค่าสัมมนา</h1>
 
-                    <h5 class="color-text pst-center py-2">ค่าลงทะเบียนเข้าร่วมสัมมนาสถานการณ์ตลาดที่อยู่อาศัยครึ่งหลังปี 2564 และแนวโน้มปี 2565 ภายใต้วิกฤติโควิด-19</h5>
+                    <%--<h5 class="color-text pst-center py-2">ค่าลงทะเบียนเข้าร่วมสัมมนาสถานการณ์ตลาดที่อยู่อาศัยครึ่งหลังปี 2564 และแนวโน้มปี 2565 ภายใต้วิกฤติโควิด-19</h5>--%>
 
                     <div class="payment-wrapper margin-row">
                         <form>
@@ -153,19 +153,57 @@
 
                     </div>
 
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="box-detail-order">
-                                <p>วิธีการชำระเงิน</p>
-                                <div class="order-result">
-                                    <h2>กรุณาโอนเงินเข้าบัญชี</h2>
-                                    <div class="order-bank">
-                                        ชื่อบัญชี “ศูนย์ข้อมูลอสังหารัมทรัพย์” เลขที่ <span style="color: #00AFF0;">001-11-044593-1</span><br>
-                                        ธนาคารอาคารสงเคราะห์ สาขาศูนย์พระราม 9
+                    
+                    <div class="box-detail-order">
+                        <!-- ลิ้นชัก  -->
+                        <div id="howtopay" class="collapsible-content" role="tablist" aria-multiselectable="true">
+                            <div class="corporate-item panel">
+                                <%--<div class="container">--%>
+                                <div role="tab" class="collapse-head">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="color-secondary">
+                                                <a class="button" role="button" data-toggle="collapse" data-target="#collapse_content" aria-expanded="true" aria-controls="collapse_content">
+                                                    วิธีการชำระเงิน <span class="pull-right"><i class="fas fa-angle-down"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+                                <div id="collapse_content" class="panel-collapse collapse collapse-body show" aria-labelledby="collapse-head" data-parent="#howtopay">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="content">
+                                                <div class="group-list">
+                                                    <div class="topic">เงินสด</div>
+                                                    <p>ชำระได้ที่ศูนย์ข้อมูลอสังหาริมทรัพย์</p>
+                                                </div>
+                                                <div class="group-list">
+                                                    <div class="topic">สั่งจ่ายเช็คขีดคร่อม</div>
+                                                    <p>
+                                                        ในนาม “ศูนย์ข้อมูลอสังหาริมทรัพย์” จากนั้นส่งเช็คมาที่ ศูนย์ข้อมูลอสังหาริมทรัพย์ ชั้น 18 อาคาร 2 ธนาคารอาคารสงเคราะห์ (สนญ.)
+                                                        เลขที่ 63 ถ.พระราม 9 แขวง/เขตห้วยขวาง กทม. 10310, โทร. 02-202-1768, โทรสาร 02-643-1251 <span style="color: #ED1C24;">(วงเล็บมุมซองว่า “ชำระค่าสินค้า”)</span>
+                                                    </p>
+                                                </div>
+                                                <div class="group-list">
+                                                    <div class="topic">โอนเงินเข้าบัญชีออมทรัพย์</div>
+                                                    <p>
+                                                        ธนาคารอาคารสงเคราะห์ สำนักงานใหญ่ ชื่อบัญชี “ศูนย์ข้อมูลอสังหารัมทรัพย์” เลขที่ <span style="color: #00AFF0;">001-11-044593-1</span> จากนั้นส่งแฟกซ์ สลิปหรือหลักฐานการโอนเงิน 
+                                                        เพื่อยืนยันการชำระเงินมาที่ โทรสาร 02-643-1251
+                                                        <br><br>
+                                                        <span style="color: #ED1C24;">** ค่าใช้จ่ายในการโอนเป็นความรับผิดชอบของผู้ซื้อ โปรดตรวจสอบค่าธรรมเนียมก่อนการโอนทุกครั้ง **</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <%--</div>--%>
                             </div>
+                            <!-- collapsible-content -->
+
                         </div>
+                        <!-- collapsible-content -->
                     </div>
 
                 </div>
@@ -177,7 +215,7 @@
         <!-- #maincontainer-wrapper" -->
 
         <footer id="footer-wrapper" class="footer-wrapper">
-            <!--#include file="../Include/footer.aspx"-->
+            <!--#include file="../../Include/footer.aspx"-->
         </footer>
         <!-- #footer-wrapper -->
     </div>
@@ -186,7 +224,7 @@
 
     <!-- /.modal -->
 
-    <!--#include file="../Include/scripts.aspx"-->
+    <!--#include file="../../Include/scripts.aspx"-->
 
     <!-- addition script for current page -->
     <script type="text/javascript">
