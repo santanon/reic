@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="../Content/default/css/content/news.css" />
 <link rel="stylesheet" href="../Content/default/css/content/product.css" />
 
-<link rel="stylesheet" href="../Content/default/css/print.css" />
+<%--<link rel="stylesheet" href="../Content/default/css/print.css" />--%>
 </head>
 
 <body class="default" id="page-default">
@@ -83,9 +83,12 @@
                         </ul>
                     </div>
 
-                    <div class="row margin-top justify-content-end package-header">
-                        <div class="col-12">
-                            <div class="text-head text-right">วันที่สั่งซื้อ : <span>09 เม.ย. 2564</span></div>
+                    <div class="row margin-top justify-content-between package-header">
+                        <div class="col-12 col-sm-6">
+                            <div class="text-head text-left">เลขที่สั่งซื้อ : <span> PO20210721</span></div> 
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="text-head text-sm-right text-left">วันที่สั่งซื้อ : <span>09 เม.ย. 2564</span></div>
                         </div>
                     </div>
 
