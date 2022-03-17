@@ -239,10 +239,8 @@
                                     </div>
                                 </div>
                             </div>
-                            
 
-
-                            <div class="row justify-content-center pt-3">
+                            <%--<div class="row justify-content-center pt-3">
                                 <div class="col-12 pb-2">
                                     <p style="color:#555; text-align: center;">กรุณาพิมพ์รหัสยืนยันที่ท่านเห็น เพื่อยืนยันการลงทะเบียน</p>
                                 </div>
@@ -252,6 +250,23 @@
                                         <div class="slc-custom">
                                             <input class="text-center" name="" placeholder="รหัสยืนยัน" value="" autocomplete="off" type="text">
                                         </div>
+                                    </div>
+                                </div>
+                            </div>--%>
+
+                            <div class="row pst-center padding-row-half">
+                                <div class="col-lg-4 col-sm-6 col-12 pst-center">
+                                    <div class="captcha-contact-form-white">
+                                        <p style="color:#858585;">กรุณากรอกรหัสเพื่อยืนยันตัวตน</p>
+                                        <br>
+                                        <div class="row pst-center">
+                                            <div class="col-12">
+                                                <div class="slc-custom">
+                                                    <input name="captcha" id="captcha" placeholder="CAPTCHA" required="" autocomplete="off" type="text" class="KeyblockSpecialRegex_Capcha" maxlength="4" style="text-transform:uppercase;text-align:center;">
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -269,7 +284,7 @@
                             <div class="row pst-center padding-top-half">
                                 <div class="col-lg-4 col-sm-6 col-12">
                                     <div class="button">
-                                        <a href="#" class="btn-med btn-icon-right btn-login btn-width" style="">ยืนยันการลงทะเบียน <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+                                        <a href="/Product/Seminarregistrant_Summary" class="btn-med btn-icon-right btn-login btn-width" style="">ยืนยันการลงทะเบียน <i class="fas fa-angle-right" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </div>

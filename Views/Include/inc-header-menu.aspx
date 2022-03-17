@@ -94,7 +94,7 @@
                                                                         <a href="/Product/Payment" title="แจ้งชำระค่าสินค้าและบริการ">แจ้งชำระค่าสินค้าและบริการ</a>
                                                                     </li>
                                                                     <li>
-                                                                        <a href="/Product/Paymentseminar" title="แจ้งชำระค่าสัมมนา">แจ้งชำระค่าสัมมนา</a>
+                                                                        <a href="/Product/Seminar_payment" title="แจ้งชำระค่าสัมมนา">แจ้งชำระค่าสัมมนา</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
