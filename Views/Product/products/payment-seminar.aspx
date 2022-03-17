@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="col-md-6 col-12">
                                     <div class="slc-custom">
-                                        <input name="" placeholder="" value="REG 2021-X-XXXXX" autocomplete="off" type="text">
+                                        <input name="" placeholder="เลขที่ลงทะเบียน" value="REG 2021-X-XXXXX" autocomplete="off" type="text">
                                     </div>
                                     <div class="require">*</div>
                                 </div>
@@ -103,7 +103,10 @@
                                     <div class="slc-custom no-bg">
                                         <div class="box-inp-file">
                                             <input type="file" name="" id="file" value="" accept=",.doc, .docx, image/*">
-                                            <label for="file">แนบหลักฐานการโอนเงิน <i class="fa fa-upload" aria-hidden="true"></i></label>
+                                            <div style="position: relative; margin-right: 15px;">
+                                                <label for="file">แนบหลักฐานการโอนเงิน <i class="fa fa-upload" aria-hidden="true"></i></label>
+                                                <div class="require">*</div>
+                                            </div>
                                             <div class="file-name">No file selected.</div>
                                             <div class="clearfix"></div>
                                         </div>
@@ -129,13 +132,29 @@
                                 </div>
                             </div>
 
-                            <div class="row justify-content-center pt-4">
+                            <%--<div class="row justify-content-center pt-4">
                                 <div class="col-lg-4 col-sm-6 col-12">
                                     <div class="confirm text-center">
                                         <div class="text pb-2">รหัสยืนยัน : <span style="color: #2E3092;">285474</span></div>
                                         <div class="slc-custom">
                                             <input class="text-center" name="" placeholder="รหัสยืนยัน" value="" autocomplete="off" type="text">
                                         </div>
+                                    </div>
+                                </div>
+                            </div>--%>
+                            <div class="row pst-center padding-row-half">
+                                <div class="col-lg-4 col-sm-6 col-12 pst-center">
+                                    <div class="captcha-contact-form-white">
+                                        <p style="color:#858585;">กรุณากรอกรหัสเพื่อยืนยันตัวตน</p>
+                                        <br>
+                                        <div class="row pst-center">
+                                            <div class="col-12">
+                                                <div class="slc-custom">
+                                                    <input name="captcha" id="captcha" placeholder="CAPTCHA" required="" autocomplete="off" type="text" class="KeyblockSpecialRegex_Capcha" maxlength="4" style="text-transform:uppercase;text-align:center;">
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
